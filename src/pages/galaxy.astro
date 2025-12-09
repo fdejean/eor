@@ -1,0 +1,79 @@
+---
+import DashboardLayout from '../layouts/DashboardLayout.astro';
+import { Button } from '../components/ui/button';
+import GalaxyMap from '../components/galaxy/GalaxyMap';
+
+// Extended Mock Data for Full Page
+const mockData = [
+  // Cluster 0: Music (Cyan)
+  { x: -15, y: 8, z: 150, cluster: 0, name: "music", label: "Music" },
+  { x: -18, y: 12, z: 80, cluster: 0, name: "metal", label: "Music" },
+  { x: -12, y: 5, z: 60, cluster: 0, name: "trap", label: "Music" },
+  { x: -14, y: 9, z: 90, cluster: 0, name: "hiphopheads", label: "Music" },
+  { x: -16, y: 7, z: 70, cluster: 0, name: "electronicmusic", label: "Music" },
+  
+  // Cluster 1: Gaming (Magenta)
+  { x: 25, y: -10, z: 380, cluster: 1, name: "gaming", label: "Gaming" },
+  { x: 28, y: -15, z: 220, cluster: 1, name: "pcgaming", label: "Gaming" },
+  { x: 22, y: -8, z: 180, cluster: 1, name: "PS4", label: "Gaming" },
+  { x: 26, y: -12, z: 150, cluster: 1, name: "xboxone", label: "Gaming" },
+  { x: 24, y: -9, z: 200, cluster: 1, name: "steam", label: "Gaming" },
+  
+  // Cluster 2: Sports (Green)
+  { x: 5, y: 25, z: 285, cluster: 2, name: "sports", label: "Sports" },
+  { x: 8, y: 28, z: 200, cluster: 2, name: "nba", label: "Sports" },
+  { x: 3, y: 22, z: 190, cluster: 2, name: "nfl", label: "Sports" },
+  { x: 6, y: 26, z: 160, cluster: 2, name: "soccer", label: "Sports" },
+  { x: 7, y: 24, z: 140, cluster: 2, name: "hockey", label: "Sports" },
+  
+  // Cluster 13: Politics (Yellow)
+  { x: -20, y: -20, z: 465, cluster: 13, name: "politics", label: "Politics" },
+  { x: -25, y: -25, z: 320, cluster: 13, name: "worldnews", label: "Politics" },
+  { x: -18, y: -15, z: 150, cluster: 13, name: "conservative", label: "Politics" },
+  { x: -22, y: -18, z: 180, cluster: 13, name: "liberal", label: "Politics" },
+  { x: -23, y: -22, z: 250, cluster: 13, name: "news", label: "Politics" },
+  
+  // Cluster 3: Tech (Purple)
+  { x: 15, y: 5, z: 420, cluster: 3, name: "technology", label: "Tech" },
+  { x: 18, y: 8, z: 250, cluster: 3, name: "gadgets", label: "Tech" },
+  { x: 12, y: 2, z: 300, cluster: 3, name: "apple", label: "Tech" },
+  { x: 16, y: 6, z: 280, cluster: 3, name: "android", label: "Tech" },
+  { x: 14, y: 4, z: 220, cluster: 3, name: "programming", label: "Tech" },
+];
+
+const getColor = (cluster: number) => {
+  switch(cluster) {
+    case 0: return "oklch(0.7 0.2 200)"; // Cyan
+    case 1: return "oklch(0.7 0.25 330)"; // Magenta
+    case 2: return "oklch(0.75 0.2 150)"; // Green
+    case 13: return "oklch(0.75 0.22 60)"; // Yellow
+    default: return "oklch(0.7 0.22 280)"; // Purple
+  }
+};
+---
+
+<DashboardLayout title="Galaxy Map — Echoes of Reality" description="Interactive map of the subreddit universe">
+  <!-- Header -->
+  <header class="border-b border-border/50 bg-card/30 backdrop-blur-sm px-8 py-4 flex items-center justify-between sticky top-0 z-10">
+    <div class="flex items-center gap-4">
+      <Button variant="ghost" size="sm" asChild>
+        <a href="/">← Back to Dashboard</a>
+      </Button>
+      <h1 class="text-xl font-bold">Galaxy Map</h1>
+    </div>
+    
+    <div class="flex items-center gap-3">
+      <div class="text-sm text-muted-foreground mr-4">
+        <span class="font-data">35,000+</span> Nodes · <span class="font-data">20</span> Clusters
+      </div>
+      <Button variant="outline" size="sm">
+        Filter Clusters
+      </Button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-6 h-[calc(100vh-73px)]">
+    <GalaxyMap client:load />
+  </main>
+</DashboardLayout>

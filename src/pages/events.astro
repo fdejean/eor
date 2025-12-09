@@ -1,0 +1,106 @@
+---
+import DashboardLayout from '../layouts/DashboardLayout.astro';
+import { Button } from '../components/ui/button';
+import EventTimelineChart from '../components/events/EventTimeline';
+
+// Mock Data
+const eventData = [
+  { date: "2016-06-15", volatility: 15, conflict: 0.8, label: "" },
+  { date: "2016-06-16", volatility: 18, conflict: 0.9, label: "" },
+  { date: "2016-06-17", volatility: 22, conflict: 1.1, label: "" },
+  { date: "2016-06-18", volatility: 20, conflict: 1.0, label: "" },
+  { date: "2016-06-19", volatility: 19, conflict: 0.9, label: "" },
+  { date: "2016-06-20", volatility: 25, conflict: 1.2, label: "" },
+  { date: "2016-06-21", volatility: 28, conflict: 1.4, label: "" },
+  { date: "2016-06-22", volatility: 35, conflict: 1.8, label: "" },
+  { date: "2016-06-23", volatility: 65, conflict: 3.2, label: "Brexit Vote" },
+  { date: "2016-06-24", volatility: 85, conflict: 4.5, label: "Results" },
+  { date: "2016-06-25", volatility: 70, conflict: 3.8, label: "" },
+  { date: "2016-06-26", volatility: 60, conflict: 3.0, label: "" },
+  { date: "2016-06-27", volatility: 55, conflict: 2.5, label: "" },
+  { date: "2016-06-28", volatility: 45, conflict: 2.0, label: "" },
+  { date: "2016-06-29", volatility: 40, conflict: 1.8, label: "" },
+];
+---
+
+<DashboardLayout title="Event Timeline — Echoes of Reality" description="Timeline of real-world events and their digital echoes">
+  <!-- Header -->
+  <header class="border-b border-border/50 bg-card/30 backdrop-blur-sm px-8 py-4 flex items-center justify-between sticky top-0 z-10">
+    <div class="flex items-center gap-4">
+      <Button variant="ghost" size="sm" asChild>
+        <a href="/">← Back to Dashboard</a>
+      </Button>
+      <h1 class="text-xl font-bold">Event Timeline</h1>
+    </div>
+    <div class="flex items-center gap-3">
+      <Button variant="outline" size="sm">Brexit</Button>
+      <Button variant="ghost" size="sm">2016 Election</Button>
+      <Button variant="ghost" size="sm">Paris Attacks</Button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-8 overflow-auto">
+    <div class="grid grid-cols-1 gap-8">
+      
+      <!-- Main Chart -->
+      <EventTimelineChart client:load />
+
+      <!-- Analysis -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle>Event Details</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div class="space-y-4">
+              <div>
+                <h4 class="font-bold">Date</h4>
+                <p class="text-muted-foreground">June 23, 2016</p>
+              </div>
+              <div>
+                <h4 class="font-bold">Description</h4>
+                <p class="text-muted-foreground">
+                  The United Kingdom European Union membership referendum, commonly referred to as the EU referendum or the Brexit vote.
+                </p>
+              </div>
+              <div>
+                <h4 class="font-bold">Impact Summary</h4>
+                <p class="text-muted-foreground">
+                  Global markets reacted violently to the unexpected "Leave" result. Reddit discourse mirrored this chaos, with conflict scores in political subreddits reaching all-time highs.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Digital Echoes</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div class="space-y-4">
+              <div class="flex items-center justify-between p-3 bg-card/50 rounded border border-border/50">
+                <span>r/unitedkingdom</span>
+                <span class="text-[oklch(0.7_0.25_330)] font-bold">↑ 450% Conflict</span>
+              </div>
+              <div class="flex items-center justify-between p-3 bg-card/50 rounded border border-border/50">
+                <span>r/europe</span>
+                <span class="text-[oklch(0.7_0.25_330)] font-bold">↑ 320% Conflict</span>
+              </div>
+              <div class="flex items-center justify-between p-3 bg-card/50 rounded border border-border/50">
+                <span>r/worldnews</span>
+                <span class="text-[oklch(0.7_0.25_330)] font-bold">↑ 280% Conflict</span>
+              </div>
+              <div class="flex items-center justify-between p-3 bg-card/50 rounded border border-border/50">
+                <span>r/finance</span>
+                <span class="text-[oklch(0.75_0.22_60)] font-bold">↑ 500% Volatility</span>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+    </div>
+  </main>
+</DashboardLayout>

@@ -1,0 +1,42 @@
+---
+const { currentPath } = Astro.props;
+---
+
+<aside class="w-64 border-r border-border/50 bg-sidebar p-6 flex flex-col fixed h-full z-20">
+  <div class="mb-8">
+    <h1 class="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+      Echoes of Reality
+    </h1>
+    <p class="text-xs text-muted-foreground mt-1">Reddit Network Analysis</p>
+  </div>
+  
+  <nav class="space-y-2 flex-1">
+    <a href="/" class={`flex items-center gap-3 px-3 py-2 rounded-lg transition-smooth ${currentPath === '/' ? 'bg-sidebar-accent text-sidebar-accent-foreground font-medium' : 'hover:bg-sidebar-accent/50 text-sidebar-foreground'}`}>
+      <span>📊</span>
+      <span>Dashboard</span>
+    </a>
+    <a href="/galaxy" class={`flex items-center gap-3 px-3 py-2 rounded-lg transition-smooth ${currentPath === '/galaxy' ? 'bg-sidebar-accent text-sidebar-accent-foreground font-medium' : 'hover:bg-sidebar-accent/50 text-sidebar-foreground'}`}>
+      <span>🌌</span>
+      <span>Galaxy View</span>
+    </a>
+    <a href="/seasons" class={`flex items-center gap-3 px-3 py-2 rounded-lg transition-smooth ${currentPath === '/seasons' ? 'bg-sidebar-accent text-sidebar-accent-foreground font-medium' : 'hover:bg-sidebar-accent/50 text-sidebar-foreground'}`}>
+      <span>🍂</span>
+      <span>Seasonal Cycles</span>
+    </a>
+    <a href="/events" class={`flex items-center gap-3 px-3 py-2 rounded-lg transition-smooth ${currentPath === '/events' ? 'bg-sidebar-accent text-sidebar-accent-foreground font-medium' : 'hover:bg-sidebar-accent/50 text-sidebar-foreground'}`}>
+      <span>📅</span>
+      <span>Event Timeline</span>
+    </a>
+    <a href="/conflict" class={`flex items-center gap-3 px-3 py-2 rounded-lg transition-smooth ${currentPath === '/conflict' ? 'bg-sidebar-accent text-sidebar-accent-foreground font-medium' : 'hover:bg-sidebar-accent/50 text-sidebar-foreground'}`}>
+      <span>⚔️</span>
+      <span>Conflict Network</span>
+    </a>
+  </nav>
+  
+  <div class="pt-6 border-t border-border/30">
+    <a href="/settings" class={`flex items-center gap-3 px-3 py-2 rounded-lg transition-smooth text-sm ${currentPath === '/settings' ? 'bg-sidebar-accent text-sidebar-accent-foreground font-medium' : 'hover:bg-sidebar-accent/50 text-sidebar-foreground'}`}>
+      <span>⚙️</span>
+      <span>Settings</span>
+    </a>
+  </div>
+</aside>

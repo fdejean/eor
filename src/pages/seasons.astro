@@ -1,0 +1,88 @@
+---
+import DashboardLayout from '../layouts/DashboardLayout.astro';
+import { Button } from '../components/ui/button';
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
+import { SeasonalRadarChart, MonthlyTrendsChart } from '../components/seasons/SeasonalCharts';
+
+// Mock Data
+const seasonalData = [
+  { period: "Winter", Anxiety: 0.42, Anger: 0.28, Sadness: 0.35, Affection: 0.52 },
+  { period: "Spring", Anxiety: 0.32, Anger: 0.35, Sadness: 0.25, Affection: 0.58 },
+  { period: "Summer", Anxiety: 0.25, Anger: 0.48, Sadness: 0.18, Affection: 0.62 },
+  { period: "Fall", Anxiety: 0.48, Anger: 0.42, Sadness: 0.38, Affection: 0.45 },
+];
+
+const monthlyData = [
+  { month: "Jan", Anxiety: 0.45, Anger: 0.25, Sadness: 0.40, Affection: 0.50 },
+  { month: "Feb", Anxiety: 0.40, Anger: 0.28, Sadness: 0.35, Affection: 0.55 },
+  { month: "Mar", Anxiety: 0.35, Anger: 0.30, Sadness: 0.30, Affection: 0.58 },
+  { month: "Apr", Anxiety: 0.30, Anger: 0.35, Sadness: 0.25, Affection: 0.60 },
+  { month: "May", Anxiety: 0.28, Anger: 0.40, Sadness: 0.20, Affection: 0.62 },
+  { month: "Jun", Anxiety: 0.25, Anger: 0.45, Sadness: 0.18, Affection: 0.65 },
+  { month: "Jul", Anxiety: 0.22, Anger: 0.50, Sadness: 0.15, Affection: 0.60 },
+  { month: "Aug", Anxiety: 0.28, Anger: 0.48, Sadness: 0.18, Affection: 0.58 },
+  { month: "Sep", Anxiety: 0.35, Anger: 0.45, Sadness: 0.25, Affection: 0.50 },
+  { month: "Oct", Anxiety: 0.45, Anger: 0.40, Sadness: 0.30, Affection: 0.45 },
+  { month: "Nov", Anxiety: 0.55, Anger: 0.35, Sadness: 0.40, Affection: 0.40 },
+  { month: "Dec", Anxiety: 0.50, Anger: 0.25, Sadness: 0.45, Affection: 0.55 },
+];
+---
+
+<DashboardLayout title="Seasonal Analysis — Echoes of Reality" description="Deep dive into seasonal emotional cycles">
+  <!-- Header -->
+  <header class="border-b border-border/50 bg-card/30 backdrop-blur-sm px-8 py-4 flex items-center justify-between sticky top-0 z-10">
+    <div class="flex items-center gap-4">
+      <Button variant="ghost" size="sm" asChild>
+        <a href="/">← Back to Dashboard</a>
+      </Button>
+      <h1 class="text-xl font-bold">Seasonal Cycles</h1>
+    </div>
+    <div class="flex items-center gap-3">
+      <Button variant="outline" size="sm">2014</Button>
+      <Button variant="outline" size="sm">2015</Button>
+      <Button variant="outline" size="sm">2016</Button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-8 overflow-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      
+      <!-- Radar Chart -->
+      <SeasonalRadarChart client:load />
+
+      <!-- Monthly Trends -->
+      <MonthlyTrendsChart client:load />
+
+      <!-- Insights -->
+      <Card class="lg:col-span-2">
+        <CardHeader>
+          <CardTitle>Key Findings</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-4 rounded-lg bg-card/50 border border-border/50">
+              <h3 class="font-bold text-lg mb-2 text-[oklch(0.75_0.22_60)]">Election Anxiety</h3>
+              <p class="text-sm text-muted-foreground">
+                Anxiety consistently peaks in November during election years (2014, 2016), showing a 35% increase over baseline.
+              </p>
+            </div>
+            <div class="p-4 rounded-lg bg-card/50 border border-border/50">
+              <h3 class="font-bold text-lg mb-2 text-[oklch(0.7_0.25_330)]">Summer Rage</h3>
+              <p class="text-sm text-muted-foreground">
+                Anger metrics show a surprising spike in July/August, possibly correlated with heat waves and major sporting events.
+              </p>
+            </div>
+            <div class="p-4 rounded-lg bg-card/50 border border-border/50">
+              <h3 class="font-bold text-lg mb-2 text-[oklch(0.7_0.22_280)]">Winter Blues</h3>
+              <p class="text-sm text-muted-foreground">
+                Sadness and Affection both peak in December, reflecting the complex emotional landscape of the holiday season.
+              </p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+    </div>
+  </main>
+</DashboardLayout>
