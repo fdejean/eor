@@ -1,0 +1,67 @@
+---
+import { SeasonalChart } from '@/components/charts/SeasonalChart';
+import { Button } from '@/components/ui/button';
+import { ArrowDown } from 'lucide-react';
+---
+
+<!-- Slide 1: Seasonal Intro -->
+<section id="seasonal-intro" data-chapter="seasonal-intro" data-nav-label="Chapter 1: Seasons" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+    <div class="container max-w-4xl text-center space-y-8">
+        <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">Chapter 1: The Rhythm of Seasons</h2>
+        <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+            Before we look at the data, ask yourself: <br/>
+            <span class="italic text-foreground">Do you feel different in July compared to November?</span>
+        </p>
+        <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
+            We analyzed millions of comments to see if the collective mood of Reddit shifts with the turning of the calendar pages.
+        </p>
+        <div class="pt-8">
+            <a href="#seasonal-chart">
+                <Button variant="outline" size="lg" className="gap-2">
+                    See the Data <ArrowDown className="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Slide 2: Seasonal Chart -->
+<section id="seasonal-chart" class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/20 relative">
+    <div class="container max-w-6xl space-y-8 text-center">
+        <h3 class="text-3xl font-bold">Sentiment Over Time</h3>
+        <div class="w-full h-[50vh] flex items-center justify-center p-6">
+             <SeasonalChart client:visible />
+        </div>
+         <a href="#seasonal-analysis" class="inline-block pt-4">
+            <Button variant="ghost" className="gap-2">
+                What does this mean? <ArrowDown className="h-4 w-4" />
+            </Button>
+        </a>
+    </div>
+</section>
+
+<!-- Slide 3: Seasonal Analysis -->
+ <section id="seasonal-analysis" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+    <div class="container max-w-4xl space-y-12">
+        <div class="space-y-6">
+             <h3 class="text-3xl font-bold lg:text-4xl">Summer Highs & Winter Lows</h3>
+             <div class="prose dark:prose-invert text-xl max-w-none">
+                <p>
+                    The data reveals a clear pattern. Sentiment <strong>peaks significantly in June and July</strong>. 
+                    This correlates with summer holidays in the Northern Hemisphere, where the majority of Reddit users reside.
+                </p>
+                <p>
+                    In contrast, we see a distinct <strong>dip in November and December</strong>. 
+                    Despite the festive season, the "Winter Blues" or Seasonal Affective Disorder (SAD) seems to manifest in digital conversations as well.
+                </p>
+            </div>
+        </div>
+        <div class="flex justify-end pt-8">
+            <a href="#events-intro">
+                <Button size="lg" className="gap-2">
+                    Next Chapter: Events <ArrowDown className="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,63 @@
+---
+import { ClusterChart } from '@/components/charts/ClusterChart';
+import { Button } from '@/components/ui/button';
+import { ArrowDown, RotateCcw } from 'lucide-react';
+---
+
+<!-- Slide 1: Backstage Intro -->
+<section id="backstage-intro" data-chapter="backstage-intro" data-nav-label="Chapter 4: Backstage" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+    <div class="container max-w-4xl text-center space-y-8">
+        <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">Chapter 4: Behind the Curtain</h2>
+        <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+            How did we process over <strong>1,000,000 data points</strong>?
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mt-8">
+            <div class="p-4 border rounded-lg">
+                <h4 class="font-bold">Data Collection</h4>
+                <p class="text-sm text-muted-foreground">Scraping Reddit API & Archives using Python.</p>
+            </div>
+            <div class="p-4 border rounded-lg">
+                <h4 class="font-bold">NLP Analysis</h4>
+                <p class="text-sm text-muted-foreground">VADER and LIWC for sentiment & emotion classification.</p>
+            </div>
+            <div class="p-4 border rounded-lg">
+                <h4 class="font-bold">Clustering</h4>
+                <p class="text-sm text-muted-foreground">Dimensionality reduction to find community neighborhoods.</p>
+            </div>
+        </div>
+        <div class="pt-8">
+            <a href="#backstage-chart">
+                <Button variant="outline" size="lg" className="gap-2">
+                    View Clusters <ArrowDown className="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Slide 2: Cluster Chart & Outro -->
+<section id="backstage-chart" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+         <div class="w-full h-[60vh] flex items-center justify-center p-4 order-2 lg:order-1">
+             <ClusterChart client:visible />
+        </div>
+        <div class="space-y-8 order-1 lg:order-2">
+            <h3 class="text-3xl font-bold lg:text-4xl">The Landscape of Reddit</h3>
+             <div class="prose dark:prose-invert text-lg">
+                <p>
+                    This scatter plot visualizes the semantic distance between different subreddits.
+                </p>
+                <p>
+                    Communities naturally cluster into neighborhoods—Gaming, Tech, Politics, Sports. 
+                    Understanding these clusters is key to contextualizing the sentiment we analyze. 
+                    A "negative" sentiment in a political sub might be normal, whereas in a support sub, it's an anomaly.
+                </p>
+            </div>
+             <a href="#intro" class="inline-block pt-8">
+                 <Button size="lg" className="gap-2">
+                    <RotateCcw className="h-4 w-4" /> Restart Journey
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,100 @@
+---
+import { Button } from '@/components/ui/button';
+import { Github, Database, Users, Mail, Linkedin, ArrowDown } from 'lucide-react';
+---
+
+<section id="outro" data-chapter="outro" data-nav-label="Credits" class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-secondary/20 relative py-20">
+    <div class="container max-w-6xl space-y-16">
+        <h2 class="text-4xl font-bold tracking-tight lg:text-5xl text-center">Project Resources & Team</h2>
+        
+        <!-- Resources Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-6 p-6 border rounded-xl bg-background shadow-sm">
+                <h3 class="text-2xl font-bold flex items-center gap-2">
+                    <Github className="h-6 w-6" /> Repositories
+                </h3>
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                         <span class="font-medium">Analysis Codebase</span>
+                         <a href="https://github.com/epfl-ada/eor" target="_blank" rel="noopener noreferrer">
+                            <Button size="sm" variant="outline" className="gap-2">
+                                <Github className="h-4 w-4" /> View Repo 1
+                            </Button>
+                        </a>
+                    </div>
+                     <div class="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                         <span class="font-medium">Website Codebase</span>
+                         <a href="#" target="_blank" rel="noopener noreferrer">
+                            <Button size="sm" variant="outline" className="gap-2">
+                                <Github className="h-4 w-4" /> View Repo 2
+                            </Button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6 p-6 border rounded-xl bg-background shadow-sm">
+                <h3 class="text-2xl font-bold flex items-center gap-2">
+                    <Database className="h-6 w-6" /> Datasets
+                </h3>
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                         <span class="font-medium">Reddit Comments (Processed)</span>
+                         <a href="#" target="_blank" rel="noopener noreferrer">
+                            <Button size="sm" variant="outline" className="gap-2">
+                                <ArrowDown className="h-4 w-4" /> Download Set 1
+                            </Button>
+                        </a>
+                    </div>
+                     <div class="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                         <span class="font-medium">Stock Market Data</span>
+                         <a href="#" target="_blank" rel="noopener noreferrer">
+                            <Button size="sm" variant="outline" className="gap-2">
+                                <ArrowDown className="h-4 w-4" /> Download Set 2
+                            </Button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <div class="space-y-8">
+            <h3 class="text-3xl font-bold text-center flex items-center justify-center gap-2">
+                <Users className="h-8 w-8" /> The Team
+            </h3>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                {Array.from({ length: 5 }).map((_, i) => (
+                    <div class="flex flex-col items-center p-6 bg-background border rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="h-24 w-24 rounded-full bg-muted mb-4 overflow-hidden">
+                            <img 
+                                src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i}`} 
+                                alt="Team Member" 
+                                class="h-full w-full object-cover"
+                            />
+                        </div>
+                        <h4 class="font-bold text-lg">Member Name {i + 1}</h4>
+                        <p class="text-sm text-muted-foreground mb-4">Role / Title</p>
+                        
+                        <div class="flex gap-2">
+                            <Button variant="ghost" size="icon" className="h-8 w-8 rounded-full">
+                                <Mail className="h-4 w-4" />
+                            </Button>
+                            <Button variant="ghost" size="icon" className="h-8 w-8 rounded-full">
+                                <Linkedin className="h-4 w-4" />
+                            </Button>
+                            <Button variant="ghost" size="icon" className="h-8 w-8 rounded-full">
+                                <Github className="h-4 w-4" />
+                            </Button>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+
+        <div class="pt-8 text-center text-sm text-muted-foreground">
+            <p>Built for EPFL CS-401 Applied Data Analysis • 2024</p>
+        </div>
+    </div>
+</section>
