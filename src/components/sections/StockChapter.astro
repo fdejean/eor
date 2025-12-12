@@ -1,10 +1,13 @@
 ---
-import { StockChart } from '@/components/charts/StockChart';
+import { WeeklyFeatureCharts } from '@/components/charts/WeeklyFeatureCharts';
+import { FeatureDeepDiveCharts } from '@/components/charts/FeatureDeepDiveCharts';
+import { BrandSelector } from '@/components/ui/BrandSelector';
+import { FloatingBrandSelector } from '@/components/ui/FloatingBrandSelector';
 import { Button } from '@/components/ui/button';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, ArrowRight } from 'lucide-react';
 ---
 
-<!-- Slide 1: Stock Intro -->
+<!-- Slide 1: Stock Intro (Unchanged) -->
 <section id="stock-intro" data-chapter="stock-intro" data-nav-label="Chapter 3: Market" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
     <div class="container max-w-4xl text-center space-y-8">
         <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">Chapter 3: The Market Pulse</h2>
@@ -13,43 +16,98 @@ import { ArrowDown } from 'lucide-react';
             But what if the rumor is trending on r/Apple?
         </p>
          <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We investigated if the sentiment of specific stock-related subreddits correlates with actual market performance.
+            Now that we have a basic understanding of our emotions, let's look at stock data and compare it to the sentiment analysis.
         </p>
-        <div class="pt-8">
-            <a href="#stock-chart">
-                <Button variant="outline" size="lg" className="gap-2">
-                    Check the Correlation <ArrowDown className="h-4 w-4" />
+            <div class="pt-8 flex flex-col items-center gap-4">
+                <div class="not-prose">
+                    <BrandSelector client:visible variant="pills" />
+                </div>
+                <a href="#stock-weekly">
+                    <Button variant="outline" size="lg" class="gap-2">
+                        Check the Correlation <ArrowDown class="h-4 w-4" />
+                    </Button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 2: Weekly Trends Horizontal Slider -->
+    <section id="stock-weekly" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
+        <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-[3fr_7fr] gap-12 items-center h-full">
+            <!-- Sticky Text Side -->
+            <div class="space-y-8 order-2 lg:order-1 h-full flex flex-col justify-center">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-3xl font-bold lg:text-4xl">Weekly Market Trends</h3>
+                     <div class="not-prose lg:hidden hidden">
+                          <!-- BrandSelector removed -->
+                     </div>
+                </div>
+                <div class="prose dark:prose-invert text-lg space-y-6 text-muted-foreground">
+                    <p>
+                        <strong>Swipe to explore</strong> how weekly sentiment trends compare with stock price and market volatility.
+                    </p>
+                </div>
+                 <a href="#stock-features" class="inline-block pt-4">
+                <Button variant="outline" class="gap-2">
+                    Deep Dive: Linguistic Features <ArrowDown class="h-4 w-4" />
                 </Button>
             </a>
+        </div>
+
+        <!-- Horizontal Scroll Area -->
+        <div class="w-full h-full order-1 lg:order-2 min-w-0">
+            <WeeklyFeatureCharts client:visible />
         </div>
     </div>
 </section>
 
- <!-- Slide 2: Stock Chart & Analysis -->
-<section id="stock-chart" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
-     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div class="space-y-8">
-            <h3 class="text-3xl font-bold lg:text-4xl">Sentiment as a Leading Indicator</h3>
-              <div class="prose dark:prose-invert text-lg">
-                <p>
-                    We plotted the daily sentiment score of <code>r/apple</code> against AAPL's closing price.
+
+<!-- Slide 3: Feature Analysis Deep Dive (Carousel) -->
+<section id="stock-features" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative overflow-hidden">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-3 gap-8 items-center h-full">
+         <!-- Sticky Text Side -->
+        <div class="space-y-8 lg:col-span-1 h-full flex flex-col justify-center">
+            <h3 class="text-3xl font-bold lg:text-4xl">Feature Deep Dive</h3>
+            <div class="prose dark:prose-invert text-lg space-y-4 text-muted-foreground">
+                 <p>
+                    We analyze specific linguistic features against stock dynamics across <strong>20 major brands</strong>.
                 </p>
                 <p>
-                    While not a crystal ball, the correlation is visible. 
-                    <strong>Sharp drops in community sentiment often precede price volatility.</strong>
+                    Select a category to analyze:
                 </p>
-                <p>
-                    This suggests that Reddit doesn't just react to news; in some cases, it <em>is</em> the news that moves the market.
-                </p>
+                <div class="not-prose py-4 hidden">
+                    <!-- BrandSelector removed -->
+                </div>
             </div>
-             <a href="#backstage-intro" class="inline-block pt-4">
-                <Button variant="outline" className="gap-2">
-                     Final Chapter: Backstage <ArrowDown className="h-4 w-4" />
+        
+             <a href="#stock-backstage" class="inline-block pt-8">
+                <Button variant="outline" class="gap-2">
+                    Final Chapter: Backstage <ArrowDown class="h-4 w-4" />
                 </Button>
             </a>
         </div>
-        <div class="w-full h-[60vh] flex items-center justify-center p-4">
-             <StockChart client:visible />
+
+         <!-- Horizontal Scroll Area (Wider) -->
+        <div class="lg:col-span-2 w-full h-full order-1 lg:order-2">
+            <FeatureDeepDiveCharts client:visible />
         </div>
     </div>
 </section>
+
+<style>
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+</style>
+
+<!-- Fixed Brand Selector -->
+<FloatingBrandSelector 
+    client:load 
+    sectionIds={['stock-intro', 'stock-weekly', 'stock-features', 'stock-backstage']} 
+/>

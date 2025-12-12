@@ -1,0 +1,244 @@
+{
+    "singleBrand": [
+        {
+            "feature": "LIWC_sadness",
+            "correlation": -0.65
+        },
+        {
+            "feature": "LIWC_anger",
+            "correlation": -0.60
+        },
+        {
+            "feature": "LIWC_anxiety",
+            "correlation": -0.55
+        },
+        {
+            "feature": "LIWC_negemo",
+            "correlation": -0.70
+        },
+        {
+            "feature": "LIWC_posemo",
+            "correlation": 0.45
+        },
+        {
+            "feature": "LIWC_money",
+            "correlation": 0.30
+        },
+        {
+            "feature": "LIWC_health",
+            "correlation": -0.20
+        },
+        {
+            "feature": "LIWC_work",
+            "correlation": 0.25
+        },
+        {
+            "feature": "LIWC_social",
+            "correlation": 0.15
+        },
+        {
+            "feature": "LIWC_family",
+            "correlation": 0.10
+        }
+    ],
+    "allBrands": [
+        {
+            "feature": "LIWC_negemo",
+            "avgCorrelation": -0.55
+        },
+        {
+            "feature": "LIWC_anger",
+            "avgCorrelation": -0.50
+        },
+        {
+            "feature": "LIWC_sadness",
+            "avgCorrelation": -0.45
+        },
+        {
+            "feature": "LIWC_anxiety",
+            "avgCorrelation": -0.40
+        },
+        {
+            "feature": "LIWC_posemo",
+            "avgCorrelation": 0.35
+        },
+        {
+            "feature": "LIWC_money",
+            "avgCorrelation": 0.25
+        },
+        {
+            "feature": "LIWC_power",
+            "avgCorrelation": 0.20
+        },
+        {
+            "feature": "LIWC_risk",
+            "avgCorrelation": -0.15
+        },
+        {
+            "feature": "LIWC_focuspast",
+            "avgCorrelation": 0.10
+        },
+        {
+            "feature": "LIWC_focusfuture",
+            "avgCorrelation": 0.12
+        }
+    ],
+    "scatter": [
+        {
+            "feature": "LIWC_anger",
+            "priceCorr": -0.6,
+            "volumeCorr": 0.5,
+            "consistency": 0.8,
+            "absAvgOverall": 0.7
+        },
+        {
+            "feature": "LIWC_sadness",
+            "priceCorr": -0.65,
+            "volumeCorr": 0.4,
+            "consistency": 0.75,
+            "absAvgOverall": 0.6
+        },
+        {
+            "feature": "LIWC_posemo",
+            "priceCorr": 0.45,
+            "volumeCorr": -0.2,
+            "consistency": 0.6,
+            "absAvgOverall": 0.4
+        },
+        {
+            "feature": "LIWC_money",
+            "priceCorr": 0.3,
+            "volumeCorr": 0.6,
+            "consistency": 0.9,
+            "absAvgOverall": 0.5
+        },
+        {
+            "feature": "LIWC_risk",
+            "priceCorr": -0.4,
+            "volumeCorr": 0.7,
+            "consistency": 0.85,
+            "absAvgOverall": 0.55
+        },
+        {
+            "feature": "LIWC_health",
+            "priceCorr": -0.2,
+            "volumeCorr": 0.1,
+            "consistency": 0.4,
+            "absAvgOverall": 0.2
+        },
+        {
+            "feature": "LIWC_work",
+            "priceCorr": 0.25,
+            "volumeCorr": 0.3,
+            "consistency": 0.5,
+            "absAvgOverall": 0.3
+        },
+        {
+            "feature": "LIWC_leisure",
+            "priceCorr": 0.1,
+            "volumeCorr": 0.05,
+            "consistency": 0.3,
+            "absAvgOverall": 0.1
+        },
+        {
+            "feature": "LIWC_relig",
+            "priceCorr": -0.05,
+            "volumeCorr": 0.02,
+            "consistency": 0.2,
+            "absAvgOverall": 0.05
+        },
+        {
+            "feature": "LIWC_body",
+            "priceCorr": -0.15,
+            "volumeCorr": 0.1,
+            "consistency": 0.4,
+            "absAvgOverall": 0.15
+        }
+    ],
+    "predictors": {
+        "price": [
+            {
+                "feature": "LIWC_posemo",
+                "corr": 0.45
+            },
+            {
+                "feature": "LIWC_money",
+                "corr": 0.30
+            },
+            {
+                "feature": "LIWC_work",
+                "corr": 0.25
+            },
+            {
+                "feature": "LIWC_social",
+                "corr": 0.15
+            },
+            {
+                "feature": "LIWC_focuspast",
+                "corr": 0.10
+            },
+            {
+                "feature": "LIWC_negemo",
+                "corr": -0.70
+            },
+            {
+                "feature": "LIWC_sadness",
+                "corr": -0.65
+            },
+            {
+                "feature": "LIWC_anger",
+                "corr": -0.60
+            },
+            {
+                "feature": "LIWC_anxiety",
+                "corr": -0.55
+            },
+            {
+                "feature": "LIWC_risk",
+                "corr": -0.40
+            }
+        ],
+        "volume": [
+            {
+                "feature": "LIWC_risk",
+                "corr": 0.70
+            },
+            {
+                "feature": "LIWC_money",
+                "corr": 0.60
+            },
+            {
+                "feature": "LIWC_anger",
+                "corr": 0.50
+            },
+            {
+                "feature": "LIWC_sadness",
+                "corr": 0.40
+            },
+            {
+                "feature": "LIWC_work",
+                "corr": 0.30
+            },
+            {
+                "feature": "LIWC_posemo",
+                "corr": -0.20
+            },
+            {
+                "feature": "LIWC_social",
+                "corr": 0.10
+            },
+            {
+                "feature": "LIWC_focusfuture",
+                "corr": 0.15
+            },
+            {
+                "feature": "LIWC_power",
+                "corr": 0.12
+            },
+            {
+                "feature": "LIWC_death",
+                "corr": 0.05
+            }
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "date": "2023-01-01",
+        "totalSentiment": 0.15,
+        "negativeSentiment": 0.05,
+        "price": 150,
+        "priceVolatility": 0.012
+    },
+    {
+        "date": "2023-01-08",
+        "totalSentiment": 0.18,
+        "negativeSentiment": 0.04,
+        "price": 152,
+        "priceVolatility": 0.015
+    },
+    {
+        "date": "2023-01-15",
+        "totalSentiment": 0.12,
+        "negativeSentiment": 0.06,
+        "price": 153,
+        "priceVolatility": 0.018
+    },
+    {
+        "date": "2023-01-22",
+        "totalSentiment": -0.25,
+        "negativeSentiment": 0.45,
+        "price": 155,
+        "priceVolatility": 0.045
+    },
+    {
+        "date": "2023-01-29",
+        "totalSentiment": -0.10,
+        "negativeSentiment": 0.30,
+        "price": 142,
+        "priceVolatility": 0.052
+    },
+    {
+        "date": "2023-02-05",
+        "totalSentiment": 0.05,
+        "negativeSentiment": 0.15,
+        "price": 138,
+        "priceVolatility": 0.025
+    },
+    {
+        "date": "2023-02-12",
+        "totalSentiment": 0.10,
+        "negativeSentiment": 0.08,
+        "price": 140,
+        "priceVolatility": 0.018
+    },
+    {
+        "date": "2023-02-19",
+        "totalSentiment": 0.20,
+        "negativeSentiment": 0.03,
+        "price": 145,
+        "priceVolatility": 0.010
+    },
+    {
+        "date": "2023-02-26",
+        "totalSentiment": 0.22,
+        "negativeSentiment": 0.02,
+        "price": 148,
+        "priceVolatility": 0.008
+    },
+    {
+        "date": "2023-03-05",
+        "totalSentiment": 0.19,
+        "negativeSentiment": 0.04,
+        "price": 151,
+        "priceVolatility": 0.011
+    }
+]
