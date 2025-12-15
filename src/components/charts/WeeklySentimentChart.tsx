@@ -1,16 +1,21 @@
 "use client"
 
+import { useStore } from '@nanostores/react';
+import { selectedBrand } from '@/stores/stockStore';
 import { ComposedChart, Line, Bar, ResponsiveContainer, Tooltip, XAxis, YAxis, CartesianGrid, Legend } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import weeklySentimentData from "@/data/weekly_sentiment.json"
 
 export function WeeklySentimentChart() {
+    const $selectedBrand = useStore(selectedBrand);
+    // const brandLabel = $selectedBrand.charAt(0).toUpperCase() + $selectedBrand.slice(1);
+
     return (
         <Card className="w-full">
             <CardHeader>
                 <CardTitle>Weekly Sentiment vs Stock Price</CardTitle>
                 <CardDescription>
-                    Weekly analysis of r/apple sentiment (Total & Negative) against AAPL Closing Price.
+                    Weekly analysis of r/{$selectedBrand} sentiment (Total & Negative) against {$selectedBrand.toUpperCase()} Closing Price.
                 </CardDescription>
             </CardHeader>
             <CardContent className="pb-4">

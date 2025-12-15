@@ -4,18 +4,18 @@ import { useStore } from '@nanostores/react';
 import { selectedBrand } from '@/stores/stockStore';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import brandsData from "@/data/brands_data.json"
+import priceData from "@/data/stock_analysis/price_predictors.json"
 
-export function FeatureSingleBrandChart() {
+export function FeaturePriceSingleBrandChart() {
     const $selectedBrand = useStore(selectedBrand);
     // @ts-ignore
-    const data = brandsData[$selectedBrand]?.singleBrand?.slice(0, 20) || [];
+    const data = priceData[$selectedBrand]?.slice(0, 20) || [];
 
     return (
         <Card className="w-full">
             <CardHeader>
-                <CardTitle>Top Features ({$selectedBrand.charAt(0).toUpperCase() + $selectedBrand.slice(1)})</CardTitle>
-                <CardDescription>Top 20 features by correlation for {$selectedBrand}</CardDescription>
+                <CardTitle>Top Features for price correlation ({$selectedBrand.charAt(0).toUpperCase() + $selectedBrand.slice(1)})</CardTitle>
+                <CardDescription>Top 20 Features by correlation for {$selectedBrand}</CardDescription>
             </CardHeader>
             <CardContent>
                 <div className="h-[400px] w-full">

@@ -1,6 +1,9 @@
 ---
 import { WeeklyFeatureCharts } from '@/components/charts/WeeklyFeatureCharts';
 import { FeatureDeepDiveCharts } from '@/components/charts/FeatureDeepDiveCharts';
+import { BrandSubredditList } from '@/components/charts/BrandSubredditList';
+import { SourceTargetCorrelationChart } from '@/components/charts/SourceTargetCorrelationChart';
+import { HypothesisTestingResult } from '@/components/charts/HypothesisTestingResult';
 import { BrandSelector } from '@/components/ui/BrandSelector';
 import { FloatingBrandSelector } from '@/components/ui/FloatingBrandSelector';
 import { Button } from '@/components/ui/button';
@@ -22,16 +25,36 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
                 <div class="not-prose">
                     <BrandSelector client:visible variant="pills" />
                 </div>
-                <a href="#stock-weekly">
+                <a href="#stock-sources">
                     <Button variant="outline" size="lg" class="gap-2">
-                        Check the Correlation <ArrowDown class="h-4 w-4" />
+                        Check Data Sources <ArrowDown class="h-4 w-4" />
                     </Button>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Slide 2: Weekly Trends Horizontal Slider -->
+    </section>
+
+    <!-- Slide 2: Data Sources (New) -->
+    <section id="stock-sources" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
+        <div class="container max-w-7xl h-[80vh] flex flex-col gap-8">
+             <div class="flex justify-between items-center shrink-0">
+                <h3 class="text-3xl font-bold lg:text-4xl">Community Sources</h3>
+                 <a href="#stock-weekly">
+                    <Button variant="outline" class="gap-2">
+                        Next: Market Trends <ArrowDown class="h-4 w-4" />
+                    </Button>
+                </a>
+            </div>
+            
+            <div class="flex-1 w-full min-h-0">
+                <BrandSubredditList client:visible />
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 3: Weekly Trends Horizontal Slider -->
     <section id="stock-weekly" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
         <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-[3fr_7fr] gap-12 items-center h-full">
             <!-- Sticky Text Side -->
@@ -44,12 +67,12 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
                 </div>
                 <div class="prose dark:prose-invert text-lg space-y-6 text-muted-foreground">
                     <p>
-                        <strong>Swipe to explore</strong> how weekly sentiment trends compare with stock price and market volatility.
+                        how weekly sentiment trends compare with stock price and market volatility.
                     </p>
                 </div>
-                 <a href="#stock-features" class="inline-block pt-4">
+            <a href="#stock-features" class="inline-block pt-4">
                 <Button variant="outline" class="gap-2">
-                    Deep Dive: Linguistic Features <ArrowDown class="h-4 w-4" />
+                    Next: Feature Analysis <ArrowDown class="h-4 w-4" />
                 </Button>
             </a>
         </div>
@@ -61,28 +84,26 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
     </div>
 </section>
 
+<!-- Slide 4: Source vs Target Correlation (New) -->
+
+
 
 <!-- Slide 3: Feature Analysis Deep Dive (Carousel) -->
 <section id="stock-features" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative overflow-hidden">
     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-3 gap-8 items-center h-full">
          <!-- Sticky Text Side -->
         <div class="space-y-8 lg:col-span-1 h-full flex flex-col justify-center">
-            <h3 class="text-3xl font-bold lg:text-4xl">Feature Deep Dive</h3>
+            <h3 class="text-3xl font-bold lg:text-4xl">Feature Analysis</h3>
             <div class="prose dark:prose-invert text-lg space-y-4 text-muted-foreground">
                  <p>
-                    We analyze specific linguistic features against stock dynamics across <strong>20 major brands</strong>.
+                    How much correlation is there between features and stock price? 
                 </p>
-                <p>
-                    Select a category to analyze:
-                </p>
-                <div class="not-prose py-4 hidden">
-                    <!-- BrandSelector removed -->
-                </div>
+ 
             </div>
         
-             <a href="#stock-backstage" class="inline-block pt-8">
+             <a href="#stock-sourcetarget" class="inline-block pt-8">
                 <Button variant="outline" class="gap-2">
-                    Final Chapter: Backstage <ArrowDown class="h-4 w-4" />
+                    Next: Community Dynamics <ArrowDown class="h-4 w-4" />
                 </Button>
             </a>
         </div>
@@ -91,6 +112,59 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
         <div class="lg:col-span-2 w-full h-full order-1 lg:order-2">
             <FeatureDeepDiveCharts client:visible />
         </div>
+    </div>
+</section>
+
+<!-- Slide 4: Source vs Target Correlation (New) -->
+<section id="stock-sourcetarget" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative overflow-hidden">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-[3fr_7fr] gap-12 items-center h-full">
+         <!-- Sticky Text Side -->
+        <div class="space-y-8 h-full flex flex-col justify-center">
+            <h3 class="text-3xl font-bold lg:text-4xl">Community Dynamics</h3>
+            <div class="prose dark:prose-invert text-lg space-y-4 text-muted-foreground">
+                 <p>
+                    Does it matter if the subreddit is the <strong>source</strong> of the post or the <strong>target</strong>?
+                </p>
+                <p>
+                    This chart compares the correlation of key linguistic features when the brand's subreddit is the origin versus when it is mentioned/linked to.
+                </p>
+                <p class="text-sm italic">
+                    "Source" = Post originates from r/Brand <br>
+                    "Target" = Post links to/mentions r/Brand
+                </p>
+            </div>
+        
+             <a href="#stock-conclusion" class="inline-block pt-8">
+                <Button variant="outline" class="gap-2">
+                    Next: The Verdict <ArrowDown class="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+
+         <!-- Chart Area -->
+        <div class="w-full h-full min-w-0 flex items-center">
+            <SourceTargetCorrelationChart client:visible />
+        </div>
+    </div>
+</section>
+
+<!-- Slide 5: Conclusion / Verdict (New) -->
+<section id="stock-conclusion" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
+    <div class="container max-w-5xl h-full flex flex-col justify-center items-center text-center gap-12">
+        
+        <div class="space-y-6">
+            <h3 class="text-4xl font-bold tracking-tight lg:text-6xl">Statistical Hypothesis Testing</h3>
+            <p class="text-2xl text-muted-foreground">Evaluating the Predictive Power of Reddit Sentiment</p>
+        </div>
+
+        <HypothesisTestingResult client:visible />
+
+        <a href="#stock-backstage" class="pt-8">
+            <Button size="lg" class="gap-2">
+                Final Chapter: Backstage <ArrowRight class="h-4 w-4" />
+            </Button>
+        </a>
+
     </div>
 </section>
 
@@ -109,5 +183,5 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
 <!-- Fixed Brand Selector -->
 <FloatingBrandSelector 
     client:load 
-    sectionIds={['stock-intro', 'stock-weekly', 'stock-features', 'stock-backstage']} 
+    sectionIds={['stock-intro', 'stock-sources', 'stock-weekly', 'stock-features', 'stock-sourcetarget', 'stock-conclusion', 'stock-backstage']} 
 />

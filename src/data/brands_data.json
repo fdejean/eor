@@ -240,7 +240,50 @@
                     "feature": "LIWC_death",
                     "corr": 0.05
                 }
-            ]
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_anger",
+                    "sourceCorr": 0.55,
+                    "targetCorr": -0.20
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "sourceCorr": 0.45,
+                    "targetCorr": -0.15
+                },
+                {
+                    "feature": "LIWC_risk",
+                    "sourceCorr": 0.30,
+                    "targetCorr": 0.10
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.65,
+                    "targetCorr": 0.40
+                },
+                {
+                    "feature": "LIWC_negemo",
+                    "sourceCorr": -0.40,
+                    "targetCorr": -0.60
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_money",
+                    "r": 0.15,
+                    "p": 0.04,
+                    "significant": true,
+                    "interpretation": "Weak positive correlation, statistically significant."
+                },
+                "volume": {
+                    "feature": "LIWC_risk",
+                    "r": 0.09,
+                    "p": 0.12,
+                    "significant": false,
+                    "interpretation": "No significant correlation."
+                }
+            }
         }
     },
     "tesla": {
@@ -413,7 +456,50 @@
                     "feature": "LIWC_drive",
                     "corr": 0.45
                 }
-            ]
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_risk",
+                    "sourceCorr": 0.85,
+                    "targetCorr": 0.40
+                },
+                {
+                    "feature": "LIWC_future",
+                    "sourceCorr": 0.70,
+                    "targetCorr": 0.25
+                },
+                {
+                    "feature": "LIWC_tech",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.30
+                },
+                {
+                    "feature": "LIWC_drive",
+                    "sourceCorr": 0.55,
+                    "targetCorr": 0.10
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.50,
+                    "targetCorr": 0.60
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_risk",
+                    "r": 0.18,
+                    "p": 0.03,
+                    "significant": true,
+                    "interpretation": "Significant positive correlation with risk sentiment."
+                },
+                "volume": {
+                    "feature": "LIWC_drive",
+                    "r": 0.11,
+                    "p": 0.09,
+                    "significant": false,
+                    "interpretation": "Correlation indistinguishable from noise."
+                }
+            }
         }
     },
     "nvidia": {
@@ -539,7 +625,50 @@
                     "feature": "LIWC_risk",
                     "corr": 0.55
                 }
-            ]
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_tech",
+                    "sourceCorr": 0.90,
+                    "targetCorr": 0.50
+                },
+                {
+                    "feature": "LIWC_number",
+                    "sourceCorr": 0.75,
+                    "targetCorr": 0.30
+                },
+                {
+                    "feature": "LIWC_work",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.20
+                },
+                {
+                    "feature": "LIWC_power",
+                    "sourceCorr": 0.55,
+                    "targetCorr": 0.15
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.45,
+                    "targetCorr": 0.55
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_tech",
+                    "r": 0.22,
+                    "p": 0.01,
+                    "significant": true,
+                    "interpretation": "Strong positive correlation with tech sentiment."
+                },
+                "volume": {
+                    "feature": "LIWC_money",
+                    "r": 0.14,
+                    "p": 0.06,
+                    "significant": false,
+                    "interpretation": "Correlation not statistically significant."
+                }
+            }
         }
     },
     "amazon": {
@@ -638,7 +767,50 @@
                     "feature": "LIWC_work",
                     "corr": 0.50
                 }
-            ]
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_buy",
+                    "sourceCorr": 0.80,
+                    "targetCorr": 0.35
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.70,
+                    "targetCorr": 0.50
+                },
+                {
+                    "feature": "LIWC_work",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.20
+                },
+                {
+                    "feature": "LIWC_time",
+                    "sourceCorr": 0.55,
+                    "targetCorr": 0.10
+                },
+                {
+                    "feature": "LIWC_space",
+                    "sourceCorr": 0.45,
+                    "targetCorr": 0.15
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_buy",
+                    "r": 0.12,
+                    "p": 0.07,
+                    "significant": false,
+                    "interpretation": "Borderline result, not statistically significant."
+                },
+                "volume": {
+                    "feature": "LIWC_money",
+                    "r": 0.08,
+                    "p": 0.15,
+                    "significant": false,
+                    "interpretation": "No significant correlation."
+                }
+            }
         }
     },
     "google": {
@@ -732,6 +904,33 @@
                 {
                     "feature": "LIWC_cause",
                     "corr": 0.45
+                }
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_insight",
+                    "sourceCorr": 0.75,
+                    "targetCorr": 0.40
+                },
+                {
+                    "feature": "LIWC_cause",
+                    "sourceCorr": 0.65,
+                    "targetCorr": 0.30
+                },
+                {
+                    "feature": "LIWC_tech",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.25
+                },
+                {
+                    "feature": "LIWC_quant",
+                    "sourceCorr": 0.50,
+                    "targetCorr": 0.15
+                },
+                {
+                    "feature": "LIWC_negemo",
+                    "sourceCorr": -0.30,
+                    "targetCorr": -0.50
                 }
             ]
         }
