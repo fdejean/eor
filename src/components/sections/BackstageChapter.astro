@@ -1,10 +1,13 @@
 ---
-import { ClusterChart } from '@/components/charts/ClusterChart';
+import { ClusterDistributionChart } from '@/components/charts/ClusterDistributionChart';
+import { PcaScatterChart } from '@/components/charts/PcaScatterChart';
+import { LiwcBoxPlot } from '@/components/charts/LiwcBoxPlot';
+import { LiwcSentimentTable } from '@/components/charts/LiwcSentimentTable';
+import { LiwcClusterInsights } from '@/components/sections/LiwcClusterInsights';
 import { Button } from '@/components/ui/button';
-import { ArrowDown, RotateCcw } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 ---
 
-<!-- Slide 1: Backstage Intro -->
 <section id="backstage-intro" data-chapter="backstage-intro" data-nav-label="Chapter 4: Backstage" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
     <div class="container max-w-4xl text-center space-y-8">
         <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">Chapter 4: Behind the Curtain</h2>
@@ -26,38 +29,111 @@ import { ArrowDown, RotateCcw } from 'lucide-react';
             </div>
         </div>
         <div class="pt-8">
-            <a href="#backstage-chart">
+            <a href="#backstage-distribution">
                 <Button variant="outline" size="lg" className="gap-2">
-                    View Clusters <ArrowDown className="h-4 w-4" />
+                    View Analysis <ArrowDown className="h-4 w-4" />
                 </Button>
             </a>
         </div>
     </div>
 </section>
 
-<!-- Slide 2: Cluster Chart & Outro -->
-<section id="backstage-chart" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
-    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-         <div class="w-full h-[60vh] flex items-center justify-center p-4 order-2 lg:order-1">
-             <ClusterChart client:visible />
+<section id="backstage-distribution" class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-muted/30 relative">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
+         <div class="w-full h-auto flex items-center justify-center p-4 order-2 lg:order-1 lg:col-span-3">
+             <ClusterDistributionChart client:visible />
         </div>
-        <div class="space-y-8 order-1 lg:order-2">
-            <h3 class="text-3xl font-bold lg:text-4xl">The Landscape of Reddit</h3>
+        <div class="space-y-8 order-1 lg:order-2 lg:col-span-2">
+            <h3 class="text-3xl font-bold lg:text-4xl">Cluster Distribution</h3>
              <div class="prose dark:prose-invert text-lg">
                 <p>
-                    This scatter plot visualizes the semantic distance between different subreddits.
+                    We identified several distinct clusters within the subreddit ecosystem.
+                    Some clusters are massive, dominating the landscape, while others are niche communities.
                 </p>
                 <p>
-                    Communities naturally cluster into neighborhoods—Gaming, Tech, Politics, Sports. 
-                    Understanding these clusters is key to contextualizing the sentiment we analyze. 
-                    A "negative" sentiment in a political sub might be normal, whereas in a support sub, it's an anomaly.
+                    This distribution helps us understand the weight of different topics in our overall analysis.
+                    The largest cluster (Cluster 2) contains the majority of general-purpose subreddits.
                 </p>
             </div>
-             <a href="#intro" class="inline-block pt-8">
-                 <Button size="lg" className="gap-2">
-                    <RotateCcw className="h-4 w-4" /> Restart Journey
-                </Button>
-            </a>
+        </div>
+    </div>
+</section>
+
+<section id="backstage-pca" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8 order-1 lg:order-1">
+            <h3 class="text-3xl font-bold lg:text-4xl">Dimensionality Reduction (PCA)</h3>
+             <div class="prose dark:prose-invert text-lg">
+                <p>
+                    Using Principal Component Analysis (PCA), we reduced the high-dimensional embeddings of subreddits into 3D space.
+                </p>
+                <p>
+                    This visualization reveals the semantic relationships between communities. 
+                    Subreddits that are close together share similar user bases and content topics.
+                    Colors represent the clusters identified in the previous step.
+                </p>
+            </div>
+        </div>
+         <div class="w-full h-[75vh] flex items-center justify-center p-4 order-2 lg:order-2">
+             <PcaScatterChart client:visible />
+        </div>
+    </div>
+</section>
+
+<section id="backstage-liwc" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+         <div class="w-full h-[60vh] flex items-center justify-center p-4 order-2 lg:order-1">
+             <LiwcBoxPlot client:visible />
+        </div>
+        <div class="space-y-8 order-1 lg:order-2">
+            <h3 class="text-3xl font-bold lg:text-4xl">Linguistic Features (LIWC)</h3>
+             <div class="prose dark:prose-invert text-lg">
+                <p>
+                    We analyzed the linguistic style of comments using LIWC (Linguistic Inquiry and Word Count).
+                </p>
+                <p>
+                    These box plots show the distribution of various linguistic features across the dataset.
+                    Features like "Function words", "Cognitive mechanisms", and "Affect" words vary significantly across different communities.
+                    The plot shows the top 20 features sorted by their mean value.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="backstage-liwc-sentiment" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8 order-1 lg:order-1">
+            <h3 class="text-3xl font-bold lg:text-4xl">LIWC & Sentiment</h3>
+             <div class="prose dark:prose-invert text-lg">
+                <p>
+                    We used Logistic Regression to identify which linguistic features correlate most strongly with sentiment.
+                </p>
+                <p>
+                    As expected, negative emotions (<strong>Anger</strong>, <strong>Sad</strong>, <strong>Anx</strong>) show high negative correlation.
+                    However, grammar also plays a role: <strong>Verbs</strong> and <strong>Prepositions</strong> are significant predictors of negative sentiment.
+                </p>
+                <p>
+                    Interestingly, positive coefficients are much lower than negative ones, suggesting negative language has a stronger impact on predicting sentiment.
+                </p>
+            </div>
+        </div>
+         <div class="w-full h-[70vh] overflow-auto flex items-center justify-center p-4 order-2 lg:order-2">
+             <LiwcSentimentTable client:visible />
+        </div>
+    </div>
+</section>
+
+<section id="backstage-cluster-insights" class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
+    <div class="container max-w-7xl space-y-12">
+        <div class="text-center space-y-4">
+            <h3 class="text-3xl font-bold lg:text-4xl">Linguistic Fingerprints</h3>
+            <p class="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Each cluster has a unique linguistic signature that reveals the psychological nature of its community.
+            </p>
+        </div>
+        <div class="w-full">
+             <LiwcClusterInsights client:visible />
         </div>
     </div>
 </section>

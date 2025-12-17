@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Member Name 1",
+    "role": "Data Scientist",
+    "avatarSeed": "1",
+    "socials": {
+      "email": "mailto:example@epfl.ch",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  },
+  {
+    "name": "Member Name 2",
+    "role": "Frontend Developer",
+    "avatarSeed": "2",
+    "socials": {
+      "email": "mailto:example@epfl.ch",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  },
+  {
+    "name": "Member Name 3",
+    "role": "Backend Developer",
+    "avatarSeed": "3",
+    "socials": {
+      "email": "mailto:example@epfl.ch",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  },
+  {
+    "name": "Member Name 4",
+    "role": "ML Engineer",
+    "avatarSeed": "4",
+    "socials": {
+      "email": "mailto:example@epfl.ch",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  },
+  {
+    "name": "Member Name 5",
+    "role": "ML Engineer",
+    "avatarSeed": "4",
+    "socials": {
+      "email": "mailto:example@epfl.ch",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  }
+]

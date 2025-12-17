@@ -1,0 +1,47 @@
+[
+    {
+        "cluster_id": 0,
+        "count": 867,
+        "label": "Cluster 0"
+    },
+    {
+        "cluster_id": 1,
+        "count": 847,
+        "label": "Cluster 1"
+    },
+    {
+        "cluster_id": 2,
+        "count": 43045,
+        "label": "Cluster 2"
+    },
+    {
+        "cluster_id": 3,
+        "count": 393,
+        "label": "Cluster 3"
+    },
+    {
+        "cluster_id": 4,
+        "count": 1394,
+        "label": "Cluster 4"
+    },
+    {
+        "cluster_id": 5,
+        "count": 751,
+        "label": "Cluster 5"
+    },
+    {
+        "cluster_id": 6,
+        "count": 960,
+        "label": "Cluster 6"
+    },
+    {
+        "cluster_id": 7,
+        "count": 2820,
+        "label": "Cluster 7"
+    },
+    {
+        "cluster_id": 8,
+        "count": 201,
+        "label": "Cluster 8"
+    }
+]

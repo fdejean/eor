@@ -1,0 +1,65 @@
+[
+  {
+    "cluster_id": 0,
+    "name": "Visual Curiosities and Aesthetic Humor",
+    "centroid": "desirepath",
+    "top_subreddits": ["desirepath", "engrish", "expectationvsreality", "delusionalartists", "trypophobia", "shittyhdr", "thingsforants", "blunderyears", "perfectfit", "spiderbro"],
+    "description": "These subreddits (`desirepath`, `engrish`, `shittyhdr`) are all about visual scrutiny, spotting things that fit perfectly, fail miserably, or look weird. It's a cluster of \"observers.\""
+  },
+  {
+    "cluster_id": 1,
+    "name": "Practical Lifestyle and DIY",
+    "centroid": "malelivingspace",
+    "top_subreddits": ["malelivingspace", "ynab", "campinggear", "askcarsales", "optometry", "fixit", "cycling", "askportland", "lawncare", "diyaudio"],
+    "description": "From `ynab` (budgeting) to `lawncare` and `fixit`, this cluster represents the \"adulting\" side of Reddit. It’s functional, advice-driven, and hobby-specific."
+  },
+  {
+    "cluster_id": 2,
+    "name": "Niche and Micro Communities",
+    "centroid": "lawrencestormchasing",
+    "top_subreddits": ["lawrencestormchasing", "exxovlyn", "anormaldayinchiner", "courseherofiles", "pinkybunny", "slayer_acidalog", "dermatologyddx", "lxqt", "vape_p**n", "friendshipproblems"],
+    "description": "This is the \"noise\" or \"high specificity\" cluster. It mixes obscure tech (`lxqt`), very specific medical queries (`dermatologyddx`), and random niches."
+  },
+  {
+    "cluster_id": 3,
+    "name": "Automated News and Media Aggregators",
+    "centroid": "bolsa",
+    "top_subreddits": ["bolsa", "therakyatpost", "miamiheraldauto", "betternews", "foxauto", "randomactsofmuffdive", "shityoucanafford", "wapoauto", "cookingrecipesstuff", "nbcauto"],
+    "description": "Dominated by `...auto` accounts and news aggregators (`betternews`, `foxauto`). This cluster likely represents bot-driven or RSS-feed style content, so its user base is distinct from the rest, composed of such bots."
+  },
+  {
+    "cluster_id": 4,
+    "name": "Adult and Explicit Content",
+    "centroid": "rileyreid",
+    "top_subreddits": ["rileyreid", "adorablep**n", "nsfw_selfie", "hungrybu**s", "facef**k", "upskirt", "iwanttof**kher", "realbikinis", "indianfetish", "tessafowler"],
+    "description": "These are explicit and high-volume subreddits of adult content. Their user base is likely very different from the rest of Reddit, focused on specific adult interests."
+  },
+  {
+    "cluster_id": 5,
+    "name": "RPG and Strategy Gaming",
+    "centroid": "vermintide",
+    "top_subreddits": ["vermintide", "saltandsanctuary", "obs", "rift", "conanexiles", "competitiveforhonor", "divinityoriginalsin", "dungeondefenders", "nier", "borderlandspresequel"],
+    "description": "A pure gaming cluster, specifically leaning toward RPGs and strategy (`divinity`, `vermintide`, `borderlands`). These communities are tight and share similar interests."
+  },
+  {
+    "cluster_id": 6,
+    "name": "Social Activism and Global Affairs",
+    "centroid": "activism",
+    "top_subreddits": ["activism", "humanrights", "sustainability", "media", "globalhealth", "blacklivesmatter", "green", "oil", "cuba", "archeology"],
+    "description": "High-level discourse on human rights, environment, and politics (`activism`, `sustainability`). This is where the serious and often polarized conversations happen."
+  },
+  {
+    "cluster_id": 7,
+    "name": "Transactional Social Interaction",
+    "centroid": "kikgroups",
+    "top_subreddits": ["kikgroups", "sugarbaby", "caravantech", "bostonr4r", "hotwiferequests", "littlepersonals", "r4r30plus", "swingersr4r", "gaysnapchat", "baltimoreanddcr4r"],
+    "description": "This captures the `r4r` (Redditor for Redditor), dating, and meetup nature of the group. It is transactional social interaction, distinct from general discussion and from the other adult content cluster."
+  },
+  {
+    "cluster_id": 8,
+    "name": "Basketball Fandom",
+    "centroid": "memphisgrizzlies",
+    "top_subreddits": ["memphisgrizzlies", "sixers", "charlottehornets", "mkebucks", "mavericks", "nyknicks", "bostonceltics", "gonets", "atlantahawks", "utahjazz"],
+    "description": "This is exclusively NBA basketball teams (`sixers`, `celtics`, `jazz`). It's a tight, high-energy sports cluster that will likely have very volatile sentiment depending on game days."
+  }
+]
