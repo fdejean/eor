@@ -1,0 +1,1426 @@
+{
+    "apple": {
+        "singleBrand": [
+            {
+                "feature": "LIWC_sadness",
+                "correlation": -0.65
+            },
+            {
+                "feature": "LIWC_anger",
+                "correlation": -0.60
+            },
+            {
+                "feature": "LIWC_anxiety",
+                "correlation": -0.55
+            },
+            {
+                "feature": "LIWC_negemo",
+                "correlation": -0.70
+            },
+            {
+                "feature": "LIWC_posemo",
+                "correlation": 0.45
+            },
+            {
+                "feature": "LIWC_money",
+                "correlation": 0.30
+            },
+            {
+                "feature": "LIWC_health",
+                "correlation": -0.20
+            },
+            {
+                "feature": "LIWC_work",
+                "correlation": 0.25
+            },
+            {
+                "feature": "LIWC_social",
+                "correlation": 0.15
+            },
+            {
+                "feature": "LIWC_family",
+                "correlation": 0.10
+            }
+        ],
+        "allBrands": [
+            {
+                "feature": "LIWC_negemo",
+                "avgCorrelation": -0.55
+            },
+            {
+                "feature": "LIWC_anger",
+                "avgCorrelation": -0.50
+            },
+            {
+                "feature": "LIWC_sadness",
+                "avgCorrelation": -0.45
+            },
+            {
+                "feature": "LIWC_anxiety",
+                "avgCorrelation": -0.40
+            },
+            {
+                "feature": "LIWC_posemo",
+                "avgCorrelation": 0.35
+            },
+            {
+                "feature": "LIWC_money",
+                "avgCorrelation": 0.25
+            },
+            {
+                "feature": "LIWC_power",
+                "avgCorrelation": 0.20
+            },
+            {
+                "feature": "LIWC_risk",
+                "avgCorrelation": -0.15
+            },
+            {
+                "feature": "LIWC_focuspast",
+                "avgCorrelation": 0.10
+            },
+            {
+                "feature": "LIWC_focusfuture",
+                "avgCorrelation": 0.12
+            }
+        ],
+        "scatter": [
+            {
+                "feature": "LIWC_anger",
+                "priceCorr": -0.6,
+                "volumeCorr": 0.5,
+                "consistency": 0.8,
+                "absAvgOverall": 0.7
+            },
+            {
+                "feature": "LIWC_sadness",
+                "priceCorr": -0.65,
+                "volumeCorr": 0.4,
+                "consistency": 0.75,
+                "absAvgOverall": 0.6
+            },
+            {
+                "feature": "LIWC_posemo",
+                "priceCorr": 0.45,
+                "volumeCorr": -0.2,
+                "consistency": 0.6,
+                "absAvgOverall": 0.4
+            },
+            {
+                "feature": "LIWC_money",
+                "priceCorr": 0.3,
+                "volumeCorr": 0.6,
+                "consistency": 0.9,
+                "absAvgOverall": 0.5
+            },
+            {
+                "feature": "LIWC_risk",
+                "priceCorr": -0.4,
+                "volumeCorr": 0.7,
+                "consistency": 0.85,
+                "absAvgOverall": 0.55
+            },
+            {
+                "feature": "LIWC_health",
+                "priceCorr": -0.2,
+                "volumeCorr": 0.1,
+                "consistency": 0.4,
+                "absAvgOverall": 0.2
+            },
+            {
+                "feature": "LIWC_work",
+                "priceCorr": 0.25,
+                "volumeCorr": 0.3,
+                "consistency": 0.5,
+                "absAvgOverall": 0.3
+            },
+            {
+                "feature": "LIWC_leisure",
+                "priceCorr": 0.1,
+                "volumeCorr": 0.05,
+                "consistency": 0.3,
+                "absAvgOverall": 0.1
+            },
+            {
+                "feature": "LIWC_relig",
+                "priceCorr": -0.05,
+                "volumeCorr": 0.02,
+                "consistency": 0.2,
+                "absAvgOverall": 0.05
+            },
+            {
+                "feature": "LIWC_body",
+                "priceCorr": -0.15,
+                "volumeCorr": 0.1,
+                "consistency": 0.4,
+                "absAvgOverall": 0.15
+            }
+        ],
+        "predictors": {
+            "price": [
+                {
+                    "feature": "LIWC_posemo",
+                    "corr": 0.45
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.30
+                },
+                {
+                    "feature": "LIWC_work",
+                    "corr": 0.25
+                },
+                {
+                    "feature": "LIWC_social",
+                    "corr": 0.15
+                },
+                {
+                    "feature": "LIWC_focuspast",
+                    "corr": 0.10
+                },
+                {
+                    "feature": "LIWC_negemo",
+                    "corr": -0.70
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "corr": -0.65
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": -0.60
+                },
+                {
+                    "feature": "LIWC_anxiety",
+                    "corr": -0.55
+                },
+                {
+                    "feature": "LIWC_risk",
+                    "corr": -0.40
+                }
+            ],
+            "volume": [
+                {
+                    "feature": "LIWC_risk",
+                    "corr": 0.70
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": 0.50
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "corr": 0.40
+                },
+                {
+                    "feature": "LIWC_work",
+                    "corr": 0.30
+                },
+                {
+                    "feature": "LIWC_posemo",
+                    "corr": -0.20
+                },
+                {
+                    "feature": "LIWC_social",
+                    "corr": 0.10
+                },
+                {
+                    "feature": "LIWC_focusfuture",
+                    "corr": 0.15
+                },
+                {
+                    "feature": "LIWC_power",
+                    "corr": 0.12
+                },
+                {
+                    "feature": "LIWC_death",
+                    "corr": 0.05
+                }
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_anger",
+                    "sourceCorr": 0.55,
+                    "targetCorr": -0.20
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "sourceCorr": 0.45,
+                    "targetCorr": -0.15
+                },
+                {
+                    "feature": "LIWC_risk",
+                    "sourceCorr": 0.30,
+                    "targetCorr": 0.10
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.65,
+                    "targetCorr": 0.40
+                },
+                {
+                    "feature": "LIWC_negemo",
+                    "sourceCorr": -0.40,
+                    "targetCorr": -0.60
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_money",
+                    "r": 0.15,
+                    "p": 0.04,
+                    "significant": true,
+                    "interpretation": "Weak positive correlation, statistically significant."
+                },
+                "volume": {
+                    "feature": "LIWC_risk",
+                    "r": 0.09,
+                    "p": 0.12,
+                    "significant": false,
+                    "interpretation": "No significant correlation."
+                }
+            }
+        }
+    },
+    "tesla": {
+        "singleBrand": [
+            {
+                "feature": "LIWC_risk",
+                "correlation": 0.80
+            },
+            {
+                "feature": "LIWC_future",
+                "correlation": 0.75
+            },
+            {
+                "feature": "LIWC_money",
+                "correlation": 0.70
+            },
+            {
+                "feature": "LIWC_tech",
+                "correlation": 0.65
+            },
+            {
+                "feature": "LIWC_drive",
+                "correlation": 0.60
+            },
+            {
+                "feature": "LIWC_anger",
+                "correlation": -0.45
+            },
+            {
+                "feature": "LIWC_past",
+                "correlation": -0.40
+            },
+            {
+                "feature": "LIWC_fear",
+                "correlation": -0.35
+            },
+            {
+                "feature": "LIWC_home",
+                "correlation": -0.30
+            }
+        ],
+        "allBrands": [
+            {
+                "feature": "LIWC_risk",
+                "avgCorrelation": 0.60
+            },
+            {
+                "feature": "LIWC_future",
+                "avgCorrelation": 0.55
+            },
+            {
+                "feature": "LIWC_money",
+                "avgCorrelation": 0.50
+            },
+            {
+                "feature": "LIWC_tech",
+                "avgCorrelation": 0.45
+            },
+            {
+                "feature": "LIWC_drive",
+                "avgCorrelation": 0.40
+            },
+            {
+                "feature": "LIWC_anger",
+                "avgCorrelation": -0.25
+            },
+            {
+                "feature": "LIWC_sadness",
+                "avgCorrelation": -0.20
+            }
+        ],
+        "scatter": [
+            {
+                "feature": "LIWC_risk",
+                "priceCorr": 0.75,
+                "volumeCorr": 0.85,
+                "consistency": 0.9,
+                "absAvgOverall": 0.8
+            },
+            {
+                "feature": "LIWC_future",
+                "priceCorr": 0.7,
+                "volumeCorr": 0.6,
+                "consistency": 0.85,
+                "absAvgOverall": 0.65
+            },
+            {
+                "feature": "LIWC_money",
+                "priceCorr": 0.65,
+                "volumeCorr": 0.7,
+                "consistency": 0.8,
+                "absAvgOverall": 0.67
+            },
+            {
+                "feature": "LIWC_tech",
+                "priceCorr": 0.6,
+                "volumeCorr": 0.5,
+                "consistency": 0.75,
+                "absAvgOverall": 0.55
+            },
+            {
+                "feature": "LIWC_anger",
+                "priceCorr": -0.4,
+                "volumeCorr": 0.45,
+                "consistency": 0.6,
+                "absAvgOverall": 0.42
+            }
+        ],
+        "predictors": {
+            "price": [
+                {
+                    "feature": "LIWC_risk",
+                    "corr": 0.80
+                },
+                {
+                    "feature": "LIWC_future",
+                    "corr": 0.75
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.70
+                },
+                {
+                    "feature": "LIWC_tech",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_drive",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": -0.45
+                },
+                {
+                    "feature": "LIWC_past",
+                    "corr": -0.40
+                },
+                {
+                    "feature": "LIWC_fear",
+                    "corr": -0.35
+                },
+                {
+                    "feature": "LIWC_home",
+                    "corr": -0.30
+                }
+            ],
+            "volume": [
+                {
+                    "feature": "LIWC_risk",
+                    "corr": 0.85
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.80
+                },
+                {
+                    "feature": "LIWC_future",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_tech",
+                    "corr": 0.55
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": 0.50
+                },
+                {
+                    "feature": "LIWC_drive",
+                    "corr": 0.45
+                }
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_risk",
+                    "sourceCorr": 0.85,
+                    "targetCorr": 0.40
+                },
+                {
+                    "feature": "LIWC_future",
+                    "sourceCorr": 0.70,
+                    "targetCorr": 0.25
+                },
+                {
+                    "feature": "LIWC_tech",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.30
+                },
+                {
+                    "feature": "LIWC_drive",
+                    "sourceCorr": 0.55,
+                    "targetCorr": 0.10
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.50,
+                    "targetCorr": 0.60
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_risk",
+                    "r": 0.18,
+                    "p": 0.03,
+                    "significant": true,
+                    "interpretation": "Significant positive correlation with risk sentiment."
+                },
+                "volume": {
+                    "feature": "LIWC_drive",
+                    "r": 0.11,
+                    "p": 0.09,
+                    "significant": false,
+                    "interpretation": "Correlation indistinguishable from noise."
+                }
+            }
+        }
+    },
+    "nvidia": {
+        "singleBrand": [
+            {
+                "feature": "LIWC_tech",
+                "correlation": 0.85
+            },
+            {
+                "feature": "LIWC_number",
+                "correlation": 0.70
+            },
+            {
+                "feature": "LIWC_work",
+                "correlation": 0.65
+            },
+            {
+                "feature": "LIWC_money",
+                "correlation": 0.60
+            },
+            {
+                "feature": "LIWC_power",
+                "correlation": 0.55
+            },
+            {
+                "feature": "LIWC_feel",
+                "correlation": -0.40
+            },
+            {
+                "feature": "LIWC_bio",
+                "correlation": -0.35
+            }
+        ],
+        "allBrands": [
+            {
+                "feature": "LIWC_tech",
+                "avgCorrelation": 0.70
+            },
+            {
+                "feature": "LIWC_number",
+                "avgCorrelation": 0.60
+            },
+            {
+                "feature": "LIWC_work",
+                "avgCorrelation": 0.55
+            },
+            {
+                "feature": "LIWC_money",
+                "avgCorrelation": 0.50
+            },
+            {
+                "feature": "LIWC_power",
+                "avgCorrelation": 0.45
+            }
+        ],
+        "scatter": [
+            {
+                "feature": "LIWC_tech",
+                "priceCorr": 0.8,
+                "volumeCorr": 0.7,
+                "consistency": 0.9,
+                "absAvgOverall": 0.75
+            },
+            {
+                "feature": "LIWC_number",
+                "priceCorr": 0.65,
+                "volumeCorr": 0.5,
+                "consistency": 0.8,
+                "absAvgOverall": 0.57
+            },
+            {
+                "feature": "LIWC_work",
+                "priceCorr": 0.6,
+                "volumeCorr": 0.4,
+                "consistency": 0.75,
+                "absAvgOverall": 0.5
+            },
+            {
+                "feature": "LIWC_money",
+                "priceCorr": 0.55,
+                "volumeCorr": 0.6,
+                "consistency": 0.7,
+                "absAvgOverall": 0.57
+            }
+        ],
+        "predictors": {
+            "price": [
+                {
+                    "feature": "LIWC_tech",
+                    "corr": 0.85
+                },
+                {
+                    "feature": "LIWC_number",
+                    "corr": 0.70
+                },
+                {
+                    "feature": "LIWC_work",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_power",
+                    "corr": 0.55
+                }
+            ],
+            "volume": [
+                {
+                    "feature": "LIWC_tech",
+                    "corr": 0.75
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.70
+                },
+                {
+                    "feature": "LIWC_number",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_risk",
+                    "corr": 0.55
+                }
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_tech",
+                    "sourceCorr": 0.90,
+                    "targetCorr": 0.50
+                },
+                {
+                    "feature": "LIWC_number",
+                    "sourceCorr": 0.75,
+                    "targetCorr": 0.30
+                },
+                {
+                    "feature": "LIWC_work",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.20
+                },
+                {
+                    "feature": "LIWC_power",
+                    "sourceCorr": 0.55,
+                    "targetCorr": 0.15
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.45,
+                    "targetCorr": 0.55
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_tech",
+                    "r": 0.22,
+                    "p": 0.01,
+                    "significant": true,
+                    "interpretation": "Strong positive correlation with tech sentiment."
+                },
+                "volume": {
+                    "feature": "LIWC_money",
+                    "r": 0.14,
+                    "p": 0.06,
+                    "significant": false,
+                    "interpretation": "Correlation not statistically significant."
+                }
+            }
+        }
+    },
+    "amazon": {
+        "singleBrand": [
+            {
+                "feature": "LIWC_buy",
+                "correlation": 0.75
+            },
+            {
+                "feature": "LIWC_money",
+                "correlation": 0.70
+            },
+            {
+                "feature": "LIWC_work",
+                "correlation": 0.65
+            },
+            {
+                "feature": "LIWC_time",
+                "correlation": 0.60
+            },
+            {
+                "feature": "LIWC_space",
+                "correlation": 0.55
+            },
+            {
+                "feature": "LIWC_leisure",
+                "correlation": -0.30
+            }
+        ],
+        "allBrands": [
+            {
+                "feature": "LIWC_buy",
+                "avgCorrelation": 0.65
+            },
+            {
+                "feature": "LIWC_money",
+                "avgCorrelation": 0.60
+            },
+            {
+                "feature": "LIWC_work",
+                "avgCorrelation": 0.55
+            }
+        ],
+        "scatter": [
+            {
+                "feature": "LIWC_buy",
+                "priceCorr": 0.7,
+                "volumeCorr": 0.5,
+                "consistency": 0.85,
+                "absAvgOverall": 0.6
+            },
+            {
+                "feature": "LIWC_money",
+                "priceCorr": 0.65,
+                "volumeCorr": 0.6,
+                "consistency": 0.8,
+                "absAvgOverall": 0.62
+            },
+            {
+                "feature": "LIWC_work",
+                "priceCorr": 0.6,
+                "volumeCorr": 0.4,
+                "consistency": 0.7,
+                "absAvgOverall": 0.5
+            }
+        ],
+        "predictors": {
+            "price": [
+                {
+                    "feature": "LIWC_buy",
+                    "corr": 0.75
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.70
+                },
+                {
+                    "feature": "LIWC_work",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_time",
+                    "corr": 0.60
+                }
+            ],
+            "volume": [
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.75
+                },
+                {
+                    "feature": "LIWC_buy",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_work",
+                    "corr": 0.50
+                }
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_buy",
+                    "sourceCorr": 0.80,
+                    "targetCorr": 0.35
+                },
+                {
+                    "feature": "LIWC_money",
+                    "sourceCorr": 0.70,
+                    "targetCorr": 0.50
+                },
+                {
+                    "feature": "LIWC_work",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.20
+                },
+                {
+                    "feature": "LIWC_time",
+                    "sourceCorr": 0.55,
+                    "targetCorr": 0.10
+                },
+                {
+                    "feature": "LIWC_space",
+                    "sourceCorr": 0.45,
+                    "targetCorr": 0.15
+                }
+            ],
+            "hypothesisTesting": {
+                "price": {
+                    "feature": "LIWC_buy",
+                    "r": 0.12,
+                    "p": 0.07,
+                    "significant": false,
+                    "interpretation": "Borderline result, not statistically significant."
+                },
+                "volume": {
+                    "feature": "LIWC_money",
+                    "r": 0.08,
+                    "p": 0.15,
+                    "significant": false,
+                    "interpretation": "No significant correlation."
+                }
+            }
+        }
+    },
+    "google": {
+        "singleBrand": [
+            {
+                "feature": "LIWC_insight",
+                "correlation": 0.70
+            },
+            {
+                "feature": "LIWC_cause",
+                "correlation": 0.65
+            },
+            {
+                "feature": "LIWC_tech",
+                "correlation": 0.60
+            },
+            {
+                "feature": "LIWC_quant",
+                "correlation": 0.55
+            },
+            {
+                "feature": "LIWC_negemo",
+                "correlation": -0.40
+            }
+        ],
+        "allBrands": [
+            {
+                "feature": "LIWC_insight",
+                "avgCorrelation": 0.60
+            },
+            {
+                "feature": "LIWC_cause",
+                "avgCorrelation": 0.55
+            },
+            {
+                "feature": "LIWC_tech",
+                "avgCorrelation": 0.50
+            }
+        ],
+        "scatter": [
+            {
+                "feature": "LIWC_insight",
+                "priceCorr": 0.65,
+                "volumeCorr": 0.4,
+                "consistency": 0.8,
+                "absAvgOverall": 0.52
+            },
+            {
+                "feature": "LIWC_cause",
+                "priceCorr": 0.6,
+                "volumeCorr": 0.35,
+                "consistency": 0.75,
+                "absAvgOverall": 0.47
+            },
+            {
+                "feature": "LIWC_tech",
+                "priceCorr": 0.55,
+                "volumeCorr": 0.45,
+                "consistency": 0.7,
+                "absAvgOverall": 0.5
+            }
+        ],
+        "predictors": {
+            "price": [
+                {
+                    "feature": "LIWC_insight",
+                    "corr": 0.70
+                },
+                {
+                    "feature": "LIWC_cause",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_tech",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_quant",
+                    "corr": 0.55
+                }
+            ],
+            "volume": [
+                {
+                    "feature": "LIWC_tech",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_insight",
+                    "corr": 0.55
+                },
+                {
+                    "feature": "LIWC_cause",
+                    "corr": 0.45
+                }
+            ],
+            "sourceTarget": [
+                {
+                    "feature": "LIWC_insight",
+                    "sourceCorr": 0.75,
+                    "targetCorr": 0.40
+                },
+                {
+                    "feature": "LIWC_cause",
+                    "sourceCorr": 0.65,
+                    "targetCorr": 0.30
+                },
+                {
+                    "feature": "LIWC_tech",
+                    "sourceCorr": 0.60,
+                    "targetCorr": 0.25
+                },
+                {
+                    "feature": "LIWC_quant",
+                    "sourceCorr": 0.50,
+                    "targetCorr": 0.15
+                },
+                {
+                    "feature": "LIWC_negemo",
+                    "sourceCorr": -0.30,
+                    "targetCorr": -0.50
+                }
+            ]
+        }
+    },
+    "top10": {
+        "singleBrand": [
+            {
+                "feature": "LIWC_money",
+                "correlation": 0.85
+            },
+            {
+                "feature": "LIWC_risk",
+                "correlation": 0.75
+            },
+            {
+                "feature": "LIWC_work",
+                "correlation": 0.70
+            },
+            {
+                "feature": "LIWC_power",
+                "correlation": 0.65
+            },
+            {
+                "feature": "LIWC_number",
+                "correlation": 0.60
+            },
+            {
+                "feature": "LIWC_sadness",
+                "correlation": -0.40
+            },
+            {
+                "feature": "LIWC_anger",
+                "correlation": -0.35
+            },
+            {
+                "feature": "LIWC_home",
+                "correlation": 0.30
+            },
+            {
+                "feature": "LIWC_see",
+                "correlation": 0.25
+            },
+            {
+                "feature": "LIWC_hear",
+                "correlation": 0.20
+            }
+        ],
+        "allBrands": [
+            {
+                "feature": "LIWC_money",
+                "avgCorrelation": 0.60
+            },
+            {
+                "feature": "LIWC_work",
+                "avgCorrelation": 0.55
+            },
+            {
+                "feature": "LIWC_power",
+                "avgCorrelation": 0.50
+            },
+            {
+                "feature": "LIWC_risk",
+                "avgCorrelation": 0.45
+            },
+            {
+                "feature": "LIWC_reward",
+                "avgCorrelation": 0.40
+            },
+            {
+                "feature": "LIWC_posemo",
+                "avgCorrelation": 0.35
+            },
+            {
+                "feature": "LIWC_negemo",
+                "avgCorrelation": -0.30
+            },
+            {
+                "feature": "LIWC_anxiety",
+                "avgCorrelation": -0.25
+            },
+            {
+                "feature": "LIWC_sadness",
+                "avgCorrelation": -0.20
+            },
+            {
+                "feature": "LIWC_anger",
+                "avgCorrelation": -0.15
+            }
+        ],
+        "scatter": [
+            {
+                "feature": "LIWC_money",
+                "priceCorr": 0.8,
+                "volumeCorr": 0.7,
+                "consistency": 0.9,
+                "absAvgOverall": 0.85
+            },
+            {
+                "feature": "LIWC_risk",
+                "priceCorr": 0.7,
+                "volumeCorr": 0.8,
+                "consistency": 0.85,
+                "absAvgOverall": 0.8
+            },
+            {
+                "feature": "LIWC_work",
+                "priceCorr": 0.65,
+                "volumeCorr": 0.5,
+                "consistency": 0.8,
+                "absAvgOverall": 0.6
+            },
+            {
+                "feature": "LIWC_power",
+                "priceCorr": 0.6,
+                "volumeCorr": 0.4,
+                "consistency": 0.75,
+                "absAvgOverall": 0.55
+            },
+            {
+                "feature": "LIWC_sadness",
+                "priceCorr": -0.4,
+                "volumeCorr": 0.3,
+                "consistency": 0.7,
+                "absAvgOverall": 0.45
+            },
+            {
+                "feature": "LIWC_anger",
+                "priceCorr": -0.35,
+                "volumeCorr": 0.4,
+                "consistency": 0.65,
+                "absAvgOverall": 0.4
+            },
+            {
+                "feature": "LIWC_home",
+                "priceCorr": 0.3,
+                "volumeCorr": 0.2,
+                "consistency": 0.6,
+                "absAvgOverall": 0.35
+            },
+            {
+                "feature": "LIWC_see",
+                "priceCorr": 0.25,
+                "volumeCorr": 0.1,
+                "consistency": 0.5,
+                "absAvgOverall": 0.25
+            },
+            {
+                "feature": "LIWC_hear",
+                "priceCorr": 0.2,
+                "volumeCorr": 0.1,
+                "consistency": 0.45,
+                "absAvgOverall": 0.2
+            },
+            {
+                "feature": "LIWC_number",
+                "priceCorr": 0.55,
+                "volumeCorr": 0.6,
+                "consistency": 0.7,
+                "absAvgOverall": 0.65
+            }
+        ],
+        "predictors": {
+            "price": [
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.85
+                },
+                {
+                    "feature": "LIWC_risk",
+                    "corr": 0.75
+                },
+                {
+                    "feature": "LIWC_work",
+                    "corr": 0.70
+                },
+                {
+                    "feature": "LIWC_power",
+                    "corr": 0.65
+                },
+                {
+                    "feature": "LIWC_number",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "corr": -0.40
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": -0.35
+                },
+                {
+                    "feature": "LIWC_home",
+                    "corr": 0.30
+                },
+                {
+                    "feature": "LIWC_see",
+                    "corr": 0.25
+                },
+                {
+                    "feature": "LIWC_hear",
+                    "corr": 0.20
+                }
+            ],
+            "volume": [
+                {
+                    "feature": "LIWC_risk",
+                    "corr": 0.85
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.80
+                },
+                {
+                    "feature": "LIWC_number",
+                    "corr": 0.75
+                },
+                {
+                    "feature": "LIWC_work",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": 0.55
+                },
+                {
+                    "feature": "LIWC_power",
+                    "corr": 0.50
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "corr": 0.45
+                },
+                {
+                    "feature": "LIWC_home",
+                    "corr": 0.35
+                },
+                {
+                    "feature": "LIWC_see",
+                    "corr": 0.20
+                },
+                {
+                    "feature": "LIWC_hear",
+                    "corr": 0.15
+                }
+            ]
+        }
+    },
+    "top50": {
+        "singleBrand": [
+            {
+                "feature": "LIWC_posemo",
+                "correlation": 0.55
+            },
+            {
+                "feature": "LIWC_affiliation",
+                "correlation": 0.50
+            },
+            {
+                "feature": "LIWC_achieve",
+                "correlation": 0.45
+            },
+            {
+                "feature": "LIWC_reward",
+                "correlation": 0.40
+            },
+            {
+                "feature": "LIWC_money",
+                "correlation": 0.35
+            },
+            {
+                "feature": "LIWC_sadness",
+                "correlation": -0.30
+            },
+            {
+                "feature": "LIWC_negemo",
+                "correlation": -0.25
+            },
+            {
+                "feature": "LIWC_anxiety",
+                "correlation": -0.20
+            },
+            {
+                "feature": "LIWC_anger",
+                "correlation": -0.15
+            },
+            {
+                "feature": "LIWC_percept",
+                "correlation": 0.10
+            }
+        ],
+        "allBrands": [
+            {
+                "feature": "LIWC_posemo",
+                "avgCorrelation": 0.45
+            },
+            {
+                "feature": "LIWC_affiliation",
+                "avgCorrelation": 0.40
+            },
+            {
+                "feature": "LIWC_achieve",
+                "avgCorrelation": 0.35
+            },
+            {
+                "feature": "LIWC_reward",
+                "avgCorrelation": 0.30
+            },
+            {
+                "feature": "LIWC_money",
+                "avgCorrelation": 0.25
+            },
+            {
+                "feature": "LIWC_sadness",
+                "avgCorrelation": -0.20
+            },
+            {
+                "feature": "LIWC_negemo",
+                "avgCorrelation": -0.15
+            },
+            {
+                "feature": "LIWC_anxiety",
+                "avgCorrelation": -0.10
+            },
+            {
+                "feature": "LIWC_anger",
+                "avgCorrelation": -0.05
+            },
+            {
+                "feature": "LIWC_percept",
+                "avgCorrelation": 0.05
+            }
+        ],
+        "scatter": [
+            {
+                "feature": "LIWC_posemo",
+                "priceCorr": 0.55,
+                "volumeCorr": 0.3,
+                "consistency": 0.7,
+                "absAvgOverall": 0.5
+            },
+            {
+                "feature": "LIWC_affiliation",
+                "priceCorr": 0.50,
+                "volumeCorr": 0.25,
+                "consistency": 0.65,
+                "absAvgOverall": 0.45
+            },
+            {
+                "feature": "LIWC_achieve",
+                "priceCorr": 0.45,
+                "volumeCorr": 0.4,
+                "consistency": 0.6,
+                "absAvgOverall": 0.5
+            },
+            {
+                "feature": "LIWC_reward",
+                "priceCorr": 0.40,
+                "volumeCorr": 0.35,
+                "consistency": 0.55,
+                "absAvgOverall": 0.4
+            },
+            {
+                "feature": "LIWC_money",
+                "priceCorr": 0.35,
+                "volumeCorr": 0.5,
+                "consistency": 0.5,
+                "absAvgOverall": 0.45
+            },
+            {
+                "feature": "LIWC_sadness",
+                "priceCorr": -0.30,
+                "volumeCorr": 0.2,
+                "consistency": 0.45,
+                "absAvgOverall": 0.3
+            },
+            {
+                "feature": "LIWC_negemo",
+                "priceCorr": -0.25,
+                "volumeCorr": 0.15,
+                "consistency": 0.4,
+                "absAvgOverall": 0.25
+            },
+            {
+                "feature": "LIWC_anxiety",
+                "priceCorr": -0.20,
+                "volumeCorr": 0.1,
+                "consistency": 0.35,
+                "absAvgOverall": 0.2
+            },
+            {
+                "feature": "LIWC_anger",
+                "priceCorr": -0.15,
+                "volumeCorr": 0.2,
+                "consistency": 0.3,
+                "absAvgOverall": 0.2
+            },
+            {
+                "feature": "LIWC_percept",
+                "priceCorr": 0.10,
+                "volumeCorr": 0.1,
+                "consistency": 0.25,
+                "absAvgOverall": 0.15
+            }
+        ],
+        "predictors": {
+            "price": [
+                {
+                    "feature": "LIWC_posemo",
+                    "corr": 0.55
+                },
+                {
+                    "feature": "LIWC_affiliation",
+                    "corr": 0.50
+                },
+                {
+                    "feature": "LIWC_achieve",
+                    "corr": 0.45
+                },
+                {
+                    "feature": "LIWC_reward",
+                    "corr": 0.40
+                },
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.35
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "corr": -0.30
+                },
+                {
+                    "feature": "LIWC_negemo",
+                    "corr": -0.25
+                },
+                {
+                    "feature": "LIWC_anxiety",
+                    "corr": -0.20
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": -0.15
+                },
+                {
+                    "feature": "LIWC_percept",
+                    "corr": 0.10
+                }
+            ],
+            "volume": [
+                {
+                    "feature": "LIWC_money",
+                    "corr": 0.60
+                },
+                {
+                    "feature": "LIWC_achieve",
+                    "corr": 0.50
+                },
+                {
+                    "feature": "LIWC_reward",
+                    "corr": 0.45
+                },
+                {
+                    "feature": "LIWC_posemo",
+                    "corr": 0.40
+                },
+                {
+                    "feature": "LIWC_affiliation",
+                    "corr": 0.35
+                },
+                {
+                    "feature": "LIWC_sadness",
+                    "corr": 0.30
+                },
+                {
+                    "feature": "LIWC_anger",
+                    "corr": 0.25
+                },
+                {
+                    "feature": "LIWC_negemo",
+                    "corr": 0.20
+                },
+                {
+                    "feature": "LIWC_percept",
+                    "corr": 0.15
+                },
+                {
+                    "feature": "LIWC_anxiety",
+                    "corr": 0.10
+                }
+            ]
+        }
+    }
+}

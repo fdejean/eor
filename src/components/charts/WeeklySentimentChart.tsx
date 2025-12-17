@@ -1,22 +1,27 @@
 "use client"
 
+import { useStore } from '@nanostores/react';
+import { selectedBrand } from '@/stores/stockStore';
 import { ComposedChart, Line, Bar, ResponsiveContainer, Tooltip, XAxis, YAxis, CartesianGrid, Legend } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { stockData } from "@/data/mockData"
+import weeklySentimentData from "@/data/weekly_sentiment.json"
 
-export function StockChart() {
+export function WeeklySentimentChart() {
+    const $selectedBrand = useStore(selectedBrand);
+    // const brandLabel = $selectedBrand.charAt(0).toUpperCase() + $selectedBrand.slice(1);
+
     return (
         <Card className="w-full">
             <CardHeader>
-                <CardTitle>Sentiment vs Stock Price</CardTitle>
+                <CardTitle>Weekly Sentiment vs Stock Price</CardTitle>
                 <CardDescription>
-                    Correlation between Reddit Sentiment and Stock Market Value
+                    Weekly analysis of r/{$selectedBrand} sentiment (Total & Negative) against {$selectedBrand.toUpperCase()} Closing Price.
                 </CardDescription>
             </CardHeader>
             <CardContent className="pb-4">
-                <div className="h-[300px] w-full">
+                <div className="h-[400px] w-full">
                     <ResponsiveContainer width="100%" height="100%">
-                        <ComposedChart data={stockData}>
+                        <ComposedChart data={weeklySentimentData}>
                             <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
                             <XAxis
                                 dataKey="date"
@@ -27,28 +32,29 @@ export function StockChart() {
                             />
                             <YAxis
                                 yAxisId="left"
-                                stroke="#888888"
+                                stroke="#1e40af"
                                 fontSize={12}
                                 tickLine={false}
                                 axisLine={false}
-                                label={{ value: 'Sentiment', angle: -90, position: 'insideLeft' }}
+                                label={{ value: 'Sentiment', angle: -90, position: 'insideLeft', fill: '#1e40af' }}
                             />
                             <YAxis
                                 yAxisId="right"
                                 orientation="right"
-                                stroke="#888888"
+                                stroke="#15803d"
                                 fontSize={12}
                                 tickLine={false}
                                 axisLine={false}
-                                label={{ value: 'Price ($)', angle: 90, position: 'insideRight' }}
+                                label={{ value: 'Price ($)', angle: 90, position: 'insideRight', fill: '#15803d' }}
                             />
                             <Tooltip
                                 contentStyle={{ backgroundColor: 'var(--background)', borderColor: 'var(--border)' }}
                                 itemStyle={{ color: 'var(--foreground)' }}
                             />
                             <Legend />
-                            <Bar yAxisId="left" dataKey="sentiment" barSize={20} fill="#413ea0" name="Sentiment" />
-                            <Line yAxisId="right" type="monotone" dataKey="price" stroke="#ff7300" name="Stock Price" />
+                            <Bar yAxisId="left" dataKey="negativeSentiment" barSize={20} fill="#ef4444" name="Negative Sentiment" fillOpacity={0.6} />
+                            <Line yAxisId="left" type="monotone" dataKey="totalSentiment" stroke="#1e40af" strokeWidth={2} dot={{ r: 3 }} name="Total Sentiment" />
+                            <Line yAxisId="right" type="monotone" dataKey="price" stroke="#15803d" strokeWidth={2} dot={{ r: 3 }} name="Close Price" />
                         </ComposedChart>
                     </ResponsiveContainer>
                 </div>
