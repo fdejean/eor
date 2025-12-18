@@ -1,5 +1,6 @@
 ---
 import { ClusterDistributionChart } from '@/components/charts/ClusterDistributionChart';
+import { SilhouetteChart } from '@/components/charts/SilhouetteChart';
 import { PcaScatterChart } from '@/components/charts/PcaScatterChart';
 import { LiwcBoxPlot } from '@/components/charts/LiwcBoxPlot';
 import { LiwcSentimentTable } from '@/components/charts/LiwcSentimentTable';
@@ -29,7 +30,7 @@ import { ArrowDown } from 'lucide-react';
             </div>
         </div>
         <div class="pt-8">
-            <a href="#backstage-distribution">
+            <a href="#backstage-silhouette">
                 <Button variant="outline" size="lg" className="gap-2">
                     View Analysis <ArrowDown className="h-4 w-4" />
                 </Button>
@@ -38,7 +39,28 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<section id="backstage-distribution" class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-muted/30 relative">
+<section id="backstage-silhouette" class="min-h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/30 relative">
+    <div class="container max-w-4xl text-center space-y-4 mb-4">
+        <h3 class="text-3xl font-bold lg:text-4xl">Choosing the Number of Clusters</h3>
+         <div class="prose dark:prose-invert text-lg mx-auto">
+            <p>
+                To determine the optimal number of communities, we performed a <strong>Silhouette Analysis</strong>.
+                The Silhouette Score measures how similar an object is to its own cluster compared to other clusters.
+            </p>
+            <p>
+                While <strong>k=2</strong> yielded the highest mathematical score, it resulted in a trivial split (likely separating outliers from the rest).
+            </p>
+            <p>
+                We observed a local maximum at <strong>k=9</strong>, which offered a much richer and more granular segmentation of the subreddit ecosystem, allowing us to identify distinct communities based on specific topics and behaviors rather than just broad structural differences.
+            </p>
+        </div>
+    </div>
+     <div class="w-full max-w-6xl h-[50vh] flex items-center justify-center p-4">
+         <SilhouetteChart client:visible />
+    </div>
+</section>
+
+<section id="backstage-distribution" class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-background relative">
     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
          <div class="w-full h-auto flex items-center justify-center p-4 order-2 lg:order-1 lg:col-span-3">
              <ClusterDistributionChart client:visible />
@@ -59,7 +81,7 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<section id="backstage-pca" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+<section id="backstage-pca" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="space-y-8 order-1 lg:order-1">
             <h3 class="text-3xl font-bold lg:text-4xl">Dimensionality Reduction (PCA)</h3>
@@ -80,7 +102,7 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<section id="backstage-liwc" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
+<section id="backstage-liwc" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
          <div class="w-full h-[60vh] flex items-center justify-center p-4 order-2 lg:order-1">
              <LiwcBoxPlot client:visible />
@@ -101,7 +123,7 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<section id="backstage-liwc-sentiment" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+<section id="backstage-liwc-sentiment" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="space-y-8 order-1 lg:order-1">
             <h3 class="text-3xl font-bold lg:text-4xl">LIWC & Sentiment</h3>
@@ -124,7 +146,7 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<section id="backstage-cluster-insights" class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
+<section id="backstage-cluster-insights" class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
     <div class="container max-w-7xl space-y-12">
         <div class="text-center space-y-4">
             <h3 class="text-3xl font-bold lg:text-4xl">Linguistic Fingerprints</h3>
