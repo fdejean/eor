@@ -31,7 +31,7 @@
     "cluster_id": 4,
     "name": "Adult and Explicit Content",
     "centroid": "rileyreid",
-    "top_subreddits": ["rileyreid", "adorablep**n", "nsfw_selfie", "hungrybu**s", "facef**k", "upskirt", "iwanttof**kher", "realbikinis", "indianfetish", "tessafowler"],
+    "top_subreddits": ["rileyreid", "adorablep**n", "nsfw_selfie", "hungrybu**s", "facef**k", "upskirt", "iwanttof**kher", "realbikinis", "indianfet**h", "tessafowler"],
     "description": "These are explicit and high-volume subreddits of adult content. Their user base is likely very different from the rest of Reddit, focused on specific adult interests."
   },
   {
@@ -53,13 +53,13 @@
     "name": "Transactional Social Interaction",
     "centroid": "kikgroups",
     "top_subreddits": ["kikgroups", "sugarbaby", "caravantech", "bostonr4r", "hotwiferequests", "littlepersonals", "r4r30plus", "swingersr4r", "gaysnapchat", "baltimoreanddcr4r"],
-    "description": "This captures the `r4r` (Redditor for Redditor), dating, and meetup nature of the group. It is transactional social interaction, distinct from general discussion and from the other adult content cluster."
+    "description": "This captures the `r4r` (Redditor for Redditor), dating, and meetup. It is transactional social interaction, distinct from general discussion, and presents explicit adult content in a different vein than Cluster 4."
   },
   {
     "cluster_id": 8,
     "name": "Basketball Fandom",
     "centroid": "memphisgrizzlies",
     "top_subreddits": ["memphisgrizzlies", "sixers", "charlottehornets", "mkebucks", "mavericks", "nyknicks", "bostonceltics", "gonets", "atlantahawks", "utahjazz"],
-    "description": "This is exclusively NBA basketball teams (`sixers`, `celtics`, `jazz`). It's a tight, high-energy sports cluster that will likely have very volatile sentiment depending on game days."
+    "description": "This is a cluster comprising many NBA basketball teams (sixers, celtics, jazz), but also includes some other sports. It's a tight, high-energy sports-loving cluster that will likely have very volatile sentiment depending on game days."
   }
 ]
