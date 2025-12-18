@@ -1,52 +1,47 @@
 [
   {
-    "name": "Member Name 1",
-    "role": "Data Scientist",
-    "avatarSeed": "1",
+    "name": "Eugène Bergeron",
+    "image": "eugene.jpg",
     "socials": {
-      "email": "mailto:example@epfl.ch",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "email": "mailto:eugene.bergeron@epfl.ch",
+      "linkedin": "https://www.linkedin.com/in/eug%C3%A8ne-bergeron-1081b2236/",
+      "github": "https://github.com/Asbyx"
     }
   },
   {
-    "name": "Member Name 2",
-    "role": "Frontend Developer",
-    "avatarSeed": "2",
+    "name": "Mattia Bianco",
+    "image": "mattia.jpg",
     "socials": {
-      "email": "mailto:example@epfl.ch",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "email": "mailto:mattia.bianco@epfl.ch",
+      "linkedin": "https://www.linkedin.com/in/mattiabianco2709/",
+      "github": "https://github.com/mattiabianco27"
     }
   },
   {
-    "name": "Member Name 3",
-    "role": "Backend Developer",
-    "avatarSeed": "3",
+    "name": "Andrea Bissoli",
+    "image": "andrea.jpg",
     "socials": {
-      "email": "mailto:example@epfl.ch",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "email": "mailto:andrea.bissoli@epfl.ch",
+      "linkedin": "https://www.linkedin.com/in/andrea-bissoli/",
+      "github": "https://github.com/AndreaBissoli"
     }
   },
   {
-    "name": "Member Name 4",
-    "role": "ML Engineer",
-    "avatarSeed": "4",
+    "name": "Florian Déjean",
+    "image": "florian.jpg",
     "socials": {
-      "email": "mailto:example@epfl.ch",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "email": "mailto:florian.dejean@epfl.ch",
+      "linkedin": "https://www.linkedin.com/in/florian-d%C3%A9jean-46253932b/",
+      "github": "https://github.com/fdejean"
     }
   },
   {
-    "name": "Member Name 5",
-    "role": "ML Engineer",
-    "avatarSeed": "4",
+    "name": "Fabio Marchetti",
+    "image": "fabio.jpg",
     "socials": {
-      "email": "mailto:example@epfl.ch",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "email": "mailto:fabio.marchetti@epfl.ch",
+      "linkedin": "https://www.linkedin.com/in/fabio-marchetti-7b7512292/",
+      "github": "https://github.com/Fabiom-3"
     }
   }
 ]

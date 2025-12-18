@@ -2,6 +2,9 @@
 import { Button } from '@/components/ui/button';
 import { Github, Database, Users, Mail, Linkedin, ArrowDown } from 'lucide-react';
 import teamMembers from '@/data/team.json';
+import { Image } from 'astro:assets';
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/data/team/*.{jpeg,jpg,png,gif}', { eager: true });
 ---
 
 <section id="outro" data-chapter="outro" data-nav-label="Credits" class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-secondary/20 relative py-20">
@@ -64,17 +67,28 @@ import teamMembers from '@/data/team.json';
             </h3>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-                {teamMembers.map((member) => (
+                {teamMembers.map((member) => {
+                    const imagePath = `/src/data/team/${member.image}`;
+                    const imageModule = images[imagePath];
+                    
+                    return (
                     <div class="flex flex-col items-center p-6 bg-background border rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="h-24 w-24 rounded-full bg-muted mb-4 overflow-hidden">
-                            <img 
-                                src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${member.avatarSeed}`} 
-                                alt={member.name} 
-                                class="h-full w-full object-cover"
-                            />
+                            {imageModule ? (
+                                <Image 
+                                    src={imageModule.default} 
+                                    alt={member.name} 
+                                    class="h-full w-full object-cover"
+                                    width={400}
+                                    height={400}
+                                />
+                            ) : (
+                                <div class="h-full w-full flex items-center justify-center bg-secondary text-muted-foreground">
+                                    <Users className="h-8 w-8" />
+                                </div>
+                            )}
                         </div>
                         <h4 class="font-bold text-lg">{member.name}</h4>
-                        <p class="text-sm text-muted-foreground mb-4">{member.role}</p>
                         
                         <div class="flex gap-2">
                             <a href={member.socials.email} aria-label="Email">
@@ -94,7 +108,7 @@ import teamMembers from '@/data/team.json';
                             </a>
                         </div>
                     </div>
-                ))}
+                )})}
             </div>
         </div>
 
