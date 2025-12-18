@@ -53,7 +53,7 @@ export function PcaScatterChart() {
             <CardHeader>
                 <CardTitle>3D PCA of Subreddit Embeddings</CardTitle>
                 <CardDescription>
-                    Interactive 3D visualization. Drag to rotate, scroll to zoom.
+                    Interactive 3D visualization. <strong>Drag</strong> to rotate, <strong>scroll</strong> to zoom.
                 </CardDescription>
             </CardHeader>
             <CardContent className="pb-4 flex-1 min-h-0">

@@ -1,9 +1,14 @@
 ---
 import { Button } from '@/components/ui/button';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, ArrowLeft } from 'lucide-react';
 ---
 
 <section id="intro" data-chapter="intro" data-nav-label="Prologue" class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-gradient-to-b from-background to-secondary/20 relative">
+    <div class="absolute left-12 top-1/2 -translate-y-1/2 hidden lg:flex items-center gap-2 text-muted-foreground/50 animate-in fade-in slide-in-from-left-4 duration-1000 delay-1000 select-none">
+        <ArrowLeft className="h-4 w-4" />
+        <span class="text-xs font-medium uppercase tracking-widest">Chapters</span>
+    </div>
+
     <div class="space-y-6 text-center max-w-4xl">
         <h1 class="text-5xl font-extrabold tracking-tight lg:text-7xl bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text text-transparent animate-in fade-in zoom-in duration-1000">
             Reddit: Echoes of Reality

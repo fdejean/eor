@@ -21,7 +21,7 @@ export function ChapterNavigation() {
     const ratios = React.useRef<Record<string, number>>({})
 
     React.useEffect(() => {
-        // 1. Discovery Phase: Find all sections and build hierarchy based on DOM order
+        // Discovery Phase: Find all sections and build hierarchy based on DOM order
         const sections = document.querySelectorAll('section')
         const discoveredChapters: Chapter[] = []
         let currentChapter: Chapter | null = null
@@ -50,7 +50,7 @@ export function ChapterNavigation() {
 
         setChapters(discoveredChapters)
 
-        // 2. Observation Phase: Track visibility
+        // Observation Phase: Track visibility
         const handleIntersect = (entries: IntersectionObserverEntry[]) => {
             entries.forEach((entry) => {
                 ratios.current[entry.target.id] = entry.intersectionRatio
@@ -86,18 +86,18 @@ export function ChapterNavigation() {
     if (chapters.length === 0) return null
 
     return (
-        <nav className="fixed left-0 top-0 h-full z-50 flex flex-col justify-center transition-all duration-500 w-16 hover:w-72 group">
-            {/* Background Layer - only visible on hover */}
+        <nav className="fixed left-0 top-0 h-full z-50 flex flex-col justify-center transition-all duration-500 w-8 hover:w-72 group overflow-hidden">
+            {}
             <div className="absolute inset-0 bg-background/95 backdrop-blur-md border-r border-border/50 shadow-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-            {/* Content Layer */}
-            <div className="relative flex flex-col gap-6 px-6 min-w-[280px] overflow-hidden">
+            {}
+            <div className="relative flex flex-col gap-6 pl-2 group-hover:pl-6 pr-6 min-w-[280px] overflow-hidden transition-all duration-500">
                 {chapters.map((chapter) => {
                     const isActiveChapter = activeId === chapter.id || chapter.subchapters.some(s => s.id === activeId);
                     
                     return (
                         <div key={chapter.id} className="flex flex-col gap-2">
-                            {/* Chapter Link */}
+                            {}
                             <a
                                 href={`#${chapter.id}`}
                                 className="flex items-center gap-4 group/item"
@@ -123,7 +123,7 @@ export function ChapterNavigation() {
                                 </span>
                             </a>
 
-                            {/* Subchapters - Only visible when nav is expanded */}
+                            {}
                             <div className={cn(
                                 "ml-[0.45rem] border-l-2 border-border/50 pl-6 space-y-3 transition-all duration-300 opacity-0 group-hover:opacity-100",
                                 isActiveChapter ? "h-auto py-2" : "h-0 overflow-hidden py-0 group-hover:h-auto group-hover:py-2"

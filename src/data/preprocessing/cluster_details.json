@@ -4,28 +4,28 @@
     "name": "Visual Curiosities and Aesthetic Humor",
     "centroid": "desirepath",
     "top_subreddits": ["desirepath", "engrish", "expectationvsreality", "delusionalartists", "trypophobia", "shittyhdr", "thingsforants", "blunderyears", "perfectfit", "spiderbro"],
-    "description": "These subreddits (`desirepath`, `engrish`, `shittyhdr`) are all about visual scrutiny, spotting things that fit perfectly, fail miserably, or look weird. It's a cluster of \"observers.\""
+    "description": "These subreddits (desirepath, engrish, shittyhdr) are all about visual scrutiny, spotting things that fit perfectly, fail miserably, or look weird. It's a cluster of \"observers.\""
   },
   {
     "cluster_id": 1,
     "name": "Practical Lifestyle and DIY",
     "centroid": "malelivingspace",
     "top_subreddits": ["malelivingspace", "ynab", "campinggear", "askcarsales", "optometry", "fixit", "cycling", "askportland", "lawncare", "diyaudio"],
-    "description": "From `ynab` (budgeting) to `lawncare` and `fixit`, this cluster represents the \"adulting\" side of Reddit. It’s functional, advice-driven, and hobby-specific."
+    "description": "From ynab (budgeting) to lawncare and fixit, this cluster represents the \"adulting\" side of Reddit. It’s functional, advice-driven, and hobby-specific."
   },
   {
     "cluster_id": 2,
     "name": "Niche and Micro Communities",
     "centroid": "lawrencestormchasing",
     "top_subreddits": ["lawrencestormchasing", "exxovlyn", "anormaldayinchiner", "courseherofiles", "pinkybunny", "slayer_acidalog", "dermatologyddx", "lxqt", "vape_p**n", "friendshipproblems"],
-    "description": "This is the \"noise\" or \"high specificity\" cluster. It mixes obscure tech (`lxqt`), very specific medical queries (`dermatologyddx`), and random niches."
+    "description": "This is the \"noise\" or \"high specificity\" cluster. It mixes obscure tech (lxqt), very specific medical queries (dermatologyddx), and random niches, or subreddits which are visited by many types of users aspecifically."
   },
   {
     "cluster_id": 3,
     "name": "Automated News and Media Aggregators",
     "centroid": "bolsa",
     "top_subreddits": ["bolsa", "therakyatpost", "miamiheraldauto", "betternews", "foxauto", "randomactsofmuffdive", "shityoucanafford", "wapoauto", "cookingrecipesstuff", "nbcauto"],
-    "description": "Dominated by `...auto` accounts and news aggregators (`betternews`, `foxauto`). This cluster likely represents bot-driven or RSS-feed style content, so its user base is distinct from the rest, composed of such bots."
+    "description": "Dominated by ...auto accounts and news aggregators (betternews, foxauto). This cluster likely represents bot-driven or RSS-feed style content, so its user base is distinct from the rest, composed of such bots."
   },
   {
     "cluster_id": 4,
@@ -46,7 +46,7 @@
     "name": "Social Activism and Global Affairs",
     "centroid": "activism",
     "top_subreddits": ["activism", "humanrights", "sustainability", "media", "globalhealth", "blacklivesmatter", "green", "oil", "cuba", "archeology"],
-    "description": "High-level discourse on human rights, environment, and politics (`activism`, `sustainability`). This is where the serious and often polarized conversations happen."
+    "description": "High-level discourse on human rights, environment, and politics (activism, sustainability). This is where the serious and often polarized conversations happen."
   },
   {
     "cluster_id": 7,

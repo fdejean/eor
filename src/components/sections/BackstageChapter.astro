@@ -40,19 +40,28 @@ import { ArrowDown } from 'lucide-react';
 </section>
 
 <section id="backstage-silhouette" data-subchapter="backstage-silhouette" data-nav-label="Silhouette" class="min-h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/30 relative">
-    <div class="container max-w-4xl text-center space-y-4 mb-4">
-        <h3 class="text-3xl font-bold lg:text-4xl">Choosing the Number of Clusters</h3>
-         <div class="prose dark:prose-invert text-lg mx-auto">
-            <p>
-                We want to understand the structure of the subreddit ecosystem by clustering similar communities together with the <strong>K-means</strong> algorithm.
-                To determine the optimal number of clusters K, we perform a <strong>Silhouette Analysis</strong>.
-            </p>
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-8">
+        <div class="space-y-4">
+            <h3 class="text-3xl font-bold lg:text-4xl">Choosing the Number of Clusters</h3>
+            <div class="prose dark:prose-invert text-lg">
+                <p>
+                    We want to understand the structure of the subreddit ecosystem by clustering similar communities together with the <strong>K-means</strong> algorithm.
+                    To determine the optimal number of clusters K, we perform a <strong>Silhouette Analysis</strong>.
+                </p>
+            </div>
+        </div>
+        <div class="prose dark:prose-invert text-lg">
             <p>
                 While <strong>K=2</strong> yields the highest score, it results in a trivial split (likely only separating outliers from the rest).
             </p>
             <p>
                 We chose the local maximum at <strong>K=9</strong>, which offers a much richer and more granular segmentation of the subreddit ecosystem, allowing us to identify distinct communities based on specific topics and behaviors rather than just broad differences.
             </p>
+            <a href="#backstage-distribution" class="inline-block pt-4">
+                <Button variant="outline">
+                    Next: Which Clusters Appear? <ArrowDown />
+                </Button>
+            </a>
         </div>
     </div>
      <div class="w-full max-w-6xl h-[50vh] flex items-center justify-center p-4">
@@ -84,6 +93,11 @@ import { ArrowDown } from 'lucide-react';
                     Reddit users.
                 </p>
             </div>
+            <a href="#backstage-pca" class="inline-block pt-4">
+                <Button variant="outline" >
+                    Next: Dimensionality Reduction <ArrowDown />
+                </Button>
+            </a>
         </div>
     </div>
 </section>
@@ -104,6 +118,11 @@ import { ArrowDown } from 'lucide-react';
                     structure of the smaller clusters!
                 </p>
             </div>
+            <a href="#backstage-liwc" class="inline-block pt-4">
+                <Button variant="outline">
+                    Next: Linguistic Features <ArrowDown />
+                </Button>
+            </a>
         </div>
          <div class="w-full h-[75vh] flex items-center justify-center p-4 order-2 lg:order-2">
              <PcaScatterChart client:visible />
@@ -136,6 +155,11 @@ import { ArrowDown } from 'lucide-react';
                     (affiliation, achievement, power)) because of their more specialized nature.
                 </p>
             </div>
+            <a href="#backstage-liwc-sentiment" class="inline-block pt-4">
+                <Button variant="outline" >
+                    Next: What Influences Sentiment? <ArrowDown />
+                </Button>
+            </a>
         </div>
     </div>
 </section>
@@ -157,6 +181,11 @@ import { ArrowDown } from 'lucide-react';
                     Interestingly, positive coefficients are much lower-impact than negative ones, suggesting negative language has a stronger force: <strong>negativity overwhelms positivity</strong>.
                 </p>
             </div>
+            <a href="#backstage-cluster-insights" class="inline-block pt-4">
+                <Button variant="outline">
+                    Next: Linguistic Fingerprints <ArrowDown />
+                </Button>
+            </a>
         </div>
          <div class="w-full h-[70vh] overflow-auto flex items-center justify-center p-4 order-2 lg:order-2">
              <LiwcSentimentTable client:visible />
