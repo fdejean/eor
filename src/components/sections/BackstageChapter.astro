@@ -13,26 +13,26 @@ import { ArrowDown } from 'lucide-react';
     <div class="container max-w-4xl text-center space-y-8">
         <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">Chapter 4: Behind the Curtain</h2>
         <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            How did we process over <strong>1,000,000 data points</strong>?
+            What is there <strong>beneath the surface</strong> of the dataset?
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mt-8">
             <div class="p-4 border rounded-lg">
-                <h4 class="font-bold">Data Collection</h4>
-                <p class="text-sm text-muted-foreground">Scraping Reddit API & Archives using Python.</p>
-            </div>
-            <div class="p-4 border rounded-lg">
-                <h4 class="font-bold">NLP Analysis</h4>
-                <p class="text-sm text-muted-foreground">VADER and LIWC for sentiment & emotion classification.</p>
-            </div>
-            <div class="p-4 border rounded-lg">
                 <h4 class="font-bold">Clustering</h4>
-                <p class="text-sm text-muted-foreground">Dimensionality reduction to find community neighborhoods.</p>
+                <p class="text-sm text-muted-foreground">Analyzing the subreddit embeddings to find clusters of related communities.</p>
+            </div>
+            <div class="p-4 border rounded-lg">
+                <h4 class="font-bold">LIWC Analysis</h4>
+                <p class="text-sm text-muted-foreground">Understanding LIWC emotion relationships with sentiment classification.</p>
+            </div>
+            <div class="p-4 border rounded-lg">
+                <h4 class="font-bold">Outlier Detection</h4>
+                <p class="text-sm text-muted-foreground">Finding outlier clusters based on their emotional profiles.</p>
             </div>
         </div>
         <div class="pt-8">
             <a href="#backstage-silhouette">
                 <Button variant="outline" size="lg" className="gap-2">
-                    View Analysis <ArrowDown className="h-4 w-4" />
+                    View Preprocessing Analysis <ArrowDown className="h-4 w-4" />
                 </Button>
             </a>
         </div>
@@ -44,14 +44,14 @@ import { ArrowDown } from 'lucide-react';
         <h3 class="text-3xl font-bold lg:text-4xl">Choosing the Number of Clusters</h3>
          <div class="prose dark:prose-invert text-lg mx-auto">
             <p>
-                To determine the optimal number of communities, we performed a <strong>Silhouette Analysis</strong>.
-                The Silhouette Score measures how similar an object is to its own cluster compared to other clusters.
+                We want to understand the structure of the subreddit ecosystem by clustering similar communities together with the <strong>K-means</strong> algorithm.
+                To determine the optimal number of clusters K, we perform a <strong>Silhouette Analysis</strong>.
             </p>
             <p>
-                While <strong>k=2</strong> yielded the highest mathematical score, it resulted in a trivial split (likely separating outliers from the rest).
+                While <strong>K=2</strong> yields the highest score, it results in a trivial split (likely only separating outliers from the rest).
             </p>
             <p>
-                We observed a local maximum at <strong>k=9</strong>, which offered a much richer and more granular segmentation of the subreddit ecosystem, allowing us to identify distinct communities based on specific topics and behaviors rather than just broad structural differences.
+                We chose the local maximum at <strong>K=9</strong>, which offers a much richer and more granular segmentation of the subreddit ecosystem, allowing us to identify distinct communities based on specific topics and behaviors rather than just broad differences.
             </p>
         </div>
     </div>
@@ -66,15 +66,22 @@ import { ArrowDown } from 'lucide-react';
              <ClusterDistributionChart client:visible />
         </div>
         <div class="space-y-8 order-1 lg:order-2 lg:col-span-2">
-            <h3 class="text-3xl font-bold lg:text-4xl">Cluster Distribution</h3>
+            <h3 class="text-3xl font-bold lg:text-4xl">Cluster Distribution <br>and Characteristics</h3>
              <div class="prose dark:prose-invert text-lg">
                 <p>
-                    We identified several distinct clusters within the subreddit ecosystem.
-                    Some clusters are massive, dominating the landscape, while others are niche communities.
+                    <strong>Click</strong> on a cluster in the chart to see its description and characteristics, or <strong>search</strong> for your favorite subreddit!
                 </p>
                 <p>
-                    This distribution helps us understand the weight of different topics in our overall analysis.
-                    The largest cluster (Cluster 2) contains the majority of general-purpose subreddits.
+                    The principle of subreddit "closeness" is that <i>"two subreddit are similar if the users who post in them are similar".</i>
+                    Clusters are therefore the communities of subreddits with similar user bases. 
+                </p>
+                <p>
+                    The largest cluster (Cluster 2) contains the vast majority
+                    of subreddits, representing general interest communities
+                    and niches. <br> These subreddits have diverse user bases and
+                    not a single "user type". The other clusters are instead a
+                    reflection of certain <strong>"characteristical"</strong>
+                    Reddit users.
                 </p>
             </div>
         </div>
@@ -87,12 +94,14 @@ import { ArrowDown } from 'lucide-react';
             <h3 class="text-3xl font-bold lg:text-4xl">Dimensionality Reduction (PCA)</h3>
              <div class="prose dark:prose-invert text-lg">
                 <p>
-                    Using Principal Component Analysis (PCA), we reduced the high-dimensional embeddings of subreddits into 3D space.
+                    Using <strong>Principal Component Analysis (PCA)</strong>, we reduced the high-dimensional embeddings of subreddits into a 3D space.
                 </p>
                 <p>
-                    This visualization reveals the semantic relationships between communities. 
-                    Subreddits that are close together share similar user bases and content topics.
-                    Colors represent the clusters identified in the previous step.
+                    This visualization reveals the relationships between communities, making it easier to understand their relationships. 
+                    Colors represent the clusters identified in the previous
+                    step. You can also <strong>click</strong> on a cluster name to
+                    hide it. Try it with Cluster 2 if you are interested in the
+                    structure of the smaller clusters!
                 </p>
             </div>
         </div>
@@ -111,12 +120,20 @@ import { ArrowDown } from 'lucide-react';
             <h3 class="text-3xl font-bold lg:text-4xl">Linguistic Features (LIWC)</h3>
              <div class="prose dark:prose-invert text-lg">
                 <p>
-                    We analyzed the linguistic style of comments using LIWC (Linguistic Inquiry and Word Count).
+                    We analyzed the linguistic style of posts using their
+                    <strong>LIWC</strong> scores. These scores quantify the
+                    frequency in posts of various word categories related to emotions,
+                    cognitive processes, social concerns, and more.
                 </p>
                 <p>
                     These box plots show the distribution of various linguistic features across the dataset.
-                    Features like "Function words", "Cognitive mechanisms", and "Affect" words vary significantly across different communities.
-                    The plot shows the top 20 features sorted by their mean value.
+                    We notice that some features are <strong>much</strong> more
+                    prevalent than others (e.g., <strong>Function
+                    Words</strong> (it to, no, very), <strong>Cognitive
+                    mechanisms</strong> (cause, know, ought)), as they are the
+                    basis of discourse. Others are rarer (e.g., <strong>Biological
+                    processes</strong> (eat, pain, sick), <strong>Drives</strong>
+                    (affiliation, achievement, power)) because of their more specialized nature.
                 </p>
             </div>
         </div>
@@ -126,17 +143,18 @@ import { ArrowDown } from 'lucide-react';
 <section id="backstage-liwc-sentiment" data-subchapter="backstage-liwc-sentiment" data-nav-label="Sentiment" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="space-y-8 order-1 lg:order-1">
-            <h3 class="text-3xl font-bold lg:text-4xl">LIWC & Sentiment</h3>
+            <h3 class="text-3xl font-bold lg:text-4xl">From LIWC to Sentiment</h3>
              <div class="prose dark:prose-invert text-lg">
                 <p>
-                    We used Logistic Regression to identify which linguistic features correlate most strongly with sentiment.
+                    But <strong>which linguistic features</strong> are most influential to the sentiment of a post?
+                    We used <strong>Logistic Regression</strong>, a machine learning model, to identify which linguistic features correlate most strongly with sentiment.
                 </p>
                 <p>
-                    As expected, negative emotions (<strong>Anger</strong>, <strong>Sad</strong>, <strong>Anx</strong>) show high negative correlation.
-                    However, grammar also plays a role: <strong>Verbs</strong> and <strong>Prepositions</strong> are significant predictors of negative sentiment.
+                    As expected, negative emotions (<strong>Anger</strong>, <strong>Sad(ness)</strong>, <strong>Anx(iety)</strong>) show high negative correlation.
+                    However, surprisingly grammar also plays a role: a high usage of <strong>Verbs</strong> and <strong>Prepositions</strong> is significant predictor of negative sentiment.
                 </p>
                 <p>
-                    Interestingly, positive coefficients are much lower than negative ones, suggesting negative language has a stronger impact on predicting sentiment.
+                    Interestingly, positive coefficients are much lower-impact than negative ones, suggesting negative language has a stronger force: <strong>negativity overwhelms positivity</strong>.
                 </p>
             </div>
         </div>
@@ -151,7 +169,8 @@ import { ArrowDown } from 'lucide-react';
         <div class="text-center space-y-4">
             <h3 class="text-3xl font-bold lg:text-4xl">Linguistic Fingerprints</h3>
             <p class="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Each cluster has a unique linguistic signature that reveals the psychological nature of its community.
+                Some clusters exibit distinctive linguistic profiles, with outlier values in certain LIWC feature scores. <br>
+                This is a remarkable result: these unique <strong>"linguistic fingerprints"</strong> reveal peculiar characteristics of these communities.
             </p>
         </div>
         <div class="w-full">

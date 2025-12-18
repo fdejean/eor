@@ -130,7 +130,7 @@ export function LiwcBoxPlot() {
             <CardHeader>
                 <CardTitle>LIWC Feature Distributions</CardTitle>
                 <CardDescription>
-                    Box plots of all LIWC features (sorted by median).
+                    Box plots of LIWC features across all posts (sorted by median).
                     <br/>
                     <strong>Note:</strong> Features are scaled to focus on the main distribution (IQR). Extreme outliers (dashed lines) may extend beyond the view.
                 </CardDescription>

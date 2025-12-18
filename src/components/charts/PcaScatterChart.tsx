@@ -6,7 +6,7 @@ import data from "@/data/preprocessing/pca_3d.json"
 
 const Plot = React.lazy(() => import('react-plotly.js'));
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d', '#ffc658', '#8dd1e1', '#a4de6c'];
+const COLORS = ['#E69F00', '#56B4E9', '#009E73', '#F0E442', '#0072B2', '#D55E00', '#CC79A7', '#999999'];
 
 export function PcaScatterChart() {
     const traces = useMemo(() => {

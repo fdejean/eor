@@ -6,17 +6,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Search } from "lucide-react"
+import { Switch } from "@/components/ui/switch"
+import { Label } from "@/components/ui/label"
 import data from "@/data/preprocessing/cluster_distribution.json"
 import clusterDetails from "@/data/preprocessing/cluster_details.json"
 import subredditClusters from "@/data/preprocessing/subreddit_clusters.json"
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d', '#ffc658', '#8dd1e1', '#a4de6c'];
+const COLORS = ['#E69F00', '#56B4E9', '#009E73', '#F0E442', '#0072B2', '#D55E00', '#CC79A7', '#999999'];
 
 export function ClusterDistributionChart() {
     const [selectedClusterId, setSelectedClusterId] = useState<number | null>(null);
     const [searchTerm, setSearchTerm] = useState("");
     const [searchResults, setSearchResults] = useState<typeof subredditClusters>([]);
     const [searchedSubreddit, setSearchedSubreddit] = useState<string | null>(null);
+    const [showUnclassified, setShowUnclassified] = useState(false);
+
+    const filteredData = showUnclassified ? data : data.filter(d => d.cluster_id !== 2);
 
     const selectedCluster = selectedClusterId !== null 
         ? clusterDetails.find(c => c.cluster_id === selectedClusterId) 
@@ -47,37 +52,47 @@ export function ClusterDistributionChart() {
             <CardHeader>
                 <CardTitle>Distribution of Subreddits Across Clusters</CardTitle>
                 <CardDescription>
-                    Number of subreddits in each identified cluster. Click a bar to see details.
+                    Number of subreddits in each identified cluster. <strong>Click</strong> a bar to see details or <strong>search</strong> for a subreddit.
                 </CardDescription>
-                <div className="relative mt-2 max-w-sm">
-                    <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
-                    <Input 
-                        placeholder="Find a subreddit's cluster..." 
-                        className="pl-8" 
-                        value={searchTerm}
-                        onChange={(e) => handleSearch(e.target.value)}
-                    />
-                    {searchResults.length > 0 && (
-                        <div className="absolute z-20 w-full bg-popover border rounded-md shadow-md mt-1 overflow-hidden">
-                            {searchResults.map((result) => (
-                                <div 
-                                    key={result.subreddit}
-                                    className="p-2 hover:bg-muted cursor-pointer text-sm flex justify-between items-center"
-                                    onClick={() => handleSelectSubreddit(result.subreddit, result.cluster)}
-                                >
-                                    <span className="font-medium">r/{result.subreddit}</span>
-                                    <Badge variant="secondary" className="text-xs">Cluster {result.cluster}</Badge>
-                                </div>
-                            ))}
-                        </div>
-                    )}
+                <div className="flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center mt-2">
+                    <div className="relative max-w-sm w-full">
+                        <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
+                        <Input 
+                            placeholder="Find a subreddit's cluster..." 
+                            className="pl-8" 
+                            value={searchTerm}
+                            onChange={(e) => handleSearch(e.target.value)}
+                        />
+                        {searchResults.length > 0 && (
+                            <div className="absolute z-20 w-full bg-popover border rounded-md shadow-md mt-1 overflow-hidden">
+                                {searchResults.map((result) => (
+                                    <div 
+                                        key={result.subreddit}
+                                        className="p-2 hover:bg-muted cursor-pointer text-sm flex justify-between items-center"
+                                        onClick={() => handleSelectSubreddit(result.subreddit, result.cluster)}
+                                    >
+                                        <span className="font-medium">r/{result.subreddit}</span>
+                                        <Badge variant="secondary" className="text-xs">Cluster {result.cluster}</Badge>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+                    <div className="flex items-center space-x-2">
+                        <Switch 
+                            id="show-unclassified" 
+                            checked={showUnclassified}
+                            onCheckedChange={setShowUnclassified}
+                        />
+                        <Label htmlFor="show-unclassified">Show Cluster 2 (Non-Specific)</Label>
+                    </div>
                 </div>
             </CardHeader>
             <CardContent className="pb-4 flex flex-col gap-4">
                 <div className="h-[300px] w-full shrink-0">
                     <ResponsiveContainer width="100%" height="100%">
                         <BarChart 
-                            data={data} 
+                            data={filteredData} 
                             margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
                             onClick={(state) => {
                                 if (state && state.activePayload && state.activePayload.length > 0) {
@@ -95,10 +110,10 @@ export function ClusterDistributionChart() {
                                 itemStyle={{ color: 'var(--foreground)' }}
                             />
                             <Bar dataKey="count" radius={[4, 4, 0, 0]} style={{ cursor: 'pointer' }}>
-                                {data.map((entry, index) => (
+                                {filteredData.map((entry, index) => (
                                     <Cell 
-                                        key={`cell-${index}`} 
-                                        fill={COLORS[index % COLORS.length]} 
+                                        key={`cell-${entry.cluster_id}`} 
+                                        fill={COLORS[entry.cluster_id % COLORS.length]} 
                                         stroke={selectedClusterId === entry.cluster_id ? "var(--foreground)" : "none"}
                                         strokeWidth={selectedClusterId === entry.cluster_id ? 3 : 0}
                                     />
