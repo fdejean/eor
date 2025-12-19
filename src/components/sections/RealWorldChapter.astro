@@ -1,7 +1,7 @@
 ---
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import { RealWorldChart } from "@/components/charts/RealWorldChart";
+import { RealWorldDashboard } from "@/components/sections/RealWorldDashboard";
 ---
 
 <section
@@ -42,19 +42,10 @@ import { RealWorldChart } from "@/components/charts/RealWorldChart";
     class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/20 relative"
 >
     <div class="container max-w-6xl space-y-8 text-center">
-        <div class="space-y-2">
-            <h3 class="text-3xl font-bold">Spikes in the Signal</h3>
-            <p class="text-muted-foreground">
-                Select a subreddit and click on the <span
-                    class="text-[#ff4500] font-bold">orange dots</span
-                > to reveal the reconstructed event.
-            </p>
-        </div>
-
         <div
-            class="w-full h-[60vh] flex items-center justify-center p-2 lg:p-6"
+            class="w-full min-h-[60vh] h-auto flex flex-col items-center justify-center p-2 lg:p-6 mb-12"
         >
-            <RealWorldChart client:visible />
+            <RealWorldDashboard client:visible />
         </div>
 
         <a href="#real-analysis" class="inline-block pt-4">

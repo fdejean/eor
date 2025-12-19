@@ -1,61 +1,96 @@
 ---
-import { ClusterDistributionChart } from '@/components/charts/ClusterDistributionChart';
-import { SilhouetteChart } from '@/components/charts/SilhouetteChart';
-import { PcaScatterChart } from '@/components/charts/PcaScatterChart';
-import { LiwcBoxPlot } from '@/components/charts/LiwcBoxPlot';
-import { LiwcSentimentTable } from '@/components/charts/LiwcSentimentTable';
-import { LiwcClusterInsights } from '@/components/sections/LiwcClusterInsights';
-import { Button } from '@/components/ui/button';
-import { ArrowDown } from 'lucide-react';
+import { ClusterDistributionChart } from "@/components/charts/ClusterDistributionChart";
+import { SilhouetteChart } from "@/components/charts/SilhouetteChart";
+import { PcaScatterChart } from "@/components/charts/PcaScatterChart";
+import { LiwcBoxPlot } from "@/components/charts/LiwcBoxPlot";
+import { LiwcSentimentTable } from "@/components/charts/LiwcSentimentTable";
+import { LiwcClusterInsights } from "@/components/sections/LiwcClusterInsights";
+import { Button } from "@/components/ui/button";
+import { ArrowDown } from "lucide-react";
 ---
 
-<section id="backstage-intro" data-chapter="backstage-intro" data-nav-label="Chapter 4: Backstage" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+<section
+    id="backstage-intro"
+    data-chapter="backstage-intro"
+    data-nav-label="Chapter 4: Backstage"
+    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative"
+>
     <div class="container max-w-4xl text-center space-y-8">
-        <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">Chapter 4: Behind the Curtain</h2>
+        <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">
+            Chapter 4: Behind the Curtain
+        </h2>
         <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
             What is there <strong>beneath the surface</strong> of the dataset?
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mt-8">
             <div class="p-4 border rounded-lg">
                 <h4 class="font-bold">Clustering</h4>
-                <p class="text-sm text-muted-foreground">Analyzing the subreddit embeddings to find clusters of related communities.</p>
+                <p class="text-sm text-muted-foreground">
+                    Analyzing the subreddit embeddings to find clusters of
+                    related communities.
+                </p>
             </div>
             <div class="p-4 border rounded-lg">
                 <h4 class="font-bold">LIWC Analysis</h4>
-                <p class="text-sm text-muted-foreground">Understanding LIWC emotion relationships with sentiment classification.</p>
+                <p class="text-sm text-muted-foreground">
+                    Understanding LIWC emotion relationships with sentiment
+                    classification.
+                </p>
             </div>
             <div class="p-4 border rounded-lg">
                 <h4 class="font-bold">Outlier Detection</h4>
-                <p class="text-sm text-muted-foreground">Finding outlier clusters based on their emotional profiles.</p>
+                <p class="text-sm text-muted-foreground">
+                    Finding outlier clusters based on their emotional profiles.
+                </p>
             </div>
         </div>
         <div class="pt-8">
             <a href="#backstage-silhouette">
                 <Button variant="outline" size="lg" className="gap-2">
-                    View Preprocessing Analysis <ArrowDown className="h-4 w-4" />
+                    View Preprocessing Analysis <ArrowDown
+                        className="h-4 w-4"
+                    />
                 </Button>
             </a>
         </div>
     </div>
 </section>
 
-<section id="backstage-silhouette" data-subchapter="backstage-silhouette" data-nav-label="Silhouette" class="min-h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/30 relative">
-    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-8">
+<section
+    id="backstage-silhouette"
+    data-subchapter="backstage-silhouette"
+    data-nav-label="Silhouette"
+    class="min-h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/30 relative"
+>
+    <div
+        class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-8"
+    >
         <div class="space-y-4">
-            <h3 class="text-3xl font-bold lg:text-4xl">Choosing the Number of Clusters</h3>
+            <h3 class="text-3xl font-bold lg:text-4xl">
+                Choosing the Number of Clusters
+            </h3>
             <div class="prose dark:prose-invert text-lg">
                 <p>
-                    We want to understand the structure of the subreddit ecosystem by clustering similar communities together with the <strong>K-means</strong> algorithm.
-                    To determine the optimal number of clusters K, we perform a <strong>Silhouette Analysis</strong>.
+                    We want to understand the structure of the subreddit
+                    ecosystem by clustering similar communities together with
+                    the <strong>K-means</strong> algorithm. To determine the optimal
+                    number of clusters K, we perform a <strong
+                        >Silhouette Analysis</strong
+                    >.
                 </p>
             </div>
         </div>
         <div class="prose dark:prose-invert text-lg">
             <p>
-                While <strong>K=2</strong> yields the highest score, it results in a trivial split (likely only separating outliers from the rest).
+                While <strong>K=2</strong> yields the highest score, it results in
+                a trivial split (likely only separating outliers from the rest).
             </p>
             <p>
-                We chose the local maximum at <strong>K=9</strong>, which offers a much richer and more granular segmentation of the subreddit ecosystem, allowing us to identify distinct communities based on specific topics and behaviors rather than just broad differences.
+                We chose the local maximum at <strong>K=9</strong>, which offers
+                a much richer and more granular segmentation of the subreddit
+                ecosystem, allowing us to identify distinct communities based on
+                specific topics and behaviors rather than just broad
+                differences.
             </p>
             <a href="#backstage-distribution" class="inline-block pt-4">
                 <Button variant="outline">
@@ -64,37 +99,54 @@ import { ArrowDown } from 'lucide-react';
             </a>
         </div>
     </div>
-     <div class="w-full max-w-6xl h-[50vh] flex items-center justify-center p-4">
-         <SilhouetteChart client:visible />
+    <div class="w-full max-w-6xl h-[50vh] flex items-center justify-center p-4">
+        <SilhouetteChart client:visible />
     </div>
 </section>
 
-<section id="backstage-distribution" data-subchapter="backstage-distribution" data-nav-label="Distribution" class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-background relative">
-    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
-         <div class="w-full h-auto flex items-center justify-center p-4 order-2 lg:order-1 lg:col-span-3">
-             <ClusterDistributionChart client:visible />
+<section
+    id="backstage-distribution"
+    data-subchapter="backstage-distribution"
+    data-nav-label="Distribution"
+    class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-background relative"
+>
+    <div
+        class="container max-w-7xl grid grid-cols-1 lg:grid-cols-5 gap-12 items-center"
+    >
+        <div
+            class="w-full h-auto flex items-center justify-center p-4 order-2 lg:order-1 lg:col-span-3"
+        >
+            <ClusterDistributionChart client:visible />
         </div>
         <div class="space-y-8 order-1 lg:order-2 lg:col-span-2">
-            <h3 class="text-3xl font-bold lg:text-4xl">Cluster Distribution <br>and Characteristics</h3>
-             <div class="prose dark:prose-invert text-lg">
+            <h3 class="text-3xl font-bold lg:text-4xl">
+                Cluster Distribution <br />and Characteristics
+            </h3>
+            <div class="prose dark:prose-invert text-lg">
                 <p>
-                    <strong>Click</strong> on a cluster in the chart to see its description and characteristics, or <strong>search</strong> for your favorite subreddit!
+                    <strong>Click</strong> on a cluster in the chart to see its description
+                    and characteristics, or <strong>search</strong> for your favorite
+                    subreddit!
                 </p>
                 <p>
-                    The principle of subreddit "closeness" is that <i>"two subreddit are similar if the users who post in them are similar".</i>
-                    Clusters are therefore the communities of subreddits with similar user bases. 
+                    The principle of subreddit "closeness" is that <i
+                        >"two subreddit are similar if the users who post in
+                        them are similar".</i
+                    >
+                    Clusters are therefore the communities of subreddits with similar
+                    user bases.
                 </p>
                 <p>
                     The largest cluster (Cluster 2) contains the vast majority
-                    of subreddits, representing general interest communities
-                    and niches. <br> These subreddits have diverse user bases and
-                    not a single "user type". The other clusters are instead a
-                    reflection of certain <strong>"characteristical"</strong>
+                    of subreddits, representing general interest communities and
+                    niches. <br /> These subreddits have diverse user bases and not
+                    a single "user type". The other clusters are instead a reflection
+                    of certain <strong>"characteristical"</strong>
                     Reddit users.
                 </p>
             </div>
             <a href="#backstage-pca" class="inline-block pt-4">
-                <Button variant="outline" >
+                <Button variant="outline">
                     Next: Dimensionality Reduction <ArrowDown />
                 </Button>
             </a>
@@ -102,20 +154,32 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<section id="backstage-pca" data-subchapter="backstage-pca" data-nav-label="PCA" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
-    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<section
+    id="backstage-pca"
+    data-subchapter="backstage-pca"
+    data-nav-label="PCA"
+    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative"
+>
+    <div
+        class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+    >
         <div class="space-y-8 order-1 lg:order-1">
-            <h3 class="text-3xl font-bold lg:text-4xl">Dimensionality Reduction (PCA)</h3>
-             <div class="prose dark:prose-invert text-lg">
+            <h3 class="text-3xl font-bold lg:text-4xl">
+                Dimensionality Reduction (PCA)
+            </h3>
+            <div class="prose dark:prose-invert text-lg">
                 <p>
-                    Using <strong>Principal Component Analysis (PCA)</strong>, we reduced the high-dimensional embeddings of subreddits into a 3D space.
+                    Using <strong>Principal Component Analysis (PCA)</strong>,
+                    we reduced the high-dimensional embeddings of subreddits
+                    into a 3D space.
                 </p>
                 <p>
-                    This visualization reveals the relationships between communities, making it easier to understand their relationships. 
-                    Colors represent the clusters identified in the previous
-                    step. You can also <strong>click</strong> on a cluster name to
-                    hide it. Try it with Cluster 2 if you are interested in the
-                    structure of the smaller clusters!
+                    This visualization reveals the relationships between
+                    communities, making it easier to understand their
+                    relationships. Colors represent the clusters identified in
+                    the previous step. You can also <strong>click</strong> on a cluster
+                    name to hide it. Try it with Cluster 2 if you are interested in
+                    the structure of the smaller clusters!
                 </p>
             </div>
             <a href="#backstage-liwc" class="inline-block pt-4">
@@ -124,39 +188,54 @@ import { ArrowDown } from 'lucide-react';
                 </Button>
             </a>
         </div>
-         <div class="w-full h-[75vh] flex items-center justify-center p-4 order-2 lg:order-2">
-             <PcaScatterChart client:visible />
+        <div
+            class="w-full h-[75vh] flex items-center justify-center p-4 order-2 lg:order-2"
+        >
+            <!-- <PcaScatterChart client:visible /> -->
         </div>
     </div>
 </section>
 
-<section id="backstage-liwc" data-subchapter="backstage-liwc" data-nav-label="LIWC" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
-    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-         <div class="w-full h-[60vh] flex items-center justify-center p-4 order-2 lg:order-1">
-             <LiwcBoxPlot client:visible />
+<section
+    id="backstage-liwc"
+    data-subchapter="backstage-liwc"
+    data-nav-label="LIWC"
+    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative"
+>
+    <div
+        class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+    >
+        <div
+            class="w-full h-[60vh] flex items-center justify-center p-4 order-2 lg:order-1"
+        >
+            <LiwcBoxPlot client:visible />
         </div>
         <div class="space-y-8 order-1 lg:order-2">
-            <h3 class="text-3xl font-bold lg:text-4xl">Linguistic Features (LIWC)</h3>
-             <div class="prose dark:prose-invert text-lg">
+            <h3 class="text-3xl font-bold lg:text-4xl">
+                Linguistic Features (LIWC)
+            </h3>
+            <div class="prose dark:prose-invert text-lg">
                 <p>
                     We analyzed the linguistic style of posts using their
-                    <strong>LIWC</strong> scores. These scores quantify the
-                    frequency in posts of various word categories related to emotions,
-                    cognitive processes, social concerns, and more.
+                    <strong>LIWC</strong> scores. These scores quantify the frequency
+                    in posts of various word categories related to emotions, cognitive
+                    processes, social concerns, and more.
                 </p>
                 <p>
-                    These box plots show the distribution of various linguistic features across the dataset.
-                    We notice that some features are <strong>much</strong> more
-                    prevalent than others (e.g., <strong>Function
-                    Words</strong> (it to, no, very), <strong>Cognitive
-                    mechanisms</strong> (cause, know, ought)), as they are the
-                    basis of discourse. Others are rarer (e.g., <strong>Biological
-                    processes</strong> (eat, pain, sick), <strong>Drives</strong>
-                    (affiliation, achievement, power)) because of their more specialized nature.
+                    These box plots show the distribution of various linguistic
+                    features across the dataset. We notice that some features
+                    are <strong>much</strong> more prevalent than others (e.g., <strong
+                        >Function Words</strong
+                    > (it to, no, very), <strong>Cognitive mechanisms</strong> (cause,
+                    know, ought)), as they are the basis of discourse. Others are
+                    rarer (e.g., <strong>Biological processes</strong> (eat, pain,
+                    sick), <strong>Drives</strong>
+                    (affiliation, achievement, power)) because of their more specialized
+                    nature.
                 </p>
             </div>
             <a href="#backstage-liwc-sentiment" class="inline-block pt-4">
-                <Button variant="outline" >
+                <Button variant="outline">
                     Next: What Influences Sentiment? <ArrowDown />
                 </Button>
             </a>
@@ -164,21 +243,42 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<section id="backstage-liwc-sentiment" data-subchapter="backstage-liwc-sentiment" data-nav-label="Sentiment" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative">
-    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<section
+    id="backstage-liwc-sentiment"
+    data-subchapter="backstage-liwc-sentiment"
+    data-nav-label="Sentiment"
+    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative"
+>
+    <div
+        class="container max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+    >
         <div class="space-y-8 order-1 lg:order-1">
-            <h3 class="text-3xl font-bold lg:text-4xl">From LIWC to Sentiment</h3>
-             <div class="prose dark:prose-invert text-lg">
+            <h3 class="text-3xl font-bold lg:text-4xl">
+                From LIWC to Sentiment
+            </h3>
+            <div class="prose dark:prose-invert text-lg">
                 <p>
-                    But <strong>which linguistic features</strong> are most influential to the sentiment of a post?
-                    We used <strong>Logistic Regression</strong>, a machine learning model, to identify which linguistic features correlate most strongly with sentiment.
+                    But <strong>which linguistic features</strong> are most influential
+                    to the sentiment of a post? We used <strong
+                        >Logistic Regression</strong
+                    >, a machine learning model, to identify which linguistic
+                    features correlate most strongly with sentiment.
                 </p>
                 <p>
-                    As expected, negative emotions (<strong>Anger</strong>, <strong>Sad(ness)</strong>, <strong>Anx(iety)</strong>) show high negative correlation.
-                    However, surprisingly grammar also plays a role: a high usage of <strong>Verbs</strong> and <strong>Prepositions</strong> is significant predictor of negative sentiment.
+                    As expected, negative emotions (<strong>Anger</strong>, <strong
+                        >Sad(ness)</strong
+                    >, <strong>Anx(iety)</strong>) show high negative
+                    correlation. However, surprisingly grammar also plays a
+                    role: a high usage of <strong>Verbs</strong> and <strong
+                        >Prepositions</strong
+                    > is significant predictor of negative sentiment.
                 </p>
                 <p>
-                    Interestingly, positive coefficients are much lower-impact than negative ones, suggesting negative language has a stronger force: <strong>negativity overwhelms positivity</strong>.
+                    Interestingly, positive coefficients are much lower-impact
+                    than negative ones, suggesting negative language has a
+                    stronger force: <strong
+                        >negativity overwhelms positivity</strong
+                    >.
                 </p>
             </div>
             <a href="#backstage-cluster-insights" class="inline-block pt-4">
@@ -187,23 +287,35 @@ import { ArrowDown } from 'lucide-react';
                 </Button>
             </a>
         </div>
-         <div class="w-full h-[70vh] overflow-auto flex items-center justify-center p-4 order-2 lg:order-2">
-             <LiwcSentimentTable client:visible />
+        <div
+            class="w-full h-[70vh] overflow-auto flex items-center justify-center p-4 order-2 lg:order-2"
+        >
+            <LiwcSentimentTable client:visible />
         </div>
     </div>
 </section>
 
-<section id="backstage-cluster-insights" data-subchapter="backstage-cluster-insights" data-nav-label="Insights" class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+<section
+    id="backstage-cluster-insights"
+    data-subchapter="backstage-cluster-insights"
+    data-nav-label="Insights"
+    class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative"
+>
     <div class="container max-w-7xl space-y-12">
         <div class="text-center space-y-4">
-            <h3 class="text-3xl font-bold lg:text-4xl">Linguistic Fingerprints</h3>
+            <h3 class="text-3xl font-bold lg:text-4xl">
+                Linguistic Fingerprints
+            </h3>
             <p class="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Some clusters exibit distinctive linguistic profiles, with outlier values in certain LIWC feature scores. <br>
-                This is a remarkable result: these unique <strong>"linguistic fingerprints"</strong> reveal peculiar characteristics of these communities.
+                Some clusters exibit distinctive linguistic profiles, with
+                outlier values in certain LIWC feature scores. <br />
+                This is a remarkable result: these unique <strong
+                    >"linguistic fingerprints"</strong
+                > reveal peculiar characteristics of these communities.
             </p>
         </div>
         <div class="w-full">
-             <LiwcClusterInsights client:visible />
+            <LiwcClusterInsights client:visible />
         </div>
     </div>
 </section>
