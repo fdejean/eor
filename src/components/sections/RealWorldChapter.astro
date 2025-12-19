@@ -1,0 +1,115 @@
+---
+import { Button } from "@/components/ui/button";
+import { ArrowDown } from "lucide-react";
+import { RealWorldChart } from "@/components/charts/RealWorldChart";
+---
+
+<section
+    id="real-intro"
+    data-chapter="real-intro"
+    data-nav-label="Chapter 5: Real World"
+    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative"
+>
+    <div class="container max-w-4xl text-center space-y-8">
+        <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">
+            Chapter 5: Real World Events
+        </h2>
+        <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+            The internet is not a vacuum. <br />
+            <span class="italic text-[#ff4500] font-medium"
+                >When the world shakes, Reddit trembles.</span
+            >
+        </p>
+        <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
+            We analyzed the <strong>velocity of hyperlinks</strong> to detect when
+            communities went seemingly dormant, only to explode in activity. By listening
+            to these digital echoes, we can reconstruct history from the crowd's perspective.
+        </p>
+        <div class="pt-8">
+            <a href="#real-chart">
+                <Button variant="outline" size="lg" className="gap-2">
+                    Explore the Spikes <ArrowDown className="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section
+    id="real-chart"
+    data-subchapter="real-chart"
+    data-nav-label="Interactive Chart"
+    class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/20 relative"
+>
+    <div class="container max-w-6xl space-y-8 text-center">
+        <div class="space-y-2">
+            <h3 class="text-3xl font-bold">Spikes in the Signal</h3>
+            <p class="text-muted-foreground">
+                Select a subreddit and click on the <span
+                    class="text-[#ff4500] font-bold">orange dots</span
+                > to reveal the reconstructed event.
+            </p>
+        </div>
+
+        <div
+            class="w-full h-[60vh] flex items-center justify-center p-2 lg:p-6"
+        >
+            <RealWorldChart client:visible />
+        </div>
+
+        <a href="#real-analysis" class="inline-block pt-4">
+            <Button variant="ghost" className="gap-2">
+                How does it work? <ArrowDown className="h-4 w-4" />
+            </Button>
+        </a>
+    </div>
+</section>
+
+<section
+    id="real-analysis"
+    data-subchapter="real-analysis"
+    data-nav-label="Methodology"
+    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative"
+>
+    <div class="container max-w-4xl space-y-12">
+        <div class="space-y-6">
+            <h3 class="text-3xl font-bold lg:text-4xl">The Methodology</h3>
+            <div class="prose dark:prose-invert text-xl max-w-none space-y-6">
+                <p>
+                    How do we distinguish random noise from a historic moment?
+                    We started by tracking the <strong
+                        >number of hyperlinks</strong
+                    > shared over time, applying a <span
+                        class="text-[#ff4500] font-bold"
+                        >7-day rolling average</span
+                    > to smooth out daily fluctuations.
+                </p>
+                <p>
+                    When the signal deviates significantly from normal behavior,
+                    we flag it as a <strong>Peak</strong>. For each peak, we
+                    deployed a scraper to collect posts from <span
+                        class="italic">5 days before and after</span
+                    > the event.
+                </p>
+                <p>
+                    This raw context was then fed into the <strong
+                        class="text-[#ff4500]">Apertus LLM from Swiss AI</strong
+                    >. Its task? To synthesize thousands of fragmented
+                    conversations into a clear, cohesive explanation of the
+                    event. The result is a perfect match with real-world
+                    history—proving that Reddit is, in fact, a real-time
+                    reflection of our collective reality.
+                </p>
+            </div>
+        </div>
+        <div class="flex justify-end pt-8">
+            <a href="#stock-intro">
+                <Button size="lg" className="gap-2">
+                    Next Chapter: Market Mirror <ArrowDown
+                        className="h-4 w-4"
+                    />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>
