@@ -141,11 +141,11 @@ export function RealWorldDashboard() {
     return (
         <div className="w-full space-y-6">
             {/* Top Navigation: Cards */}
-            <div className="flex gap-4 overflow-x-auto py-2 pb-4 snap-x">
+            <div className="flex w-full gap-4 py-2 pb-4">
                 {isLoadingMeta ? (
                     // Skeleton loading for cards
                     [1, 2, 3].map(i => (
-                        <div key={i} className="h-24 w-40 bg-muted animate-pulse rounded-xl flex-shrink-0" />
+                        <div key={i} className="h-24 flex-1 bg-muted animate-pulse rounded-xl" />
                     ))
                 ) : (
                     subreddits.map((sub) => (
@@ -153,8 +153,8 @@ export function RealWorldDashboard() {
                             key={sub.name}
                             onClick={() => setActiveSubreddit(sub)}
                             className={`
-                                relative flex items-center gap-4
-                                p-4 h-24 w-48 rounded-xl border-2 transition-all duration-200 text-left snap-start
+                                relative flex items-center justify-center gap-4 flex-1
+                                p-4 h-24 rounded-xl border-2 transition-all duration-200 text-left
                                 ${activeSubreddit?.name === sub.name
                                     ? "bg-muted/50 border-[var(--color)] shadow-md translate-y-[-2px]"
                                     : "bg-background border-muted hover:border-muted-foreground/50 hover:bg-muted/20"
@@ -167,9 +167,9 @@ export function RealWorldDashboard() {
                             {/* Icon on the left */}
                             <span className="text-3xl flex-shrink-0">{sub.icon}</span>
 
-                            <div className="flex flex-col">
-                                <span className="font-bold text-lg leading-tight">{sub.subreddit_name}</span>
-                                <span className="text-xs text-muted-foreground hidden md:block opacity-0">r/{sub.name}</span>
+                            <div className="flex flex-col overflow-hidden min-w-0">
+                                <span className="font-bold text-lg leading-tight truncate">{sub.subreddit_name}</span>
+                                <span className="text-xs text-muted-foreground hidden lg:block opacity-0 truncate">r/{sub.name}</span>
                             </div>
                         </button>
                     ))
@@ -187,9 +187,6 @@ export function RealWorldDashboard() {
                     >
                         <div className="flex flex-col md:flex-row items-center justify-between p-8 md:p-12 gap-8 max-w-5xl mx-auto">
                             <div className="flex-1 text-center md:text-left space-y-4">
-                                <span className="text-foreground font-bold text-sm uppercase tracking-[0.2em] opacity-60">
-                                    About this Data
-                                </span>
                                 <h3 className="text-2xl md:text-4xl font-bold text-foreground">
                                     {activeSubreddit.title}
                                 </h3>

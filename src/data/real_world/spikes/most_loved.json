@@ -1,0 +1,142 @@
+[
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 0.0,
+    "spike_value": 14,
+    "baseline": 2.3333333333333335,
+    "subreddit": "ballparks"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 0.3,
+    "spike_value": 13,
+    "baseline": 2.1666666666666665,
+    "subreddit": "tarots"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 0.6,
+    "spike_value": 11,
+    "baseline": 1.8333333333333333,
+    "subreddit": "watch_dogs"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 0.8999999999999999,
+    "spike_value": 28,
+    "baseline": 4.833333333333333,
+    "subreddit": "subredditanalysis"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 1.2,
+    "spike_value": 22,
+    "baseline": 4.166666666666667,
+    "subreddit": "arthistory"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 1.5,
+    "spike_value": 18,
+    "baseline": 3.3333333333333335,
+    "subreddit": "futuristparty"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 1.7999999999999998,
+    "spike_value": 13,
+    "baseline": 2.6666666666666665,
+    "subreddit": "horrorlit"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 2.1,
+    "spike_value": 12,
+    "baseline": 2.6666666666666665,
+    "subreddit": "montageparodies"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 2.4,
+    "spike_value": 14,
+    "baseline": 3.1666666666666665,
+    "subreddit": "talesfromtamriel"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 2.6999999999999997,
+    "spike_value": 15,
+    "baseline": 3.6666666666666665,
+    "subreddit": "creepy"
+  },
+  {
+    "YEAR_MONTH": "2014-05",
+    "X_POS": 3.0,
+    "spike_value": 11,
+    "baseline": 2.3333333333333335,
+    "subreddit": "bjj"
+  },
+  {
+    "YEAR_MONTH": "2014-06",
+    "X_POS": 1.0,
+    "spike_value": 11,
+    "baseline": 1.8333333333333333,
+    "subreddit": "mdmatherapy"
+  },
+  {
+    "YEAR_MONTH": "2014-06",
+    "X_POS": 1.3,
+    "spike_value": 12,
+    "baseline": 2.0,
+    "subreddit": "simrally"
+  },
+  {
+    "YEAR_MONTH": "2014-06",
+    "X_POS": 1.6,
+    "spike_value": 26,
+    "baseline": 4.833333333333333,
+    "subreddit": "worldcup"
+  },
+  {
+    "YEAR_MONTH": "2014-06",
+    "X_POS": 1.9,
+    "spike_value": 23,
+    "baseline": 6.5,
+    "subreddit": "everymanshouldknow"
+  },
+  {
+    "YEAR_MONTH": "2014-06",
+    "X_POS": 2.2,
+    "spike_value": 15,
+    "baseline": 4.166666666666667,
+    "subreddit": "assassinscreed"
+  },
+  {
+    "YEAR_MONTH": "2014-07",
+    "X_POS": 2.0,
+    "spike_value": 33,
+    "baseline": 5.5,
+    "subreddit": "chinareport"
+  },
+  {
+    "YEAR_MONTH": "2014-07",
+    "X_POS": 2.3,
+    "spike_value": 12,
+    "baseline": 2.0,
+    "subreddit": "raydonovan"
+  },
+  {
+    "YEAR_MONTH": "2014-07",
+    "X_POS": 2.6,
+    "spike_value": 23,
+    "baseline": 4.0,
+    "subreddit": "bostoncomedy"
+  },
+  {
+    "YEAR_MONTH": "2014-07",
+    "X_POS": 2.9,
+    "spike_value": 11,
+    "baseline": 2.0,
+    "subreddit": "raisingkids"
+  }
+]
