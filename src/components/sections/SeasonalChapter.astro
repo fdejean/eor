@@ -1,5 +1,6 @@
 ---
-import { SeasonalChart } from '@/components/charts/SeasonalChart';
+import { AnnualPulseSection } from '@/components/sections/AnnualPulseSection';
+import { SeasonalHeatmap } from '@/components/charts/SeasonalHeatmap';
 import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 ---
@@ -16,7 +17,7 @@ import { ArrowDown } from 'lucide-react';
             We analyzed millions of comments to see if the collective mood of Reddit shifts with the turning of the calendar pages.
         </p>
         <div class="pt-8">
-            <a href="#seasonal-chart">
+            <a href="#seasonal-heatmap">
                 <Button variant="outline" size="lg" className="gap-2">
                     See the Data <ArrowDown className="h-4 w-4" />
                 </Button>
@@ -25,41 +26,103 @@ import { ArrowDown } from 'lucide-react';
     </div>
 </section>
 
-<!-- Slide 2: Seasonal Chart -->
-<section id="seasonal-chart" data-subchapter="seasonal-chart" data-nav-label="Chart" class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/20 relative">
-    <div class="container max-w-6xl space-y-8 text-center">
-        <h3 class="text-3xl font-bold">Sentiment Over Time</h3>
-        <div class="w-full h-[50vh] flex items-center justify-center p-6">
-             <SeasonalChart client:visible />
+<!-- Slide 2: Seasonal Heatmap (Fall wins it all) -->
+<section id="seasonal-heatmap" data-subchapter="seasonal-heatmap" data-nav-label="Heatmap" class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/20 relative">
+    <div class="container max-w-6xl grid lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+            <h3 class="text-3xl font-bold">And Fall wins it all!</h3>
+            <div class="prose dark:prose-invert text-lg">
+                <p>
+                    Not a surprise, <strong>Winter</strong> gets a good dose of sadness, but it scores low on anger or anxiety. 
+                    It is also associated with positive emotions, likely linked to the holiday season.
+                </p>
+                <p>
+                    What stands out is the intensity of <strong>Fall</strong>. It takes the crown for almost every emotion. 
+                    As the leaves turn, Redditors turn to their keyboards with heightened feelings.
+                </p>
+                <p>
+                    In contrast, <strong>Spring</strong> seems to be a season of emotional hibernation, scoring lowest in Affection and Positive Emotion.
+                </p>
+                <p className="text-sm text-muted-foreground italic">
+                    We have isolated communities using PCA, explore the tabs to explore how a community has its own rythm during the year !
+                </p>
+            </div>
         </div>
-         <a href="#seasonal-analysis" class="inline-block pt-4">
-            <Button variant="ghost" className="gap-2">
-                What does this mean? <ArrowDown className="h-4 w-4" />
+        <div class="w-full flex items-center justify-center p-6 bg-background rounded-xl shadow-sm border">
+             <SeasonalHeatmap client:visible />
+        </div>
+    </div>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2">
+        <a href="#seasonal-chart">
+            <Button variant="ghost" size="icon" className="rounded-full animate-bounce">
+                <ArrowDown className="h-6 w-6" />
             </Button>
         </a>
     </div>
 </section>
 
-<!-- Slide 3: Seasonal Analysis -->
- <section id="seasonal-analysis" data-subchapter="seasonal-analysis" data-nav-label="Analysis" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative">
+<!-- Slide 3: Annual Patterns (Line Chart) -->
+<section id="seasonal-chart" data-subchapter="seasonal-chart" data-nav-label="Patterns" class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-background relative">
+    <div class="container max-w-7xl space-y-8">
+        <div class="text-center space-y-4">
+            <h3 class="text-3xl font-bold">The Annual Pulse</h3>
+            <p class="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Zooming in with a 7-day moving average, the year's emotional rhythm becomes clear.
+            </p>
+        </div>
+        
+        <AnnualPulseSection client:visible />
+    </div>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2">
+        <a href="#seasonal-prediction">
+            <Button variant="ghost" size="icon" className="rounded-full animate-bounce">
+                <ArrowDown className="h-6 w-6" />
+            </Button>
+        </a>
+    </div>
+</section>
+
+<!-- Slide 4: Predictive Modeling -->
+<section id="seasonal-prediction" data-subchapter="seasonal-prediction" data-nav-label="Prediction" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/20 relative">
     <div class="container max-w-4xl space-y-12">
-        <div class="space-y-6">
-             <h3 class="text-3xl font-bold lg:text-4xl">Summer Highs & Winter Lows</h3>
-             <div class="prose dark:prose-invert text-xl max-w-none">
-                <p>
-                    The data reveals a clear pattern. Sentiment <strong>peaks significantly in June and July</strong>. 
-                    This correlates with summer holidays in the Northern Hemisphere, where the majority of Reddit users reside.
+        <div class="text-center space-y-6">
+            <h3 class="text-3xl font-bold">Can we predict the mood?</h3>
+            <p class="text-xl text-muted-foreground">
+                If seasons and communities are so influential, can we predict a post's sentiment just by knowing <em>when</em> and <em>where</em> it was posted?
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 items-center bg-background p-8 rounded-xl border shadow-sm">
+            <div class="space-y-4">
+                <h4 class="text-2xl font-semibold">The Experiment</h4>
+                <p class="text-muted-foreground">
+                    We trained a Machine Learning model using only 3 basic features:
                 </p>
-                <p>
-                    In contrast, we see a distinct <strong>dip in November and December</strong>. 
-                    Despite the festive season, the "Winter Blues" or Seasonal Affective Disorder (SAD) seems to manifest in digital conversations as well.
+                <ul class="list-disc list-inside space-y-2 text-foreground">
+                    <li>Source Subreddit</li>
+                    <li>Target Subreddit</li>
+                    <li>Date of the post</li>
+                </ul>
+            </div>
+            <div class="space-y-6 text-center md:text-left">
+                <div class="space-y-2">
+                    <div class="text-4xl font-bold text-primary">74%</div>
+                    <div class="text-sm font-medium text-muted-foreground uppercase tracking-wider">Accuracy (F1-Score) for Negative Sentiment</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-4xl font-bold text-primary">71%</div>
+                    <div class="text-sm font-medium text-muted-foreground uppercase tracking-wider">Accuracy (F1-Score) for Positive Sentiment</div>
+                </div>
+                <p class="text-sm text-muted-foreground pt-2">
+                    Significantly better than random guessing, proving that <strong>context and timing are key drivers of online sentiment.</strong>
                 </p>
             </div>
         </div>
-        <div class="flex justify-end pt-8">
+        
+        <div class="flex justify-center pt-8">
             <a href="#events-intro">
-                <Button size="lg" className="gap-2">
-                    Next Chapter: Events <ArrowDown className="h-4 w-4" />
+                <Button variant="ghost" size="icon" className="rounded-full animate-bounce">
+                    <ArrowDown className="h-6 w-6" />
                 </Button>
             </a>
         </div>
