@@ -5,7 +5,7 @@ import { selectedBrand } from '@/stores/stockStore';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import priceStdData from "@/data/stock_analysis/feature_correlations_price_std.json"
-import volumePredictorsData from "@/data/stock_analysis/weekly_sentiment_price.json"
+import volumePredictorsData from "@/data/stock_analysis/feature_correlations_volume_std.json"
 import pearsonData from "@/data/stock_analysis/feature_correlations_pearson.json"
 
 export type FeatureChartVariant = 'price_std' | 'volume_predictors' | 'pearson_price' | 'pearson_volume';
@@ -44,7 +44,7 @@ export function GenericFeatureBarChart({ variant, title, description }: GenericF
             // @ts-ignore
             data = (volumePredictorsData[brandKey] || []).slice(0, 20).map((item: any) => ({
                 feature: item.feature,
-                value: item.corr
+                value: item.correlation
             }));
             barColorLogic = (val) => val > 0 ? "#f97316" : "#a855f7"; // Orange/Purple
             defaultTitle = `Top Predictors (${brandLabel})`;
