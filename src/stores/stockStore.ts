@@ -12,9 +12,7 @@ export const brandOptions: BrandOption[] = [
     { id: 'tesla', label: 'Tesla' },
     { id: 'nvidia', label: 'NVIDIA' },
     { id: 'amazon', label: 'Amazon' },
-    { id: 'google', label: 'Google' },
-    { id: 'top10', label: 'Top 10 NASDAQ' },
-    { id: 'top50', label: 'Top 50 NASDAQ' },
+    { id: 'google', label: 'Google' }
 ];
 
 export const selectedBrand = atom<BrandId>('apple');

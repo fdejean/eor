@@ -1,0 +1,1432 @@
+{
+    "apple": {
+        "price": [
+            {
+                "feature": "LIWC_Prep",
+                "r": -0.6246677196691699,
+                "p": 1.6456839221110075e-05,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_pos",
+                "r": -0.6048895703241826,
+                "p": 3.5598794634678615e-05,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Posemo",
+                "r": -0.5574529360541369,
+                "p": 0.00018645623648054616,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_stopwords",
+                "r": -0.5461393359603324,
+                "p": 0.0002669612325311821,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_digits",
+                "r": 0.5452247024560591,
+                "p": 0.0002746680301177315,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Affect",
+                "r": -0.5428380717527385,
+                "p": 0.0002957285741387655,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_alpha",
+                "r": -0.5392774820854354,
+                "p": 0.00032985056889057985,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Funct",
+                "r": -0.534446530351916,
+                "p": 0.0003817897928451758,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Cause",
+                "r": -0.521685961680025,
+                "p": 0.0005559893904961184,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Verbs",
+                "r": -0.49125187490535066,
+                "p": 0.0012869992289842131,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_uppercase",
+                "r": 0.4849630424948974,
+                "p": 0.0015163533086949813,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_CogMech",
+                "r": -0.47817680661552187,
+                "p": 0.001803687874694839,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Present",
+                "r": -0.47259161951191364,
+                "p": 0.002075134106259475,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Article",
+                "r": -0.463434939984966,
+                "p": 0.0025983291619372196,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": -0.44216749824784535,
+                "p": 0.004280559436561585,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_compound",
+                "r": -0.4389020666611186,
+                "p": 0.004608897057146965,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Tentat",
+                "r": -0.42574251739861374,
+                "p": 0.006163886125277874,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Work",
+                "r": -0.41881508477136,
+                "p": 0.007151175942348575,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_They",
+                "r": -0.41701398825793323,
+                "p": 0.007429141118939946,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Percept",
+                "r": 0.4039311143406303,
+                "p": 0.009741755697801184,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            }
+        ],
+        "volume": [
+            {
+                "feature": "LIWC_Prep",
+                "r": 0.7036442691746584,
+                "p": 4.09278847657476e-07,
+                "significant": true,
+                "interpretation": "Strong positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_alpha",
+                "r": 0.5968517520722334,
+                "p": 4.800873958154919e-05,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_digits",
+                "r": -0.577874918121419,
+                "p": 9.431305668529764e-05,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_stopwords",
+                "r": 0.5382161072811139,
+                "p": 0.00034068422776343914,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "vader_pos",
+                "r": 0.5380715461680453,
+                "p": 0.0003421842348570856,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": 0.5273209792750218,
+                "p": 0.00047181622144401364,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Affect",
+                "r": 0.5070477445542785,
+                "p": 0.0008406324985876685,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Funct",
+                "r": 0.5010913702432654,
+                "p": 0.0009894593036374956,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "vader_neg",
+                "r": 0.48377174553201796,
+                "p": 0.0015636551895205429,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_special",
+                "r": -0.47930762507745084,
+                "p": 0.0017527092430053989,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Negate",
+                "r": 0.44317796024295236,
+                "p": 0.0041831710661223665,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Achiev",
+                "r": 0.4390543811246591,
+                "p": 0.0045931090542600805,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_CogMech",
+                "r": 0.43558844888901194,
+                "p": 0.004964234101418184,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_uppercase",
+                "r": -0.42552282109455003,
+                "p": 0.00619328634851815,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Present",
+                "r": 0.41582978602103937,
+                "p": 0.007616924381960332,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Cause",
+                "r": 0.4036214849481415,
+                "p": 0.009803209128704785,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Insight",
+                "r": 0.40104228624147537,
+                "p": 0.010328118946977025,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Posemo",
+                "r": 0.39938699735989025,
+                "p": 0.010677491659207314,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Verbs",
+                "r": 0.3968447005693703,
+                "p": 0.011233699965791915,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Negemo",
+                "r": 0.392587741026273,
+                "p": 0.012220334339749669,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            }
+        ]
+    },
+    "tesla": {
+        "price": [
+            {
+                "feature": "LIWC_Present",
+                "r": 0.4398779111295943,
+                "p": 0.004508558244106153,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Ipron",
+                "r": 0.3801743196568097,
+                "p": 0.015527965366352895,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Pronoun",
+                "r": 0.36966573332553165,
+                "p": 0.01889103054147175,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Article",
+                "r": -0.3529918022483117,
+                "p": 0.025470548026526534,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Verbs",
+                "r": 0.3422649996614989,
+                "p": 0.030633902759140953,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Adverbs",
+                "r": 0.32236993512780154,
+                "p": 0.0424875468281214,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_digits",
+                "r": -0.2873535681089913,
+                "p": 0.0721950974041244,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Work",
+                "r": -0.28111981214032217,
+                "p": 0.0788822409330368,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Nonflu",
+                "r": -0.25695619846077056,
+                "p": 0.10946404731208721,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Sexual",
+                "r": -0.23609970110634051,
+                "p": 0.1424571373108711,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "frac_stopwords",
+                "r": 0.2244624482450269,
+                "p": 0.16378595525086387,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_AuxVb",
+                "r": 0.22239411002367537,
+                "p": 0.1678064584092859,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Sad",
+                "r": 0.21284444909764058,
+                "p": 0.1872932248093999,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Friends",
+                "r": -0.2030102608431693,
+                "p": 0.20898293638560955,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Excl",
+                "r": 0.1931838849975577,
+                "p": 0.2323412942101566,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Filler",
+                "r": 0.1918649539559646,
+                "p": 0.2356067037024201,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Achiev",
+                "r": -0.19138821802823341,
+                "p": 0.23679463855357744,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Ppron",
+                "r": 0.1863465335078367,
+                "p": 0.24960643704200428,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Affect",
+                "r": 0.18215666557684604,
+                "p": 0.2606010874357421,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "avg_chars_per_sentence",
+                "r": -0.18163203013952978,
+                "p": 0.2620000868127307,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            }
+        ],
+        "volume": [
+            {
+                "feature": "LIWC_Humans",
+                "r": 0.44907320372428544,
+                "p": 0.003652532380908619,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Inhib",
+                "r": 0.4243551722371374,
+                "p": 0.006351585177197751,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Prep",
+                "r": 0.38971528093756036,
+                "p": 0.012926924488578954,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_CogMech",
+                "r": 0.36772272073821105,
+                "p": 0.019575406134315024,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Home",
+                "r": 0.35627948924448216,
+                "p": 0.02404102447202262,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Tentat",
+                "r": 0.34241860237135097,
+                "p": 0.030554302535703595,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Excl",
+                "r": 0.33711379736861297,
+                "p": 0.03340399188144718,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Filler",
+                "r": -0.32816211236227566,
+                "p": 0.038705453109325036,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Leisure",
+                "r": -0.3085893030425078,
+                "p": 0.052699102667880346,
+                "significant": false,
+                "interpretation": "Moderate negative correlation, not significant."
+            },
+            {
+                "feature": "frac_whitespace",
+                "r": 0.2934003408592001,
+                "p": 0.06614236291467378,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "num_long_words",
+                "r": -0.26271086389266024,
+                "p": 0.1014731575762348,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "num_chars_no_whitespace",
+                "r": -0.26141131438525445,
+                "p": 0.10323750367985209,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_You",
+                "r": 0.25618718535960827,
+                "p": 0.11056706857950678,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "num_chars",
+                "r": -0.25500142332913855,
+                "p": 0.11228432961367867,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Negate",
+                "r": 0.24897652350107796,
+                "p": 0.1213231310457259,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "num_unique_words",
+                "r": -0.24791380782329953,
+                "p": 0.12297256773546505,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": 0.2472538767578466,
+                "p": 0.1240052704408173,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "frac_stopwords",
+                "r": 0.24269824832156814,
+                "p": 0.1313121360266702,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "num_words",
+                "r": -0.24207275748699542,
+                "p": 0.1323398682394743,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Funct",
+                "r": 0.23005980155025124,
+                "p": 0.15325588332924345,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            }
+        ]
+    },
+    "nvidia": {
+        "price": [
+            {
+                "feature": "frac_whitespace",
+                "r": 0.5898498790534985,
+                "p": 6.189590545651005e-05,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_special",
+                "r": -0.5607477459015073,
+                "p": 0.0001675413808193607,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_compound",
+                "r": -0.5492835154259189,
+                "p": 0.0002419285120539403,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Cause",
+                "r": 0.5413148154996338,
+                "p": 0.0003099177145343311,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "automated_readability_index",
+                "r": -0.5014021463203141,
+                "p": 0.0009811511580718915,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "avg_word_len",
+                "r": -0.465005504920557,
+                "p": 0.0025011178294960996,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "num_long_words",
+                "r": 0.4637663416816311,
+                "p": 0.002577545330245125,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Future",
+                "r": -0.43996119194077643,
+                "p": 0.004500083716182316,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_pos",
+                "r": -0.4192578275565806,
+                "p": 0.007084235087335245,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": -0.40823611152996486,
+                "p": 0.00892086250854294,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Swear",
+                "r": 0.4064050698729079,
+                "p": 0.009262464321833776,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_They",
+                "r": 0.40474319245071444,
+                "p": 0.009582142108915864,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Dissent",
+                "r": 0.40445779530186793,
+                "p": 0.009637979888634279,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "vader_neg",
+                "r": 0.40338056065540406,
+                "p": 0.00985125540089405,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Ingest",
+                "r": 0.4018539486691637,
+                "p": 0.010160403863586989,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Tentat",
+                "r": -0.3879108041221267,
+                "p": 0.013388306317556869,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "num_long_sentences",
+                "r": 0.38641209151006484,
+                "p": 0.01378205356994735,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "num_chars",
+                "r": 0.37596405427433593,
+                "p": 0.01680906561120821,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Money",
+                "r": -0.3745751360184062,
+                "p": 0.01725074495306854,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "num_chars_no_whitespace",
+                "r": 0.3712051629612802,
+                "p": 0.018363166563303453,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            }
+        ],
+        "volume": [
+            {
+                "feature": "frac_special",
+                "r": -0.614958823088195,
+                "p": 2.419203586377241e-05,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "automated_readability_index",
+                "r": -0.5507722497250206,
+                "p": 0.00023082979721102711,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_whitespace",
+                "r": 0.5195246314294877,
+                "p": 0.0005916771974680482,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "vader_compound",
+                "r": -0.4807978102578689,
+                "p": 0.0016874729252065268,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Future",
+                "r": -0.4434888967009187,
+                "p": 0.004153593677087618,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Work",
+                "r": -0.44010780503939945,
+                "p": 0.00448519823379296,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "avg_word_len",
+                "r": -0.41045793599125463,
+                "p": 0.008520905402861345,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "avg_chars_per_sentence",
+                "r": -0.39505260252891744,
+                "p": 0.011640451675629439,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Cause",
+                "r": 0.39441109332051616,
+                "p": 0.01178907031888992,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_uppercase",
+                "r": 0.3916881907035347,
+                "p": 0.012437992531585625,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": -0.3910535859787366,
+                "p": 0.012593517920071242,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_neg",
+                "r": 0.3694304594087922,
+                "p": 0.01897281587630517,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Money",
+                "r": -0.36721059068782624,
+                "p": 0.019759211910714492,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Tentat",
+                "r": -0.3629054390163135,
+                "p": 0.02136229163405147,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "avg_words_per_sentence",
+                "r": -0.3322569260038742,
+                "p": 0.03620101511402348,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Swear",
+                "r": 0.32811084515573324,
+                "p": 0.03873768178462111,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Dissent",
+                "r": 0.3226510740409456,
+                "p": 0.0422972959591707,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Death",
+                "r": 0.3167798043590383,
+                "p": 0.04641689780027599,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_You",
+                "r": -0.30484263886189344,
+                "p": 0.05579159340445604,
+                "significant": false,
+                "interpretation": "Moderate negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Time",
+                "r": -0.2968306000723065,
+                "p": 0.06289151068073018,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            }
+        ]
+    },
+    "amazon": {
+        "price": [
+            {
+                "feature": "frac_special",
+                "r": -0.6722270491229173,
+                "p": 2.031603078184127e-06,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Inhib",
+                "r": 0.6532625266964445,
+                "p": 4.886968510210893e-06,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_digits",
+                "r": 0.5813960790913627,
+                "p": 8.34700315020627e-05,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Achiev",
+                "r": 0.5189327406040349,
+                "p": 0.0006018006998176049,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Time",
+                "r": 0.4952355818366384,
+                "p": 0.0011581342205625137,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Ppron",
+                "r": -0.48861287883086574,
+                "p": 0.0013792074276053209,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": -0.4812364754190639,
+                "p": 0.0016686821193285476,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Discrep",
+                "r": -0.47577798763550694,
+                "p": 0.0019161778250039857,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_I",
+                "r": -0.466893171413453,
+                "p": 0.0023885146133321333,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Ipron",
+                "r": 0.46288471707865847,
+                "p": 0.00263316110422096,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Future",
+                "r": -0.4523593634734927,
+                "p": 0.0033830333955647413,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Space",
+                "r": 0.4453406463869468,
+                "p": 0.0039811906900214114,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_See",
+                "r": 0.434145627038848,
+                "p": 0.005126236202691317,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_whitespace",
+                "r": 0.4209081585632697,
+                "p": 0.006839446098058814,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Insight",
+                "r": -0.4205387735518756,
+                "p": 0.0068935930175001705,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Relativ",
+                "r": 0.40840023125314723,
+                "p": 0.008890778330473798,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "num_long_sentences",
+                "r": 0.3998923944239574,
+                "p": 0.010569766598414502,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "num_sentences",
+                "r": 0.37340401566782244,
+                "p": 0.01763071667102611,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "vader_pos",
+                "r": -0.3477251697884751,
+                "p": 0.027907217647541373,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_neg",
+                "r": 0.3476520051967804,
+                "p": 0.02794237996180411,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            }
+        ],
+        "volume": [
+            {
+                "feature": "LIWC_Sad",
+                "r": -0.367427552129606,
+                "p": 0.019681167686979684,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Past",
+                "r": -0.3343558172272058,
+                "p": 0.03496964651631204,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Money",
+                "r": -0.3329261723580914,
+                "p": 0.03580459135573762,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Health",
+                "r": -0.3174288837559433,
+                "p": 0.04594612078908004,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_SheHe",
+                "r": -0.2745124229198345,
+                "p": 0.08648817319982308,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Negemo",
+                "r": -0.25999791541938033,
+                "p": 0.10518289020899892,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_We",
+                "r": 0.25849756123335077,
+                "p": 0.10727838238748139,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Conj",
+                "r": -0.25126089421272046,
+                "p": 0.11783386494198604,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Hear",
+                "r": -0.23491363016530756,
+                "p": 0.14453217002533061,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Insight",
+                "r": -0.23439489962534973,
+                "p": 0.1454466442754835,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Relativ",
+                "r": -0.2330008307964549,
+                "p": 0.147925320336713,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Humans",
+                "r": 0.22944679310750285,
+                "p": 0.15438438669736682,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Leisure",
+                "r": -0.2246473674187944,
+                "p": 0.1634299268694769,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "num_sentences",
+                "r": -0.2163636359519389,
+                "p": 0.1799338037881456,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Time",
+                "r": -0.21090228995138413,
+                "p": 0.19144486533573762,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Ipron",
+                "r": -0.20476656317976058,
+                "p": 0.2049866325818334,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Certain",
+                "r": -0.19875550360612654,
+                "p": 0.21888794002268375,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_CogMech",
+                "r": -0.1870716613074826,
+                "p": 0.2477356990165785,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_They",
+                "r": 0.18390290564054354,
+                "p": 0.2559803260390157,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "num_long_sentences",
+                "r": -0.17886138779191985,
+                "p": 0.2694708263456622,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            }
+        ]
+    },
+    "google": {
+        "price": [
+            {
+                "feature": "frac_digits",
+                "r": 0.6638180718477329,
+                "p": 3.021294288113479e-06,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_uppercase",
+                "r": 0.6443100465722924,
+                "p": 7.243635212275541e-06,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": -0.6388749665106878,
+                "p": 9.142481543375658e-06,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_alpha",
+                "r": -0.5686137332059882,
+                "p": 0.0001291869558310514,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Insight",
+                "r": -0.5376762830807978,
+                "p": 0.00034631589832188696,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Incl",
+                "r": -0.4991876869562287,
+                "p": 0.0010417290426178243,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_pos",
+                "r": -0.48466165891983365,
+                "p": 0.0015281990313155626,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_stopwords",
+                "r": -0.4810468293445921,
+                "p": 0.0016767830775256437,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_special",
+                "r": -0.46916028474937627,
+                "p": 0.0022591805941935437,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Inhib",
+                "r": 0.45424819645435127,
+                "p": 0.003236128631766986,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Tentat",
+                "r": -0.4537741534992948,
+                "p": 0.0032724632915311436,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "frac_whitespace",
+                "r": 0.43450904884314206,
+                "p": 0.005085004705948259,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_CogMech",
+                "r": -0.43387944181389637,
+                "p": 0.0051566195081917685,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Prep",
+                "r": -0.42449992021236793,
+                "p": 0.006331773823266471,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Space",
+                "r": 0.41675173685729394,
+                "p": 0.007470380172296675,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Funct",
+                "r": -0.3938468860632134,
+                "p": 0.011921112078647886,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_SheHe",
+                "r": -0.39360205523996866,
+                "p": 0.011978800239094214,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Present",
+                "r": -0.3719015543645188,
+                "p": 0.018128478968164455,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_You",
+                "r": -0.3661536012349997,
+                "p": 0.02014314550787637,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "vader_compound",
+                "r": -0.3651038269972462,
+                "p": 0.02053062189278713,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            }
+        ],
+        "volume": [
+            {
+                "feature": "vader_pos",
+                "r": 0.5876869070751131,
+                "p": 6.687044364375041e-05,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Posemo",
+                "r": 0.47894483170600943,
+                "p": 0.0017689241492775884,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Discrep",
+                "r": 0.4081449337816321,
+                "p": 0.008937613629749739,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Time",
+                "r": -0.3787873350124643,
+                "p": 0.01594056541667039,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Affect",
+                "r": 0.3722462351314548,
+                "p": 0.018013255441610313,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Prep",
+                "r": 0.3646039158900093,
+                "p": 0.02071732225898033,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_digits",
+                "r": -0.35563100322989677,
+                "p": 0.024317579834947835,
+                "significant": true,
+                "interpretation": "Moderate negative correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Social",
+                "r": 0.34767820662742843,
+                "p": 0.02792978355488137,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Death",
+                "r": 0.34753415314277175,
+                "p": 0.027999095772884078,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Filler",
+                "r": 0.32997943525995976,
+                "p": 0.03757705754767983,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "frac_alpha",
+                "r": 0.3227634872224119,
+                "p": 0.04222141811617584,
+                "significant": true,
+                "interpretation": "Moderate positive correlation, statistically significant."
+            },
+            {
+                "feature": "LIWC_Inhib",
+                "r": -0.29445811469874417,
+                "p": 0.06512605055180241,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Sexual",
+                "r": 0.29412992323290327,
+                "p": 0.06544004632921521,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "vader_compound",
+                "r": 0.2856456792039275,
+                "p": 0.07398120858914663,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Numbers",
+                "r": 0.2849224984310453,
+                "p": 0.07474787966442652,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "num_long_sentences",
+                "r": -0.26675698784646384,
+                "p": 0.09612728478042937,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Ingest",
+                "r": -0.26115749907698416,
+                "p": 0.103584814363525,
+                "significant": false,
+                "interpretation": "Weak negative correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Money",
+                "r": 0.2582113060730053,
+                "p": 0.10768176519749544,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "LIWC_Incl",
+                "r": 0.24999207541981772,
+                "p": 0.11976247012607913,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            },
+            {
+                "feature": "frac_stopwords",
+                "r": 0.24673546603743565,
+                "p": 0.12482105754677895,
+                "significant": false,
+                "interpretation": "Weak positive correlation, not significant."
+            }
+        ]
+    }
+}

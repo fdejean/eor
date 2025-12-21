@@ -33,7 +33,7 @@ export function FloatingBrandSelector({ sectionIds }: FloatingBrandSelectorProps
 
             setIsVisible(anyCurrentVisible);
         }, {
-            threshold: 0.1
+            threshold: 0
         });
 
         sectionIds.forEach(id => {

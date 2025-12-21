@@ -1,0 +1,912 @@
+{
+    "apple": [
+        {
+            "feature": "LIWC_Negate",
+            "price_correlation": 0.48720450792441206,
+            "volume_correlation": 0.16027321190840052,
+            "avg_correlation": 0.3237388599164063
+        },
+        {
+            "feature": "LIWC_Excl",
+            "price_correlation": 0.26448956185203804,
+            "volume_correlation": 0.33728640437048746,
+            "avg_correlation": 0.30088798311126275
+        },
+        {
+            "feature": "LIWC_Family",
+            "price_correlation": -0.22284538648016192,
+            "volume_correlation": -0.28657825865938935,
+            "avg_correlation": -0.25471182256977565
+        },
+        {
+            "feature": "LIWC_Dissent",
+            "price_correlation": 0.29951141041589346,
+            "volume_correlation": 0.15040511263116732,
+            "avg_correlation": 0.22495826152353038
+        },
+        {
+            "feature": "LIWC_I",
+            "price_correlation": -0.2640597705235229,
+            "volume_correlation": -0.15569952885379781,
+            "avg_correlation": -0.20987964968866035
+        },
+        {
+            "feature": "vader_neg",
+            "price_correlation": 0.2978501854931442,
+            "volume_correlation": 0.11388369931825763,
+            "avg_correlation": 0.20586694240570091
+        },
+        {
+            "feature": "LIWC_Numbers",
+            "price_correlation": -0.18620410475038757,
+            "volume_correlation": -0.2246580564376264,
+            "avg_correlation": -0.205431080594007
+        },
+        {
+            "feature": "LIWC_Ppron",
+            "price_correlation": -0.2846655057495796,
+            "volume_correlation": -0.11139443434018599,
+            "avg_correlation": -0.1980299700448828
+        },
+        {
+            "feature": "LIWC_Space",
+            "price_correlation": -0.38800354406260784,
+            "volume_correlation": 0.0262358609780899,
+            "avg_correlation": -0.18088384154225898
+        },
+        {
+            "feature": "LIWC_Discrep",
+            "price_correlation": 0.17365395915710344,
+            "volume_correlation": 0.18487268615288294,
+            "avg_correlation": 0.17926332265499317
+        },
+        {
+            "feature": "LIWC_Motion",
+            "price_correlation": -0.306034577015174,
+            "volume_correlation": -0.05072202078270091,
+            "avg_correlation": -0.17837829889893747
+        },
+        {
+            "feature": "LIWC_Sexual",
+            "price_correlation": 0.10996637974078964,
+            "volume_correlation": 0.24312822694678424,
+            "avg_correlation": 0.17654730334378693
+        },
+        {
+            "feature": "LIWC_Humans",
+            "price_correlation": 0.13002853163631548,
+            "volume_correlation": 0.2211717492987589,
+            "avg_correlation": 0.1756001404675372
+        },
+        {
+            "feature": "LIWC_Cause",
+            "price_correlation": 0.4256172930903947,
+            "volume_correlation": -0.08607077407430379,
+            "avg_correlation": 0.16977325950804545
+        },
+        {
+            "feature": "LIWC_Insight",
+            "price_correlation": 0.15904464744315147,
+            "volume_correlation": 0.1757064335883037,
+            "avg_correlation": 0.1673755405157276
+        },
+        {
+            "feature": "LIWC_Article",
+            "price_correlation": -0.10557217734986657,
+            "volume_correlation": 0.4363471297760408,
+            "avg_correlation": 0.1653874762130871
+        },
+        {
+            "feature": "frac_special",
+            "price_correlation": 0.1505337159230702,
+            "volume_correlation": 0.17710633176356547,
+            "avg_correlation": 0.16382002384331784
+        },
+        {
+            "feature": "frac_digits",
+            "price_correlation": -0.4491664006290256,
+            "volume_correlation": 0.1226922463784921,
+            "avg_correlation": -0.16323707712526675
+        },
+        {
+            "feature": "LIWC_Relativ",
+            "price_correlation": -0.4261218896996578,
+            "volume_correlation": 0.10234473628737575,
+            "avg_correlation": -0.16188857670614104
+        },
+        {
+            "feature": "frac_stopwords",
+            "price_correlation": -0.31871070717403494,
+            "volume_correlation": 0.011255724241140318,
+            "avg_correlation": -0.15372749146644732
+        },
+        {
+            "feature": "LIWC_Funct",
+            "price_correlation": -0.2740268402445169,
+            "volume_correlation": -0.023692243601143897,
+            "avg_correlation": -0.1488595419228304
+        },
+        {
+            "feature": "LIWC_Hear",
+            "price_correlation": 0.3582574409097791,
+            "volume_correlation": -0.06233231606162392,
+            "avg_correlation": 0.1479625624240776
+        },
+        {
+            "feature": "LIWC_They",
+            "price_correlation": 0.1894970465838816,
+            "volume_correlation": 0.09297683064924894,
+            "avg_correlation": 0.14123693861656528
+        },
+        {
+            "feature": "frac_uppercase",
+            "price_correlation": -0.03706849237529854,
+            "volume_correlation": 0.31723530097868613,
+            "avg_correlation": 0.1400834043016938
+        },
+        {
+            "feature": "frac_whitespace",
+            "price_correlation": 0.2497369437658386,
+            "volume_correlation": 0.01965199471260032,
+            "avg_correlation": 0.13469446923921946
+        },
+        {
+            "feature": "LIWC_AuxVb",
+            "price_correlation": 0.1932102514138968,
+            "volume_correlation": 0.06529146348362022,
+            "avg_correlation": 0.12925085744875853
+        },
+        {
+            "feature": "LIWC_Negemo",
+            "price_correlation": -0.023786946330359077,
+            "volume_correlation": 0.2810930278744311,
+            "avg_correlation": 0.128653040772036
+        },
+        {
+            "feature": "LIWC_Ipron",
+            "price_correlation": 0.2988390267010431,
+            "volume_correlation": -0.05832471034535511,
+            "avg_correlation": 0.120257158177844
+        },
+        {
+            "feature": "LIWC_Quant",
+            "price_correlation": 0.13585058430440655,
+            "volume_correlation": 0.10280787949982956,
+            "avg_correlation": 0.11932923190211805
+        },
+        {
+            "feature": "LIWC_Adverbs",
+            "price_correlation": 0.09391212288981152,
+            "volume_correlation": 0.1367371737545555,
+            "avg_correlation": 0.1153246483221835
+        }
+    ],
+    "tesla": [
+        {
+            "feature": "LIWC_You",
+            "price_correlation": 0.45244678670348,
+            "volume_correlation": 0.1268977425684901,
+            "avg_correlation": 0.28967226463598506
+        },
+        {
+            "feature": "vader_neg",
+            "price_correlation": -0.34416538077684844,
+            "volume_correlation": -0.19682232818603643,
+            "avg_correlation": -0.2704938544814424
+        },
+        {
+            "feature": "LIWC_Filler",
+            "price_correlation": -0.36340328993244153,
+            "volume_correlation": -0.14826884394839035,
+            "avg_correlation": -0.25583606694041594
+        },
+        {
+            "feature": "LIWC_Sad",
+            "price_correlation": -0.1933679958523774,
+            "volume_correlation": -0.27325820991202737,
+            "avg_correlation": -0.2333131028822024
+        },
+        {
+            "feature": "LIWC_Social",
+            "price_correlation": 0.4045059359161093,
+            "volume_correlation": 0.0611471477870788,
+            "avg_correlation": 0.23282654185159404
+        },
+        {
+            "feature": "vader_compound",
+            "price_correlation": -0.39316407926125396,
+            "volume_correlation": -0.06424497668420577,
+            "avg_correlation": -0.22870452797272986
+        },
+        {
+            "feature": "LIWC_Verbs",
+            "price_correlation": 0.2620989224332587,
+            "volume_correlation": 0.15239786889690038,
+            "avg_correlation": 0.20724839566507955
+        },
+        {
+            "feature": "LIWC_Discrep",
+            "price_correlation": 0.40474389978672554,
+            "volume_correlation": -0.0044867971495782324,
+            "avg_correlation": 0.20012855131857366
+        },
+        {
+            "feature": "LIWC_AuxVb",
+            "price_correlation": 0.3251939063184349,
+            "volume_correlation": 0.06826895159560063,
+            "avg_correlation": 0.19673142895701778
+        },
+        {
+            "feature": "LIWC_Friends",
+            "price_correlation": 0.3460466192145397,
+            "volume_correlation": 0.04073304500704241,
+            "avg_correlation": 0.19338983211079105
+        },
+        {
+            "feature": "LIWC_Pronoun",
+            "price_correlation": 0.17035890448105195,
+            "volume_correlation": 0.2046315505835525,
+            "avg_correlation": 0.18749522753230224
+        },
+        {
+            "feature": "LIWC_Certain",
+            "price_correlation": -0.17407765402524641,
+            "volume_correlation": -0.1906335139869202,
+            "avg_correlation": -0.18235558400608332
+        },
+        {
+            "feature": "LIWC_Excl",
+            "price_correlation": 0.23726796599219713,
+            "volume_correlation": 0.09909077621413862,
+            "avg_correlation": 0.16817937110316789
+        },
+        {
+            "feature": "LIWC_Space",
+            "price_correlation": 0.12635982461501763,
+            "volume_correlation": 0.20622166815276866,
+            "avg_correlation": 0.16629074638389313
+        },
+        {
+            "feature": "frac_digits",
+            "price_correlation": -0.18652014744953332,
+            "volume_correlation": -0.14554349072222467,
+            "avg_correlation": -0.166031819085879
+        },
+        {
+            "feature": "LIWC_Incl",
+            "price_correlation": 0.11775041013662442,
+            "volume_correlation": 0.19590980571086103,
+            "avg_correlation": 0.15683010792374272
+        },
+        {
+            "feature": "LIWC_Ipron",
+            "price_correlation": 0.139108176781085,
+            "volume_correlation": 0.17377542482013822,
+            "avg_correlation": 0.1564418008006116
+        },
+        {
+            "feature": "LIWC_Relativ",
+            "price_correlation": 0.18605948924239935,
+            "volume_correlation": 0.1137826326920796,
+            "avg_correlation": 0.14992106096723948
+        },
+        {
+            "feature": "LIWC_Motion",
+            "price_correlation": -0.07361000992049838,
+            "volume_correlation": -0.21614381984933018,
+            "avg_correlation": -0.14487691488491428
+        },
+        {
+            "feature": "LIWC_Negemo",
+            "price_correlation": -0.04423594045498557,
+            "volume_correlation": -0.23788145886173634,
+            "avg_correlation": -0.14105869965836096
+        },
+        {
+            "feature": "LIWC_Conj",
+            "price_correlation": 0.15402145582452104,
+            "volume_correlation": 0.1185914308077783,
+            "avg_correlation": 0.13630644331614966
+        },
+        {
+            "feature": "frac_whitespace",
+            "price_correlation": -0.08200376836169156,
+            "volume_correlation": -0.18947146710324714,
+            "avg_correlation": -0.13573761773246934
+        },
+        {
+            "feature": "LIWC_Ingest",
+            "price_correlation": 0.04480732555653212,
+            "volume_correlation": 0.2187396085734379,
+            "avg_correlation": 0.13177346706498502
+        },
+        {
+            "feature": "LIWC_Family",
+            "price_correlation": 0.05159931705587233,
+            "volume_correlation": 0.19870833351523298,
+            "avg_correlation": 0.12515382528555266
+        },
+        {
+            "feature": "LIWC_Percept",
+            "price_correlation": -0.017542695679813293,
+            "volume_correlation": 0.26561838432563223,
+            "avg_correlation": 0.12403784432290947
+        },
+        {
+            "feature": "LIWC_Leisure",
+            "price_correlation": -0.24085105939815618,
+            "volume_correlation": -0.005255583560457395,
+            "avg_correlation": -0.12305332147930678
+        },
+        {
+            "feature": "LIWC_Cause",
+            "price_correlation": -0.09814094659302317,
+            "volume_correlation": -0.14286660233691476,
+            "avg_correlation": -0.12050377446496896
+        },
+        {
+            "feature": "LIWC_Insight",
+            "price_correlation": 0.19061358590345118,
+            "volume_correlation": 0.0421892723976379,
+            "avg_correlation": 0.11640142915054454
+        },
+        {
+            "feature": "LIWC_Work",
+            "price_correlation": 0.2784999008776328,
+            "volume_correlation": -0.05849889081071094,
+            "avg_correlation": 0.11000050503346094
+        },
+        {
+            "feature": "LIWC_Ppron",
+            "price_correlation": 0.18126944812122947,
+            "volume_correlation": 0.03724349093609197,
+            "avg_correlation": 0.10925646952866072
+        }
+    ],
+    "nvidia": [
+        {
+            "feature": "LIWC_Home",
+            "price_correlation": 0.33802560372985435,
+            "volume_correlation": 0.20843365681424428,
+            "avg_correlation": 0.27322963027204933
+        },
+        {
+            "feature": "LIWC_Friends",
+            "price_correlation": 0.021092249367327346,
+            "volume_correlation": -0.5251384557951478,
+            "avg_correlation": -0.25202310321391025
+        },
+        {
+            "feature": "LIWC_Hear",
+            "price_correlation": 0.2931774786643895,
+            "volume_correlation": 0.20320427541995886,
+            "avg_correlation": 0.24819087704217418
+        },
+        {
+            "feature": "LIWC_Motion",
+            "price_correlation": 0.23471514385547343,
+            "volume_correlation": 0.254480379824535,
+            "avg_correlation": 0.2445977618400042
+        },
+        {
+            "feature": "LIWC_Work",
+            "price_correlation": -0.2391037384314956,
+            "volume_correlation": -0.24460070530972622,
+            "avg_correlation": -0.2418522218706109
+        },
+        {
+            "feature": "LIWC_Dissent",
+            "price_correlation": 0.3507916529677498,
+            "volume_correlation": 0.126079141634606,
+            "avg_correlation": 0.2384353973011779
+        },
+        {
+            "feature": "LIWC_Social",
+            "price_correlation": -0.12627636568148812,
+            "volume_correlation": -0.3469273918183735,
+            "avg_correlation": -0.23660187874993083
+        },
+        {
+            "feature": "LIWC_Article",
+            "price_correlation": 0.25291215653371096,
+            "volume_correlation": 0.15032054205698522,
+            "avg_correlation": 0.2016163492953481
+        },
+        {
+            "feature": "LIWC_Time",
+            "price_correlation": -0.10856309993899502,
+            "volume_correlation": -0.2877606647453909,
+            "avg_correlation": -0.19816188234219295
+        },
+        {
+            "feature": "vader_neg",
+            "price_correlation": 0.15294324027191708,
+            "volume_correlation": 0.24330251470749154,
+            "avg_correlation": 0.1981228774897043
+        },
+        {
+            "feature": "LIWC_Funct",
+            "price_correlation": -0.10096711901438214,
+            "volume_correlation": -0.28507458033368127,
+            "avg_correlation": -0.1930208496740317
+        },
+        {
+            "feature": "LIWC_Cause",
+            "price_correlation": 0.19003043739432599,
+            "volume_correlation": 0.1911057645605785,
+            "avg_correlation": 0.19056810097745225
+        },
+        {
+            "feature": "LIWC_Percept",
+            "price_correlation": 0.26855068690846323,
+            "volume_correlation": 0.10950696434468164,
+            "avg_correlation": 0.18902882562657244
+        },
+        {
+            "feature": "LIWC_Swear",
+            "price_correlation": 0.14874319610318912,
+            "volume_correlation": 0.20515309666027393,
+            "avg_correlation": 0.1769481463817315
+        },
+        {
+            "feature": "LIWC_Nonflu",
+            "price_correlation": -0.13982579196628828,
+            "volume_correlation": -0.20444209316526915,
+            "avg_correlation": -0.1721339425657787
+        },
+        {
+            "feature": "LIWC_Leisure",
+            "price_correlation": -0.0335808872728211,
+            "volume_correlation": -0.30846515501583444,
+            "avg_correlation": -0.17102302114432777
+        },
+        {
+            "feature": "LIWC_Conj",
+            "price_correlation": 0.22609128708597617,
+            "volume_correlation": 0.11455695565109457,
+            "avg_correlation": 0.17032412136853536
+        },
+        {
+            "feature": "frac_special",
+            "price_correlation": -0.10664118194604151,
+            "volume_correlation": -0.22542900556498513,
+            "avg_correlation": -0.1660350937555133
+        },
+        {
+            "feature": "LIWC_Negate",
+            "price_correlation": 0.20614043996151069,
+            "volume_correlation": 0.11509811920956374,
+            "avg_correlation": 0.1606192795855372
+        },
+        {
+            "feature": "LIWC_Health",
+            "price_correlation": -0.09406110529641869,
+            "volume_correlation": -0.22395992120132302,
+            "avg_correlation": -0.15901051324887086
+        },
+        {
+            "feature": "LIWC_Sexual",
+            "price_correlation": 0.21053641888537156,
+            "volume_correlation": 0.09998259348646406,
+            "avg_correlation": 0.1552595061859178
+        },
+        {
+            "feature": "LIWC_Prep",
+            "price_correlation": 0.31272933665943586,
+            "volume_correlation": -0.020873610418725215,
+            "avg_correlation": 0.14592786312035533
+        },
+        {
+            "feature": "vader_compound",
+            "price_correlation": 0.06049559273989608,
+            "volume_correlation": 0.23108846238058287,
+            "avg_correlation": 0.14579202756023948
+        },
+        {
+            "feature": "LIWC_SheHe",
+            "price_correlation": 0.2970490503003895,
+            "volume_correlation": -0.011932883212176218,
+            "avg_correlation": 0.14255808354410665
+        },
+        {
+            "feature": "LIWC_Affect",
+            "price_correlation": 0.20472621054096832,
+            "volume_correlation": 0.07701574602007419,
+            "avg_correlation": 0.14087097828052125
+        },
+        {
+            "feature": "LIWC_Incl",
+            "price_correlation": 0.07939861648822194,
+            "volume_correlation": 0.20060976544670625,
+            "avg_correlation": 0.14000419096746408
+        },
+        {
+            "feature": "vader_pos",
+            "price_correlation": -0.13230854981008017,
+            "volume_correlation": -0.13987048768611818,
+            "avg_correlation": -0.13608951874809916
+        },
+        {
+            "feature": "avg_words_per_sentence",
+            "price_correlation": -0.095094945290251,
+            "volume_correlation": -0.16256828915400706,
+            "avg_correlation": -0.12883161722212905
+        },
+        {
+            "feature": "num_unique_stopwords",
+            "price_correlation": 0.29143219909736967,
+            "volume_correlation": -0.03427426041992028,
+            "avg_correlation": 0.1285789693387247
+        },
+        {
+            "feature": "automated_readability_index",
+            "price_correlation": -0.10159807720689654,
+            "volume_correlation": -0.15111370478307454,
+            "avg_correlation": -0.12635589099498554
+        }
+    ],
+    "amazon": [
+        {
+            "feature": "LIWC_Relativ",
+            "price_correlation": -0.4171274514795456,
+            "volume_correlation": -0.4174723690683048,
+            "avg_correlation": -0.4172999102739252
+        },
+        {
+            "feature": "LIWC_Ipron",
+            "price_correlation": -0.3874916587377324,
+            "volume_correlation": -0.3447050476508958,
+            "avg_correlation": -0.3660983531943141
+        },
+        {
+            "feature": "LIWC_Percept",
+            "price_correlation": -0.25466668124001474,
+            "volume_correlation": -0.3891489200998223,
+            "avg_correlation": -0.32190780066991853
+        },
+        {
+            "feature": "LIWC_See",
+            "price_correlation": -0.14838500257872125,
+            "volume_correlation": -0.4551254607886062,
+            "avg_correlation": -0.30175523168366375
+        },
+        {
+            "feature": "num_long_sentences",
+            "price_correlation": -0.31955001715118403,
+            "volume_correlation": -0.27902714261195916,
+            "avg_correlation": -0.2992885798815716
+        },
+        {
+            "feature": "num_unique_stopwords",
+            "price_correlation": -0.3674122922022725,
+            "volume_correlation": -0.22424330276344495,
+            "avg_correlation": -0.2958277974828587
+        },
+        {
+            "feature": "num_sentences",
+            "price_correlation": -0.33070963371758333,
+            "volume_correlation": -0.24233715780181445,
+            "avg_correlation": -0.2865233957596989
+        },
+        {
+            "feature": "LIWC_They",
+            "price_correlation": 0.31641220356552163,
+            "volume_correlation": 0.252493428962024,
+            "avg_correlation": 0.28445281626377283
+        },
+        {
+            "feature": "num_words",
+            "price_correlation": -0.28954439147770883,
+            "volume_correlation": -0.265547616615809,
+            "avg_correlation": -0.2775460040467589
+        },
+        {
+            "feature": "LIWC_Time",
+            "price_correlation": -0.24412247610717178,
+            "volume_correlation": -0.30470432645712203,
+            "avg_correlation": -0.2744134012821469
+        },
+        {
+            "feature": "num_chars",
+            "price_correlation": -0.24139584495557528,
+            "volume_correlation": -0.3023451437614299,
+            "avg_correlation": -0.2718704943585026
+        },
+        {
+            "feature": "frac_digits",
+            "price_correlation": -0.17218627650255378,
+            "volume_correlation": -0.36794880084603643,
+            "avg_correlation": -0.2700675386742951
+        },
+        {
+            "feature": "frac_alpha",
+            "price_correlation": -0.19314367065737242,
+            "volume_correlation": -0.33419646369361844,
+            "avg_correlation": -0.26367006717549546
+        },
+        {
+            "feature": "avg_word_len",
+            "price_correlation": 0.2555063140133417,
+            "volume_correlation": 0.2700874462732817,
+            "avg_correlation": 0.2627968801433117
+        },
+        {
+            "feature": "LIWC_Ppron",
+            "price_correlation": 0.3038155918020525,
+            "volume_correlation": 0.2037227147616991,
+            "avg_correlation": 0.25376915328187577
+        },
+        {
+            "feature": "LIWC_Assent",
+            "price_correlation": -0.1665520447129985,
+            "volume_correlation": -0.3377261357488688,
+            "avg_correlation": -0.2521390902309336
+        },
+        {
+            "feature": "num_chars_no_whitespace",
+            "price_correlation": -0.2053748850239573,
+            "volume_correlation": -0.29298594074059087,
+            "avg_correlation": -0.24918041288227408
+        },
+        {
+            "feature": "LIWC_Feel",
+            "price_correlation": -0.3154805183506381,
+            "volume_correlation": -0.17727372617036286,
+            "avg_correlation": -0.2463771222605005
+        },
+        {
+            "feature": "LIWC_Work",
+            "price_correlation": 0.32808760842664625,
+            "volume_correlation": 0.15693297791692995,
+            "avg_correlation": 0.2425102931717881
+        },
+        {
+            "feature": "LIWC_Space",
+            "price_correlation": -0.1924111243469789,
+            "volume_correlation": -0.271990586294133,
+            "avg_correlation": -0.23220085532055595
+        },
+        {
+            "feature": "LIWC_Article",
+            "price_correlation": 0.13545501482009134,
+            "volume_correlation": 0.3096301647951083,
+            "avg_correlation": 0.22254258980759983
+        },
+        {
+            "feature": "LIWC_Achiev",
+            "price_correlation": -0.15309879909626536,
+            "volume_correlation": -0.2892171638330126,
+            "avg_correlation": -0.221157981464639
+        },
+        {
+            "feature": "LIWC_Excl",
+            "price_correlation": -0.13376179838804064,
+            "volume_correlation": -0.30849133488020136,
+            "avg_correlation": -0.221126566634121
+        },
+        {
+            "feature": "LIWC_Money",
+            "price_correlation": -0.23407936283036326,
+            "volume_correlation": -0.16238450012345929,
+            "avg_correlation": -0.19823193147691126
+        },
+        {
+            "feature": "LIWC_Past",
+            "price_correlation": -0.2434668169016203,
+            "volume_correlation": -0.14545344773577393,
+            "avg_correlation": -0.19446013231869713
+        },
+        {
+            "feature": "LIWC_Motion",
+            "price_correlation": 0.18810705243580683,
+            "volume_correlation": 0.19711759408247517,
+            "avg_correlation": 0.19261232325914102
+        },
+        {
+            "feature": "num_long_words",
+            "price_correlation": -0.1781412878983533,
+            "volume_correlation": -0.20450203693309124,
+            "avg_correlation": -0.19132166241572227
+        },
+        {
+            "feature": "num_unique_words",
+            "price_correlation": -0.17068175682954964,
+            "volume_correlation": -0.21117744469439287,
+            "avg_correlation": -0.19092960076197124
+        },
+        {
+            "feature": "LIWC_Ingest",
+            "price_correlation": -0.2814604512497983,
+            "volume_correlation": -0.0903687858809559,
+            "avg_correlation": -0.1859146185653771
+        },
+        {
+            "feature": "LIWC_Inhib",
+            "price_correlation": -0.10324940393067651,
+            "volume_correlation": -0.2584406503031772,
+            "avg_correlation": -0.18084502711692685
+        }
+    ],
+    "google": [
+        {
+            "feature": "LIWC_Anx",
+            "price_correlation": 0.4312275595296284,
+            "volume_correlation": 0.3771805973495741,
+            "avg_correlation": 0.40420407843960127
+        },
+        {
+            "feature": "num_words",
+            "price_correlation": 0.2930859802339262,
+            "volume_correlation": 0.4562505949637359,
+            "avg_correlation": 0.37466828759883103
+        },
+        {
+            "feature": "num_chars_no_whitespace",
+            "price_correlation": 0.3105538151679002,
+            "volume_correlation": 0.42887609374167934,
+            "avg_correlation": 0.36971495445478975
+        },
+        {
+            "feature": "num_chars",
+            "price_correlation": 0.26067518375462573,
+            "volume_correlation": 0.43794182669877374,
+            "avg_correlation": 0.34930850522669976
+        },
+        {
+            "feature": "num_unique_words",
+            "price_correlation": 0.3030229643038748,
+            "volume_correlation": 0.3500982871840249,
+            "avg_correlation": 0.32656062574394984
+        },
+        {
+            "feature": "num_long_words",
+            "price_correlation": 0.23648547654190175,
+            "volume_correlation": 0.38830214926385764,
+            "avg_correlation": 0.3123938129028797
+        },
+        {
+            "feature": "LIWC_Filler",
+            "price_correlation": 0.299924481633576,
+            "volume_correlation": 0.29422362993893275,
+            "avg_correlation": 0.29707405578625434
+        },
+        {
+            "feature": "LIWC_Time",
+            "price_correlation": -0.3559853089168895,
+            "volume_correlation": -0.17723113902673895,
+            "avg_correlation": -0.2666082239718142
+        },
+        {
+            "feature": "LIWC_Relativ",
+            "price_correlation": -0.2366800970313796,
+            "volume_correlation": -0.2723394224262507,
+            "avg_correlation": -0.2545097597288152
+        },
+        {
+            "feature": "LIWC_CogMech",
+            "price_correlation": -0.15574532190537102,
+            "volume_correlation": -0.35142535219083954,
+            "avg_correlation": -0.25358533704810526
+        },
+        {
+            "feature": "LIWC_Relig",
+            "price_correlation": 0.25462978746345577,
+            "volume_correlation": 0.2453057553048064,
+            "avg_correlation": 0.24996777138413107
+        },
+        {
+            "feature": "LIWC_SheHe",
+            "price_correlation": 0.14839068729246707,
+            "volume_correlation": 0.34204665518796756,
+            "avg_correlation": 0.24521867124021732
+        },
+        {
+            "feature": "LIWC_Humans",
+            "price_correlation": 0.1836313960472742,
+            "volume_correlation": 0.2714624834026203,
+            "avg_correlation": 0.22754693972494724
+        },
+        {
+            "feature": "frac_special",
+            "price_correlation": 0.4160065556638941,
+            "volume_correlation": 0.023253323403358978,
+            "avg_correlation": 0.21962993953362653
+        },
+        {
+            "feature": "LIWC_Negemo",
+            "price_correlation": 0.1704853944598763,
+            "volume_correlation": 0.25549651672627566,
+            "avg_correlation": 0.21299095559307596
+        },
+        {
+            "feature": "LIWC_Social",
+            "price_correlation": 0.2768764643770996,
+            "volume_correlation": 0.1485254622399594,
+            "avg_correlation": 0.2127009633085295
+        },
+        {
+            "feature": "automated_readability_index",
+            "price_correlation": 0.2734181392204055,
+            "volume_correlation": 0.1307722087283385,
+            "avg_correlation": 0.202095173974372
+        },
+        {
+            "feature": "LIWC_Affect",
+            "price_correlation": 0.12817305032508086,
+            "volume_correlation": 0.2755222290269855,
+            "avg_correlation": 0.20184763967603317
+        },
+        {
+            "feature": "num_long_sentences",
+            "price_correlation": 0.03248109089626659,
+            "volume_correlation": 0.37074135405823083,
+            "avg_correlation": 0.20161122247724872
+        },
+        {
+            "feature": "avg_words_per_sentence",
+            "price_correlation": 0.25592097461564534,
+            "volume_correlation": 0.13923861952363,
+            "avg_correlation": 0.19757979706963769
+        },
+        {
+            "feature": "vader_neg",
+            "price_correlation": 0.24869496471115002,
+            "volume_correlation": 0.13763181224348833,
+            "avg_correlation": 0.19316338847731918
+        },
+        {
+            "feature": "LIWC_Nonflu",
+            "price_correlation": 0.1314615637577176,
+            "volume_correlation": 0.23875824356720762,
+            "avg_correlation": 0.1851099036624626
+        },
+        {
+            "feature": "LIWC_I",
+            "price_correlation": 0.20034979255497304,
+            "volume_correlation": 0.1602524299567994,
+            "avg_correlation": 0.18030111125588622
+        },
+        {
+            "feature": "LIWC_Feel",
+            "price_correlation": -0.14589953016203655,
+            "volume_correlation": -0.214385340334943,
+            "avg_correlation": -0.18014243524848977
+        },
+        {
+            "feature": "avg_chars_per_sentence",
+            "price_correlation": 0.2197318750857529,
+            "volume_correlation": 0.12988303336861462,
+            "avg_correlation": 0.17480745422718375
+        },
+        {
+            "feature": "vader_compound",
+            "price_correlation": 0.2714525895836377,
+            "volume_correlation": 0.07635822978051994,
+            "avg_correlation": 0.17390540968207882
+        },
+        {
+            "feature": "LIWC_See",
+            "price_correlation": 0.04273002858412,
+            "volume_correlation": 0.3039681237414584,
+            "avg_correlation": 0.1733490761627892
+        },
+        {
+            "feature": "LIWC_Negate",
+            "price_correlation": -0.20332896170273185,
+            "volume_correlation": -0.12833300715339235,
+            "avg_correlation": -0.1658309844280621
+        },
+        {
+            "feature": "LIWC_Ingest",
+            "price_correlation": -0.2561253687828077,
+            "volume_correlation": -0.07533988758194654,
+            "avg_correlation": -0.16573262818237713
+        },
+        {
+            "feature": "LIWC_Funct",
+            "price_correlation": -0.3644454750775912,
+            "volume_correlation": 0.046615639979956595,
+            "avg_correlation": -0.15891491754881729
+        }
+    ]
+}

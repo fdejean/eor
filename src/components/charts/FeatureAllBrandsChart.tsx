@@ -4,7 +4,7 @@ import { useStore } from '@nanostores/react';
 import { selectedBrand } from '@/stores/stockStore';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import brandsData from "@/data/brands_data.json"
+import brandsData from "@/data/stock_analysis/brands_data.json"
 
 export function FeatureAllBrandsChart() {
     const $selectedBrand = useStore(selectedBrand);
