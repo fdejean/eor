@@ -2,10 +2,8 @@ import React from 'react';
 import { useStore } from '@nanostores/react';
 import { selectedBrand } from '@/stores/stockStore';
 import { ChartSlider } from '@/components/ui/ChartSlider';
-import { FeaturePriceSingleBrandChart } from '@/components/charts/FeaturePriceSingleBrandChart';
-import { FeatureAllBrandsChart } from '@/components/charts/FeatureAllBrandsChart';
+import { GenericFeatureBarChart } from '@/components/charts/GenericFeatureBarChart';
 import { FeatureScatterChart } from '@/components/charts/FeatureScatterChart';
-import { FeatureVolumeSingleBrandChart } from '@/components/charts/FeatureVolumeSingleBrandChart';
 
 export function FeatureDeepDiveCharts() {
     const $selectedBrand = useStore(selectedBrand);
@@ -13,10 +11,10 @@ export function FeatureDeepDiveCharts() {
 
     return (
         <ChartSlider className="overflow-visible" itemClassName="px-2">
-            {/* Card 1: Single Brand */}
+            {/* Card 1: Single Brand Price */}
             <div className="w-full h-full flex flex-col gap-4 justify-center">
                 <div className="w-full flex items-center">
-                    <FeaturePriceSingleBrandChart />
+                    <GenericFeatureBarChart variant="price_std" />
                 </div>
                 <div className="px-2">
                     <h4 className="font-semibold mb-1">Single Brand Analysis</h4>
@@ -24,19 +22,7 @@ export function FeatureDeepDiveCharts() {
                 </div>
             </div>
 
-            {/* Card 2: All Brands 
-            <div className="w-full h-full flex flex-col gap-4 justify-center">
-                <div className="w-full flex items-center">
-                    <FeatureAllBrandsChart />
-                </div>
-                <div className="px-2">
-                    <h4 className="font-semibold mb-1">Cross-Brand Patterns</h4>
-                    <p className="text-sm text-muted-foreground">Aggregating data across 20 brands to find universal linguistic signals that correlate with market movements.</p>
-                </div>
-            </div>
-            */}
-
-            {/* Card 3: Scatter */}
+            {/* Card 2: Scatter */}
             <div className="w-full h-full flex flex-col gap-4 justify-center">
                 <div className="w-full flex items-center">
                     <FeatureScatterChart />
@@ -47,10 +33,10 @@ export function FeatureDeepDiveCharts() {
                 </div>
             </div>
 
-            {/* Card 4: Predictors */}
+            {/* Card 3: Predictors (Volume) */}
             <div className="w-full h-full flex flex-col gap-4 justify-center">
                 <div className="w-full flex items-center">
-                    <FeatureVolumeSingleBrandChart />
+                    <GenericFeatureBarChart variant="volume_predictors" />
                 </div>
                 <div className="px-2">
                     <h4 className="font-semibold mb-1">Top Predictors</h4>

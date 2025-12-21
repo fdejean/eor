@@ -1,14 +1,14 @@
 import React from 'react';
 import { useStore } from '@nanostores/react';
 import { selectedBrand, type BrandId } from '@/stores/stockStore';
-import brandSubredditsJson from '@/data/brand_subreddits.json';
+import brandSubredditsJson from '@/data/stock_analysis/brand_subreddits.json';
 import { Badge } from '@/components/ui/badge';
 
 type BrandSubreddits = {
-    [key: string]: string[];
+    [key: string]: [string, number][];
 };
 
-const brandSubreddits = brandSubredditsJson as BrandSubreddits;
+const brandSubreddits = brandSubredditsJson as unknown as BrandSubreddits;
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const BrandSubredditList = () => {
@@ -62,7 +62,7 @@ export const BrandSubredditList = () => {
                 <div className="h-full overflow-y-auto pr-2 no-scrollbar">
                     <div className="flex flex-wrap gap-2 content-start">
                         <AnimatePresence mode="popLayout">
-                            {subreddits.map((sub, index) => (
+                            {subreddits.map(([sub, score], index) => (
                                 <motion.div
                                     key={`${$selectedBrand}-${sub}`}
                                     initial={{ opacity: 0, scale: 0.8 }}
@@ -75,9 +75,15 @@ export const BrandSubredditList = () => {
                                 >
                                     <Badge
                                         variant="secondary"
-                                        className="text-sm py-1.5 px-3 hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
+                                        className="text-sm py-1.5 px-3 hover:bg-primary hover:text-primary-foreground transition-colors cursor-default flex items-center gap-2"
+                                        style={{
+                                            opacity: 0.5 + (score * 0.5) // Subtle opacity based on score
+                                        }}
                                     >
-                                        r/{sub}
+                                        <span>r/{sub}</span>
+                                        <span className="text-xs opacity-70 font-normal">
+                                            {Math.round(score * 100)}%
+                                        </span>
                                     </Badge>
                                 </motion.div>
                             ))}

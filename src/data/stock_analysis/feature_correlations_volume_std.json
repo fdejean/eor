@@ -1,0 +1,412 @@
+{
+    "apple": [
+        {
+            "feature": "LIWC_Article",
+            "correlation": 0.4363471297760408
+        },
+        {
+            "feature": "num_unique_stopwords",
+            "correlation": -0.344375704716053
+        },
+        {
+            "feature": "LIWC_Excl",
+            "correlation": 0.33728640437048746
+        },
+        {
+            "feature": "frac_uppercase",
+            "correlation": 0.31723530097868613
+        },
+        {
+            "feature": "LIWC_Family",
+            "correlation": -0.28657825865938935
+        },
+        {
+            "feature": "LIWC_Affect",
+            "correlation": 0.28193347128723634
+        },
+        {
+            "feature": "LIWC_Negemo",
+            "correlation": 0.2810930278744311
+        },
+        {
+            "feature": "vader_compound",
+            "correlation": -0.2798650142313013
+        },
+        {
+            "feature": "LIWC_Sexual",
+            "correlation": 0.24312822694678424
+        },
+        {
+            "feature": "LIWC_Anger",
+            "correlation": 0.24271437957620118
+        },
+        {
+            "feature": "LIWC_Nonflu",
+            "correlation": 0.24123699443092142
+        },
+        {
+            "feature": "LIWC_Numbers",
+            "correlation": -0.2246580564376264
+        },
+        {
+            "feature": "LIWC_Humans",
+            "correlation": 0.2211717492987589
+        },
+        {
+            "feature": "LIWC_Body",
+            "correlation": -0.21686288836952236
+        },
+        {
+            "feature": "LIWC_Conj",
+            "correlation": 0.21639483837149603
+        },
+        {
+            "feature": "LIWC_Friends",
+            "correlation": -0.21258847043076612
+        },
+        {
+            "feature": "LIWC_Sad",
+            "correlation": 0.18907113428573727
+        },
+        {
+            "feature": "LIWC_Swear",
+            "correlation": -0.18789284813401996
+        },
+        {
+            "feature": "LIWC_Discrep",
+            "correlation": 0.18487268615288294
+        },
+        {
+            "feature": "LIWC_Incl",
+            "correlation": 0.1826739454069275
+        }
+    ],
+    "tesla": [
+        {
+            "feature": "LIWC_Sad",
+            "correlation": -0.27325820991202737
+        },
+        {
+            "feature": "LIWC_Percept",
+            "correlation": 0.26561838432563223
+        },
+        {
+            "feature": "LIWC_Negemo",
+            "correlation": -0.23788145886173634
+        },
+        {
+            "feature": "num_words",
+            "correlation": 0.22098607943348317
+        },
+        {
+            "feature": "LIWC_Ingest",
+            "correlation": 0.2187396085734379
+        },
+        {
+            "feature": "LIWC_Motion",
+            "correlation": -0.21614381984933018
+        },
+        {
+            "feature": "LIWC_Space",
+            "correlation": 0.20622166815276866
+        },
+        {
+            "feature": "LIWC_Pronoun",
+            "correlation": 0.2046315505835525
+        },
+        {
+            "feature": "frac_uppercase",
+            "correlation": -0.2016244266527609
+        },
+        {
+            "feature": "LIWC_Family",
+            "correlation": 0.19870833351523298
+        },
+        {
+            "feature": "vader_neg",
+            "correlation": -0.19682232818603643
+        },
+        {
+            "feature": "num_chars",
+            "correlation": 0.19626448781036807
+        },
+        {
+            "feature": "LIWC_Incl",
+            "correlation": 0.19590980571086103
+        },
+        {
+            "feature": "num_chars_no_whitespace",
+            "correlation": 0.19165268723058368
+        },
+        {
+            "feature": "LIWC_Certain",
+            "correlation": -0.1906335139869202
+        },
+        {
+            "feature": "LIWC_Negate",
+            "correlation": -0.18999186989480774
+        },
+        {
+            "feature": "frac_whitespace",
+            "correlation": -0.18947146710324714
+        },
+        {
+            "feature": "num_unique_words",
+            "correlation": 0.18108463929125504
+        },
+        {
+            "feature": "LIWC_Ipron",
+            "correlation": 0.17377542482013822
+        },
+        {
+            "feature": "LIWC_Body",
+            "correlation": -0.17043264223106477
+        }
+    ],
+    "nvidia": [
+        {
+            "feature": "LIWC_Friends",
+            "correlation": -0.5251384557951478
+        },
+        {
+            "feature": "LIWC_Social",
+            "correlation": -0.3469273918183735
+        },
+        {
+            "feature": "LIWC_Leisure",
+            "correlation": -0.30846515501583444
+        },
+        {
+            "feature": "LIWC_Time",
+            "correlation": -0.2877606647453909
+        },
+        {
+            "feature": "LIWC_Funct",
+            "correlation": -0.28507458033368127
+        },
+        {
+            "feature": "num_long_words",
+            "correlation": -0.2659526224778467
+        },
+        {
+            "feature": "LIWC_Motion",
+            "correlation": 0.254480379824535
+        },
+        {
+            "feature": "num_chars_no_whitespace",
+            "correlation": -0.24803235770424192
+        },
+        {
+            "feature": "LIWC_Work",
+            "correlation": -0.24460070530972622
+        },
+        {
+            "feature": "vader_neg",
+            "correlation": 0.24330251470749154
+        },
+        {
+            "feature": "frac_uppercase",
+            "correlation": -0.2351172536442136
+        },
+        {
+            "feature": "LIWC_Certain",
+            "correlation": 0.23160531475125082
+        },
+        {
+            "feature": "vader_compound",
+            "correlation": 0.23108846238058287
+        },
+        {
+            "feature": "num_chars",
+            "correlation": -0.22654755478231708
+        },
+        {
+            "feature": "frac_special",
+            "correlation": -0.22542900556498513
+        },
+        {
+            "feature": "LIWC_Health",
+            "correlation": -0.22395992120132302
+        },
+        {
+            "feature": "LIWC_Assent",
+            "correlation": -0.21830693050472283
+        },
+        {
+            "feature": "LIWC_Home",
+            "correlation": 0.20843365681424428
+        },
+        {
+            "feature": "LIWC_Swear",
+            "correlation": 0.20515309666027393
+        },
+        {
+            "feature": "LIWC_Nonflu",
+            "correlation": -0.20444209316526915
+        }
+    ],
+    "amazon": [
+        {
+            "feature": "LIWC_See",
+            "correlation": -0.4551254607886062
+        },
+        {
+            "feature": "LIWC_Relativ",
+            "correlation": -0.4174723690683048
+        },
+        {
+            "feature": "LIWC_Percept",
+            "correlation": -0.3891489200998223
+        },
+        {
+            "feature": "frac_digits",
+            "correlation": -0.36794880084603643
+        },
+        {
+            "feature": "LIWC_Ipron",
+            "correlation": -0.3447050476508958
+        },
+        {
+            "feature": "LIWC_Assent",
+            "correlation": -0.3377261357488688
+        },
+        {
+            "feature": "frac_alpha",
+            "correlation": -0.33419646369361844
+        },
+        {
+            "feature": "LIWC_Article",
+            "correlation": 0.3096301647951083
+        },
+        {
+            "feature": "LIWC_Excl",
+            "correlation": -0.30849133488020136
+        },
+        {
+            "feature": "LIWC_Time",
+            "correlation": -0.30470432645712203
+        },
+        {
+            "feature": "num_chars",
+            "correlation": -0.3023451437614299
+        },
+        {
+            "feature": "num_chars_no_whitespace",
+            "correlation": -0.29298594074059087
+        },
+        {
+            "feature": "LIWC_Achiev",
+            "correlation": -0.2892171638330126
+        },
+        {
+            "feature": "num_long_sentences",
+            "correlation": -0.27902714261195916
+        },
+        {
+            "feature": "LIWC_Space",
+            "correlation": -0.271990586294133
+        },
+        {
+            "feature": "avg_word_len",
+            "correlation": 0.2700874462732817
+        },
+        {
+            "feature": "num_words",
+            "correlation": -0.265547616615809
+        },
+        {
+            "feature": "LIWC_Inhib",
+            "correlation": -0.2584406503031772
+        },
+        {
+            "feature": "LIWC_They",
+            "correlation": 0.252493428962024
+        },
+        {
+            "feature": "vader_pos",
+            "correlation": 0.24399727428314055
+        }
+    ],
+    "google": [
+        {
+            "feature": "num_words",
+            "correlation": 0.4562505949637359
+        },
+        {
+            "feature": "num_chars",
+            "correlation": 0.43794182669877374
+        },
+        {
+            "feature": "num_chars_no_whitespace",
+            "correlation": 0.42887609374167934
+        },
+        {
+            "feature": "num_long_words",
+            "correlation": 0.38830214926385764
+        },
+        {
+            "feature": "LIWC_Anx",
+            "correlation": 0.3771805973495741
+        },
+        {
+            "feature": "num_long_sentences",
+            "correlation": 0.37074135405823083
+        },
+        {
+            "feature": "LIWC_CogMech",
+            "correlation": -0.35142535219083954
+        },
+        {
+            "feature": "num_unique_words",
+            "correlation": 0.3500982871840249
+        },
+        {
+            "feature": "LIWC_SheHe",
+            "correlation": 0.34204665518796756
+        },
+        {
+            "feature": "num_sentences",
+            "correlation": 0.3101145923597023
+        },
+        {
+            "feature": "LIWC_See",
+            "correlation": 0.3039681237414584
+        },
+        {
+            "feature": "LIWC_Filler",
+            "correlation": 0.29422362993893275
+        },
+        {
+            "feature": "LIWC_Affect",
+            "correlation": 0.2755222290269855
+        },
+        {
+            "feature": "LIWC_Relativ",
+            "correlation": -0.2723394224262507
+        },
+        {
+            "feature": "LIWC_Humans",
+            "correlation": 0.2714624834026203
+        },
+        {
+            "feature": "frac_whitespace",
+            "correlation": -0.26598933294116334
+        },
+        {
+            "feature": "LIWC_Incl",
+            "correlation": -0.25725779020481704
+        },
+        {
+            "feature": "LIWC_Inhib",
+            "correlation": 0.2557460624571675
+        },
+        {
+            "feature": "LIWC_Negemo",
+            "correlation": 0.25549651672627566
+        },
+        {
+            "feature": "LIWC_Home",
+            "correlation": 0.24837704859218188
+        }
+    ]
+}

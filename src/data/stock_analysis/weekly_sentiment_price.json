@@ -1,0 +1,5232 @@
+{
+    "apple": [
+        {
+            "date": "2014-01-05",
+            "total_sentiment": 6.0,
+            "negativity_sentiment": 0.0,
+            "price": 77.70428466796875
+        },
+        {
+            "date": "2014-01-12",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 76.5328598022461
+        },
+        {
+            "date": "2014-01-19",
+            "total_sentiment": 5.0,
+            "negativity_sentiment": 1.0,
+            "price": 78.43856811523438
+        },
+        {
+            "date": "2014-01-26",
+            "total_sentiment": 7.0,
+            "negativity_sentiment": 0.0,
+            "price": 78.64286041259766
+        },
+        {
+            "date": "2014-02-02",
+            "total_sentiment": 8.0,
+            "negativity_sentiment": 1.0,
+            "price": 71.64714050292969
+        },
+        {
+            "date": "2014-02-09",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 0.0,
+            "price": 75.56999969482422
+        },
+        {
+            "date": "2014-02-16",
+            "total_sentiment": 8.0,
+            "negativity_sentiment": 0.0,
+            "price": 77.99857330322266
+        },
+        {
+            "date": "2014-02-23",
+            "total_sentiment": 8.0,
+            "negativity_sentiment": 0.0,
+            "price": 75.36428833007812
+        },
+        {
+            "date": "2014-03-02",
+            "total_sentiment": 5.0,
+            "negativity_sentiment": 1.0,
+            "price": 75.394287109375
+        },
+        {
+            "date": "2014-03-09",
+            "total_sentiment": 3.0,
+            "negativity_sentiment": 3.0,
+            "price": 75.84571075439453
+        },
+        {
+            "date": "2014-03-16",
+            "total_sentiment": 4.0,
+            "negativity_sentiment": 1.0,
+            "price": 75.24857330322266
+        },
+        {
+            "date": "2014-03-23",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 0.0,
+            "price": 77.02714538574219
+        },
+        {
+            "date": "2014-03-30",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 1.0,
+            "price": 76.67713928222656
+        },
+        {
+            "date": "2014-04-06",
+            "total_sentiment": 5.0,
+            "negativity_sentiment": 2.0,
+            "price": 74.78142547607422
+        },
+        {
+            "date": "2014-04-13",
+            "total_sentiment": 4.0,
+            "negativity_sentiment": 1.0,
+            "price": 74.52571105957031
+        },
+        {
+            "date": "2014-04-20",
+            "total_sentiment": 3.0,
+            "negativity_sentiment": 0.0,
+            "price": 75.88143157958984
+        },
+        {
+            "date": "2014-04-27",
+            "total_sentiment": 6.0,
+            "negativity_sentiment": 1.0,
+            "price": 84.87000274658203
+        },
+        {
+            "date": "2014-05-04",
+            "total_sentiment": 10.0,
+            "negativity_sentiment": 0.0,
+            "price": 85.85142517089844
+        },
+        {
+            "date": "2014-05-11",
+            "total_sentiment": 5.0,
+            "negativity_sentiment": 0.0,
+            "price": 84.69000244140625
+        },
+        {
+            "date": "2014-05-18",
+            "total_sentiment": 10.0,
+            "negativity_sentiment": 0.0,
+            "price": 86.37000274658203
+        },
+        {
+            "date": "2014-05-25",
+            "total_sentiment": 6.0,
+            "negativity_sentiment": 1.0,
+            "price": 89.37571716308594
+        },
+        {
+            "date": "2014-06-01",
+            "total_sentiment": 7.0,
+            "negativity_sentiment": 1.0,
+            "price": 89.80714416503906
+        },
+        {
+            "date": "2014-06-08",
+            "total_sentiment": 6.0,
+            "negativity_sentiment": 2.0,
+            "price": 93.6999969482422
+        },
+        {
+            "date": "2014-06-15",
+            "total_sentiment": 4.0,
+            "negativity_sentiment": 0.0,
+            "price": 92.1999969482422
+        },
+        {
+            "date": "2014-06-22",
+            "total_sentiment": 6.0,
+            "negativity_sentiment": 0.0,
+            "price": 90.83000183105467
+        },
+        {
+            "date": "2014-06-29",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 0.0,
+            "price": 92.93000030517578
+        },
+        {
+            "date": "2014-07-06",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 2.0,
+            "price": 95.97000122070312
+        },
+        {
+            "date": "2014-07-13",
+            "total_sentiment": 7.0,
+            "negativity_sentiment": 0.0,
+            "price": 96.4499969482422
+        },
+        {
+            "date": "2014-07-20",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 0.0,
+            "price": 93.94000244140624
+        },
+        {
+            "date": "2014-07-27",
+            "total_sentiment": 6.0,
+            "negativity_sentiment": 2.0,
+            "price": 99.0199966430664
+        },
+        {
+            "date": "2014-08-03",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 95.58999633789062
+        },
+        {
+            "date": "2014-08-10",
+            "total_sentiment": 7.0,
+            "negativity_sentiment": 0.0,
+            "price": 95.98999786376952
+        },
+        {
+            "date": "2014-08-17",
+            "total_sentiment": 11.0,
+            "negativity_sentiment": 0.0,
+            "price": 99.16000366210938
+        },
+        {
+            "date": "2014-08-24",
+            "total_sentiment": 11.0,
+            "negativity_sentiment": 0.0,
+            "price": 101.54000091552734
+        },
+        {
+            "date": "2014-08-31",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 0.0,
+            "price": 103.3000030517578
+        },
+        {
+            "date": "2014-09-07",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 0.0,
+            "price": 98.36000061035156
+        },
+        {
+            "date": "2014-09-14",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 2.0,
+            "price": 101.62999725341795
+        },
+        {
+            "date": "2014-09-21",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 3.0,
+            "price": 101.05999755859376
+        },
+        {
+            "date": "2014-09-28",
+            "total_sentiment": 34.0,
+            "negativity_sentiment": 1.0,
+            "price": 100.11000061035156
+        },
+        {
+            "date": "2014-10-05",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 1.0,
+            "price": 99.62000274658205
+        },
+        {
+            "date": "2014-10-12",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 99.80999755859376
+        },
+        {
+            "date": "2014-10-19",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 3.0,
+            "price": 99.76000213623048
+        },
+        {
+            "date": "2014-10-26",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 2.0,
+            "price": 105.11000061035156
+        },
+        {
+            "date": "2014-11-02",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 1.0,
+            "price": 109.4000015258789
+        },
+        {
+            "date": "2014-11-09",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 108.83000183105467
+        },
+        {
+            "date": "2014-11-16",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 1.0,
+            "price": 113.98999786376952
+        },
+        {
+            "date": "2014-11-23",
+            "total_sentiment": 6.0,
+            "negativity_sentiment": 2.0,
+            "price": 118.62999725341795
+        },
+        {
+            "date": "2014-11-30",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 115.06999969482422
+        },
+        {
+            "date": "2014-12-07",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 112.4000015258789
+        },
+        {
+            "date": "2014-12-14",
+            "total_sentiment": 11.0,
+            "negativity_sentiment": 2.0,
+            "price": 108.2300033569336
+        },
+        {
+            "date": "2014-12-21",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 1.0,
+            "price": 112.94000244140624
+        },
+        {
+            "date": "2014-12-28",
+            "total_sentiment": 7.0,
+            "negativity_sentiment": 1.0,
+            "price": 113.91000366210938
+        },
+        {
+            "date": "2015-01-04",
+            "total_sentiment": 7.0,
+            "negativity_sentiment": 0.0,
+            "price": 106.25
+        },
+        {
+            "date": "2015-01-11",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 0.0,
+            "price": 109.25
+        },
+        {
+            "date": "2015-01-18",
+            "total_sentiment": 27.0,
+            "negativity_sentiment": 1.0,
+            "price": 108.72000122070312
+        },
+        {
+            "date": "2015-01-25",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 113.0999984741211
+        },
+        {
+            "date": "2015-02-01",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 118.62999725341795
+        },
+        {
+            "date": "2015-02-08",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 1.0,
+            "price": 119.72000122070312
+        },
+        {
+            "date": "2015-02-15",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 127.83000183105467
+        },
+        {
+            "date": "2015-02-22",
+            "total_sentiment": 11.0,
+            "negativity_sentiment": 1.0,
+            "price": 133.0
+        },
+        {
+            "date": "2015-03-01",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 1.0,
+            "price": 129.08999633789062
+        },
+        {
+            "date": "2015-03-08",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 0.0,
+            "price": 127.13999938964844
+        },
+        {
+            "date": "2015-03-15",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 124.9499969482422
+        },
+        {
+            "date": "2015-03-22",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 127.20999908447266
+        },
+        {
+            "date": "2015-03-29",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 2.0,
+            "price": 126.37000274658205
+        },
+        {
+            "date": "2015-04-05",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 127.3499984741211
+        },
+        {
+            "date": "2015-04-12",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 0.0,
+            "price": 126.8499984741211
+        },
+        {
+            "date": "2015-04-19",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 0.0,
+            "price": 127.5999984741211
+        },
+        {
+            "date": "2015-04-26",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 4.0,
+            "price": 132.64999389648438
+        },
+        {
+            "date": "2015-05-03",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 0.0,
+            "price": 128.6999969482422
+        },
+        {
+            "date": "2015-05-10",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 126.31999969482422
+        },
+        {
+            "date": "2015-05-17",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 0.0,
+            "price": 130.19000244140625
+        },
+        {
+            "date": "2015-05-24",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 0.0,
+            "price": 129.6199951171875
+        },
+        {
+            "date": "2015-05-31",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 0.0,
+            "price": 130.5399932861328
+        },
+        {
+            "date": "2015-06-07",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 127.8000030517578
+        },
+        {
+            "date": "2015-06-14",
+            "total_sentiment": 29.0,
+            "negativity_sentiment": 0.0,
+            "price": 126.91999816894533
+        },
+        {
+            "date": "2015-06-21",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 127.61000061035156
+        },
+        {
+            "date": "2015-06-28",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 0.0,
+            "price": 124.52999877929688
+        },
+        {
+            "date": "2015-07-05",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 0.0,
+            "price": 126.0
+        },
+        {
+            "date": "2015-07-12",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 1.0,
+            "price": 125.66000366210938
+        },
+        {
+            "date": "2015-07-19",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 132.07000732421875
+        },
+        {
+            "date": "2015-07-26",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 0.0,
+            "price": 122.7699966430664
+        },
+        {
+            "date": "2015-08-02",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 0.0,
+            "price": 118.44000244140624
+        },
+        {
+            "date": "2015-08-09",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 119.72000122070312
+        },
+        {
+            "date": "2015-08-16",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 0.0,
+            "price": 117.16000366210938
+        },
+        {
+            "date": "2015-08-23",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 0.0,
+            "price": 103.12000274658205
+        },
+        {
+            "date": "2015-08-30",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 1.0,
+            "price": 112.76000213623048
+        },
+        {
+            "date": "2015-09-06",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 112.30999755859376
+        },
+        {
+            "date": "2015-09-13",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 0.0,
+            "price": 115.30999755859376
+        },
+        {
+            "date": "2015-09-20",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 0.0,
+            "price": 115.20999908447266
+        },
+        {
+            "date": "2015-09-27",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 2.0,
+            "price": 112.44000244140624
+        },
+        {
+            "date": "2015-10-04",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 1.0,
+            "price": 110.77999877929688
+        },
+        {
+            "date": "2015-10-11",
+            "total_sentiment": 33.0,
+            "negativity_sentiment": 1.0,
+            "price": 111.5999984741211
+        },
+        {
+            "date": "2015-10-18",
+            "total_sentiment": 40.0,
+            "negativity_sentiment": 2.0,
+            "price": 111.7300033569336
+        },
+        {
+            "date": "2015-10-25",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 0.0,
+            "price": 115.27999877929688
+        },
+        {
+            "date": "2015-11-01",
+            "total_sentiment": 23.0,
+            "negativity_sentiment": 3.0,
+            "price": 121.18000030517578
+        },
+        {
+            "date": "2015-11-08",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 0.0,
+            "price": 120.56999969482422
+        },
+        {
+            "date": "2015-11-15",
+            "total_sentiment": 27.0,
+            "negativity_sentiment": 0.0,
+            "price": 114.18000030517578
+        },
+        {
+            "date": "2015-11-22",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 0.0,
+            "price": 117.75
+        },
+        {
+            "date": "2015-11-29",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 2.0,
+            "price": 118.3000030517578
+        },
+        {
+            "date": "2015-12-06",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 0.0,
+            "price": 118.27999877929688
+        },
+        {
+            "date": "2015-12-13",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 0.0,
+            "price": 112.4800033569336
+        },
+        {
+            "date": "2015-12-20",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 107.33000183105467
+        },
+        {
+            "date": "2015-12-27",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 0.0,
+            "price": 106.81999969482422
+        },
+        {
+            "date": "2016-01-03",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 2.0,
+            "price": 105.3499984741211
+        },
+        {
+            "date": "2016-01-10",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 0.0,
+            "price": 98.52999877929688
+        },
+        {
+            "date": "2016-01-17",
+            "total_sentiment": 23.0,
+            "negativity_sentiment": 0.0,
+            "price": 96.66000366210938
+        },
+        {
+            "date": "2016-01-24",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 0.0,
+            "price": 99.44000244140624
+        },
+        {
+            "date": "2016-01-31",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 0.0,
+            "price": 96.43000030517578
+        },
+        {
+            "date": "2016-02-07",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 1.0,
+            "price": 95.01000213623048
+        },
+        {
+            "date": "2016-02-14",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 96.63999938964844
+        },
+        {
+            "date": "2016-02-21",
+            "total_sentiment": 30.0,
+            "negativity_sentiment": 1.0,
+            "price": 96.87999725341795
+        },
+        {
+            "date": "2016-02-28",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 0.0,
+            "price": 96.69000244140624
+        },
+        {
+            "date": "2016-03-06",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 0.0,
+            "price": 101.87000274658205
+        },
+        {
+            "date": "2016-03-13",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 2.0,
+            "price": 102.5199966430664
+        },
+        {
+            "date": "2016-03-20",
+            "total_sentiment": 23.0,
+            "negativity_sentiment": 0.0,
+            "price": 105.91000366210938
+        },
+        {
+            "date": "2016-03-27",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 2.0,
+            "price": 105.19000244140624
+        },
+        {
+            "date": "2016-04-03",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 111.12000274658205
+        },
+        {
+            "date": "2016-04-10",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 109.0199966430664
+        },
+        {
+            "date": "2016-04-17",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 0.0,
+            "price": 107.4800033569336
+        },
+        {
+            "date": "2016-04-24",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 105.08000183105467
+        },
+        {
+            "date": "2016-05-01",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 0.0,
+            "price": 93.63999938964844
+        },
+        {
+            "date": "2016-05-08",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 0.0,
+            "price": 92.79000091552734
+        },
+        {
+            "date": "2016-05-15",
+            "total_sentiment": 10.0,
+            "negativity_sentiment": 0.0,
+            "price": 93.87999725341795
+        },
+        {
+            "date": "2016-05-22",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 96.43000030517578
+        },
+        {
+            "date": "2016-05-29",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 0.0,
+            "price": 99.86000061035156
+        },
+        {
+            "date": "2016-06-05",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 0.0,
+            "price": 98.62999725341795
+        },
+        {
+            "date": "2016-06-12",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 0.0,
+            "price": 97.33999633789062
+        },
+        {
+            "date": "2016-06-19",
+            "total_sentiment": 29.0,
+            "negativity_sentiment": 1.0,
+            "price": 95.0999984741211
+        },
+        {
+            "date": "2016-06-26",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 0.0,
+            "price": 92.04000091552734
+        },
+        {
+            "date": "2016-07-03",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 1.0,
+            "price": 94.98999786376952
+        },
+        {
+            "date": "2016-07-10",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 0.0,
+            "price": 96.9800033569336
+        },
+        {
+            "date": "2016-07-17",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 1.0,
+            "price": 99.83000183105467
+        },
+        {
+            "date": "2016-07-24",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 2.0,
+            "price": 97.33999633789062
+        },
+        {
+            "date": "2016-07-31",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 106.0500030517578
+        },
+        {
+            "date": "2016-08-07",
+            "total_sentiment": 27.0,
+            "negativity_sentiment": 2.0,
+            "price": 108.37000274658205
+        },
+        {
+            "date": "2016-08-14",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 3.0,
+            "price": 109.4800033569336
+        },
+        {
+            "date": "2016-08-21",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 0.0,
+            "price": 108.51000213623048
+        },
+        {
+            "date": "2016-08-28",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 3.0,
+            "price": 106.81999969482422
+        },
+        {
+            "date": "2016-09-04",
+            "total_sentiment": 33.0,
+            "negativity_sentiment": 0.0,
+            "price": 107.6999969482422
+        },
+        {
+            "date": "2016-09-11",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 2.0,
+            "price": 105.44000244140624
+        },
+        {
+            "date": "2016-09-18",
+            "total_sentiment": 42.0,
+            "negativity_sentiment": 1.0,
+            "price": 113.58000183105467
+        },
+        {
+            "date": "2016-09-25",
+            "total_sentiment": 34.0,
+            "negativity_sentiment": 1.0,
+            "price": 112.87999725341795
+        },
+        {
+            "date": "2016-10-02",
+            "total_sentiment": 42.0,
+            "negativity_sentiment": 1.0,
+            "price": 112.5199966430664
+        },
+        {
+            "date": "2016-10-09",
+            "total_sentiment": 33.0,
+            "negativity_sentiment": 1.0,
+            "price": 116.0500030517578
+        },
+        {
+            "date": "2016-10-16",
+            "total_sentiment": 42.0,
+            "negativity_sentiment": 0.0,
+            "price": 117.5500030517578
+        },
+        {
+            "date": "2016-10-23",
+            "total_sentiment": 38.0,
+            "negativity_sentiment": 2.0,
+            "price": 117.6500015258789
+        },
+        {
+            "date": "2016-10-30",
+            "total_sentiment": 46.0,
+            "negativity_sentiment": 3.0,
+            "price": 113.54000091552734
+        },
+        {
+            "date": "2016-11-06",
+            "total_sentiment": 55.0,
+            "negativity_sentiment": 0.0,
+            "price": 110.41000366210938
+        },
+        {
+            "date": "2016-11-13",
+            "total_sentiment": 36.0,
+            "negativity_sentiment": 1.0,
+            "price": 105.70999908447266
+        },
+        {
+            "date": "2016-11-20",
+            "total_sentiment": 38.0,
+            "negativity_sentiment": 0.0,
+            "price": 111.7300033569336
+        },
+        {
+            "date": "2016-11-27",
+            "total_sentiment": 38.0,
+            "negativity_sentiment": 2.0,
+            "price": 111.56999969482422
+        },
+        {
+            "date": "2016-12-04",
+            "total_sentiment": 43.0,
+            "negativity_sentiment": 1.0,
+            "price": 109.11000061035156
+        },
+        {
+            "date": "2016-12-11",
+            "total_sentiment": 62.0,
+            "negativity_sentiment": 0.0,
+            "price": 113.3000030517578
+        },
+        {
+            "date": "2016-12-18",
+            "total_sentiment": 52.0,
+            "negativity_sentiment": 0.0,
+            "price": 116.63999938964844
+        },
+        {
+            "date": "2016-12-25",
+            "total_sentiment": 42.0,
+            "negativity_sentiment": 1.0,
+            "price": 117.26000213623048
+        },
+        {
+            "date": "2017-01-01",
+            "total_sentiment": 56.0,
+            "negativity_sentiment": 0.0,
+            "price": 116.1500015258789
+        },
+        {
+            "date": "2017-01-08",
+            "total_sentiment": 47.0,
+            "negativity_sentiment": 0.0,
+            "price": 118.98999786376952
+        },
+        {
+            "date": "2017-01-15",
+            "total_sentiment": 45.0,
+            "negativity_sentiment": 1.0,
+            "price": 120.0
+        },
+        {
+            "date": "2017-01-22",
+            "total_sentiment": 48.0,
+            "negativity_sentiment": 0.0,
+            "price": 120.08000183105467
+        },
+        {
+            "date": "2017-01-29",
+            "total_sentiment": 38.0,
+            "negativity_sentiment": 0.0,
+            "price": 121.62999725341795
+        },
+        {
+            "date": "2017-02-05",
+            "total_sentiment": 43.0,
+            "negativity_sentiment": 0.0,
+            "price": 130.2899932861328
+        },
+        {
+            "date": "2017-02-12",
+            "total_sentiment": 46.0,
+            "negativity_sentiment": 0.0,
+            "price": 133.2899932861328
+        },
+        {
+            "date": "2017-02-19",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 0.0,
+            "price": 136.6999969482422
+        },
+        {
+            "date": "2017-02-26",
+            "total_sentiment": 46.0,
+            "negativity_sentiment": 0.0,
+            "price": 136.92999267578125
+        },
+        {
+            "date": "2017-03-05",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 0.0,
+            "price": 139.33999633789062
+        },
+        {
+            "date": "2017-03-12",
+            "total_sentiment": 36.0,
+            "negativity_sentiment": 1.0,
+            "price": 139.1999969482422
+        },
+        {
+            "date": "2017-03-19",
+            "total_sentiment": 37.0,
+            "negativity_sentiment": 0.0,
+            "price": 141.4600067138672
+        },
+        {
+            "date": "2017-03-26",
+            "total_sentiment": 43.0,
+            "negativity_sentiment": 2.0,
+            "price": 140.8800048828125
+        },
+        {
+            "date": "2017-04-02",
+            "total_sentiment": 46.0,
+            "negativity_sentiment": 0.0,
+            "price": 143.6999969482422
+        },
+        {
+            "date": "2017-04-09",
+            "total_sentiment": 39.0,
+            "negativity_sentiment": 1.0,
+            "price": 143.1699981689453
+        },
+        {
+            "date": "2017-04-16",
+            "total_sentiment": 47.0,
+            "negativity_sentiment": 1.0,
+            "price": 141.8300018310547
+        },
+        {
+            "date": "2017-04-23",
+            "total_sentiment": 31.0,
+            "negativity_sentiment": 0.0,
+            "price": 143.63999938964844
+        },
+        {
+            "date": "2017-04-30",
+            "total_sentiment": 44.0,
+            "negativity_sentiment": 1.0,
+            "price": 146.5800018310547
+        }
+    ],
+    "tesla": [
+        {
+            "date": "2014-01-05",
+            "total_sentiment": 8.0,
+            "negativity_sentiment": 0.0,
+            "price": 147.0
+        },
+        {
+            "date": "2014-01-12",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 1.0,
+            "price": 139.33999633789062
+        },
+        {
+            "date": "2014-01-19",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 3.0,
+            "price": 176.67999267578125
+        },
+        {
+            "date": "2014-01-26",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 2.0,
+            "price": 169.6199951171875
+        },
+        {
+            "date": "2014-02-02",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 3.0,
+            "price": 177.11000061035156
+        },
+        {
+            "date": "2014-02-09",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 0.0,
+            "price": 196.55999755859372
+        },
+        {
+            "date": "2014-02-16",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 0.0,
+            "price": 203.6999969482422
+        },
+        {
+            "date": "2014-02-23",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 0.0,
+            "price": 217.6499938964844
+        },
+        {
+            "date": "2014-03-02",
+            "total_sentiment": 30.0,
+            "negativity_sentiment": 0.0,
+            "price": 250.55999755859372
+        },
+        {
+            "date": "2014-03-09",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 2.0,
+            "price": 238.83999633789065
+        },
+        {
+            "date": "2014-03-16",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 2.0,
+            "price": 233.97999572753903
+        },
+        {
+            "date": "2014-03-23",
+            "total_sentiment": 10.0,
+            "negativity_sentiment": 2.0,
+            "price": 220.1699981689453
+        },
+        {
+            "date": "2014-03-30",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 1.0,
+            "price": 208.4499969482422
+        },
+        {
+            "date": "2014-04-06",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 1.0,
+            "price": 207.5200042724609
+        },
+        {
+            "date": "2014-04-13",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 198.08999633789065
+        },
+        {
+            "date": "2014-04-20",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 204.3800048828125
+        },
+        {
+            "date": "2014-04-27",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 2.0,
+            "price": 198.50999450683597
+        },
+        {
+            "date": "2014-05-04",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 216.6100006103516
+        },
+        {
+            "date": "2014-05-11",
+            "total_sentiment": 31.0,
+            "negativity_sentiment": 2.0,
+            "price": 184.6699981689453
+        },
+        {
+            "date": "2014-05-18",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 1.0,
+            "price": 196.08999633789065
+        },
+        {
+            "date": "2014-05-25",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 211.55999755859372
+        },
+        {
+            "date": "2014-06-01",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 2.0,
+            "price": 204.6999969482422
+        },
+        {
+            "date": "2014-06-08",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 2.0,
+            "price": 205.30999755859372
+        },
+        {
+            "date": "2014-06-15",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 224.6100006103516
+        },
+        {
+            "date": "2014-06-22",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 237.22000122070312
+        },
+        {
+            "date": "2014-06-29",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 240.05999755859372
+        },
+        {
+            "date": "2014-07-06",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 222.66000366210935
+        },
+        {
+            "date": "2014-07-13",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 2.0,
+            "price": 226.6999969482422
+        },
+        {
+            "date": "2014-07-20",
+            "total_sentiment": 11.0,
+            "negativity_sentiment": 2.0,
+            "price": 220.5399932861328
+        },
+        {
+            "date": "2014-07-27",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 224.82000732421875
+        },
+        {
+            "date": "2014-08-03",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 0.0,
+            "price": 238.5200042724609
+        },
+        {
+            "date": "2014-08-10",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 1.0,
+            "price": 259.32000732421875
+        },
+        {
+            "date": "2014-08-17",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 1.0,
+            "price": 259.94000244140625
+        },
+        {
+            "date": "2014-08-24",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 2.0,
+            "price": 262.54998779296875
+        },
+        {
+            "date": "2014-08-31",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 284.1199951171875
+        },
+        {
+            "date": "2014-09-07",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 0.0,
+            "price": 282.1099853515625
+        },
+        {
+            "date": "2014-09-14",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 1.0,
+            "price": 253.8600006103516
+        },
+        {
+            "date": "2014-09-21",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 1.0,
+            "price": 250.02999877929688
+        },
+        {
+            "date": "2014-09-28",
+            "total_sentiment": 10.0,
+            "negativity_sentiment": 0.0,
+            "price": 245.25999450683597
+        },
+        {
+            "date": "2014-10-05",
+            "total_sentiment": 29.0,
+            "negativity_sentiment": 0.0,
+            "price": 260.6199951171875
+        },
+        {
+            "date": "2014-10-12",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 224.58999633789065
+        },
+        {
+            "date": "2014-10-19",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 230.47000122070312
+        },
+        {
+            "date": "2014-10-26",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 0.0,
+            "price": 221.6699981689453
+        },
+        {
+            "date": "2014-11-02",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 1.0,
+            "price": 242.58999633789065
+        },
+        {
+            "date": "2014-11-09",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 1.0,
+            "price": 241.92999267578125
+        },
+        {
+            "date": "2014-11-16",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 0.0,
+            "price": 253.97999572753903
+        },
+        {
+            "date": "2014-11-23",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 1.0,
+            "price": 246.72000122070312
+        },
+        {
+            "date": "2014-11-30",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 2.0,
+            "price": 231.63999938964844
+        },
+        {
+            "date": "2014-12-07",
+            "total_sentiment": 7.0,
+            "negativity_sentiment": 2.0,
+            "price": 214.3600006103516
+        },
+        {
+            "date": "2014-12-14",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 4.0,
+            "price": 204.0399932861328
+        },
+        {
+            "date": "2014-12-21",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 2.0,
+            "price": 222.6000061035156
+        },
+        {
+            "date": "2014-12-28",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 0.0,
+            "price": 225.7100067138672
+        },
+        {
+            "date": "2015-01-04",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 1.0,
+            "price": 210.08999633789065
+        },
+        {
+            "date": "2015-01-11",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 0.0,
+            "price": 202.2100067138672
+        },
+        {
+            "date": "2015-01-18",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 0.0,
+            "price": 191.92999267578125
+        },
+        {
+            "date": "2015-01-25",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 0.0,
+            "price": 206.5500030517578
+        },
+        {
+            "date": "2015-02-01",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 1.0,
+            "price": 210.94000244140625
+        },
+        {
+            "date": "2015-02-08",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 2.0,
+            "price": 217.47999572753903
+        },
+        {
+            "date": "2015-02-15",
+            "total_sentiment": 11.0,
+            "negativity_sentiment": 1.0,
+            "price": 204.3500061035156
+        },
+        {
+            "date": "2015-02-22",
+            "total_sentiment": 53.0,
+            "negativity_sentiment": 0.0,
+            "price": 207.33999633789065
+        },
+        {
+            "date": "2015-03-01",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 2.0,
+            "price": 197.3300018310547
+        },
+        {
+            "date": "2015-03-08",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 0.0,
+            "price": 190.8800048828125
+        },
+        {
+            "date": "2015-03-15",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 1.0,
+            "price": 195.6999969482422
+        },
+        {
+            "date": "2015-03-22",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 199.6300048828125
+        },
+        {
+            "date": "2015-03-29",
+            "total_sentiment": 23.0,
+            "negativity_sentiment": 1.0,
+            "price": 190.57000732421875
+        },
+        {
+            "date": "2015-04-05",
+            "total_sentiment": 9.0,
+            "negativity_sentiment": 2.0,
+            "price": 203.1000061035156
+        },
+        {
+            "date": "2015-04-12",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 0.0,
+            "price": 209.77999877929688
+        },
+        {
+            "date": "2015-04-19",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 1.0,
+            "price": 205.2700042724609
+        },
+        {
+            "date": "2015-04-26",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 2.0,
+            "price": 231.5500030517578
+        },
+        {
+            "date": "2015-05-03",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 230.50999450683597
+        },
+        {
+            "date": "2015-05-10",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 1.0,
+            "price": 239.4900054931641
+        },
+        {
+            "date": "2015-05-17",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 2.0,
+            "price": 248.75
+        },
+        {
+            "date": "2015-05-24",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 1.0,
+            "price": 247.4600067138672
+        },
+        {
+            "date": "2015-05-31",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 1.0,
+            "price": 249.4499969482422
+        },
+        {
+            "date": "2015-06-07",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 256.2900085449219
+        },
+        {
+            "date": "2015-06-14",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 2.0,
+            "price": 250.3800048828125
+        },
+        {
+            "date": "2015-06-21",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 1.0,
+            "price": 259.7900085449219
+        },
+        {
+            "date": "2015-06-28",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 262.0199890136719
+        },
+        {
+            "date": "2015-07-05",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 0.0,
+            "price": 279.7200012207031
+        },
+        {
+            "date": "2015-07-12",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 2.0,
+            "price": 262.1600036621094
+        },
+        {
+            "date": "2015-07-19",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 2.0,
+            "price": 282.260009765625
+        },
+        {
+            "date": "2015-07-26",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 2.0,
+            "price": 253.00999450683597
+        },
+        {
+            "date": "2015-08-02",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 1.0,
+            "price": 259.989990234375
+        },
+        {
+            "date": "2015-08-09",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 241.13999938964844
+        },
+        {
+            "date": "2015-08-16",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 2.0,
+            "price": 254.9900054931641
+        },
+        {
+            "date": "2015-08-23",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 0.0,
+            "price": 218.8699951171875
+        },
+        {
+            "date": "2015-08-30",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 1.0,
+            "price": 249.05999755859372
+        },
+        {
+            "date": "2015-09-06",
+            "total_sentiment": 23.0,
+            "negativity_sentiment": 1.0,
+            "price": 248.1699981689453
+        },
+        {
+            "date": "2015-09-13",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 2.0,
+            "price": 253.19000244140625
+        },
+        {
+            "date": "2015-09-20",
+            "total_sentiment": 13.0,
+            "negativity_sentiment": 3.0,
+            "price": 264.20001220703125
+        },
+        {
+            "date": "2015-09-27",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 248.42999267578125
+        },
+        {
+            "date": "2015-10-04",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 1.0,
+            "price": 246.1499938964844
+        },
+        {
+            "date": "2015-10-11",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 1.0,
+            "price": 215.5800018310547
+        },
+        {
+            "date": "2015-10-18",
+            "total_sentiment": 11.0,
+            "negativity_sentiment": 3.0,
+            "price": 228.1000061035156
+        },
+        {
+            "date": "2015-10-25",
+            "total_sentiment": 29.0,
+            "negativity_sentiment": 3.0,
+            "price": 215.25999450683597
+        },
+        {
+            "date": "2015-11-01",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 0.0,
+            "price": 213.7899932861328
+        },
+        {
+            "date": "2015-11-08",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 1.0,
+            "price": 225.3300018310547
+        },
+        {
+            "date": "2015-11-15",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 1.0,
+            "price": 214.30999755859372
+        },
+        {
+            "date": "2015-11-22",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 0.0,
+            "price": 217.75
+        },
+        {
+            "date": "2015-11-29",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 0.0,
+            "price": 230.25999450683597
+        },
+        {
+            "date": "2015-12-06",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 1.0,
+            "price": 231.1300048828125
+        },
+        {
+            "date": "2015-12-13",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 2.0,
+            "price": 218.5800018310547
+        },
+        {
+            "date": "2015-12-20",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 0.0,
+            "price": 232.55999755859372
+        },
+        {
+            "date": "2015-12-27",
+            "total_sentiment": 12.0,
+            "negativity_sentiment": 2.0,
+            "price": 228.9499969482422
+        },
+        {
+            "date": "2016-01-03",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 1.0,
+            "price": 223.41000366210935
+        },
+        {
+            "date": "2016-01-10",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 1.0,
+            "price": 207.8500061035156
+        },
+        {
+            "date": "2016-01-17",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 1.0,
+            "price": 204.72000122070312
+        },
+        {
+            "date": "2016-01-24",
+            "total_sentiment": 36.0,
+            "negativity_sentiment": 1.0,
+            "price": 196.3800048828125
+        },
+        {
+            "date": "2016-01-31",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 1.0,
+            "price": 196.94000244140625
+        },
+        {
+            "date": "2016-02-07",
+            "total_sentiment": 17.0,
+            "negativity_sentiment": 1.0,
+            "price": 147.99000549316406
+        },
+        {
+            "date": "2016-02-14",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 0.0,
+            "price": 155.1699981689453
+        },
+        {
+            "date": "2016-02-21",
+            "total_sentiment": 39.0,
+            "negativity_sentiment": 1.0,
+            "price": 177.74000549316406
+        },
+        {
+            "date": "2016-02-28",
+            "total_sentiment": 39.0,
+            "negativity_sentiment": 1.0,
+            "price": 191.92999267578125
+        },
+        {
+            "date": "2016-03-06",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 0.0,
+            "price": 205.2899932861328
+        },
+        {
+            "date": "2016-03-13",
+            "total_sentiment": 35.0,
+            "negativity_sentiment": 0.0,
+            "price": 215.1499938964844
+        },
+        {
+            "date": "2016-03-20",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 1.0,
+            "price": 238.32000732421875
+        },
+        {
+            "date": "2016-03-27",
+            "total_sentiment": 70.0,
+            "negativity_sentiment": 2.0,
+            "price": 230.25999450683597
+        },
+        {
+            "date": "2016-04-03",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 1.0,
+            "price": 246.9900054931641
+        },
+        {
+            "date": "2016-04-10",
+            "total_sentiment": 24.0,
+            "negativity_sentiment": 8.0,
+            "price": 249.9199981689453
+        },
+        {
+            "date": "2016-04-17",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 1.0,
+            "price": 253.8800048828125
+        },
+        {
+            "date": "2016-04-24",
+            "total_sentiment": 20.0,
+            "negativity_sentiment": 3.0,
+            "price": 251.82000732421875
+        },
+        {
+            "date": "2016-05-01",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 0.0,
+            "price": 241.8000030517578
+        },
+        {
+            "date": "2016-05-08",
+            "total_sentiment": 34.0,
+            "negativity_sentiment": 4.0,
+            "price": 208.9199981689453
+        },
+        {
+            "date": "2016-05-15",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 3.0,
+            "price": 208.2899932861328
+        },
+        {
+            "date": "2016-05-22",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 4.0,
+            "price": 216.22000122070312
+        },
+        {
+            "date": "2016-05-29",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 6.0,
+            "price": 223.22999572753903
+        },
+        {
+            "date": "2016-06-05",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 1.0,
+            "price": 220.67999267578125
+        },
+        {
+            "date": "2016-06-12",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 1.0,
+            "price": 217.8699951171875
+        },
+        {
+            "date": "2016-06-19",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 2.0,
+            "price": 219.6999969482422
+        },
+        {
+            "date": "2016-06-26",
+            "total_sentiment": 29.0,
+            "negativity_sentiment": 1.0,
+            "price": 198.5500030517578
+        },
+        {
+            "date": "2016-07-03",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 2.0,
+            "price": 213.97999572753903
+        },
+        {
+            "date": "2016-07-10",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 224.77999877929688
+        },
+        {
+            "date": "2016-07-17",
+            "total_sentiment": 31.0,
+            "negativity_sentiment": 3.0,
+            "price": 226.25
+        },
+        {
+            "date": "2016-07-24",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 2.0,
+            "price": 230.00999450683597
+        },
+        {
+            "date": "2016-07-31",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 3.0,
+            "price": 230.00999450683597
+        },
+        {
+            "date": "2016-08-07",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 3.0,
+            "price": 226.16000366210935
+        },
+        {
+            "date": "2016-08-14",
+            "total_sentiment": 23.0,
+            "negativity_sentiment": 0.0,
+            "price": 225.58999633789065
+        },
+        {
+            "date": "2016-08-21",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 3.0,
+            "price": 222.92999267578125
+        },
+        {
+            "date": "2016-08-28",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 1.0,
+            "price": 215.1999969482422
+        },
+        {
+            "date": "2016-09-04",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 0.0,
+            "price": 202.8300018310547
+        },
+        {
+            "date": "2016-09-11",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 1.0,
+            "price": 198.3000030517578
+        },
+        {
+            "date": "2016-09-18",
+            "total_sentiment": 15.0,
+            "negativity_sentiment": 5.0,
+            "price": 206.33999633789065
+        },
+        {
+            "date": "2016-09-25",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 2.0,
+            "price": 208.9900054931641
+        },
+        {
+            "date": "2016-10-02",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 2.0,
+            "price": 213.6999969482422
+        },
+        {
+            "date": "2016-10-09",
+            "total_sentiment": 27.0,
+            "negativity_sentiment": 0.0,
+            "price": 200.9499969482422
+        },
+        {
+            "date": "2016-10-16",
+            "total_sentiment": 31.0,
+            "negativity_sentiment": 0.0,
+            "price": 193.9600067138672
+        },
+        {
+            "date": "2016-10-23",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 1.0,
+            "price": 202.75999450683597
+        },
+        {
+            "date": "2016-10-30",
+            "total_sentiment": 33.0,
+            "negativity_sentiment": 8.0,
+            "price": 197.72999572753903
+        },
+        {
+            "date": "2016-11-06",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 2.0,
+            "price": 193.2100067138672
+        },
+        {
+            "date": "2016-11-13",
+            "total_sentiment": 30.0,
+            "negativity_sentiment": 5.0,
+            "price": 181.4499969482422
+        },
+        {
+            "date": "2016-11-20",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 3.0,
+            "price": 184.5200042724609
+        },
+        {
+            "date": "2016-11-27",
+            "total_sentiment": 22.0,
+            "negativity_sentiment": 1.0,
+            "price": 196.1199951171875
+        },
+        {
+            "date": "2016-12-04",
+            "total_sentiment": 18.0,
+            "negativity_sentiment": 2.0,
+            "price": 186.8000030517578
+        },
+        {
+            "date": "2016-12-11",
+            "total_sentiment": 27.0,
+            "negativity_sentiment": 1.0,
+            "price": 192.42999267578125
+        },
+        {
+            "date": "2016-12-18",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 1.0,
+            "price": 202.72999572753903
+        },
+        {
+            "date": "2016-12-25",
+            "total_sentiment": 14.0,
+            "negativity_sentiment": 1.0,
+            "price": 219.52999877929688
+        },
+        {
+            "date": "2017-01-01",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 1.0,
+            "price": 216.9900054931641
+        },
+        {
+            "date": "2017-01-08",
+            "total_sentiment": 40.0,
+            "negativity_sentiment": 0.0,
+            "price": 231.27999877929688
+        },
+        {
+            "date": "2017-01-15",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 4.0,
+            "price": 235.5800018310547
+        },
+        {
+            "date": "2017-01-22",
+            "total_sentiment": 30.0,
+            "negativity_sentiment": 2.0,
+            "price": 248.9199981689453
+        },
+        {
+            "date": "2017-01-29",
+            "total_sentiment": 31.0,
+            "negativity_sentiment": 2.0,
+            "price": 250.6300048828125
+        },
+        {
+            "date": "2017-02-05",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 2.0,
+            "price": 257.7699890136719
+        },
+        {
+            "date": "2017-02-12",
+            "total_sentiment": 64.0,
+            "negativity_sentiment": 1.0,
+            "price": 280.6000061035156
+        },
+        {
+            "date": "2017-02-19",
+            "total_sentiment": 27.0,
+            "negativity_sentiment": 5.0,
+            "price": 277.3900146484375
+        },
+        {
+            "date": "2017-02-26",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 3.0,
+            "price": 246.22999572753903
+        },
+        {
+            "date": "2017-03-05",
+            "total_sentiment": 19.0,
+            "negativity_sentiment": 1.0,
+            "price": 251.2100067138672
+        },
+        {
+            "date": "2017-03-12",
+            "total_sentiment": 21.0,
+            "negativity_sentiment": 5.0,
+            "price": 246.1699981689453
+        },
+        {
+            "date": "2017-03-19",
+            "total_sentiment": 23.0,
+            "negativity_sentiment": 2.0,
+            "price": 261.9200134277344
+        },
+        {
+            "date": "2017-03-26",
+            "total_sentiment": 32.0,
+            "negativity_sentiment": 2.0,
+            "price": 270.2200012207031
+        },
+        {
+            "date": "2017-04-02",
+            "total_sentiment": 43.0,
+            "negativity_sentiment": 3.0,
+            "price": 298.5199890136719
+        },
+        {
+            "date": "2017-04-09",
+            "total_sentiment": 27.0,
+            "negativity_sentiment": 0.0,
+            "price": 312.3900146484375
+        },
+        {
+            "date": "2017-04-16",
+            "total_sentiment": 25.0,
+            "negativity_sentiment": 4.0,
+            "price": 301.44000244140625
+        },
+        {
+            "date": "2017-04-23",
+            "total_sentiment": 16.0,
+            "negativity_sentiment": 2.0,
+            "price": 308.0299987792969
+        },
+        {
+            "date": "2017-04-30",
+            "total_sentiment": 31.0,
+            "negativity_sentiment": 3.0,
+            "price": 322.8299865722656
+        }
+    ],
+    "nvidia": [
+        {
+            "date": "2014-01-05",
+            "total_sentiment": 26.0,
+            "negativity_sentiment": 1.0,
+            "price": 15.880000114440918
+        },
+        {
+            "date": "2014-01-12",
+            "total_sentiment": 39.0,
+            "negativity_sentiment": 2.0,
+            "price": 15.359999656677246
+        },
+        {
+            "date": "2014-01-19",
+            "total_sentiment": 42.0,
+            "negativity_sentiment": 2.0,
+            "price": 16.049999237060547
+        },
+        {
+            "date": "2014-01-26",
+            "total_sentiment": 48.0,
+            "negativity_sentiment": 3.0,
+            "price": 15.460000038146973
+        },
+        {
+            "date": "2014-02-02",
+            "total_sentiment": 47.0,
+            "negativity_sentiment": 0.0,
+            "price": 15.489999771118164
+        },
+        {
+            "date": "2014-02-09",
+            "total_sentiment": 44.0,
+            "negativity_sentiment": 1.0,
+            "price": 15.920000076293944
+        },
+        {
+            "date": "2014-02-16",
+            "total_sentiment": 64.0,
+            "negativity_sentiment": 9.0,
+            "price": 17.899999618530273
+        },
+        {
+            "date": "2014-02-23",
+            "total_sentiment": 42.0,
+            "negativity_sentiment": 4.0,
+            "price": 18.90999984741211
+        },
+        {
+            "date": "2014-03-02",
+            "total_sentiment": 50.0,
+            "negativity_sentiment": 3.0,
+            "price": 18.290000915527344
+        },
+        {
+            "date": "2014-03-09",
+            "total_sentiment": 42.0,
+            "negativity_sentiment": 3.0,
+            "price": 18.09000015258789
+        },
+        {
+            "date": "2014-03-16",
+            "total_sentiment": 46.0,
+            "negativity_sentiment": 1.0,
+            "price": 17.81999969482422
+        },
+        {
+            "date": "2014-03-23",
+            "total_sentiment": 40.0,
+            "negativity_sentiment": 3.0,
+            "price": 18.450000762939453
+        },
+        {
+            "date": "2014-03-30",
+            "total_sentiment": 53.0,
+            "negativity_sentiment": 1.0,
+            "price": 17.90999984741211
+        },
+        {
+            "date": "2014-04-06",
+            "total_sentiment": 43.0,
+            "negativity_sentiment": 2.0,
+            "price": 18.209999084472656
+        },
+        {
+            "date": "2014-04-13",
+            "total_sentiment": 51.0,
+            "negativity_sentiment": 1.0,
+            "price": 18.31999969482422
+        },
+        {
+            "date": "2014-04-20",
+            "total_sentiment": 48.0,
+            "negativity_sentiment": 2.0,
+            "price": 18.709999084472656
+        },
+        {
+            "date": "2014-04-27",
+            "total_sentiment": 56.0,
+            "negativity_sentiment": 1.0,
+            "price": 18.649999618530277
+        },
+        {
+            "date": "2014-05-04",
+            "total_sentiment": 58.0,
+            "negativity_sentiment": 2.0,
+            "price": 18.6299991607666
+        },
+        {
+            "date": "2014-05-11",
+            "total_sentiment": 40.0,
+            "negativity_sentiment": 4.0,
+            "price": 18.57999992370605
+        },
+        {
+            "date": "2014-05-18",
+            "total_sentiment": 39.0,
+            "negativity_sentiment": 3.0,
+            "price": 18.540000915527344
+        },
+        {
+            "date": "2014-05-25",
+            "total_sentiment": 43.0,
+            "negativity_sentiment": 2.0,
+            "price": 18.81999969482422
+        },
+        {
+            "date": "2014-06-01",
+            "total_sentiment": 66.0,
+            "negativity_sentiment": 8.0,
+            "price": 18.940000534057617
+        },
+        {
+            "date": "2014-06-08",
+            "total_sentiment": 63.0,
+            "negativity_sentiment": 6.0,
+            "price": 19.049999237060547
+        },
+        {
+            "date": "2014-06-15",
+            "total_sentiment": 57.0,
+            "negativity_sentiment": 2.0,
+            "price": 19.479999542236328
+        },
+        {
+            "date": "2014-06-22",
+            "total_sentiment": 44.0,
+            "negativity_sentiment": 7.0,
+            "price": 18.709999084472656
+        },
+        {
+            "date": "2014-06-29",
+            "total_sentiment": 57.0,
+            "negativity_sentiment": 1.0,
+            "price": 18.540000915527344
+        },
+        {
+            "date": "2014-07-06",
+            "total_sentiment": 38.0,
+            "negativity_sentiment": 3.0,
+            "price": 18.700000762939453
+        },
+        {
+            "date": "2014-07-13",
+            "total_sentiment": 44.0,
+            "negativity_sentiment": 1.0,
+            "price": 19.290000915527344
+        },
+        {
+            "date": "2014-07-20",
+            "total_sentiment": 58.0,
+            "negativity_sentiment": 2.0,
+            "price": 18.549999237060547
+        },
+        {
+            "date": "2014-07-27",
+            "total_sentiment": 63.0,
+            "negativity_sentiment": 3.0,
+            "price": 17.719999313354492
+        },
+        {
+            "date": "2014-08-03",
+            "total_sentiment": 52.0,
+            "negativity_sentiment": 2.0,
+            "price": 17.649999618530273
+        },
+        {
+            "date": "2014-08-10",
+            "total_sentiment": 58.0,
+            "negativity_sentiment": 1.0,
+            "price": 18.899999618530277
+        },
+        {
+            "date": "2014-08-17",
+            "total_sentiment": 52.0,
+            "negativity_sentiment": 2.0,
+            "price": 19.299999237060547
+        },
+        {
+            "date": "2014-08-24",
+            "total_sentiment": 51.0,
+            "negativity_sentiment": 7.0,
+            "price": 19.11000061035156
+        },
+        {
+            "date": "2014-08-31",
+            "total_sentiment": 54.0,
+            "negativity_sentiment": 2.0,
+            "price": 19.5
+        },
+        {
+            "date": "2014-09-07",
+            "total_sentiment": 58.0,
+            "negativity_sentiment": 6.0,
+            "price": 19.790000915527344
+        },
+        {
+            "date": "2014-09-14",
+            "total_sentiment": 51.0,
+            "negativity_sentiment": 2.0,
+            "price": 18.86000061035156
+        },
+        {
+            "date": "2014-09-21",
+            "total_sentiment": 67.0,
+            "negativity_sentiment": 4.0,
+            "price": 18.88999938964844
+        },
+        {
+            "date": "2014-09-28",
+            "total_sentiment": 50.0,
+            "negativity_sentiment": 5.0,
+            "price": 18.520000457763672
+        },
+        {
+            "date": "2014-10-05",
+            "total_sentiment": 52.0,
+            "negativity_sentiment": 6.0,
+            "price": 18.1200008392334
+        },
+        {
+            "date": "2014-10-12",
+            "total_sentiment": 57.0,
+            "negativity_sentiment": 1.0,
+            "price": 16.790000915527344
+        },
+        {
+            "date": "2014-10-19",
+            "total_sentiment": 46.0,
+            "negativity_sentiment": 3.0,
+            "price": 17.56999969482422
+        },
+        {
+            "date": "2014-10-26",
+            "total_sentiment": 45.0,
+            "negativity_sentiment": 1.0,
+            "price": 18.489999771118164
+        },
+        {
+            "date": "2014-11-02",
+            "total_sentiment": 40.0,
+            "negativity_sentiment": 4.0,
+            "price": 19.8700008392334
+        },
+        {
+            "date": "2014-11-09",
+            "total_sentiment": 55.0,
+            "negativity_sentiment": 1.0,
+            "price": 20.020000457763672
+        },
+        {
+            "date": "2014-11-16",
+            "total_sentiment": 54.0,
+            "negativity_sentiment": 3.0,
+            "price": 19.700000762939453
+        },
+        {
+            "date": "2014-11-23",
+            "total_sentiment": 50.0,
+            "negativity_sentiment": 4.0,
+            "price": 20.57999992370605
+        },
+        {
+            "date": "2014-11-30",
+            "total_sentiment": 41.0,
+            "negativity_sentiment": 3.0,
+            "price": 20.57999992370605
+        },
+        {
+            "date": "2014-12-07",
+            "total_sentiment": 64.0,
+            "negativity_sentiment": 3.0,
+            "price": 20.799999237060547
+        },
+        {
+            "date": "2014-12-14",
+            "total_sentiment": 55.0,
+            "negativity_sentiment": 2.0,
+            "price": 19.56999969482422
+        },
+        {
+            "date": "2014-12-21",
+            "total_sentiment": 53.0,
+            "negativity_sentiment": 4.0,
+            "price": 20.780000686645508
+        },
+        {
+            "date": "2014-12-28",
+            "total_sentiment": 51.0,
+            "negativity_sentiment": 5.0,
+            "price": 20.559999465942383
+        },
+        {
+            "date": "2015-01-04",
+            "total_sentiment": 60.0,
+            "negativity_sentiment": 0.0,
+            "price": 19.790000915527344
+        },
+        {
+            "date": "2015-01-11",
+            "total_sentiment": 57.0,
+            "negativity_sentiment": 3.0,
+            "price": 19.690000534057617
+        },
+        {
+            "date": "2015-01-18",
+            "total_sentiment": 56.0,
+            "negativity_sentiment": 9.0,
+            "price": 20.020000457763672
+        },
+        {
+            "date": "2015-01-25",
+            "total_sentiment": 68.0,
+            "negativity_sentiment": 2.0,
+            "price": 20.6200008392334
+        },
+        {
+            "date": "2015-02-01",
+            "total_sentiment": 90.0,
+            "negativity_sentiment": 3.0,
+            "price": 19.6200008392334
+        },
+        {
+            "date": "2015-02-08",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 2.0,
+            "price": 20.3799991607666
+        },
+        {
+            "date": "2015-02-15",
+            "total_sentiment": 63.0,
+            "negativity_sentiment": 11.0,
+            "price": 22.3799991607666
+        },
+        {
+            "date": "2015-02-22",
+            "total_sentiment": 74.0,
+            "negativity_sentiment": 2.0,
+            "price": 22.15999984741211
+        },
+        {
+            "date": "2015-03-01",
+            "total_sentiment": 66.0,
+            "negativity_sentiment": 4.0,
+            "price": 22.600000381469727
+        },
+        {
+            "date": "2015-03-08",
+            "total_sentiment": 65.0,
+            "negativity_sentiment": 2.0,
+            "price": 22.61000061035156
+        },
+        {
+            "date": "2015-03-15",
+            "total_sentiment": 81.0,
+            "negativity_sentiment": 3.0,
+            "price": 22.96999931335449
+        },
+        {
+            "date": "2015-03-22",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 5.0,
+            "price": 22.709999084472656
+        },
+        {
+            "date": "2015-03-29",
+            "total_sentiment": 80.0,
+            "negativity_sentiment": 4.0,
+            "price": 21.46999931335449
+        },
+        {
+            "date": "2015-04-05",
+            "total_sentiment": 84.0,
+            "negativity_sentiment": 3.0,
+            "price": 21.670000076293945
+        },
+        {
+            "date": "2015-04-12",
+            "total_sentiment": 90.0,
+            "negativity_sentiment": 1.0,
+            "price": 22.549999237060547
+        },
+        {
+            "date": "2015-04-19",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 4.0,
+            "price": 22.09000015258789
+        },
+        {
+            "date": "2015-04-26",
+            "total_sentiment": 111.0,
+            "negativity_sentiment": 9.0,
+            "price": 22.200000762939453
+        },
+        {
+            "date": "2015-05-03",
+            "total_sentiment": 94.0,
+            "negativity_sentiment": 8.0,
+            "price": 22.61000061035156
+        },
+        {
+            "date": "2015-05-10",
+            "total_sentiment": 77.0,
+            "negativity_sentiment": 5.0,
+            "price": 20.6299991607666
+        },
+        {
+            "date": "2015-05-17",
+            "total_sentiment": 81.0,
+            "negativity_sentiment": 2.0,
+            "price": 21.270000457763672
+        },
+        {
+            "date": "2015-05-24",
+            "total_sentiment": 74.0,
+            "negativity_sentiment": 2.0,
+            "price": 20.729999542236328
+        },
+        {
+            "date": "2015-05-31",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 8.0,
+            "price": 22.3799991607666
+        },
+        {
+            "date": "2015-06-07",
+            "total_sentiment": 86.0,
+            "negativity_sentiment": 5.0,
+            "price": 21.75
+        },
+        {
+            "date": "2015-06-14",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 9.0,
+            "price": 21.06999969482422
+        },
+        {
+            "date": "2015-06-21",
+            "total_sentiment": 92.0,
+            "negativity_sentiment": 3.0,
+            "price": 21.780000686645508
+        },
+        {
+            "date": "2015-06-28",
+            "total_sentiment": 111.0,
+            "negativity_sentiment": 2.0,
+            "price": 20.1200008392334
+        },
+        {
+            "date": "2015-07-05",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 1.0,
+            "price": 20.170000076293945
+        },
+        {
+            "date": "2015-07-12",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 7.0,
+            "price": 19.8799991607666
+        },
+        {
+            "date": "2015-07-19",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 3.0,
+            "price": 19.700000762939453
+        },
+        {
+            "date": "2015-07-26",
+            "total_sentiment": 102.0,
+            "negativity_sentiment": 2.0,
+            "price": 19.309999465942383
+        },
+        {
+            "date": "2015-08-02",
+            "total_sentiment": 131.0,
+            "negativity_sentiment": 2.0,
+            "price": 20.290000915527344
+        },
+        {
+            "date": "2015-08-09",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 7.0,
+            "price": 23.780000686645508
+        },
+        {
+            "date": "2015-08-16",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 4.0,
+            "price": 23.38999938964844
+        },
+        {
+            "date": "2015-08-23",
+            "total_sentiment": 96.0,
+            "negativity_sentiment": 5.0,
+            "price": 20.709999084472656
+        },
+        {
+            "date": "2015-08-30",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 3.0,
+            "price": 22.479999542236328
+        },
+        {
+            "date": "2015-09-06",
+            "total_sentiment": 101.0,
+            "negativity_sentiment": 4.0,
+            "price": 22.68000030517578
+        },
+        {
+            "date": "2015-09-13",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 3.0,
+            "price": 22.690000534057617
+        },
+        {
+            "date": "2015-09-20",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 6.0,
+            "price": 23.530000686645508
+        },
+        {
+            "date": "2015-09-27",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 5.0,
+            "price": 23.299999237060547
+        },
+        {
+            "date": "2015-10-04",
+            "total_sentiment": 93.0,
+            "negativity_sentiment": 5.0,
+            "price": 25.420000076293945
+        },
+        {
+            "date": "2015-10-11",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 6.0,
+            "price": 26.350000381469727
+        },
+        {
+            "date": "2015-10-18",
+            "total_sentiment": 95.0,
+            "negativity_sentiment": 9.0,
+            "price": 27.809999465942383
+        },
+        {
+            "date": "2015-10-25",
+            "total_sentiment": 83.0,
+            "negativity_sentiment": 3.0,
+            "price": 28.459999084472656
+        },
+        {
+            "date": "2015-11-01",
+            "total_sentiment": 88.0,
+            "negativity_sentiment": 2.0,
+            "price": 28.700000762939453
+        },
+        {
+            "date": "2015-11-08",
+            "total_sentiment": 102.0,
+            "negativity_sentiment": 5.0,
+            "price": 31.40999984741211
+        },
+        {
+            "date": "2015-11-15",
+            "total_sentiment": 105.0,
+            "negativity_sentiment": 8.0,
+            "price": 30.399999618530277
+        },
+        {
+            "date": "2015-11-22",
+            "total_sentiment": 84.0,
+            "negativity_sentiment": 4.0,
+            "price": 30.920000076293945
+        },
+        {
+            "date": "2015-11-29",
+            "total_sentiment": 103.0,
+            "negativity_sentiment": 6.0,
+            "price": 31.71999931335449
+        },
+        {
+            "date": "2015-12-06",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 8.0,
+            "price": 33.11000061035156
+        },
+        {
+            "date": "2015-12-13",
+            "total_sentiment": 88.0,
+            "negativity_sentiment": 6.0,
+            "price": 32.56999969482422
+        },
+        {
+            "date": "2015-12-20",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 8.0,
+            "price": 32.900001525878906
+        },
+        {
+            "date": "2015-12-27",
+            "total_sentiment": 111.0,
+            "negativity_sentiment": 16.0,
+            "price": 33.13999938964844
+        },
+        {
+            "date": "2016-01-03",
+            "total_sentiment": 118.0,
+            "negativity_sentiment": 6.0,
+            "price": 32.369998931884766
+        },
+        {
+            "date": "2016-01-10",
+            "total_sentiment": 107.0,
+            "negativity_sentiment": 4.0,
+            "price": 29.68000030517578
+        },
+        {
+            "date": "2016-01-17",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 5.0,
+            "price": 27.32999992370605
+        },
+        {
+            "date": "2016-01-24",
+            "total_sentiment": 106.0,
+            "negativity_sentiment": 11.0,
+            "price": 28.420000076293945
+        },
+        {
+            "date": "2016-01-31",
+            "total_sentiment": 132.0,
+            "negativity_sentiment": 11.0,
+            "price": 29.299999237060547
+        },
+        {
+            "date": "2016-02-07",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 3.0,
+            "price": 25.21999931335449
+        },
+        {
+            "date": "2016-02-14",
+            "total_sentiment": 122.0,
+            "negativity_sentiment": 3.0,
+            "price": 26.989999771118164
+        },
+        {
+            "date": "2016-02-21",
+            "total_sentiment": 116.0,
+            "negativity_sentiment": 2.0,
+            "price": 31.520000457763672
+        },
+        {
+            "date": "2016-02-28",
+            "total_sentiment": 105.0,
+            "negativity_sentiment": 3.0,
+            "price": 31.36000061035156
+        },
+        {
+            "date": "2016-03-06",
+            "total_sentiment": 101.0,
+            "negativity_sentiment": 8.0,
+            "price": 32.34000015258789
+        },
+        {
+            "date": "2016-03-13",
+            "total_sentiment": 117.0,
+            "negativity_sentiment": 8.0,
+            "price": 32.29999923706055
+        },
+        {
+            "date": "2016-03-20",
+            "total_sentiment": 109.0,
+            "negativity_sentiment": 2.0,
+            "price": 33.90999984741211
+        },
+        {
+            "date": "2016-03-27",
+            "total_sentiment": 87.0,
+            "negativity_sentiment": 8.0,
+            "price": 34.83000183105469
+        },
+        {
+            "date": "2016-04-03",
+            "total_sentiment": 101.0,
+            "negativity_sentiment": 8.0,
+            "price": 35.79999923706055
+        },
+        {
+            "date": "2016-04-10",
+            "total_sentiment": 105.0,
+            "negativity_sentiment": 4.0,
+            "price": 35.880001068115234
+        },
+        {
+            "date": "2016-04-17",
+            "total_sentiment": 100.0,
+            "negativity_sentiment": 6.0,
+            "price": 36.970001220703125
+        },
+        {
+            "date": "2016-04-24",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 3.0,
+            "price": 36.45000076293945
+        },
+        {
+            "date": "2016-05-01",
+            "total_sentiment": 133.0,
+            "negativity_sentiment": 4.0,
+            "price": 36.0
+        },
+        {
+            "date": "2016-05-08",
+            "total_sentiment": 126.0,
+            "negativity_sentiment": 7.0,
+            "price": 35.279998779296875
+        },
+        {
+            "date": "2016-05-15",
+            "total_sentiment": 126.0,
+            "negativity_sentiment": 8.0,
+            "price": 42.18999862670898
+        },
+        {
+            "date": "2016-05-22",
+            "total_sentiment": 129.0,
+            "negativity_sentiment": 11.0,
+            "price": 44.400001525878906
+        },
+        {
+            "date": "2016-05-29",
+            "total_sentiment": 108.0,
+            "negativity_sentiment": 9.0,
+            "price": 46.720001220703125
+        },
+        {
+            "date": "2016-06-05",
+            "total_sentiment": 124.0,
+            "negativity_sentiment": 9.0,
+            "price": 46.2400016784668
+        },
+        {
+            "date": "2016-06-12",
+            "total_sentiment": 120.0,
+            "negativity_sentiment": 6.0,
+            "price": 46.790000915527344
+        },
+        {
+            "date": "2016-06-19",
+            "total_sentiment": 165.0,
+            "negativity_sentiment": 6.0,
+            "price": 47.560001373291016
+        },
+        {
+            "date": "2016-06-26",
+            "total_sentiment": 119.0,
+            "negativity_sentiment": 12.0,
+            "price": 45.2400016784668
+        },
+        {
+            "date": "2016-07-03",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 10.0,
+            "price": 47.34999847412109
+        },
+        {
+            "date": "2016-07-10",
+            "total_sentiment": 109.0,
+            "negativity_sentiment": 1.0,
+            "price": 52.02000045776367
+        },
+        {
+            "date": "2016-07-17",
+            "total_sentiment": 120.0,
+            "negativity_sentiment": 2.0,
+            "price": 52.970001220703125
+        },
+        {
+            "date": "2016-07-24",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 3.0,
+            "price": 55.68000030517578
+        },
+        {
+            "date": "2016-07-31",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 3.0,
+            "price": 56.72999954223633
+        },
+        {
+            "date": "2016-08-07",
+            "total_sentiment": 120.0,
+            "negativity_sentiment": 4.0,
+            "price": 58.7400016784668
+        },
+        {
+            "date": "2016-08-14",
+            "total_sentiment": 125.0,
+            "negativity_sentiment": 11.0,
+            "price": 62.97999954223633
+        },
+        {
+            "date": "2016-08-21",
+            "total_sentiment": 144.0,
+            "negativity_sentiment": 2.0,
+            "price": 62.52000045776367
+        },
+        {
+            "date": "2016-08-28",
+            "total_sentiment": 116.0,
+            "negativity_sentiment": 3.0,
+            "price": 61.9900016784668
+        },
+        {
+            "date": "2016-09-04",
+            "total_sentiment": 124.0,
+            "negativity_sentiment": 10.0,
+            "price": 63.119998931884766
+        },
+        {
+            "date": "2016-09-11",
+            "total_sentiment": 88.0,
+            "negativity_sentiment": 9.0,
+            "price": 60.75
+        },
+        {
+            "date": "2016-09-18",
+            "total_sentiment": 108.0,
+            "negativity_sentiment": 1.0,
+            "price": 63.66999816894531
+        },
+        {
+            "date": "2016-09-25",
+            "total_sentiment": 103.0,
+            "negativity_sentiment": 9.0,
+            "price": 64.33999633789062
+        },
+        {
+            "date": "2016-10-02",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 5.0,
+            "price": 68.44999694824219
+        },
+        {
+            "date": "2016-10-09",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 3.0,
+            "price": 67.0999984741211
+        },
+        {
+            "date": "2016-10-16",
+            "total_sentiment": 107.0,
+            "negativity_sentiment": 5.0,
+            "price": 65.61000061035156
+        },
+        {
+            "date": "2016-10-23",
+            "total_sentiment": 135.0,
+            "negativity_sentiment": 4.0,
+            "price": 70.70999908447266
+        },
+        {
+            "date": "2016-10-30",
+            "total_sentiment": 129.0,
+            "negativity_sentiment": 5.0,
+            "price": 71.16000366210938
+        },
+        {
+            "date": "2016-11-06",
+            "total_sentiment": 126.0,
+            "negativity_sentiment": 11.0,
+            "price": 71.2699966430664
+        },
+        {
+            "date": "2016-11-13",
+            "total_sentiment": 139.0,
+            "negativity_sentiment": 8.0,
+            "price": 83.63999938964844
+        },
+        {
+            "date": "2016-11-20",
+            "total_sentiment": 117.0,
+            "negativity_sentiment": 11.0,
+            "price": 92.9800033569336
+        },
+        {
+            "date": "2016-11-27",
+            "total_sentiment": 126.0,
+            "negativity_sentiment": 5.0,
+            "price": 94.11000061035156
+        },
+        {
+            "date": "2016-12-04",
+            "total_sentiment": 104.0,
+            "negativity_sentiment": 6.0,
+            "price": 91.87999725341795
+        },
+        {
+            "date": "2016-12-11",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 5.0,
+            "price": 89.58999633789062
+        },
+        {
+            "date": "2016-12-18",
+            "total_sentiment": 109.0,
+            "negativity_sentiment": 15.0,
+            "price": 101.62999725341795
+        },
+        {
+            "date": "2016-12-25",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 6.0,
+            "price": 117.31999969482422
+        },
+        {
+            "date": "2017-01-01",
+            "total_sentiment": 106.0,
+            "negativity_sentiment": 10.0,
+            "price": 102.01000213623048
+        },
+        {
+            "date": "2017-01-08",
+            "total_sentiment": 120.0,
+            "negativity_sentiment": 9.0,
+            "price": 107.27999877929688
+        },
+        {
+            "date": "2017-01-15",
+            "total_sentiment": 106.0,
+            "negativity_sentiment": 7.0,
+            "price": 101.11000061035156
+        },
+        {
+            "date": "2017-01-22",
+            "total_sentiment": 140.0,
+            "negativity_sentiment": 8.0,
+            "price": 105.08999633789062
+        },
+        {
+            "date": "2017-01-29",
+            "total_sentiment": 128.0,
+            "negativity_sentiment": 3.0,
+            "price": 110.0199966430664
+        },
+        {
+            "date": "2017-02-05",
+            "total_sentiment": 132.0,
+            "negativity_sentiment": 5.0,
+            "price": 117.30999755859376
+        },
+        {
+            "date": "2017-02-12",
+            "total_sentiment": 139.0,
+            "negativity_sentiment": 8.0,
+            "price": 108.37999725341795
+        },
+        {
+            "date": "2017-02-19",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 4.0,
+            "price": 111.06999969482422
+        },
+        {
+            "date": "2017-02-26",
+            "total_sentiment": 134.0,
+            "negativity_sentiment": 10.0,
+            "price": 104.41000366210938
+        },
+        {
+            "date": "2017-03-05",
+            "total_sentiment": 166.0,
+            "negativity_sentiment": 1.0,
+            "price": 97.66999816894533
+        },
+        {
+            "date": "2017-03-12",
+            "total_sentiment": 142.0,
+            "negativity_sentiment": 9.0,
+            "price": 101.8499984741211
+        },
+        {
+            "date": "2017-03-19",
+            "total_sentiment": 122.0,
+            "negativity_sentiment": 6.0,
+            "price": 109.4499969482422
+        },
+        {
+            "date": "2017-03-26",
+            "total_sentiment": 154.0,
+            "negativity_sentiment": 6.0,
+            "price": 108.25
+        },
+        {
+            "date": "2017-04-02",
+            "total_sentiment": 151.0,
+            "negativity_sentiment": 7.0,
+            "price": 108.37999725341795
+        },
+        {
+            "date": "2017-04-09",
+            "total_sentiment": 141.0,
+            "negativity_sentiment": 9.0,
+            "price": 97.7699966430664
+        },
+        {
+            "date": "2017-04-16",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 3.0,
+            "price": 99.2300033569336
+        },
+        {
+            "date": "2017-04-23",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 4.0,
+            "price": 102.9499969482422
+        },
+        {
+            "date": "2017-04-30",
+            "total_sentiment": 128.0,
+            "negativity_sentiment": 12.0,
+            "price": 106.63999938964844
+        }
+    ],
+    "amazon": [
+        {
+            "date": "2014-01-05",
+            "total_sentiment": 28.0,
+            "negativity_sentiment": 2.0,
+            "price": 393.6300048828125
+        },
+        {
+            "date": "2014-01-12",
+            "total_sentiment": 54.0,
+            "negativity_sentiment": 3.0,
+            "price": 390.9800109863281
+        },
+        {
+            "date": "2014-01-19",
+            "total_sentiment": 70.0,
+            "negativity_sentiment": 4.0,
+            "price": 407.0499877929688
+        },
+        {
+            "date": "2014-01-26",
+            "total_sentiment": 61.0,
+            "negativity_sentiment": 3.0,
+            "price": 386.2799987792969
+        },
+        {
+            "date": "2014-02-02",
+            "total_sentiment": 70.0,
+            "negativity_sentiment": 1.0,
+            "price": 346.1499938964844
+        },
+        {
+            "date": "2014-02-09",
+            "total_sentiment": 64.0,
+            "negativity_sentiment": 0.0,
+            "price": 360.8699951171875
+        },
+        {
+            "date": "2014-02-16",
+            "total_sentiment": 56.0,
+            "negativity_sentiment": 1.0,
+            "price": 353.6499938964844
+        },
+        {
+            "date": "2014-02-23",
+            "total_sentiment": 75.0,
+            "negativity_sentiment": 3.0,
+            "price": 351.7799987792969
+        },
+        {
+            "date": "2014-03-02",
+            "total_sentiment": 75.0,
+            "negativity_sentiment": 3.0,
+            "price": 359.7799987792969
+        },
+        {
+            "date": "2014-03-09",
+            "total_sentiment": 51.0,
+            "negativity_sentiment": 1.0,
+            "price": 370.5299987792969
+        },
+        {
+            "date": "2014-03-16",
+            "total_sentiment": 67.0,
+            "negativity_sentiment": 3.0,
+            "price": 375.0400085449219
+        },
+        {
+            "date": "2014-03-23",
+            "total_sentiment": 59.0,
+            "negativity_sentiment": 1.0,
+            "price": 351.8500061035156
+        },
+        {
+            "date": "2014-03-30",
+            "total_sentiment": 56.0,
+            "negativity_sentiment": 8.0,
+            "price": 336.3699951171875
+        },
+        {
+            "date": "2014-04-06",
+            "total_sentiment": 61.0,
+            "negativity_sentiment": 0.0,
+            "price": 317.760009765625
+        },
+        {
+            "date": "2014-04-13",
+            "total_sentiment": 58.0,
+            "negativity_sentiment": 1.0,
+            "price": 315.9100036621094
+        },
+        {
+            "date": "2014-04-20",
+            "total_sentiment": 63.0,
+            "negativity_sentiment": 0.0,
+            "price": 330.8699951171875
+        },
+        {
+            "date": "2014-04-27",
+            "total_sentiment": 68.0,
+            "negativity_sentiment": 3.0,
+            "price": 296.5799865722656
+        },
+        {
+            "date": "2014-05-04",
+            "total_sentiment": 65.0,
+            "negativity_sentiment": 2.0,
+            "price": 310.04998779296875
+        },
+        {
+            "date": "2014-05-11",
+            "total_sentiment": 63.0,
+            "negativity_sentiment": 4.0,
+            "price": 302.8599853515625
+        },
+        {
+            "date": "2014-05-18",
+            "total_sentiment": 69.0,
+            "negativity_sentiment": 1.0,
+            "price": 296.760009765625
+        },
+        {
+            "date": "2014-05-25",
+            "total_sentiment": 70.0,
+            "negativity_sentiment": 1.0,
+            "price": 310.82000732421875
+        },
+        {
+            "date": "2014-06-01",
+            "total_sentiment": 81.0,
+            "negativity_sentiment": 2.0,
+            "price": 308.8399963378906
+        },
+        {
+            "date": "2014-06-08",
+            "total_sentiment": 66.0,
+            "negativity_sentiment": 3.0,
+            "price": 327.5
+        },
+        {
+            "date": "2014-06-15",
+            "total_sentiment": 70.0,
+            "negativity_sentiment": 0.0,
+            "price": 327.6199951171875
+        },
+        {
+            "date": "2014-06-22",
+            "total_sentiment": 69.0,
+            "negativity_sentiment": 2.0,
+            "price": 327.239990234375
+        },
+        {
+            "date": "2014-06-29",
+            "total_sentiment": 67.0,
+            "negativity_sentiment": 3.0,
+            "price": 324.7799987792969
+        },
+        {
+            "date": "2014-07-06",
+            "total_sentiment": 68.0,
+            "negativity_sentiment": 4.0,
+            "price": 333.54998779296875
+        },
+        {
+            "date": "2014-07-13",
+            "total_sentiment": 58.0,
+            "negativity_sentiment": 1.0,
+            "price": 355.32000732421875
+        },
+        {
+            "date": "2014-07-20",
+            "total_sentiment": 98.0,
+            "negativity_sentiment": 3.0,
+            "price": 359.760009765625
+        },
+        {
+            "date": "2014-07-27",
+            "total_sentiment": 69.0,
+            "negativity_sentiment": 4.0,
+            "price": 320.4100036621094
+        },
+        {
+            "date": "2014-08-03",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 3.0,
+            "price": 313.6499938964844
+        },
+        {
+            "date": "2014-08-10",
+            "total_sentiment": 68.0,
+            "negativity_sentiment": 2.0,
+            "price": 318.3299865722656
+        },
+        {
+            "date": "2014-08-17",
+            "total_sentiment": 96.0,
+            "negativity_sentiment": 2.0,
+            "price": 334.5299987792969
+        },
+        {
+            "date": "2014-08-24",
+            "total_sentiment": 96.0,
+            "negativity_sentiment": 2.0,
+            "price": 334.0199890136719
+        },
+        {
+            "date": "2014-08-31",
+            "total_sentiment": 94.0,
+            "negativity_sentiment": 2.0,
+            "price": 342.3800048828125
+        },
+        {
+            "date": "2014-09-07",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 6.0,
+            "price": 342.3399963378906
+        },
+        {
+            "date": "2014-09-14",
+            "total_sentiment": 84.0,
+            "negativity_sentiment": 0.0,
+            "price": 323.8900146484375
+        },
+        {
+            "date": "2014-09-21",
+            "total_sentiment": 84.0,
+            "negativity_sentiment": 6.0,
+            "price": 324.5
+        },
+        {
+            "date": "2014-09-28",
+            "total_sentiment": 90.0,
+            "negativity_sentiment": 2.0,
+            "price": 321.82000732421875
+        },
+        {
+            "date": "2014-10-05",
+            "total_sentiment": 95.0,
+            "negativity_sentiment": 2.0,
+            "price": 322.20001220703125
+        },
+        {
+            "date": "2014-10-12",
+            "total_sentiment": 88.0,
+            "negativity_sentiment": 4.0,
+            "price": 306.45001220703125
+        },
+        {
+            "date": "2014-10-19",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 3.0,
+            "price": 306.2099914550781
+        },
+        {
+            "date": "2014-10-26",
+            "total_sentiment": 89.0,
+            "negativity_sentiment": 5.0,
+            "price": 289.9700012207031
+        },
+        {
+            "date": "2014-11-02",
+            "total_sentiment": 91.0,
+            "negativity_sentiment": 4.0,
+            "price": 305.7200012207031
+        },
+        {
+            "date": "2014-11-09",
+            "total_sentiment": 93.0,
+            "negativity_sentiment": 1.0,
+            "price": 305.1099853515625
+        },
+        {
+            "date": "2014-11-16",
+            "total_sentiment": 101.0,
+            "negativity_sentiment": 1.0,
+            "price": 323.04998779296875
+        },
+        {
+            "date": "2014-11-23",
+            "total_sentiment": 109.0,
+            "negativity_sentiment": 7.0,
+            "price": 335.6400146484375
+        },
+        {
+            "date": "2014-11-30",
+            "total_sentiment": 103.0,
+            "negativity_sentiment": 1.0,
+            "price": 326.0
+        },
+        {
+            "date": "2014-12-07",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 5.0,
+            "price": 306.6400146484375
+        },
+        {
+            "date": "2014-12-14",
+            "total_sentiment": 107.0,
+            "negativity_sentiment": 6.0,
+            "price": 306.07000732421875
+        },
+        {
+            "date": "2014-12-21",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 3.0,
+            "price": 306.5400085449219
+        },
+        {
+            "date": "2014-12-28",
+            "total_sentiment": 81.0,
+            "negativity_sentiment": 4.0,
+            "price": 312.0400085449219
+        },
+        {
+            "date": "2015-01-04",
+            "total_sentiment": 98.0,
+            "negativity_sentiment": 1.0,
+            "price": 302.19000244140625
+        },
+        {
+            "date": "2015-01-11",
+            "total_sentiment": 92.0,
+            "negativity_sentiment": 2.0,
+            "price": 291.4100036621094
+        },
+        {
+            "date": "2015-01-18",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 8.0,
+            "price": 289.44000244140625
+        },
+        {
+            "date": "2015-01-25",
+            "total_sentiment": 127.0,
+            "negativity_sentiment": 1.0,
+            "price": 309.6600036621094
+        },
+        {
+            "date": "2015-02-01",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 2.0,
+            "price": 364.4700012207031
+        },
+        {
+            "date": "2015-02-08",
+            "total_sentiment": 111.0,
+            "negativity_sentiment": 7.0,
+            "price": 370.55999755859375
+        },
+        {
+            "date": "2015-02-15",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 6.0,
+            "price": 375.4299926757813
+        },
+        {
+            "date": "2015-02-22",
+            "total_sentiment": 120.0,
+            "negativity_sentiment": 4.0,
+            "price": 380.1400146484375
+        },
+        {
+            "date": "2015-03-01",
+            "total_sentiment": 118.0,
+            "negativity_sentiment": 4.0,
+            "price": 385.6600036621094
+        },
+        {
+            "date": "2015-03-08",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 1.0,
+            "price": 378.55999755859375
+        },
+        {
+            "date": "2015-03-15",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 3.0,
+            "price": 373.3500061035156
+        },
+        {
+            "date": "2015-03-22",
+            "total_sentiment": 125.0,
+            "negativity_sentiment": 6.0,
+            "price": 375.1099853515625
+        },
+        {
+            "date": "2015-03-29",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 3.0,
+            "price": 374.5899963378906
+        },
+        {
+            "date": "2015-04-05",
+            "total_sentiment": 107.0,
+            "negativity_sentiment": 3.0,
+            "price": 377.0400085449219
+        },
+        {
+            "date": "2015-04-12",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 4.0,
+            "price": 382.3599853515625
+        },
+        {
+            "date": "2015-04-19",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 5.0,
+            "price": 389.510009765625
+        },
+        {
+            "date": "2015-04-26",
+            "total_sentiment": 103.0,
+            "negativity_sentiment": 5.0,
+            "price": 438.55999755859375
+        },
+        {
+            "date": "2015-05-03",
+            "total_sentiment": 106.0,
+            "negativity_sentiment": 2.0,
+            "price": 423.0400085449219
+        },
+        {
+            "date": "2015-05-10",
+            "total_sentiment": 108.0,
+            "negativity_sentiment": 3.0,
+            "price": 432.8500061035156
+        },
+        {
+            "date": "2015-05-17",
+            "total_sentiment": 134.0,
+            "negativity_sentiment": 3.0,
+            "price": 425.239990234375
+        },
+        {
+            "date": "2015-05-24",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 3.0,
+            "price": 425.4700012207031
+        },
+        {
+            "date": "2015-05-31",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 6.0,
+            "price": 430.9200134277344
+        },
+        {
+            "date": "2015-06-07",
+            "total_sentiment": 133.0,
+            "negativity_sentiment": 3.0,
+            "price": 423.5
+        },
+        {
+            "date": "2015-06-14",
+            "total_sentiment": 127.0,
+            "negativity_sentiment": 0.0,
+            "price": 423.6700134277344
+        },
+        {
+            "date": "2015-06-21",
+            "total_sentiment": 111.0,
+            "negativity_sentiment": 8.0,
+            "price": 436.2900085449219
+        },
+        {
+            "date": "2015-06-28",
+            "total_sentiment": 125.0,
+            "negativity_sentiment": 4.0,
+            "price": 429.8599853515625
+        },
+        {
+            "date": "2015-07-05",
+            "total_sentiment": 130.0,
+            "negativity_sentiment": 6.0,
+            "price": 436.0400085449219
+        },
+        {
+            "date": "2015-07-12",
+            "total_sentiment": 134.0,
+            "negativity_sentiment": 5.0,
+            "price": 455.5700073242188
+        },
+        {
+            "date": "2015-07-19",
+            "total_sentiment": 140.0,
+            "negativity_sentiment": 3.0,
+            "price": 488.1000061035156
+        },
+        {
+            "date": "2015-07-26",
+            "total_sentiment": 153.0,
+            "negativity_sentiment": 3.0,
+            "price": 531.4099731445312
+        },
+        {
+            "date": "2015-08-02",
+            "total_sentiment": 191.0,
+            "negativity_sentiment": 3.0,
+            "price": 535.030029296875
+        },
+        {
+            "date": "2015-08-09",
+            "total_sentiment": 154.0,
+            "negativity_sentiment": 10.0,
+            "price": 524.0
+        },
+        {
+            "date": "2015-08-16",
+            "total_sentiment": 160.0,
+            "negativity_sentiment": 3.0,
+            "price": 535.219970703125
+        },
+        {
+            "date": "2015-08-23",
+            "total_sentiment": 147.0,
+            "negativity_sentiment": 6.0,
+            "price": 463.3699951171875
+        },
+        {
+            "date": "2015-08-30",
+            "total_sentiment": 145.0,
+            "negativity_sentiment": 4.0,
+            "price": 512.8900146484375
+        },
+        {
+            "date": "2015-09-06",
+            "total_sentiment": 145.0,
+            "negativity_sentiment": 3.0,
+            "price": 517.5399780273438
+        },
+        {
+            "date": "2015-09-13",
+            "total_sentiment": 145.0,
+            "negativity_sentiment": 2.0,
+            "price": 521.3800048828125
+        },
+        {
+            "date": "2015-09-20",
+            "total_sentiment": 124.0,
+            "negativity_sentiment": 2.0,
+            "price": 548.3900146484375
+        },
+        {
+            "date": "2015-09-27",
+            "total_sentiment": 142.0,
+            "negativity_sentiment": 7.0,
+            "price": 504.05999755859375
+        },
+        {
+            "date": "2015-10-04",
+            "total_sentiment": 141.0,
+            "negativity_sentiment": 5.0,
+            "price": 543.6799926757812
+        },
+        {
+            "date": "2015-10-11",
+            "total_sentiment": 162.0,
+            "negativity_sentiment": 8.0,
+            "price": 550.1900024414062
+        },
+        {
+            "date": "2015-10-18",
+            "total_sentiment": 147.0,
+            "negativity_sentiment": 5.0,
+            "price": 573.1500244140625
+        },
+        {
+            "date": "2015-10-25",
+            "total_sentiment": 138.0,
+            "negativity_sentiment": 4.0,
+            "price": 608.6099853515625
+        },
+        {
+            "date": "2015-11-01",
+            "total_sentiment": 133.0,
+            "negativity_sentiment": 6.0,
+            "price": 628.3499755859375
+        },
+        {
+            "date": "2015-11-08",
+            "total_sentiment": 139.0,
+            "negativity_sentiment": 7.0,
+            "price": 655.489990234375
+        },
+        {
+            "date": "2015-11-15",
+            "total_sentiment": 155.0,
+            "negativity_sentiment": 4.0,
+            "price": 647.8099975585938
+        },
+        {
+            "date": "2015-11-22",
+            "total_sentiment": 148.0,
+            "negativity_sentiment": 6.0,
+            "price": 678.989990234375
+        },
+        {
+            "date": "2015-11-29",
+            "total_sentiment": 160.0,
+            "negativity_sentiment": 1.0,
+            "price": 664.7999877929688
+        },
+        {
+            "date": "2015-12-06",
+            "total_sentiment": 170.0,
+            "negativity_sentiment": 5.0,
+            "price": 669.8300170898438
+        },
+        {
+            "date": "2015-12-13",
+            "total_sentiment": 131.0,
+            "negativity_sentiment": 9.0,
+            "price": 657.9099731445312
+        },
+        {
+            "date": "2015-12-20",
+            "total_sentiment": 119.0,
+            "negativity_sentiment": 3.0,
+            "price": 664.510009765625
+        },
+        {
+            "date": "2015-12-27",
+            "total_sentiment": 132.0,
+            "negativity_sentiment": 3.0,
+            "price": 675.2000122070312
+        },
+        {
+            "date": "2016-01-03",
+            "total_sentiment": 151.0,
+            "negativity_sentiment": 2.0,
+            "price": 636.989990234375
+        },
+        {
+            "date": "2016-01-10",
+            "total_sentiment": 158.0,
+            "negativity_sentiment": 2.0,
+            "price": 617.739990234375
+        },
+        {
+            "date": "2016-01-17",
+            "total_sentiment": 165.0,
+            "negativity_sentiment": 9.0,
+            "price": 574.47998046875
+        },
+        {
+            "date": "2016-01-24",
+            "total_sentiment": 167.0,
+            "negativity_sentiment": 4.0,
+            "price": 596.530029296875
+        },
+        {
+            "date": "2016-01-31",
+            "total_sentiment": 167.0,
+            "negativity_sentiment": 2.0,
+            "price": 574.8099975585938
+        },
+        {
+            "date": "2016-02-07",
+            "total_sentiment": 151.0,
+            "negativity_sentiment": 5.0,
+            "price": 488.1000061035156
+        },
+        {
+            "date": "2016-02-14",
+            "total_sentiment": 142.0,
+            "negativity_sentiment": 1.0,
+            "price": 521.0999755859375
+        },
+        {
+            "date": "2016-02-21",
+            "total_sentiment": 150.0,
+            "negativity_sentiment": 0.0,
+            "price": 559.5
+        },
+        {
+            "date": "2016-02-28",
+            "total_sentiment": 171.0,
+            "negativity_sentiment": 1.0,
+            "price": 552.52001953125
+        },
+        {
+            "date": "2016-03-06",
+            "total_sentiment": 137.0,
+            "negativity_sentiment": 4.0,
+            "price": 562.7999877929688
+        },
+        {
+            "date": "2016-03-13",
+            "total_sentiment": 166.0,
+            "negativity_sentiment": 10.0,
+            "price": 573.3699951171875
+        },
+        {
+            "date": "2016-03-20",
+            "total_sentiment": 139.0,
+            "negativity_sentiment": 3.0,
+            "price": 553.97998046875
+        },
+        {
+            "date": "2016-03-27",
+            "total_sentiment": 137.0,
+            "negativity_sentiment": 2.0,
+            "price": 579.8699951171875
+        },
+        {
+            "date": "2016-04-03",
+            "total_sentiment": 147.0,
+            "negativity_sentiment": 6.0,
+            "price": 593.1900024414062
+        },
+        {
+            "date": "2016-04-10",
+            "total_sentiment": 161.0,
+            "negativity_sentiment": 6.0,
+            "price": 595.9299926757812
+        },
+        {
+            "date": "2016-04-17",
+            "total_sentiment": 151.0,
+            "negativity_sentiment": 2.0,
+            "price": 635.3499755859375
+        },
+        {
+            "date": "2016-04-24",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 4.0,
+            "price": 626.2000122070312
+        },
+        {
+            "date": "2016-05-01",
+            "total_sentiment": 162.0,
+            "negativity_sentiment": 4.0,
+            "price": 683.8499755859375
+        },
+        {
+            "date": "2016-05-08",
+            "total_sentiment": 166.0,
+            "negativity_sentiment": 7.0,
+            "price": 679.75
+        },
+        {
+            "date": "2016-05-15",
+            "total_sentiment": 117.0,
+            "negativity_sentiment": 5.0,
+            "price": 710.6599731445312
+        },
+        {
+            "date": "2016-05-22",
+            "total_sentiment": 155.0,
+            "negativity_sentiment": 4.0,
+            "price": 696.75
+        },
+        {
+            "date": "2016-05-29",
+            "total_sentiment": 148.0,
+            "negativity_sentiment": 6.0,
+            "price": 722.7899780273438
+        },
+        {
+            "date": "2016-06-05",
+            "total_sentiment": 135.0,
+            "negativity_sentiment": 10.0,
+            "price": 726.72998046875
+        },
+        {
+            "date": "2016-06-12",
+            "total_sentiment": 152.0,
+            "negativity_sentiment": 6.0,
+            "price": 715.239990234375
+        },
+        {
+            "date": "2016-06-19",
+            "total_sentiment": 156.0,
+            "negativity_sentiment": 5.0,
+            "price": 714.010009765625
+        },
+        {
+            "date": "2016-06-26",
+            "total_sentiment": 143.0,
+            "negativity_sentiment": 3.0,
+            "price": 691.3599853515625
+        },
+        {
+            "date": "2016-07-03",
+            "total_sentiment": 138.0,
+            "negativity_sentiment": 9.0,
+            "price": 728.0999755859375
+        },
+        {
+            "date": "2016-07-10",
+            "total_sentiment": 125.0,
+            "negativity_sentiment": 7.0,
+            "price": 753.780029296875
+        },
+        {
+            "date": "2016-07-17",
+            "total_sentiment": 170.0,
+            "negativity_sentiment": 3.0,
+            "price": 736.0700073242188
+        },
+        {
+            "date": "2016-07-24",
+            "total_sentiment": 143.0,
+            "negativity_sentiment": 7.0,
+            "price": 739.6099853515625
+        },
+        {
+            "date": "2016-07-31",
+            "total_sentiment": 149.0,
+            "negativity_sentiment": 5.0,
+            "price": 767.739990234375
+        },
+        {
+            "date": "2016-08-07",
+            "total_sentiment": 161.0,
+            "negativity_sentiment": 8.0,
+            "price": 766.5599975585938
+        },
+        {
+            "date": "2016-08-14",
+            "total_sentiment": 143.0,
+            "negativity_sentiment": 10.0,
+            "price": 768.489990234375
+        },
+        {
+            "date": "2016-08-21",
+            "total_sentiment": 173.0,
+            "negativity_sentiment": 5.0,
+            "price": 759.47998046875
+        },
+        {
+            "date": "2016-08-28",
+            "total_sentiment": 173.0,
+            "negativity_sentiment": 3.0,
+            "price": 771.2899780273438
+        },
+        {
+            "date": "2016-09-04",
+            "total_sentiment": 161.0,
+            "negativity_sentiment": 7.0,
+            "price": 788.8699951171875
+        },
+        {
+            "date": "2016-09-11",
+            "total_sentiment": 142.0,
+            "negativity_sentiment": 8.0,
+            "price": 771.489990234375
+        },
+        {
+            "date": "2016-09-18",
+            "total_sentiment": 154.0,
+            "negativity_sentiment": 7.0,
+            "price": 775.0999755859375
+        },
+        {
+            "date": "2016-09-25",
+            "total_sentiment": 146.0,
+            "negativity_sentiment": 6.0,
+            "price": 799.1599731445312
+        },
+        {
+            "date": "2016-10-02",
+            "total_sentiment": 147.0,
+            "negativity_sentiment": 10.0,
+            "price": 836.739990234375
+        },
+        {
+            "date": "2016-10-09",
+            "total_sentiment": 149.0,
+            "negativity_sentiment": 5.0,
+            "price": 841.7100219726562
+        },
+        {
+            "date": "2016-10-16",
+            "total_sentiment": 129.0,
+            "negativity_sentiment": 3.0,
+            "price": 812.9500122070312
+        },
+        {
+            "date": "2016-10-23",
+            "total_sentiment": 179.0,
+            "negativity_sentiment": 4.0,
+            "price": 838.0900268554688
+        },
+        {
+            "date": "2016-10-30",
+            "total_sentiment": 169.0,
+            "negativity_sentiment": 8.0,
+            "price": 789.8200073242188
+        },
+        {
+            "date": "2016-11-06",
+            "total_sentiment": 144.0,
+            "negativity_sentiment": 4.0,
+            "price": 784.9299926757812
+        },
+        {
+            "date": "2016-11-13",
+            "total_sentiment": 155.0,
+            "negativity_sentiment": 1.0,
+            "price": 719.0700073242188
+        },
+        {
+            "date": "2016-11-20",
+            "total_sentiment": 159.0,
+            "negativity_sentiment": 4.0,
+            "price": 780.0
+        },
+        {
+            "date": "2016-11-27",
+            "total_sentiment": 179.0,
+            "negativity_sentiment": 4.0,
+            "price": 766.77001953125
+        },
+        {
+            "date": "2016-12-04",
+            "total_sentiment": 161.0,
+            "negativity_sentiment": 9.0,
+            "price": 759.3599853515625
+        },
+        {
+            "date": "2016-12-11",
+            "total_sentiment": 168.0,
+            "negativity_sentiment": 7.0,
+            "price": 760.1199951171875
+        },
+        {
+            "date": "2016-12-18",
+            "total_sentiment": 155.0,
+            "negativity_sentiment": 4.0,
+            "price": 766.0
+        },
+        {
+            "date": "2016-12-25",
+            "total_sentiment": 177.0,
+            "negativity_sentiment": 1.0,
+            "price": 771.4000244140625
+        },
+        {
+            "date": "2017-01-01",
+            "total_sentiment": 196.0,
+            "negativity_sentiment": 8.0,
+            "price": 753.6699829101562
+        },
+        {
+            "date": "2017-01-08",
+            "total_sentiment": 142.0,
+            "negativity_sentiment": 4.0,
+            "price": 796.9199829101562
+        },
+        {
+            "date": "2017-01-15",
+            "total_sentiment": 162.0,
+            "negativity_sentiment": 6.0,
+            "price": 809.719970703125
+        },
+        {
+            "date": "2017-01-22",
+            "total_sentiment": 167.0,
+            "negativity_sentiment": 5.0,
+            "price": 817.8800048828125
+        },
+        {
+            "date": "2017-01-29",
+            "total_sentiment": 161.0,
+            "negativity_sentiment": 6.0,
+            "price": 830.3800048828125
+        },
+        {
+            "date": "2017-02-05",
+            "total_sentiment": 140.0,
+            "negativity_sentiment": 4.0,
+            "price": 807.6400146484375
+        },
+        {
+            "date": "2017-02-12",
+            "total_sentiment": 170.0,
+            "negativity_sentiment": 9.0,
+            "price": 836.530029296875
+        },
+        {
+            "date": "2017-02-19",
+            "total_sentiment": 161.0,
+            "negativity_sentiment": 1.0,
+            "price": 856.4400024414062
+        },
+        {
+            "date": "2017-02-26",
+            "total_sentiment": 156.0,
+            "negativity_sentiment": 8.0,
+            "price": 848.6400146484375
+        },
+        {
+            "date": "2017-03-05",
+            "total_sentiment": 160.0,
+            "negativity_sentiment": 4.0,
+            "price": 846.6099853515625
+        },
+        {
+            "date": "2017-03-12",
+            "total_sentiment": 144.0,
+            "negativity_sentiment": 6.0,
+            "price": 854.5900268554688
+        },
+        {
+            "date": "2017-03-19",
+            "total_sentiment": 148.0,
+            "negativity_sentiment": 2.0,
+            "price": 856.969970703125
+        },
+        {
+            "date": "2017-03-26",
+            "total_sentiment": 159.0,
+            "negativity_sentiment": 3.0,
+            "price": 846.8200073242188
+        },
+        {
+            "date": "2017-04-02",
+            "total_sentiment": 166.0,
+            "negativity_sentiment": 5.0,
+            "price": 891.510009765625
+        },
+        {
+            "date": "2017-04-09",
+            "total_sentiment": 149.0,
+            "negativity_sentiment": 13.0,
+            "price": 907.0399780273438
+        },
+        {
+            "date": "2017-04-16",
+            "total_sentiment": 153.0,
+            "negativity_sentiment": 1.0,
+            "price": 901.989990234375
+        },
+        {
+            "date": "2017-04-23",
+            "total_sentiment": 167.0,
+            "negativity_sentiment": 6.0,
+            "price": 907.4099731445312
+        },
+        {
+            "date": "2017-04-30",
+            "total_sentiment": 159.0,
+            "negativity_sentiment": 7.0,
+            "price": 948.22998046875
+        }
+    ],
+    "google": [
+        {
+            "date": "2014-01-05",
+            "total_sentiment": 30.0,
+            "negativity_sentiment": 0.0,
+            "price": 559.21923828125
+        },
+        {
+            "date": "2014-01-12",
+            "total_sentiment": 59.0,
+            "negativity_sentiment": 2.0,
+            "price": 562.0520629882812
+        },
+        {
+            "date": "2014-01-19",
+            "total_sentiment": 52.0,
+            "negativity_sentiment": 1.0,
+            "price": 582.4324340820312
+        },
+        {
+            "date": "2014-01-26",
+            "total_sentiment": 58.0,
+            "negativity_sentiment": 3.0,
+            "price": 551.1661376953125
+        },
+        {
+            "date": "2014-02-02",
+            "total_sentiment": 67.0,
+            "negativity_sentiment": 1.0,
+            "price": 567.2822875976562
+        },
+        {
+            "date": "2014-02-09",
+            "total_sentiment": 57.0,
+            "negativity_sentiment": 2.0,
+            "price": 587.0520629882812
+        },
+        {
+            "date": "2014-02-16",
+            "total_sentiment": 80.0,
+            "negativity_sentiment": 0.0,
+            "price": 606.0460205078125
+        },
+        {
+            "date": "2014-02-23",
+            "total_sentiment": 65.0,
+            "negativity_sentiment": 0.0,
+            "price": 606.8618774414062
+        },
+        {
+            "date": "2014-03-02",
+            "total_sentiment": 69.0,
+            "negativity_sentiment": 1.0,
+            "price": 601.9469604492188
+        },
+        {
+            "date": "2014-03-09",
+            "total_sentiment": 55.0,
+            "negativity_sentiment": 1.0,
+            "price": 606.3914184570312
+        },
+        {
+            "date": "2014-03-16",
+            "total_sentiment": 46.0,
+            "negativity_sentiment": 4.0,
+            "price": 596.6466674804688
+        },
+        {
+            "date": "2014-03-23",
+            "total_sentiment": 65.0,
+            "negativity_sentiment": 1.0,
+            "price": 579.5445556640625
+        },
+        {
+            "date": "2014-03-30",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 3.0,
+            "price": 557.8128051757812
+        },
+        {
+            "date": "2014-04-06",
+            "total_sentiment": 71.0,
+            "negativity_sentiment": 3.0,
+            "price": 540.6300048828125
+        },
+        {
+            "date": "2014-04-13",
+            "total_sentiment": 48.0,
+            "negativity_sentiment": 6.0,
+            "price": 545.2000122070312
+        },
+        {
+            "date": "2014-04-20",
+            "total_sentiment": 77.0,
+            "negativity_sentiment": 0.0,
+            "price": 539.3699951171875
+        },
+        {
+            "date": "2014-04-27",
+            "total_sentiment": 73.0,
+            "negativity_sentiment": 4.0,
+            "price": 522.97998046875
+        },
+        {
+            "date": "2014-05-04",
+            "total_sentiment": 67.0,
+            "negativity_sentiment": 3.0,
+            "price": 535.3300170898438
+        },
+        {
+            "date": "2014-05-11",
+            "total_sentiment": 78.0,
+            "negativity_sentiment": 5.0,
+            "price": 538.4299926757812
+        },
+        {
+            "date": "2014-05-18",
+            "total_sentiment": 66.0,
+            "negativity_sentiment": 3.0,
+            "price": 538.8300170898438
+        },
+        {
+            "date": "2014-05-25",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 5.0,
+            "price": 574.8699951171875
+        },
+        {
+            "date": "2014-06-01",
+            "total_sentiment": 54.0,
+            "negativity_sentiment": 8.0,
+            "price": 564.3400268554688
+        },
+        {
+            "date": "2014-06-08",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 4.0,
+            "price": 570.72998046875
+        },
+        {
+            "date": "2014-06-15",
+            "total_sentiment": 74.0,
+            "negativity_sentiment": 1.0,
+            "price": 552.2999877929688
+        },
+        {
+            "date": "2014-06-22",
+            "total_sentiment": 59.0,
+            "negativity_sentiment": 4.0,
+            "price": 574.2899780273438
+        },
+        {
+            "date": "2014-06-29",
+            "total_sentiment": 59.0,
+            "negativity_sentiment": 3.0,
+            "price": 584.6699829101562
+        },
+        {
+            "date": "2014-07-06",
+            "total_sentiment": 71.0,
+            "negativity_sentiment": 1.0,
+            "price": 590.760009765625
+        },
+        {
+            "date": "2014-07-13",
+            "total_sentiment": 60.0,
+            "negativity_sentiment": 0.0,
+            "price": 594.260009765625
+        },
+        {
+            "date": "2014-07-20",
+            "total_sentiment": 84.0,
+            "negativity_sentiment": 3.0,
+            "price": 598.4400024414062
+        },
+        {
+            "date": "2014-07-27",
+            "total_sentiment": 64.0,
+            "negativity_sentiment": 2.0,
+            "price": 599.02001953125
+        },
+        {
+            "date": "2014-08-03",
+            "total_sentiment": 59.0,
+            "negativity_sentiment": 3.0,
+            "price": 582.27001953125
+        },
+        {
+            "date": "2014-08-10",
+            "total_sentiment": 83.0,
+            "negativity_sentiment": 0.0,
+            "price": 577.25
+        },
+        {
+            "date": "2014-08-17",
+            "total_sentiment": 90.0,
+            "negativity_sentiment": 4.0,
+            "price": 592.7000122070312
+        },
+        {
+            "date": "2014-08-24",
+            "total_sentiment": 80.0,
+            "negativity_sentiment": 2.0,
+            "price": 590.5700073242188
+        },
+        {
+            "date": "2014-08-31",
+            "total_sentiment": 64.0,
+            "negativity_sentiment": 1.0,
+            "price": 588.6300048828125
+        },
+        {
+            "date": "2014-09-07",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 4.0,
+            "price": 601.6300048828125
+        },
+        {
+            "date": "2014-09-14",
+            "total_sentiment": 75.0,
+            "negativity_sentiment": 3.0,
+            "price": 581.6400146484375
+        },
+        {
+            "date": "2014-09-21",
+            "total_sentiment": 84.0,
+            "negativity_sentiment": 3.0,
+            "price": 597.27001953125
+        },
+        {
+            "date": "2014-09-28",
+            "total_sentiment": 92.0,
+            "negativity_sentiment": 7.0,
+            "price": 587.8099975585938
+        },
+        {
+            "date": "2014-10-05",
+            "total_sentiment": 92.0,
+            "negativity_sentiment": 4.0,
+            "price": 587.780029296875
+        },
+        {
+            "date": "2014-10-12",
+            "total_sentiment": 67.0,
+            "negativity_sentiment": 0.0,
+            "price": 544.75
+        },
+        {
+            "date": "2014-10-19",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 3.0,
+            "price": 532.3800048828125
+        },
+        {
+            "date": "2014-10-26",
+            "total_sentiment": 95.0,
+            "negativity_sentiment": 6.0,
+            "price": 549.8800048828125
+        },
+        {
+            "date": "2014-11-02",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 1.0,
+            "price": 563.77001953125
+        },
+        {
+            "date": "2014-11-09",
+            "total_sentiment": 82.0,
+            "negativity_sentiment": 2.0,
+            "price": 558.22998046875
+        },
+        {
+            "date": "2014-11-16",
+            "total_sentiment": 81.0,
+            "negativity_sentiment": 1.0,
+            "price": 546.6400146484375
+        },
+        {
+            "date": "2014-11-23",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 2.0,
+            "price": 547.47998046875
+        },
+        {
+            "date": "2014-11-30",
+            "total_sentiment": 86.0,
+            "negativity_sentiment": 4.0,
+            "price": 539.6500244140625
+        },
+        {
+            "date": "2014-12-07",
+            "total_sentiment": 85.0,
+            "negativity_sentiment": 3.0,
+            "price": 530.72998046875
+        },
+        {
+            "date": "2014-12-14",
+            "total_sentiment": 82.0,
+            "negativity_sentiment": 5.0,
+            "price": 515.8400268554688
+        },
+        {
+            "date": "2014-12-21",
+            "total_sentiment": 78.0,
+            "negativity_sentiment": 4.0,
+            "price": 532.2999877929688
+        },
+        {
+            "date": "2014-12-28",
+            "total_sentiment": 82.0,
+            "negativity_sentiment": 1.0,
+            "price": 537.3099975585938
+        },
+        {
+            "date": "2015-01-04",
+            "total_sentiment": 65.0,
+            "negativity_sentiment": 2.0,
+            "price": 519.4600219726562
+        },
+        {
+            "date": "2015-01-11",
+            "total_sentiment": 91.0,
+            "negativity_sentiment": 0.0,
+            "price": 497.05999755859375
+        },
+        {
+            "date": "2015-01-18",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 1.0,
+            "price": 509.9400024414063
+        },
+        {
+            "date": "2015-01-25",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 3.0,
+            "price": 536.719970703125
+        },
+        {
+            "date": "2015-02-01",
+            "total_sentiment": 98.0,
+            "negativity_sentiment": 3.0,
+            "price": 532.2000122070312
+        },
+        {
+            "date": "2015-02-08",
+            "total_sentiment": 86.0,
+            "negativity_sentiment": 5.0,
+            "price": 529.280029296875
+        },
+        {
+            "date": "2015-02-15",
+            "total_sentiment": 81.0,
+            "negativity_sentiment": 2.0,
+            "price": 545.010009765625
+        },
+        {
+            "date": "2015-02-22",
+            "total_sentiment": 96.0,
+            "negativity_sentiment": 1.0,
+            "price": 535.0
+        },
+        {
+            "date": "2015-03-01",
+            "total_sentiment": 103.0,
+            "negativity_sentiment": 3.0,
+            "price": 575.02001953125
+        },
+        {
+            "date": "2015-03-08",
+            "total_sentiment": 88.0,
+            "negativity_sentiment": 6.0,
+            "price": 574.0999755859375
+        },
+        {
+            "date": "2015-03-15",
+            "total_sentiment": 97.0,
+            "negativity_sentiment": 6.0,
+            "price": 561.6400146484375
+        },
+        {
+            "date": "2015-03-22",
+            "total_sentiment": 90.0,
+            "negativity_sentiment": 1.0,
+            "price": 565.3699951171875
+        },
+        {
+            "date": "2015-03-29",
+            "total_sentiment": 80.0,
+            "negativity_sentiment": 3.0,
+            "price": 561.1400146484375
+        },
+        {
+            "date": "2015-04-05",
+            "total_sentiment": 91.0,
+            "negativity_sentiment": 0.0,
+            "price": 543.9500122070312
+        },
+        {
+            "date": "2015-04-12",
+            "total_sentiment": 89.0,
+            "negativity_sentiment": 0.0,
+            "price": 548.6400146484375
+        },
+        {
+            "date": "2015-04-19",
+            "total_sentiment": 93.0,
+            "negativity_sentiment": 5.0,
+            "price": 544.530029296875
+        },
+        {
+            "date": "2015-04-26",
+            "total_sentiment": 79.0,
+            "negativity_sentiment": 1.0,
+            "price": 566.1199951171875
+        },
+        {
+            "date": "2015-05-03",
+            "total_sentiment": 104.0,
+            "negativity_sentiment": 4.0,
+            "price": 552.8400268554688
+        },
+        {
+            "date": "2015-05-10",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 2.0,
+            "price": 545.780029296875
+        },
+        {
+            "date": "2015-05-17",
+            "total_sentiment": 89.0,
+            "negativity_sentiment": 4.0,
+            "price": 546.6699829101562
+        },
+        {
+            "date": "2015-05-24",
+            "total_sentiment": 95.0,
+            "negativity_sentiment": 0.0,
+            "price": 547.1900024414062
+        },
+        {
+            "date": "2015-05-31",
+            "total_sentiment": 94.0,
+            "negativity_sentiment": 3.0,
+            "price": 549.2100219726562
+        },
+        {
+            "date": "2015-06-07",
+            "total_sentiment": 89.0,
+            "negativity_sentiment": 4.0,
+            "price": 543.47998046875
+        },
+        {
+            "date": "2015-06-14",
+            "total_sentiment": 101.0,
+            "negativity_sentiment": 6.0,
+            "price": 543.0
+        },
+        {
+            "date": "2015-06-21",
+            "total_sentiment": 72.0,
+            "negativity_sentiment": 5.0,
+            "price": 559.6799926757812
+        },
+        {
+            "date": "2015-06-28",
+            "total_sentiment": 90.0,
+            "negativity_sentiment": 5.0,
+            "price": 541.25
+        },
+        {
+            "date": "2015-07-05",
+            "total_sentiment": 117.0,
+            "negativity_sentiment": 3.0,
+            "price": 545.6199951171875
+        },
+        {
+            "date": "2015-07-12",
+            "total_sentiment": 96.0,
+            "negativity_sentiment": 4.0,
+            "price": 571.72998046875
+        },
+        {
+            "date": "2015-07-19",
+            "total_sentiment": 103.0,
+            "negativity_sentiment": 3.0,
+            "price": 692.8400268554688
+        },
+        {
+            "date": "2015-07-26",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 4.0,
+            "price": 658.27001953125
+        },
+        {
+            "date": "2015-08-02",
+            "total_sentiment": 124.0,
+            "negativity_sentiment": 3.0,
+            "price": 664.719970703125
+        },
+        {
+            "date": "2015-08-09",
+            "total_sentiment": 94.0,
+            "negativity_sentiment": 7.0,
+            "price": 663.1400146484375
+        },
+        {
+            "date": "2015-08-16",
+            "total_sentiment": 130.0,
+            "negativity_sentiment": 3.0,
+            "price": 694.1099853515625
+        },
+        {
+            "date": "2015-08-23",
+            "total_sentiment": 126.0,
+            "negativity_sentiment": 4.0,
+            "price": 618.1099853515625
+        },
+        {
+            "date": "2015-08-30",
+            "total_sentiment": 104.0,
+            "negativity_sentiment": 6.0,
+            "price": 647.8200073242188
+        },
+        {
+            "date": "2015-09-06",
+            "total_sentiment": 100.0,
+            "negativity_sentiment": 5.0,
+            "price": 643.8800048828125
+        },
+        {
+            "date": "2015-09-13",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 5.0,
+            "price": 652.469970703125
+        },
+        {
+            "date": "2015-09-20",
+            "total_sentiment": 120.0,
+            "negativity_sentiment": 1.0,
+            "price": 666.97998046875
+        },
+        {
+            "date": "2015-09-27",
+            "total_sentiment": 108.0,
+            "negativity_sentiment": 2.0,
+            "price": 624.25
+        },
+        {
+            "date": "2015-10-04",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 4.0,
+            "price": 671.6799926757812
+        },
+        {
+            "date": "2015-10-11",
+            "total_sentiment": 127.0,
+            "negativity_sentiment": 10.0,
+            "price": 676.4299926757812
+        },
+        {
+            "date": "2015-10-18",
+            "total_sentiment": 116.0,
+            "negativity_sentiment": 3.0,
+            "price": 699.9500122070312
+        },
+        {
+            "date": "2015-10-25",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 1.0,
+            "price": 731.1199951171875
+        },
+        {
+            "date": "2015-11-01",
+            "total_sentiment": 109.0,
+            "negativity_sentiment": 5.0,
+            "price": 747.739990234375
+        },
+        {
+            "date": "2015-11-08",
+            "total_sentiment": 102.0,
+            "negativity_sentiment": 7.0,
+            "price": 754.77001953125
+        },
+        {
+            "date": "2015-11-15",
+            "total_sentiment": 119.0,
+            "negativity_sentiment": 8.0,
+            "price": 750.4199829101562
+        },
+        {
+            "date": "2015-11-22",
+            "total_sentiment": 110.0,
+            "negativity_sentiment": 8.0,
+            "price": 776.7000122070312
+        },
+        {
+            "date": "2015-11-29",
+            "total_sentiment": 107.0,
+            "negativity_sentiment": 3.0,
+            "price": 762.8499755859375
+        },
+        {
+            "date": "2015-12-06",
+            "total_sentiment": 115.0,
+            "negativity_sentiment": 1.0,
+            "price": 772.989990234375
+        },
+        {
+            "date": "2015-12-13",
+            "total_sentiment": 107.0,
+            "negativity_sentiment": 3.0,
+            "price": 762.5399780273438
+        },
+        {
+            "date": "2015-12-20",
+            "total_sentiment": 101.0,
+            "negativity_sentiment": 2.0,
+            "price": 760.7999877929688
+        },
+        {
+            "date": "2015-12-27",
+            "total_sentiment": 94.0,
+            "negativity_sentiment": 0.0,
+            "price": 782.239990234375
+        },
+        {
+            "date": "2016-01-03",
+            "total_sentiment": 93.0,
+            "negativity_sentiment": 2.0,
+            "price": 759.4400024414062
+        },
+        {
+            "date": "2016-01-10",
+            "total_sentiment": 119.0,
+            "negativity_sentiment": 3.0,
+            "price": 733.0700073242188
+        },
+        {
+            "date": "2016-01-17",
+            "total_sentiment": 107.0,
+            "negativity_sentiment": 4.0,
+            "price": 719.0800170898438
+        },
+        {
+            "date": "2016-01-24",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 3.0,
+            "price": 733.6199951171875
+        },
+        {
+            "date": "2016-01-31",
+            "total_sentiment": 128.0,
+            "negativity_sentiment": 3.0,
+            "price": 770.77001953125
+        },
+        {
+            "date": "2016-02-07",
+            "total_sentiment": 98.0,
+            "negativity_sentiment": 10.0,
+            "price": 704.1599731445312
+        },
+        {
+            "date": "2016-02-14",
+            "total_sentiment": 110.0,
+            "negativity_sentiment": 1.0,
+            "price": 717.6400146484375
+        },
+        {
+            "date": "2016-02-21",
+            "total_sentiment": 106.0,
+            "negativity_sentiment": 6.0,
+            "price": 729.0499877929688
+        },
+        {
+            "date": "2016-02-28",
+            "total_sentiment": 126.0,
+            "negativity_sentiment": 5.0,
+            "price": 717.219970703125
+        },
+        {
+            "date": "2016-03-06",
+            "total_sentiment": 132.0,
+            "negativity_sentiment": 2.0,
+            "price": 712.7999877929688
+        },
+        {
+            "date": "2016-03-13",
+            "total_sentiment": 113.0,
+            "negativity_sentiment": 7.0,
+            "price": 750.239990234375
+        },
+        {
+            "date": "2016-03-20",
+            "total_sentiment": 117.0,
+            "negativity_sentiment": 3.0,
+            "price": 762.1599731445312
+        },
+        {
+            "date": "2016-03-27",
+            "total_sentiment": 116.0,
+            "negativity_sentiment": 0.0,
+            "price": 753.280029296875
+        },
+        {
+            "date": "2016-04-03",
+            "total_sentiment": 132.0,
+            "negativity_sentiment": 3.0,
+            "price": 765.1199951171875
+        },
+        {
+            "date": "2016-04-10",
+            "total_sentiment": 134.0,
+            "negativity_sentiment": 2.0,
+            "price": 757.5399780273438
+        },
+        {
+            "date": "2016-04-17",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 3.0,
+            "price": 787.6799926757812
+        },
+        {
+            "date": "2016-04-24",
+            "total_sentiment": 94.0,
+            "negativity_sentiment": 5.0,
+            "price": 742.2100219726562
+        },
+        {
+            "date": "2016-05-01",
+            "total_sentiment": 104.0,
+            "negativity_sentiment": 3.0,
+            "price": 714.4099731445312
+        },
+        {
+            "date": "2016-05-08",
+            "total_sentiment": 116.0,
+            "negativity_sentiment": 4.0,
+            "price": 729.1300048828125
+        },
+        {
+            "date": "2016-05-15",
+            "total_sentiment": 100.0,
+            "negativity_sentiment": 2.0,
+            "price": 730.2999877929688
+        },
+        {
+            "date": "2016-05-22",
+            "total_sentiment": 110.0,
+            "negativity_sentiment": 4.0,
+            "price": 717.25
+        },
+        {
+            "date": "2016-05-29",
+            "total_sentiment": 93.0,
+            "negativity_sentiment": 5.0,
+            "price": 748.8499755859375
+        },
+        {
+            "date": "2016-06-05",
+            "total_sentiment": 109.0,
+            "negativity_sentiment": 3.0,
+            "price": 730.0599975585938
+        },
+        {
+            "date": "2016-06-12",
+            "total_sentiment": 117.0,
+            "negativity_sentiment": 6.0,
+            "price": 731.8800048828125
+        },
+        {
+            "date": "2016-06-19",
+            "total_sentiment": 109.0,
+            "negativity_sentiment": 3.0,
+            "price": 706.1300048828125
+        },
+        {
+            "date": "2016-06-26",
+            "total_sentiment": 104.0,
+            "negativity_sentiment": 2.0,
+            "price": 681.1400146484375
+        },
+        {
+            "date": "2016-07-03",
+            "total_sentiment": 106.0,
+            "negativity_sentiment": 4.0,
+            "price": 704.8900146484375
+        },
+        {
+            "date": "2016-07-10",
+            "total_sentiment": 71.0,
+            "negativity_sentiment": 3.0,
+            "price": 727.2000122070312
+        },
+        {
+            "date": "2016-07-17",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 6.0,
+            "price": 753.2000122070312
+        },
+        {
+            "date": "2016-07-24",
+            "total_sentiment": 78.0,
+            "negativity_sentiment": 3.0,
+            "price": 757.52001953125
+        },
+        {
+            "date": "2016-07-31",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 2.0,
+            "price": 800.9400024414062
+        },
+        {
+            "date": "2016-08-07",
+            "total_sentiment": 87.0,
+            "negativity_sentiment": 4.0,
+            "price": 805.22998046875
+        },
+        {
+            "date": "2016-08-14",
+            "total_sentiment": 88.0,
+            "negativity_sentiment": 6.0,
+            "price": 805.9600219726562
+        },
+        {
+            "date": "2016-08-21",
+            "total_sentiment": 102.0,
+            "negativity_sentiment": 3.0,
+            "price": 796.9500122070312
+        },
+        {
+            "date": "2016-08-28",
+            "total_sentiment": 99.0,
+            "negativity_sentiment": 6.0,
+            "price": 795.8200073242188
+        },
+        {
+            "date": "2016-09-04",
+            "total_sentiment": 98.0,
+            "negativity_sentiment": 5.0,
+            "price": 808.02001953125
+        },
+        {
+            "date": "2016-09-11",
+            "total_sentiment": 106.0,
+            "negativity_sentiment": 2.0,
+            "price": 798.8200073242188
+        },
+        {
+            "date": "2016-09-18",
+            "total_sentiment": 122.0,
+            "negativity_sentiment": 6.0,
+            "price": 795.3900146484375
+        },
+        {
+            "date": "2016-09-25",
+            "total_sentiment": 135.0,
+            "negativity_sentiment": 6.0,
+            "price": 802.6500244140625
+        },
+        {
+            "date": "2016-10-02",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 5.0,
+            "price": 800.3800048828125
+        },
+        {
+            "date": "2016-10-09",
+            "total_sentiment": 114.0,
+            "negativity_sentiment": 5.0,
+            "price": 814.1699829101562
+        },
+        {
+            "date": "2016-10-16",
+            "total_sentiment": 108.0,
+            "negativity_sentiment": 7.0,
+            "price": 806.8400268554688
+        },
+        {
+            "date": "2016-10-23",
+            "total_sentiment": 133.0,
+            "negativity_sentiment": 3.0,
+            "price": 835.739990234375
+        },
+        {
+            "date": "2016-10-30",
+            "total_sentiment": 137.0,
+            "negativity_sentiment": 2.0,
+            "price": 809.9000244140625
+        },
+        {
+            "date": "2016-11-06",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 5.0,
+            "price": 802.030029296875
+        },
+        {
+            "date": "2016-11-13",
+            "total_sentiment": 116.0,
+            "negativity_sentiment": 4.0,
+            "price": 753.219970703125
+        },
+        {
+            "date": "2016-11-20",
+            "total_sentiment": 156.0,
+            "negativity_sentiment": 4.0,
+            "price": 784.7999877929688
+        },
+        {
+            "date": "2016-11-27",
+            "total_sentiment": 141.0,
+            "negativity_sentiment": 2.0,
+            "price": 785.7899780273438
+        },
+        {
+            "date": "2016-12-04",
+            "total_sentiment": 142.0,
+            "negativity_sentiment": 4.0,
+            "price": 778.219970703125
+        },
+        {
+            "date": "2016-12-11",
+            "total_sentiment": 122.0,
+            "negativity_sentiment": 6.0,
+            "price": 807.9000244140625
+        },
+        {
+            "date": "2016-12-18",
+            "total_sentiment": 149.0,
+            "negativity_sentiment": 2.0,
+            "price": 812.5
+        },
+        {
+            "date": "2016-12-25",
+            "total_sentiment": 112.0,
+            "negativity_sentiment": 0.0,
+            "price": 809.9299926757812
+        },
+        {
+            "date": "2017-01-01",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 5.0,
+            "price": 808.010009765625
+        },
+        {
+            "date": "2017-01-08",
+            "total_sentiment": 110.0,
+            "negativity_sentiment": 2.0,
+            "price": 827.1799926757812
+        },
+        {
+            "date": "2017-01-15",
+            "total_sentiment": 138.0,
+            "negativity_sentiment": 3.0,
+            "price": 827.4600219726562
+        },
+        {
+            "date": "2017-01-22",
+            "total_sentiment": 143.0,
+            "negativity_sentiment": 2.0,
+            "price": 844.4299926757812
+        },
+        {
+            "date": "2017-01-29",
+            "total_sentiment": 119.0,
+            "negativity_sentiment": 3.0,
+            "price": 823.8300170898438
+        },
+        {
+            "date": "2017-02-05",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 3.0,
+            "price": 821.6199951171875
+        },
+        {
+            "date": "2017-02-12",
+            "total_sentiment": 123.0,
+            "negativity_sentiment": 2.0,
+            "price": 838.9600219726562
+        },
+        {
+            "date": "2017-02-19",
+            "total_sentiment": 117.0,
+            "negativity_sentiment": 2.0,
+            "price": 849.27001953125
+        },
+        {
+            "date": "2017-02-26",
+            "total_sentiment": 133.0,
+            "negativity_sentiment": 2.0,
+            "price": 849.6699829101562
+        },
+        {
+            "date": "2017-03-05",
+            "total_sentiment": 146.0,
+            "negativity_sentiment": 1.0,
+            "price": 847.27001953125
+        },
+        {
+            "date": "2017-03-12",
+            "total_sentiment": 121.0,
+            "negativity_sentiment": 2.0,
+            "price": 864.5800170898438
+        },
+        {
+            "date": "2017-03-19",
+            "total_sentiment": 116.0,
+            "negativity_sentiment": 3.0,
+            "price": 867.9099731445312
+        },
+        {
+            "date": "2017-03-26",
+            "total_sentiment": 147.0,
+            "negativity_sentiment": 1.0,
+            "price": 838.510009765625
+        },
+        {
+            "date": "2017-04-02",
+            "total_sentiment": 138.0,
+            "negativity_sentiment": 5.0,
+            "price": 856.75
+        },
+        {
+            "date": "2017-04-09",
+            "total_sentiment": 133.0,
+            "negativity_sentiment": 3.0,
+            "price": 841.7000122070312
+        },
+        {
+            "date": "2017-04-16",
+            "total_sentiment": 129.0,
+            "negativity_sentiment": 6.0,
+            "price": 855.1300048828125
+        },
+        {
+            "date": "2017-04-23",
+            "total_sentiment": 147.0,
+            "negativity_sentiment": 2.0,
+            "price": 878.9299926757812
+        },
+        {
+            "date": "2017-04-30",
+            "total_sentiment": 130.0,
+            "negativity_sentiment": 8.0,
+            "price": 932.8200073242188
+        }
+    ]
+}
