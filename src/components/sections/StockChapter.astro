@@ -2,7 +2,8 @@
 import { WeeklyFeatureCharts } from '@/components/charts/WeeklyFeatureCharts';
 import { FeatureDeepDiveCharts } from '@/components/charts/FeatureDeepDiveCharts';
 import { BrandSubredditList } from '@/components/charts/BrandSubredditList';
-import { HypothesisCharts } from '@/components/charts/HypothesisCharts';
+
+import { HypothesisTestingResult } from '@/components/charts/HypothesisTestingResult';
 import { BrandSelector } from '@/components/ui/BrandSelector';
 import { FloatingBrandSelector } from '@/components/ui/FloatingBrandSelector';
 import { Button } from '@/components/ui/button';
@@ -36,7 +37,7 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
     </section>
 
     <!-- Slide 2: Data Sources (New) -->
-    <section id="stock-sources" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
+    <section id="stock-sources" data-subchapter="stock-sources" data-nav-label="Sources" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
         <div class="container max-w-7xl h-[80vh] flex flex-col gap-8">
              <div class="flex justify-between items-center shrink-0">
                 <h3 class="text-3xl font-bold lg:text-4xl">Community Sources</h3>
@@ -54,7 +55,7 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
     </section>
 
     <!-- Slide 3: Weekly Trends Horizontal Slider -->
-    <section id="stock-weekly" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
+    <section id="stock-weekly" data-subchapter="stock-weekly" data-nav-label="Weekly Trends" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
         <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-[3fr_7fr] gap-12 items-center h-full">
             <!-- Sticky Text Side -->
             <div class="space-y-8 order-2 lg:order-1 h-full flex flex-col justify-center">
@@ -86,9 +87,8 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
 <!-- Slide 4: Source vs Target Correlation (New) -->
 
 
-
 <!-- Slide 3: Feature Analysis Deep Dive (Carousel) -->
-<section id="stock-features" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative overflow-hidden">
+<section id="stock-features" data-subchapter="stock-features" data-nav-label="Features" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative overflow-hidden">
     <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-3 gap-8 items-center h-full">
          <!-- Sticky Text Side -->
         <div class="space-y-8 lg:col-span-1 h-full flex flex-col justify-center">
@@ -114,26 +114,60 @@ import { ArrowDown, ArrowRight } from 'lucide-react';
     </div>
 </section>
 
-<!-- Slide 5: Conclusion / Verdict (New) -->
-<section id="stock-conclusion" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
-    <div class="container max-w-7xl h-full grid grid-cols-1 lg:grid-cols-[3fr_9fr] gap-12 items-center">
-        
-        <div class="space-y-8 flex flex-col justify-center h-full order-2 lg:order-1">
-            <div class="space-y-4">
-                <h3 class="text-4xl font-bold tracking-tight lg:text-5xl">Statistical Hypothesis Testing</h3>
-                <p class="text-xl text-muted-foreground">Evaluating the Predictive Power of Reddit Sentiment</p>
+<!-- Slide 4: Source vs Target Correlation (New) -->
+<section id="stock-sourcetarget" data-subchapter="stock-sourcetarget" data-nav-label="Dynamics" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative overflow-hidden">
+    <div class="container max-w-7xl grid grid-cols-1 lg:grid-cols-[3fr_7fr] gap-12 items-center h-full">
+         <!-- Sticky Text Side -->
+        <div class="space-y-8 h-full flex flex-col justify-center">
+            <h3 class="text-3xl font-bold lg:text-4xl">Community Dynamics</h3>
+            <div class="prose dark:prose-invert text-lg space-y-4 text-muted-foreground">
+                 <p>
+                    Does it matter if the subreddit is the <strong>source</strong> of the post or the <strong>target</strong>?
+                </p>
+                <p>
+                    This chart compares the correlation of key linguistic features when the brand's subreddit is the origin versus when it is mentioned/linked to.
+                </p>
+                <p class="text-sm italic">
+                    "Source" = Post originates from r/Brand <br>
+                    "Target" = Post links to/mentions r/Brand
+                </p>
             </div>
-
-            <a href="#backstage-intro" class="pt-4 inline-block">
-                <Button size="lg" class="gap-2">
-                    Final Chapter: Backstage <ArrowRight class="h-4 w-4" />
+            
+             <a href="#stock-conclusion" class="inline-block pt-8">
+                <Button variant="outline" class="gap-2">
+                    Next: The Verdict <ArrowDown class="h-4 w-4" />
                 </Button>
             </a>
         </div>
 
-        <div class="w-full h-full min-w-0 order-1 lg:order-2 flex items-center">
-            <HypothesisCharts client:visible />
+         <!-- Chart Area -->
+        <div class="w-full h-full min-w-0 flex items-center">
+            <!-- SourceTargetCorrelationChart was deleted, placeholder for now -->
+            <div class="w-full h-64 flex items-center justify-center text-muted-foreground border-2 border-dashed rounded-lg">
+                Chart temporarily unavailable
+            </div>
         </div>
+    </div>
+</section>
+
+<!-- Slide 5: Conclusion / Verdict (New) -->
+<section id="stock-conclusion" data-subchapter="stock-conclusion" data-nav-label="Verdict" class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden">
+    <div class="container max-w-5xl h-full flex flex-col justify-center items-center text-center gap-12">
+        
+        <div class="space-y-6">
+            <h3 class="text-4xl font-bold tracking-tight lg:text-6xl">Statistical Hypothesis Testing</h3>
+            <p class="text-2xl text-muted-foreground">Evaluating the Predictive Power of Reddit Sentiment</p>
+        </div>
+
+        <HypothesisTestingResult client:visible />
+
+        <a href="#stock-backstage" class="pt-8">
+            <Button size="lg" class="gap-2">
+                Final Chapter: Backstage <ArrowRight class="h-4 w-4" />
+            </Button>
+        </a>
+    </div>
+</section>
 
     </div>
 </section>
