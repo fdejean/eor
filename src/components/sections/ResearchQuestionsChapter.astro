@@ -1,0 +1,160 @@
+---
+import { Button } from "@/components/ui/button";
+import { Leaf, History, TrendingUp, ArrowDown } from "lucide-react";
+---
+
+<!-- Slide 1: Research Intro -->
+<section
+    id="research-intro"
+    data-chapter="research-intro"
+    data-nav-label="Chapter 0: The Story"
+    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-muted/30 relative"
+>
+    <div class="container max-w-4xl text-center space-y-8">
+        <h2 class="text-4xl font-bold tracking-tight lg:text-6xl text-gradient">
+            Once Upon a Time, on Reddit
+        </h2>
+        <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+            They say the internet is a chaotic place. We say it’s a <span
+                class="text-primary font-semibold">mirror</span
+            >.
+        </p>
+
+        <p class="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            <span class="font-semibold text-foreground"
+                >Welcome to our webpage!</span
+            > We are the Data Appreciation Team, and we’ve spent months analyzing
+            the Reddit Hyperlink Network, a massive web of connections between distinct
+            communities. Our mission? Prove that online discourse isn't random; it
+            follows the heartbeat of the physical world.
+        </p>
+
+        <p class="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            In the chapters ahead, you won't just see graphs. You will see the <span
+                class="font-semibold text-foreground"
+                >rhythm of the seasons</span
+            > affecting our collective mood, watch <span
+                class="font-semibold text-foreground">real-world history</span
+            > get reconstructed by anomaly detection algorithms, and discover if a
+            subreddit's anxiety can actually predict <span
+                class="font-semibold text-foreground"
+                >stock market
+            </span> volatility.
+        </p>
+
+        <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+            This isn't just data analysis. It’s a map of the human experience,
+            encoded in hyperlinks.
+        </p>
+
+        <div class="pt-8">
+            <a href="#research-questions">
+                <Button variant="outline" size="lg" className="gap-2">
+                    Our Questions <ArrowDown className="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Slide 2: Research Questions -->
+<section
+    id="research-questions"
+    data-subchapter="research-questions"
+    data-nav-label="Research Questions"
+    class="min-h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative overflow-hidden"
+>
+    <div class="container max-w-7xl flex flex-col gap-12 justify-center h-full">
+        <div class="text-center space-y-6">
+            <h3 class="text-3xl font-bold lg:text-5xl">
+                Key Research Questions
+            </h3>
+            <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
+                To navigate a dataset of this magnitude, we needed a compass. We
+                didn't just want to count links; we wanted to understand the
+                human behavior driving them. We framed our investigation around
+                three fundamental pillars, exploring how Time, Reality, and
+                Value are encoded in our online interactions.
+            </p>
+        </div>
+
+        {/* 3. TRANSITION & CARDS */}
+        <div class="w-full space-y-8 max-w-5xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-left">
+                {/* Card 1 - BLUE Theme */}
+                <div
+                    class="group p-6 rounded-2xl border border-border/60 bg-card transition-all duration-300 shadow-sm hover:shadow-md hover:border-blue-500/50 dark:hover:border-blue-400/50"
+                >
+                    <div
+                        class="h-12 w-12 rounded-xl bg-blue-100 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <Leaf size={24} strokeWidth={2.5} />
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-foreground">
+                        The Rhythm of Seasons: "Do our digital emotions follow
+                        the sun?"
+                    </h3>
+                    <p class="text-sm text-muted-foreground leading-relaxed">
+                        We investigate whether the 'Winter Blues' or the 'Summer
+                        Joy' are just myths or measurable phenomena. By tracking
+                        specific emotional markers during time, we aim to
+                        uncover the seasonal heartbeat hidden within millions of
+                        comments.
+                    </p>
+                </div>
+
+                {/* Card 2 - ORANGE Theme */}
+                <div
+                    class="group p-6 rounded-2xl border border-border/60 bg-card transition-all duration-300 shadow-sm hover:shadow-md hover:border-orange-500/50 dark:hover:border-orange-400/50"
+                >
+                    <div
+                        class="h-12 w-12 rounded-xl bg-orange-100 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <History size={24} strokeWidth={2.5} />
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-foreground">
+                        The Echoes of Reality: "Can the crowd write history?"
+                    </h3>
+                    <p class="text-sm text-muted-foreground leading-relaxed">
+                        When a major event shakes the real world, be it a
+                        historic NBA game or a political election, does the
+                        network react instantly? We use anomaly detection to
+                        isolate massive spikes in activity, testing if we can
+                        reconstruct the timeline of history purely from the
+                        'noise' of community interactions.
+                    </p>
+                </div>
+
+                {/* Card 3 - GREEN Theme */}
+                <div
+                    class="group p-6 rounded-2xl border border-border/60 bg-card transition-all duration-300 shadow-sm hover:shadow-md hover:border-green-500/50 dark:hover:border-green-400/50"
+                >
+                    <div
+                        class="h-12 w-12 rounded-xl bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"
+                    >
+                        <TrendingUp size={24} strokeWidth={2.5} />
+                    </div>
+                    <h3 class="font-bold text-lg mb-2 text-foreground">
+                        The Financial Mirror: "Does volatility have a voice?"
+                    </h3>
+                    <p class="text-sm text-muted-foreground leading-relaxed">
+                        Forget simple price prediction. We ask a more complex
+                        question: Does the instability of our online sentiment
+                        mirror the instability of the stock market? We analyze
+                        the correlation between erratic subreddit behavior and
+                        stock volatility to see if Wall Street dances to the
+                        same emotional tune as Reddit.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center pt-8">
+            <a href="#seasonal-intro">
+                <Button size="lg" className="gap-2">
+                    Start the Journey <ArrowDown className="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>

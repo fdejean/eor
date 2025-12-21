@@ -13,7 +13,7 @@ import mostLover from "@/data/real_world/spikes/most_lover.json";
 <section
     id="real-intro"
     data-chapter="real-intro"
-    data-nav-label="Chapter 5: Real World"
+    data-nav-label="Chapter 2: Real World"
     class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-background relative"
 >
     <div class="container max-w-4xl text-center space-y-8">
@@ -60,9 +60,10 @@ import mostLover from "@/data/real_world/spikes/most_lover.json";
                 1. Detecting Anomalies
             </h3>
             <p class="text-lg text-muted-foreground">
-                We calculated the Z-score of hyperlink activity to find
-                subreddits that deviated wildly from their normal behavior. We
-                classified them into four archetypes of viral activity.
+                We measured how much subreddit activity drifted from its usual
+                baseline to spot communities acting wildly out of character.
+                This allowed us to classify viral moments into four distinct
+                archetypes.
             </p>
         </div>
 
@@ -131,13 +132,15 @@ import mostLover from "@/data/real_world/spikes/most_lover.json";
     <div class="container max-w-6xl space-y-8 text-center">
         <div class="space-y-4 max-w-3xl mx-auto">
             <h3 class="text-3xl font-bold tracking-tight lg:text-4xl">
-                2. Reconstructing History
+                2. Reading the Echoes
             </h3>
             <p class="text-lg text-muted-foreground">
-                Once anomalies are identified, we zoom in. We selected specific
-                communities (like <span class="font-mono text-[#ff4500]"
-                    >r/nba</span
-                >) and overlaid their activity with real-world events.
+                Finding a digital anomaly is one thing; explaining it is
+                another. Once we identified the spikes, we zoomed in. We
+                selected specific communities, like the basketball enthusiasts
+                in <span class="font-mono text-[#ff4500]">r/nba</span>, and
+                analyzed the actual conversations happening during those peak
+                moments.
             </p>
         </div>
 
@@ -176,10 +179,10 @@ import mostLover from "@/data/real_world/spikes/most_lover.json";
                     to smooth out daily fluctuations.
                 </p>
                 <p>
-                    When the signal deviated significantly (Z-Score > 2.0), we
-                    flagged it as a <strong>Peak</strong>. For each peak, our
-                    system automatically deployed a scraper to collect the
-                    actual conversation threads from
+                    When the signal deviated significantly from its normal
+                    behaviour, we flagged it as a <strong>Peak</strong>. For
+                    each peak, our system automatically deployed a scraper to
+                    collect the actual conversation threads from
                     <span class="italic">5 days before and after</span> the event.
                 </p>
                 <p>
