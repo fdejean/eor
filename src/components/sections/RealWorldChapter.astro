@@ -1,18 +1,24 @@
 ---
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import { RealWorldChart } from "@/components/charts/RealWorldChart";
+import { RealWorldDashboard } from "@/components/sections/RealWorldDashboard";
+import { SpikeScatterChart } from "@/components/charts/SpikeScatterChart";
+
+import mostHated from "@/data/real_world/spikes/most_hated.json";
+import mostLoved from "@/data/real_world/spikes/most_loved.json";
+import mostHater from "@/data/real_world/spikes/most_hater.json";
+import mostLover from "@/data/real_world/spikes/most_lover.json";
 ---
 
 <section
     id="real-intro"
     data-chapter="real-intro"
     data-nav-label="Chapter 5: Real World"
-    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative"
+    class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-background relative"
 >
     <div class="container max-w-4xl text-center space-y-8">
         <h2 class="text-4xl font-bold tracking-tight lg:text-6xl">
-            Chapter 5: Real World Events
+            Chapter 2: Real World Events
         </h2>
         <p class="text-xl md:text-2xl text-muted-foreground leading-relaxed">
             The internet is not a vacuum. <br />
@@ -21,14 +27,95 @@ import { RealWorldChart } from "@/components/charts/RealWorldChart";
             >
         </p>
         <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We analyzed the <strong>velocity of hyperlinks</strong> to detect when
-            communities went seemingly dormant, only to explode in activity. By listening
-            to these digital echoes, we can reconstruct history from the crowd's perspective.
+            To understand how reality echoes online, we performed a two-step
+            analysis. First, we scanned the entire network for <strong
+                >anomalies</strong
+            > (Spikes). Then, we zoomed in to <strong
+                >reconstruct history</strong
+            > (Event Analysis).
         </p>
         <div class="pt-8">
+            <a href="#spike-grid">
+                <Button
+                    variant="outline"
+                    size="lg"
+                    className="gap-2 border-[#ff4500] text-[#ff4500] hover:bg-[#ff4500] hover:text-white"
+                >
+                    Step 1: Detect the Signal <ArrowDown className="h-4 w-4" />
+                </Button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section
+    id="spike-grid"
+    data-subchapter="spike-grid"
+    data-nav-label="Network Anomalies"
+    class="min-h-screen w-full flex flex-col items-center justify-center p-4 py-20 lg:p-8 snap-start bg-muted/20 relative"
+>
+    <div class="container max-w-7xl space-y-6">
+        <div class="text-center space-y-4 max-w-3xl mx-auto">
+            <h3 class="text-3xl font-bold tracking-tight lg:text-4xl">
+                1. Detecting Anomalies
+            </h3>
+            <p class="text-lg text-muted-foreground">
+                We calculated the Z-score of hyperlink activity to find
+                subreddits that deviated wildly from their normal behavior. We
+                classified them into four archetypes of viral activity.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+            <div
+                class="animate-in fade-in slide-in-from-left duration-500 delay-100"
+            >
+                <SpikeScatterChart
+                    client:visible
+                    title="The 'Most Hated' (Incoming Negative)"
+                    data={mostHated}
+                    color="#ef4444"
+                />
+            </div>
+
+            <div
+                class="animate-in fade-in slide-in-from-right duration-500 delay-200"
+            >
+                <SpikeScatterChart
+                    client:visible
+                    title="The 'Most Loved' (Incoming Positive)"
+                    data={mostLoved}
+                    color="#22c55e"
+                />
+            </div>
+
+            <div
+                class="animate-in fade-in slide-in-from-left duration-500 delay-300"
+            >
+                <SpikeScatterChart
+                    client:visible
+                    title="The 'Most Critical' (Outgoing Negative)"
+                    data={mostHater}
+                    color="#a855f7"
+                />
+            </div>
+
+            <div
+                class="animate-in fade-in slide-in-from-right duration-500 delay-400"
+            >
+                <SpikeScatterChart
+                    client:visible
+                    title="The 'Most Enthusiastic' (Outgoing Positive)"
+                    data={mostLover}
+                    color="#f97316"
+                />
+            </div>
+        </div>
+
+        <div class="flex justify-center pt-4">
             <a href="#real-chart">
-                <Button variant="outline" size="lg" className="gap-2">
-                    Explore the Spikes <ArrowDown className="h-4 w-4" />
+                <Button variant="ghost" className="gap-2">
+                    Step 2: Explain the Spikes <ArrowDown className="h-4 w-4" />
                 </Button>
             </a>
         </div>
@@ -38,28 +125,31 @@ import { RealWorldChart } from "@/components/charts/RealWorldChart";
 <section
     id="real-chart"
     data-subchapter="real-chart"
-    data-nav-label="Interactive Chart"
-    class="h-screen w-full flex flex-col items-center justify-center p-8 snap-start bg-muted/20 relative"
+    data-nav-label="Event Reconstruction"
+    class="min-h-screen w-full flex flex-col items-center justify-center p-8 py-20 snap-start bg-background relative"
 >
     <div class="container max-w-6xl space-y-8 text-center">
-        <div class="space-y-2">
-            <h3 class="text-3xl font-bold">Spikes in the Signal</h3>
-            <p class="text-muted-foreground">
-                Select a subreddit and click on the <span
-                    class="text-[#ff4500] font-bold">orange dots</span
-                > to reveal the reconstructed event.
+        <div class="space-y-4 max-w-3xl mx-auto">
+            <h3 class="text-3xl font-bold tracking-tight lg:text-4xl">
+                2. Reconstructing History
+            </h3>
+            <p class="text-lg text-muted-foreground">
+                Once anomalies are identified, we zoom in. We selected specific
+                communities (like <span class="font-mono text-[#ff4500]"
+                    >r/nba</span
+                >) and overlaid their activity with real-world events.
             </p>
         </div>
 
         <div
-            class="w-full h-[60vh] flex items-center justify-center p-2 lg:p-6"
+            class="w-full min-h-[50vh] h-auto flex flex-col items-center justify-center p-2 lg:p-6"
         >
-            <RealWorldChart client:visible />
+            <RealWorldDashboard client:visible />
         </div>
 
         <a href="#real-analysis" class="inline-block pt-4">
             <Button variant="ghost" className="gap-2">
-                How does it work? <ArrowDown className="h-4 w-4" />
+                The Methodology <ArrowDown className="h-4 w-4" />
             </Button>
         </a>
     </div>
@@ -69,43 +159,46 @@ import { RealWorldChart } from "@/components/charts/RealWorldChart";
     id="real-analysis"
     data-subchapter="real-analysis"
     data-nav-label="Methodology"
-    class="h-screen w-full flex items-center justify-center p-8 snap-start bg-background relative"
+    class="min-h-screen w-full flex items-center justify-center p-8 py-20 snap-start bg-muted/20 relative"
 >
     <div class="container max-w-4xl space-y-12">
         <div class="space-y-6">
-            <h3 class="text-3xl font-bold lg:text-4xl">The Methodology</h3>
+            <h3 class="text-3xl font-bold lg:text-4xl">How It Works</h3>
             <div class="prose dark:prose-invert text-xl max-w-none space-y-6">
                 <p>
-                    How do we distinguish random noise from a historic moment?
-                    We started by tracking the <strong
-                        >number of hyperlinks</strong
-                    > shared over time, applying a <span
-                        class="text-[#ff4500] font-bold"
+                    Distinguishing random noise from a historic moment required
+                    a precise pipeline. We started by tracking the <strong
+                        >velocity of hyperlinks</strong
+                    >, applying a
+                    <span class="text-[#ff4500] font-bold"
                         >7-day rolling average</span
-                    > to smooth out daily fluctuations.
+                    >
+                    to smooth out daily fluctuations.
                 </p>
                 <p>
-                    When the signal deviates significantly from normal behavior,
-                    we flag it as a <strong>Peak</strong>. For each peak, we
-                    deployed a scraper to collect posts from <span
-                        class="italic">5 days before and after</span
-                    > the event.
+                    When the signal deviated significantly (Z-Score > 2.0), we
+                    flagged it as a <strong>Peak</strong>. For each peak, our
+                    system automatically deployed a scraper to collect the
+                    actual conversation threads from
+                    <span class="italic">5 days before and after</span> the event.
                 </p>
                 <p>
                     This raw context was then fed into the <strong
-                        class="text-[#ff4500]">Apertus LLM from Swiss AI</strong
-                    >. Its task? To synthesize thousands of fragmented
-                    conversations into a clear, cohesive explanation of the
-                    event. The result is a perfect match with real-world
-                    history—proving that Reddit is, in fact, a real-time
-                    reflection of our collective reality.
+                        class="text-[#ff4500]">Apertus LLM</strong
+                    >. Its task was to synthesize thousands of fragmented
+                    comments into a single, cohesive explanation. The result is
+                    what you see in the dashboard: a perfect match between data
+                    spikes and real-world history.
                 </p>
             </div>
         </div>
         <div class="flex justify-end pt-8">
             <a href="#stock-intro">
-                <Button size="lg" className="gap-2">
-                    Next Chapter: Market Mirror <ArrowDown
+                <Button
+                    size="lg"
+                    className="gap-2 bg-[#ff4500] hover:bg-[#cc3700]"
+                >
+                    Next Chapter: The Market Pulse <ArrowDown
                         className="h-4 w-4"
                     />
                 </Button>

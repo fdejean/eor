@@ -1,0 +1,114 @@
+[
+  {
+    "YEAR_MONTH": "2014-09",
+    "X_POS": 0.0,
+    "spike_value": 12,
+    "baseline": 2.1666666666666665,
+    "subreddit": "kotakuinaction"
+  },
+  {
+    "YEAR_MONTH": "2014-11",
+    "X_POS": 1.0,
+    "spike_value": 11,
+    "baseline": 2.0,
+    "subreddit": "gamerghazi"
+  },
+  {
+    "YEAR_MONTH": "2015-04",
+    "X_POS": 2.0,
+    "spike_value": 23,
+    "baseline": 3.8333333333333335,
+    "subreddit": "thebutton"
+  },
+  {
+    "YEAR_MONTH": "2015-07",
+    "X_POS": 3.0,
+    "spike_value": 20,
+    "baseline": 12.5,
+    "subreddit": "movies"
+  },
+  {
+    "YEAR_MONTH": "2015-08",
+    "X_POS": 4.0,
+    "spike_value": 12,
+    "baseline": 2.0,
+    "subreddit": "announcements"
+  },
+  {
+    "YEAR_MONTH": "2015-10",
+    "X_POS": 5.0,
+    "spike_value": 12,
+    "baseline": 3.0,
+    "subreddit": "space"
+  },
+  {
+    "YEAR_MONTH": "2016-05",
+    "X_POS": 6.0,
+    "spike_value": 11,
+    "baseline": 2.1666666666666665,
+    "subreddit": "overwatch"
+  },
+  {
+    "YEAR_MONTH": "2016-06",
+    "X_POS": 7.0,
+    "spike_value": 11,
+    "baseline": 1.8333333333333333,
+    "subreddit": "enoughtrumpspam"
+  },
+  {
+    "YEAR_MONTH": "2016-07",
+    "X_POS": 8.0,
+    "spike_value": 12,
+    "baseline": 2.0,
+    "subreddit": "altright"
+  },
+  {
+    "YEAR_MONTH": "2016-07",
+    "X_POS": 8.3,
+    "spike_value": 14,
+    "baseline": 2.3333333333333335,
+    "subreddit": "incels"
+  },
+  {
+    "YEAR_MONTH": "2016-07",
+    "X_POS": 8.6,
+    "spike_value": 25,
+    "baseline": 4.5,
+    "subreddit": "pokemongo"
+  },
+  {
+    "YEAR_MONTH": "2016-08",
+    "X_POS": 9.0,
+    "spike_value": 17,
+    "baseline": 6.833333333333333,
+    "subreddit": "mildlyinteresting"
+  },
+  {
+    "YEAR_MONTH": "2016-10",
+    "X_POS": 10.0,
+    "spike_value": 14,
+    "baseline": 2.5,
+    "subreddit": "wikileaks"
+  },
+  {
+    "YEAR_MONTH": "2016-10",
+    "X_POS": 10.3,
+    "spike_value": 12,
+    "baseline": 2.3333333333333335,
+    "subreddit": "torontoanarchy"
+  },
+  {
+    "YEAR_MONTH": "2017-04",
+    "X_POS": 11.0,
+    "spike_value": 21,
+    "baseline": 3.6666666666666665,
+    "subreddit": "place"
+  },
+  {
+    "YEAR_MONTH": "2017-04",
+    "X_POS": 11.3,
+    "spike_value": 14,
+    "baseline": 5.166666666666667,
+    "subreddit": "askhistorians"
+  }
+]
