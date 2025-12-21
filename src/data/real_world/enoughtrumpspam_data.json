@@ -1,0 +1,3968 @@
+[
+    {
+        "date": "2015-12-22",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-23",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-24",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-25",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-26",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-27",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-28",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-29",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-30",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2015-12-31",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-01",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-02",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-03",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-04",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-05",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-06",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-07",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-08",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-09",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-10",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-11",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-12",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-13",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-14",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-15",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-16",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-17",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-18",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-19",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-20",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-21",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-22",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-23",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-24",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-25",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-26",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-27",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-28",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-29",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-30",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-01-31",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-01",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-02",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-03",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-04",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-05",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-06",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-07",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-08",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-09",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-10",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-11",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-12",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-13",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-14",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-15",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-16",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-17",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-18",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-19",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-20",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-21",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-22",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-23",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-24",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-25",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-26",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-27",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-28",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-02-29",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-01",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-02",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-03",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-04",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-05",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-06",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-07",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-08",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-09",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-10",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-11",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-12",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-13",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-14",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-15",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-16",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-17",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-18",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-19",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-20",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-21",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-22",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-23",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-24",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-25",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-26",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-27",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-28",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-29",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-30",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-03-31",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-01",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-02",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-03",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-04",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-05",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-06",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-07",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-08",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-09",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-10",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-11",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-12",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-13",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-14",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-15",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-16",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-17",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-18",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-19",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-20",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-21",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-22",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-23",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-24",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-25",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-26",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-27",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-28",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-29",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-04-30",
+        "value": 0.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-01",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-02",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-03",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-04",
+        "value": 1.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-05",
+        "value": 1.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-06",
+        "value": 1.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-07",
+        "value": 1.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-08",
+        "value": 0.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-09",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-10",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-11",
+        "value": 0.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-12",
+        "value": 0.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-13",
+        "value": 0.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-14",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-15",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-16",
+        "value": 0.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-17",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-18",
+        "value": 0.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-19",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-20",
+        "value": 1.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-21",
+        "value": 0.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-22",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-23",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-24",
+        "value": 0.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-25",
+        "value": 0.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-26",
+        "value": 0.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-27",
+        "value": 0.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-28",
+        "value": 0.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-29",
+        "value": 0.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-30",
+        "value": 0.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-05-31",
+        "value": 0.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-01",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-02",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-03",
+        "value": 0.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-04",
+        "value": 0.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-05",
+        "value": 0.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-06",
+        "value": 0.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-07",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-08",
+        "value": 0.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-09",
+        "value": 0.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-10",
+        "value": 1.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-11",
+        "value": 1.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-12",
+        "value": 2.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-13",
+        "value": 3.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-14",
+        "value": 3.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-15",
+        "value": 4.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-16",
+        "value": 5.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-17",
+        "value": 5.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-18",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-19",
+        "value": 5.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-20",
+        "value": 5.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-21",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-22",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-23",
+        "value": 5.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-24",
+        "value": 6.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-25",
+        "value": 5.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-26",
+        "value": 5.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-27",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-28",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-29",
+        "value": 6.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-06-30",
+        "value": 5.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-01",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-02",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-03",
+        "value": 6.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-04",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-05",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-06",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-07",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-08",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-09",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-10",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-11",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-12",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-13",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-14",
+        "value": 5.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-15",
+        "value": 5.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-16",
+        "value": 5.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-17",
+        "value": 5.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-18",
+        "value": 5.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-19",
+        "value": 5.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-20",
+        "value": 6.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-21",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-22",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-23",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-24",
+        "value": 11.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-25",
+        "value": 12.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-26",
+        "value": 13.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-27",
+        "value": 14.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-28",
+        "value": 15.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-29",
+        "value": 15.57,
+        "is_event": true,
+        "event_name": "2016 United States Presidential Election",
+        "description": "The 2016 United States Presidential Election was a highly polarized contest between Republican candidate Donald Trump and Democratic candidate Hillary Clinton. The election was marked by intense media scrutiny, divisive rhetoric, and significant controversy surrounding both candidates' policies and personal conduct. The campaign period saw widespread discussion on social media platforms like Reddit, where users engaged in heated debates about the candidates' qualifications, character, and potential impact on the country.",
+        "references": [
+            "It's more like the two candidates for the surgeon general's job is a snake oil salesman who has become very rich and powerful from a series of failed alternative medicine businesses with no ethical standards, and a medical professional who is so entrenched in the establishment that she is essentially a conduit for the Big Medicine corporate lobby.",
+            "Watching this election is like seeing a snake oil salesman nearly appointed surgeon general.",
+            "Trump isn't even a politician, he's just a guy with a salesman's knack of manipulating people with weaker minds than him."
+        ]
+    },
+    {
+        "date": "2016-07-30",
+        "value": 15.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-07-31",
+        "value": 13.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-01",
+        "value": 13.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-02",
+        "value": 12.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-03",
+        "value": 11.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-04",
+        "value": 11.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-05",
+        "value": 11.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-06",
+        "value": 10.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-07",
+        "value": 10.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-08",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-09",
+        "value": 9.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-10",
+        "value": 9.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-11",
+        "value": 9.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-12",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-13",
+        "value": 9.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-14",
+        "value": 8.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-15",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-16",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-17",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-18",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-19",
+        "value": 10.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-20",
+        "value": 10.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-21",
+        "value": 11.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-22",
+        "value": 10.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-23",
+        "value": 11.86,
+        "is_event": true,
+        "event_name": "Milo Yiannopoulos' alleged embezzlement of the Privilege Grant",
+        "description": "Milo Yiannopoulos, a prominent right-wing figure, was accused of embezzling funds from the Privilege Grant, a charity he founded for white men. The controversy sparked intense debate and speculation about his financial dealings and the legitimacy of the charity. The incident drew comparisons to other high-profile cases of alleged financial misconduct and highlighted concerns about accountability in online fundraising.",
+        "references": [
+            "Milo likely stole the money from privilege grant he created for white men because of course",
+            "He lost *forty* checkmarks!",
+            "I have insider information on this. And he legitimately did steal all of the money.",
+            "In B4: It's exactly like what Anita did. Except it's a total scam and he just kept the money for himself."
+        ]
+    },
+    {
+        "date": "2016-08-24",
+        "value": 11.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-25",
+        "value": 11.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-26",
+        "value": 11.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-27",
+        "value": 10.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-28",
+        "value": 10.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-29",
+        "value": 10.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-30",
+        "value": 9.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-08-31",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-01",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-02",
+        "value": 6.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-03",
+        "value": 6.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-04",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-05",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-06",
+        "value": 5.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-07",
+        "value": 6.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-08",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-09",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-10",
+        "value": 8.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-11",
+        "value": 8.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-12",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-13",
+        "value": 9.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-14",
+        "value": 9.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-15",
+        "value": 10.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-16",
+        "value": 11.86,
+        "is_event": true,
+        "event_name": "2016 United States Presidential Election",
+        "description": "The 2016 United States Presidential Election was a highly polarized contest between Democratic nominee Hillary Clinton and Republican nominee Donald Trump, with significant third-party involvement from candidates like Gary Johnson and Jill Stein. The election campaign was marked by intense online debates, conspiracy theories, and controversy surrounding issues like Clinton's health, Trump's business dealings, and the role of social media in shaping public opinion. The election ultimately resulted in Trump's victory, despite Clinton winning the popular vote.",
+        "references": [
+            "After months of declaring that Trump would lose in a landslide, Trump now leads Hillary in the polls, leading /r/EnoughTrumpSpam into a meltdown",
+            "I'm no math wiz, but how it is that 152% of Americans can want both Stain and Johnson in the debates?",
+            "Trump not only boasted of 'now having the tallest building' hours after the towers collapsed on 9/11 but also had the nerve to get a $150,000.00 federal grant meant for small business owners affected by the WTC tragedy"
+        ]
+    },
+    {
+        "date": "2016-09-17",
+        "value": 11.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-18",
+        "value": 11.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-19",
+        "value": 11.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-20",
+        "value": 11.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-21",
+        "value": 10.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-22",
+        "value": 10.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-23",
+        "value": 10.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-24",
+        "value": 11.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-25",
+        "value": 10.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-26",
+        "value": 10.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-27",
+        "value": 9.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-28",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-29",
+        "value": 9.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-09-30",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-01",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-02",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-03",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-04",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-05",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-06",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-07",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-08",
+        "value": 9.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-09",
+        "value": 8.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-10",
+        "value": 9.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-11",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-12",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-13",
+        "value": 9.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-14",
+        "value": 7.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-15",
+        "value": 7.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-16",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-17",
+        "value": 8.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-18",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-19",
+        "value": 9.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-20",
+        "value": 9.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-21",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-22",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-23",
+        "value": 7.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-24",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-25",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-26",
+        "value": 5.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-27",
+        "value": 5.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-28",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-29",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-30",
+        "value": 7.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-10-31",
+        "value": 7.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-01",
+        "value": 7.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-02",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-03",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-04",
+        "value": 9.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-05",
+        "value": 10.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-06",
+        "value": 11.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-07",
+        "value": 11.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-08",
+        "value": 12.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-09",
+        "value": 14.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-10",
+        "value": 14.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-11",
+        "value": 15.43,
+        "is_event": true,
+        "event_name": "2016 United States Presidential Election",
+        "description": "The 2016 United States presidential election was a pivotal event where Donald Trump won the presidency against Hillary Clinton, with significant online discourse and controversy surrounding the election, candidates, and their supporters. The election exposed deep political divisions and sparked intense reactions across social media platforms, including Reddit, where users expressed strong emotions ranging from jubilation to despair.",
+        "references": [
+            "Bernie Bros salt level goes through the roof at /r/hillaryclinton as the election approaches.",
+            "The delusion there is at such fevered levels. I fear for their poor mothers when she brings them their tendies on election night.",
+            "It feels like America has looked me in the eye and said, \"Fuck you.\"",
+            "The salt is unimaginable"
+        ]
+    },
+    {
+        "date": "2016-11-12",
+        "value": 15.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-13",
+        "value": 13.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-14",
+        "value": 13.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-15",
+        "value": 12.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-16",
+        "value": 11.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-17",
+        "value": 10.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-18",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-19",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-20",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-21",
+        "value": 7.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-22",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-23",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-24",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-25",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-26",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-27",
+        "value": 9.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-28",
+        "value": 9.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-29",
+        "value": 9.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-11-30",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-01",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-02",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-03",
+        "value": 7.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-04",
+        "value": 8.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-05",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-06",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-07",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-08",
+        "value": 8.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-09",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-10",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-11",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-12",
+        "value": 6.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-13",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-14",
+        "value": 7.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-15",
+        "value": 7.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-16",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-17",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-18",
+        "value": 8.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-19",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-20",
+        "value": 8.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-21",
+        "value": 8.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-22",
+        "value": 8.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-23",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-24",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-25",
+        "value": 7.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-26",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-27",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-28",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-29",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-30",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2016-12-31",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-01",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-02",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-03",
+        "value": 6.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-04",
+        "value": 6.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-05",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-06",
+        "value": 7.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-07",
+        "value": 8.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-08",
+        "value": 9.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-09",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-10",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-11",
+        "value": 9.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-12",
+        "value": 8.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-13",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-14",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-15",
+        "value": 6.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-16",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-17",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-18",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-19",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-20",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-21",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-22",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-23",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-24",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-25",
+        "value": 9.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-26",
+        "value": 10.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-27",
+        "value": 9.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-28",
+        "value": 10.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-29",
+        "value": 11.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-01-30",
+        "value": 11.86,
+        "is_event": true,
+        "event_name": "2016 United States Presidential Election",
+        "description": "The 2016 United States presidential election was a pivotal event that saw Donald Trump, the Republican candidate, defeat Democratic nominee Hillary Clinton. The election was marked by intense polarization and controversy, with discussions on Reddit reflecting the deep divisions within American society. Many users debated the merits of various candidates, including Bernie Sanders, and expressed strong emotions about the outcome. The election's aftermath continued to dominate online discourse, with users discussing its implications and engaging in heated debates about politics and ideology.",
+        "references": [
+            "Trump isn't on us, he's **100% on you.**",
+            "Bernie would likely have gotten killed. I hate that these people are getting played by the GOP who intentionally propped Bernie up to cause division.",
+            "If you voted for Trump, your vote was a hate crime."
+        ]
+    },
+    {
+        "date": "2017-01-31",
+        "value": 11.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-01",
+        "value": 10.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-02",
+        "value": 9.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-03",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-04",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-05",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-06",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-07",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-08",
+        "value": 6.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-09",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-10",
+        "value": 7.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-11",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-12",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-13",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-14",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-15",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-16",
+        "value": 7.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-17",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-18",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-19",
+        "value": 8.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-20",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-21",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-22",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-23",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-24",
+        "value": 9.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-25",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-26",
+        "value": 8.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-27",
+        "value": 7.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-02-28",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-01",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-02",
+        "value": 5.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-03",
+        "value": 4.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-04",
+        "value": 5.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-05",
+        "value": 5.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-06",
+        "value": 5.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-07",
+        "value": 6.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-08",
+        "value": 6.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-09",
+        "value": 6.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-10",
+        "value": 7.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-11",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-12",
+        "value": 7.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-13",
+        "value": 6.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-14",
+        "value": 7.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-15",
+        "value": 8.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-16",
+        "value": 9.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-17",
+        "value": 8.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-18",
+        "value": 8.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-19",
+        "value": 8.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-20",
+        "value": 8.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-21",
+        "value": 7.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-22",
+        "value": 6.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-23",
+        "value": 5.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-24",
+        "value": 5.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-25",
+        "value": 4.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-26",
+        "value": 4.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-27",
+        "value": 4.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-28",
+        "value": 4.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-29",
+        "value": 4.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-30",
+        "value": 4.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-03-31",
+        "value": 4.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-01",
+        "value": 5.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-02",
+        "value": 5.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-03",
+        "value": 5.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-04",
+        "value": 5.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-05",
+        "value": 5.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-06",
+        "value": 5.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-07",
+        "value": 4.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-08",
+        "value": 4.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-09",
+        "value": 4.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-10",
+        "value": 4.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-11",
+        "value": 4.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-12",
+        "value": 4.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-13",
+        "value": 4.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-14",
+        "value": 4.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-15",
+        "value": 3.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-16",
+        "value": 3.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-17",
+        "value": 3.57,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-18",
+        "value": 4.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-19",
+        "value": 4.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-20",
+        "value": 4.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-21",
+        "value": 4.43,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-22",
+        "value": 4.71,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-23",
+        "value": 5.0,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-24",
+        "value": 5.86,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-25",
+        "value": 6.14,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-26",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    },
+    {
+        "date": "2017-04-27",
+        "value": 6.29,
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
+    }
+]

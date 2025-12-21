@@ -86,18 +86,18 @@ export function ChapterNavigation() {
     if (chapters.length === 0) return null
 
     return (
-        <nav className="fixed left-0 top-0 h-full z-50 flex flex-col justify-center transition-all duration-500 w-8 hover:w-72 group overflow-hidden">
-            {}
-            <div className="absolute inset-0 bg-background/95 backdrop-blur-md border-r border-border/50 shadow-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+        <nav className="fixed left-0 top-0 h-full max-h-screen z-50 flex flex-col justify-center transition-all duration-500 w-8 hover:w-72 group">
+            {/* Background Blur */}
+            <div className="absolute inset-0 bg-background/95 backdrop-blur-md border-r border-border/50 shadow-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
-            {}
-            <div className="relative flex flex-col gap-6 pl-2 group-hover:pl-6 pr-6 min-w-[280px] overflow-hidden transition-all duration-500">
+            {/* Scrollable Container - centered via my-auto if small, scrollable if tall */}
+            <div className="relative flex flex-col gap-6 pl-2 group-hover:pl-6 pr-6 min-w-[280px] max-h-screen overflow-y-auto overflow-x-hidden no-scrollbar py-4 transition-all duration-500">
                 {chapters.map((chapter) => {
                     const isActiveChapter = activeId === chapter.id || chapter.subchapters.some(s => s.id === activeId);
-                    
+
                     return (
                         <div key={chapter.id} className="flex flex-col gap-2">
-                            {}
+                            {/* Main Chapter Link */}
                             <a
                                 href={`#${chapter.id}`}
                                 className="flex items-center gap-4 group/item"
@@ -123,10 +123,9 @@ export function ChapterNavigation() {
                                 </span>
                             </a>
 
-                            {}
+                            {/* Subchapters - Only show on hover to keep spacing constant */}
                             <div className={cn(
-                                "ml-[0.45rem] border-l-2 border-border/50 pl-6 space-y-3 transition-all duration-300 opacity-0 group-hover:opacity-100",
-                                isActiveChapter ? "h-auto py-2" : "h-0 overflow-hidden py-0 group-hover:h-auto group-hover:py-2"
+                                "ml-[0.45rem] border-l-2 border-border/50 pl-6 space-y-3 transition-all duration-300 opacity-0 group-hover:opacity-100 h-0 overflow-hidden py-0 group-hover:h-auto group-hover:py-2"
                             )}>
                                 {chapter.subchapters.map((sub) => (
                                     <a
