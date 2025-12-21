@@ -4795,12 +4795,13 @@
         "date": "2016-07-13",
         "value": 41.0,
         "is_event": true,
-        "event_name": "Pok\u00e9mon Go Launch and Gameplay",
-        "description": "Pok\u00e9mon Go is an augmented reality mobile game released in July 2016, where players capture virtual Pok\u00e9mon characters using their smartphones. The game quickly gained immense popularity, leading to large gatherings of players in public spaces and discussions about gameplay strategies, server issues, and team affiliations (Mystic, Valor, Instinct). The game was a cultural phenomenon, encouraging outdoor activity and creating a vibrant online community.",
+        "event_name": "Pokemon Go Release and Gameplay",
+        "description": "Pokemon Go, a location-based augmented reality game developed by Niantic, was released in 2016. The game allows players to capture, train, and battle virtual creatures known as Pokemon in real-world locations using their mobile devices. The game became a global phenomenon, with players of all ages participating in the gameplay and sharing their experiences online. The game's release led to the creation of various online communities and forums where players could discuss strategies, share locations of rare Pokemon, and coordinate gameplay activities.",
         "references": [
-            "Want to start but have no clue how? Read up on the \"How do I...\" megathreads posted in /r/pokemongo!",
-            "Am I to understand that folks are now trying to capture anime creatures used in a 90's RPG turn based fighting game, in augmented reality?",
-            "I travel around my city DAILY for my job. What team should I choose?"
+            "Wil je beginnen maar heb je geen idee wat je moet doen? Lees de \"How do I...?\" megathread van /r/pokemongo!",
+            "I caught a Lapras today just south of the UGL",
+            "I got a diglett from a 5k egg. Try hatching some of those for rarer ones",
+            "I also have an Aerodactyl, Nidoking, Scyther, and two Squirtles. Lol. Call me Giovani"
         ]
     },
     {
@@ -4967,12 +4968,12 @@
         "date": "2016-08-03",
         "value": 15.57,
         "is_event": true,
-        "event_name": "Pok\u00e9mon GO Update and Tracking System Changes",
-        "description": "Pok\u00e9mon GO received an update with changes to the tracking system. Some players are testing a new 'Nearby' feature that shows Pok\u00e9mon locations near Pok\u00e9Stops, while others are experiencing only updated 'sightings' with a grass background. The rollout is limited, causing frustration and discussion among players regarding access and functionality.",
+        "event_name": "Niantic's removal of the 'Nearby' feature and third-party tracking sites in Pok\u00e9mon GO",
+        "description": "Niantic removed the 'Nearby' feature and third-party tracking sites in Pok\u00e9mon GO, sparking widespread player dissatisfaction. This change, combined with server issues and perceived poor communication, led to significant backlash from the player community, including refund requests and negative reviews.",
         "references": [
-            "\u201cPok\u00e9mon GO update to the tracker check out the\u2026\u201d",
-            "\u201cI have\u2026just about an hour ago. Seeing as its 2am and I\u2019m in the burbs\u2026I\u2019ll just wait until tomorrow to play with it.\u201d",
-            "\u201cDid Weedle disappear from the nearby radar after you caught him?\u201d"
+            "The nearby tab didn't work as intended anyway with the 3 step glitch, but I guess people are mad over the loss of pokevision?",
+            "Niantic seems to be **** up as much as (if not harder than) DW during FGO's first weeks. Apparently they're taking down features that people liked while making generally bad decisions and having problems with the servers",
+            "the removal of third party website trackers too, though personally I never used them. I just caught whatever showed up, lol."
         ]
     },
     {
@@ -5171,12 +5172,10 @@
         "date": "2016-08-28",
         "value": 5.14,
         "is_event": true,
-        "event_name": "Pok\u00e9mon GO Gameplay and Updates",
-        "description": "Pok\u00e9mon GO is an augmented reality mobile game that became a global phenomenon in 2016. Players capture, train, and battle virtual creatures ('Pok\u00e9mon') that appear on their smartphones\u2019 maps. The collected data reflects ongoing gameplay strategies, new feature discoveries, and how the game intersects with real-world events and social behavior, including crime and community building.",
+        "event_name": "Milwaukee County Parks Request to Remove Pok\u00e9mon GO from Lake Park",
+        "description": "Milwaukee County Parks sent a letter to Niantic requesting the removal of Pok\u00e9mon GO from Lake Park due to overcrowding concerns from nearby residents, sparking debate among players who frequent the park for its numerous Pok\u00e9Stops and high Pok\u00e9mon activity.",
         "references": [
-            "\"BubbleStrat,\" a method for quickly prestiging gyms.",
-            "Discussion of Pokemon GO updates and data mining findings.",
-            "Reports of players using the game in real-world criminal activities (e.g., New Zealand thief)."
+            "\"Didn't really expect to see this here.. But as a quick backstory this is basically the hot spot for people in the area. Tons of pokestops that's are lured basically all day along a path, and a waterfall area with 3 pokestops you can sit between at the end of the path. Across the street from this park however is a very rich community. I imagine people that live in the area complained because there is several hundred people at a time in the park now, but everyone who goes is complaining that they shouldn't be removed because it's a public park\""
         ]
     },
     {
@@ -5415,15 +5414,12 @@
         "date": "2016-09-27",
         "value": 4.29,
         "is_event": true,
-        "event_name": "Pok\u00e9mon Go Gameplay and Related Controversies",
-        "description": "Pok\u00e9mon Go is an augmented reality mobile game that gained immense popularity in 2016. The provided data stream reflects ongoing gameplay experiences, discussions about spawn locations and strategies, competitive elements like gym contests, and concerns regarding cheating (spoofing) and unintended consequences of gameplay, such as trespassing or attracting attention in public spaces. It also showcases community interaction and humor related to the game.",
+        "event_name": "Pokemon Go and Social Interactions",
+        "description": "The discussion primarily revolves around Pokemon Go players' social behaviors, including team affiliations, in-game interactions, and real-world consequences. A notable thread discusses a mother's concern about her daughter joining Team Instinct, while others share experiences with spoofers disrupting gameplay. Another post humorously describes a player manipulating a grandmother to create in-game content. These interactions highlight the game's impact on social dynamics and community norms.",
         "references": [
-            "\"So I just ran 2,5km in 10mins to catch my favourite pokemon I didn't have yet\"",
-            "\"I use a spoofer account 24 to look at cp of rare spawns (and put a far fetched in a gymXD)\"",
-            "\"Team Mystic for winning the /r/Pokemon Gym contest\"",
-            "\"The internals of the Pokemon Go Plus look like the Millennium Falcon\"",
-            "\"Finally saved up nine 10km eggs!\"",
-            "\"This guy just had 2 Dragonites Ran Away from him in less than 12 hours.\""
+            "My daughter got caught in Team Instinct. Am I a miserable failure as a mother and human being?",
+            "Spent 4 hours leveling a Gym tonight. Spoofer took it down over and over, just enough that nobody could join it.",
+            "Pokemon GO Player forces grandmother against her will to knit a stuffed pokemon, forges a note, then takes a picture of it at a supposed 'pokestop'... just to cash in on some pokepoints"
         ]
     },
     {
@@ -5998,12 +5994,12 @@
         "date": "2016-12-08",
         "value": 3.57,
         "is_event": true,
-        "event_name": "Pok\u00e9mon GO & Starbucks Promotion",
-        "description": "A promotional event between Pok\u00e9mon GO and Starbucks began on December 8th, 2016. Many Starbucks locations in the US were turned into Pok\u00e9stops and Gyms. A special Pok\u00e9mon-themed Frappuccino was released, and the event was anticipated to coincide with the release of new Pok\u00e9mon into the game, speculated to be Generation 2 or other previously unreleased Pok\u00e9mon.",
+        "event_name": "Starbucks-Pok\u00e9mon GO Partnership and New Pok\u00e9mon Release",
+        "description": "On December 8, 2016, Starbucks partnered with Pok\u00e9mon GO to create sponsored Pok\u00e9Stops and Gyms at their US company-owned locations, coinciding with the release of new Pok\u00e9mon in the game. The event featured a special Pok\u00e9mon GO Frappuccino and aimed to increase player engagement and store visits. While the exact new Pok\u00e9mon were not confirmed, speculation centered around potential Gen 2 releases or legendary Pok\u00e9mon, with many believing the partnership was timed to coincide with a major game update.",
         "references": [
-            "\"The world of Pokemon GO is about to expand with new Pokemon\u2026\"",
-            "\"Starbucks is collaborating with Pokemon in their new update on Thursday, December 8\"",
-            "\"new pokemon will be released during this event (possibly gen 2 or some other pokemon not released yet)\""
+            "The world of Pokemon GO is about to expand with new Pokemon and a new Starbucks beverage!",
+            "The majority of company-operated stores across the United States will be turned into a PokeStop or Gym",
+            "By locating your store within the game, players will unlock the Pokemon GO Frappuccino Blended Beverage!"
         ]
     },
     {

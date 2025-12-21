@@ -3651,15 +3651,12 @@
         "date": "2015-04-04",
         "value": 23.14,
         "is_event": true,
-        "event_name": "The Button",
-        "description": "The Button was a viral Reddit experiment where users could press a button that reset a 60-second countdown. Each user could only press it once, and their flair indicated how low the timer was when they pressed it. The event sparked intense community engagement, with users forming factions like 'Non-Pressers' and '60s Master Race,' and led to the creation of subreddits dedicated to the button's lore and religious-like interpretations.",
+        "event_name": "The Button Experiment",
+        "description": "The Button Experiment was a Reddit social experiment where users could press a button that reset a 60-second timer, with each user limited to one press. The event sparked widespread discussion, memes, and the formation of various subgroups, including 'button pushers' and 'non-pressers.' The experiment became a cultural phenomenon, with users debating its meaning, creating elaborate narratives, and engaging in humorous and sometimes heated interactions.",
         "references": [
-            "The Button is a classic D&amp;D puzzle. The only way to solve it is to let the timer run down.",
-            "At a rate of (roughly) 55,000 PPH ... r/TheButton will only last 6 days.",
-            "We are a simple, gray, people. We believe the button to be our savior and pressing him is a mortal sin.",
-            "I PRESSED THE BUTTON.\n\nAND IT WAS GLORIOUS",
-            "The only path to freedom is to end this nonsense, once and for all.  Those who have pressed may be beyond saving, but that doesn't make them evil.",
-            "Press not The Button, friends, lest ye be denied your due reward in the After-Timer..."
+            "The only path to freedom is to end this nonsense, once and for all. Those who have pressed may be beyond saving, but that doesn't make them evil. They can help us. The Zeroes free them as much as they free us.",
+            "I will wipe you the **** out with precision the likes of which has never been seen before on this Earth, mark my **** words.",
+            "The button will show us the way to everlasting paradise."
         ]
     },
     {
@@ -3834,14 +3831,13 @@
         "date": "2015-04-26",
         "value": 17.14,
         "is_event": true,
-        "event_name": "The Button",
-        "description": "The Button was an April Fools' joke on Reddit where users could press a button to reset a 60-second countdown. Each press granted a colored flair indicating the time remaining when the user pressed. The experiment evolved into a complex social phenomenon with factions, religions, and intense community dynamics. A server glitch allowed users to obtain rare flairs, leading to controversy and a significant shift in the community's mood. The event became a study in online behavior, community formation, and the human tendency to invest meaning in digital interactions.",
+        "event_name": "The Button Experiment on Reddit",
+        "description": "The Button was a Reddit social experiment launched on April 1, 2015, where users could press a button once to reset a 60-second countdown timer. The experiment sparked intense community engagement, with users forming factions, creating elaborate mythologies, and fiercely debating the meaning and rules of the button. A critical glitch involving the Cassandra database system led to controversy when the button's creator, powerlanguage, temporarily removed their own button press, violating the experiment's core rule. This event highlighted the psychological and social dynamics at play, demonstrating how a simple online activity could generate profound emotional investment and community conflict.",
         "references": [
-            "TEAM 60S! THE VIOLET HAND IS COMING FOR YOU",
-            "800,000 Clicks!   How many are real Redditors?",
-            "In a shocking turn of events, today at approximately 1:00pm EST, /u/987456321 posted [this](https://www.reddit.com/r/thebutton/comments/33m2tt/for_sale_6_year_club_gray_account/) on /r/thebutton.",
-            "The button must be destroyed! Join /r/violethand!",
-            "The false prophets are among us, brothers and sisters of the Shade. Let the weeding of our ranks begin."
+            "Unfortunately, the thread was downvoted to ****. And there's no way everybody who pressed the button have seen it.",
+            "If you don't comment, you won't get a non-presser flair",
+            "Blood has been spilled this day, brother. The enemy thinks this will scare us. I say wrong! We will press the button, and our presses shall be recorded for all time in the great halls of our order! Our lives are meaningless in comparison to the button! Glory to the button!",
+            "This whole sub is a circlejerk. Just social **** about how awesome we all are for choosing to take sides over pressing the button."
         ]
     },
     {
@@ -4017,14 +4013,12 @@
         "value": 15.29,
         "is_event": true,
         "event_name": "The Button",
-        "description": "The Button is a Reddit experiment that began on April 1st, where users with accounts older than that date could press a button once, receiving a color flair based on the time of their press. The event evolved into a complex social phenomenon with users forming factions based on their flair colors, creating a pseudo-religious culture around the button presses. The primary subject of discussion in the provided data is the ongoing activity, strategies, and community dynamics within this unique Reddit experiment.",
+        "description": "The Button was a Reddit experiment launched on April 1st where users could press a button once to receive a color-based flair. The timer would reset with each press, creating a social experiment around group formation and the anticipation of an unknown outcome when the timer finally ran out. The event spawned various subcultures, alliances, and discussions about its meaning and potential implications.",
         "references": [
-            "I just pressed the button and got red flair. AMA",
             "The Button accepts click responses for up to 20 seconds after a press",
-            "I amA Founder, Moderator, and official Grand Master of The Redguard. I am contemplating using my press at 42s. AMA!",
-            "I saw this: red or blue...",
-            "The debate between Grey and Gray. Gray is the way :)",
-            "I refuse to press the button until /r/reddit.com or a suitable replacement is returned to the defaults. This is not a petition. This is an open letter."
+            "If a 1s click is lagged for 2 seconds, the button will hit 0 and then, 1 second later, start again at 60s?",
+            "People making up groups based on one attribute and parodying reality is not something that's new.",
+            "The timer hit 0 when the servers crashed a couple weeks back. Nothing happened. They just reset it to keep the circlejerk going"
         ]
     },
     {
@@ -6599,19 +6593,13 @@
         "date": "2016-04-04",
         "value": 27.57,
         "is_event": true,
-        "event_name": "Reddit's April Fools' Prank: /r/joinrobin",
-        "description": "In April 2016, Reddit launched an April Fools' prank called /r/joinrobin, a mysterious chat room where users voted to 'grow' or 'stay.' The event involved thousands of participants, automated scripts, and a leaderboard tracking room sizes. The prank culminated in the creation of a private subreddit and a large-scale community interaction, becoming one of Reddit's most memorable pranks.",
+        "event_name": "Reddit's r/joinrobin Experiment",
+        "description": "In April 2016, Reddit administrators created a mysterious subreddit called r/joinrobin, which became a massive social experiment. Users could join chat rooms where they could vote to either 'grow' or 'stay', with each choice having different outcomes. The experiment quickly gained popularity, with thousands of users participating and forming large chat rooms. The event was notable for its unique blend of social interaction, community building, and the unpredictability of the voting system, leading to a fascinating study of online behavior and group dynamics.",
         "references": [
-            "Reddit Admin /u/Powerlanguage reveals /r/joinrobin. Is this Reddit's April Fools prank for 2016?",
-            "Tomorrows plan has been revealed. Or, well, leaked.",
+            "Just in case I need to rub it in everyone's faces: I'm calling it right now- making this subreddit is the prank",
+            "I asked if I could join. I wonder if they'll let me.",
             "The room started spamming my name, so I donated to charity",
-            "How Big Is Your Chat Room?",
-            "AutoGrow post for those who missed it in the chat.",
-            "Staying script",
-            "WE HAVE 2314 PEOPLE",
-            "3356 (was mrfisw) now Stfisw",
-            "9:49:26 PM [robin] There are 4166 participants in the room.",
-            "I documented some of our adventure in the /r/joinrobin subreddit as a warning to others."
+            "WE HAVE 2314 PEOPLE"
         ]
     },
     {
@@ -7633,16 +7621,10 @@
     {
         "date": "2016-08-10",
         "value": 10.14,
-        "is_event": true,
-        "event_name": "The Origin and Evolution of the Reddit Switcharoo Chain",
-        "description": "The Reddit Switcharoo is a long-running internet meme that began as a way to highlight repetitive jokes and misinformation on Reddit. It started in 2009 when a user linked a current comment to a similar one from the past, using the phrase 'Ah, the old Reddit switcharoo!' to show the cycle of repeated content. The concept evolved into a dedicated subreddit, /r/switcharoo, which archives and continues this chain. The event is significant as it represents a self-aware cultural phenomenon within Reddit, where users collectively maintain a humorous and meta commentary on the platform's own behavior.",
-        "references": [
-            "Ah, the old reddit redo-a-roo!",
-            "The subreddit itself exists to archive these roos; it keeps a collection of them for anyone to easily find and browse.",
-            "It started [here](https://www.reddit.com/r/MuseumOfReddit/comments/1cx2r5/ah_the_oldest_reddit_switcharoo/) but it's bad form to post this short-cut ...oops.",
-            "I had an idea to link a current witch hunt to a previous witch hunt that turned out false with the text 'Ahh, the old reddit witch-hunt' and just keep doing it until people understood that 'hey, maybe we shouldn't be posting personal information until we get all our facts straight.' I thought I'd test out my little idea with something less serious, like a joke that reddit kept using over and over. Thus, the reddit switcharoo was born.",
-            "The only thing people should be careful about is reading the rules before submitting a roo. When people get introduced to this thing for the first time they often get overly excited and try hard to join in on the fun, by submitting the first thing they think is a roo which often turns out to be faulty or break a rule."
-        ]
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
     },
     {
         "date": "2016-08-11",
@@ -7823,10 +7805,14 @@
     {
         "date": "2016-09-02",
         "value": 10.14,
-        "is_event": false,
-        "event_name": null,
-        "description": null,
-        "references": []
+        "is_event": true,
+        "event_name": "NBA Moderators Karma Conspiracy",
+        "description": "A controversy arose on Reddit's r/NBA subreddit where two moderators were accused of collaborating to maximize karma by manipulating thread visibility and comment timing, sparking debate about fairness and moderation practices.",
+        "references": [
+            "Two mods of /r/NBA conspire for maximum karma by one stickying their own thread and the other leaving a comment and then immediately locking the thread",
+            "Wow, a Celtics fan helping a Lakers fan. Blasphemous! ",
+            "This is an outrage. I deserve karma too"
+        ]
     },
     {
         "date": "2016-09-03",

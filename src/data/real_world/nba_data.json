@@ -1515,12 +1515,12 @@
         "date": "2014-07-12",
         "value": 6.71,
         "is_event": true,
-        "event_name": "LeBron James's Free Agency Decision",
-        "description": "LeBron James announced his return to the Cleveland Cavaliers on July 11, 2014, after four years with the Miami Heat. This decision sparked intense discussion across social media, as fans and analysts debated the implications for both teams and the broader NBA landscape. The announcement followed a period of speculation and anticipation, making it a major event in the basketball world.",
+        "event_name": "LeBron James' Free Agency Decision",
+        "description": "The NBA community was intensely focused on LeBron James' impending free agency decision, with widespread speculation about whether he would stay with the Miami Heat or return to the Cleveland Cavaliers. This decision had significant implications for multiple teams, including the Cavaliers' potential pursuit of Kevin Love and the overall balance of power in the league.",
         "references": [
-            "\"LeBron lost in the finals in '07, '11 and '14. He announced his return to Cleveland on 07/11/14.\"",
-            "\"The biggest news is LeBron going to Cleveland.\"",
-            "\"We're all watching the Lakers or Cavaliers. We're all watching LeBron.\""
+            "This is what LeBron always wanted. :xpost /r/nba",
+            "LeBron stays with the heat duh. Bosh stays. Rockets don't sign Parsons. Go into the season with Lin, Omer is still traded. Sign guys that won't affect next years chance for love.",
+            "Lebron has stated throughout Wiggins' career that he's a huge fan of his and now he gets a chance to mentor him, the buzz and momentum about Lebron to Cleveland didn't even start until the Cavs landed Wiggins"
         ]
     },
     {
@@ -4383,12 +4383,13 @@
         "date": "2015-07-05",
         "value": 6.71,
         "is_event": true,
-        "event_name": "NBA Free Agency and Player Movement (2015)",
-        "description": "The 2015 NBA free agency period was marked by significant player movement, particularly the highly publicized and ultimately failed pursuit of DeAndre Jordan by the Dallas Mavericks. Jordan initially verbally committed to the Mavericks but dramatically changed his mind and re-signed with the Los Angeles Clippers, leading to widespread discussion, debate, and fan reaction. Multiple teams were involved in trades and signings, adding to the overall volatility of the period.",
+        "event_name": "2015 NBA Free Agency",
+        "description": "The 2015 NBA free agency period saw significant player movement, including LeBron James returning to the Cavaliers, Kevin Love and Tristan Thompson re-signing with Cleveland, Kawhi Leonard signing a max extension with the Spurs, and Paul Pierce joining the Clippers. These transactions reshaped the league's power dynamics and set the stage for the upcoming season.",
         "references": [
-            "\"DeAndre Jordan doesn't understand the value of long term relationships, Mark Cuban isn't the type of guy I would burn bridges with\",",
-            "\"There wasn't a team in the league that would have offered DeAndre Jordan a max deal if they hadn't had to\",",
-            "\"Just remember, the Mavs would've had to give up a ton for Tyson Chandler in the deal anyway\""
+            "My sources have informed me that LeBron James will be a Cavalier next year.",
+            "KEVIN LOVE AND TRISTAN THOMPSON ARE COMING BACK TO CLEVELAND.",
+            "Kawhi Leonard signed a 5 year 90 mil with the Spurs",
+            "Paul Pierce agrees to 3 year deal to Clippers."
         ]
     },
     {
@@ -7043,12 +7044,12 @@
         "date": "2016-06-01",
         "value": 8.14,
         "is_event": true,
-        "event_name": "Golden State Warriors' NBA Finals Comeback",
-        "description": "The Golden State Warriors completed a historic comeback in the 2016 NBA Finals, overcoming a 3-1 deficit to defeat the Cleveland Cavaliers. This was the first time in NBA Finals history that a team had achieved this feat, making it a highly discussed and emotionally charged event across Reddit and NBA fandoms. The series and Warriors victory has been widely analyzed and celebrated.",
+        "event_name": "2016 NBA Playoffs - Warriors vs Thunder Game 7",
+        "description": "The Golden State Warriors and Oklahoma City Thunder were engaged in a highly competitive 2016 NBA Western Conference Finals series, culminating in a decisive Game 7. The Warriors, who had come back from a 3-1 deficit, were attempting to advance to the NBA Finals, while the Thunder sought to pull off a major upset. The series was marked by intense performances from both teams, with the Warriors ultimately emerging victorious.",
         "references": [
-            "\"REMEMBER WHEN WE WERE DOWN 3-1?\" - This is the greatest comeback in NBA Finals history!",
-            "\"The Warriors just completed the greatest comeback in NBA Finals history, erasing a 3-1 deficit against the Cavaliers.\"",
-            "Multiple posts referencing Game 7 and celebrating the Warriors' victory, often with comparisons to the historic comeback."
+            "\"If they won it all it'd be one of the most amazing runs ever.\"",
+            "Steven Adams puts Draymond Green on a poster!",
+            "Warriors played more hero ball in games 3 and 4 than we did."
         ]
     },
     {
@@ -7214,10 +7215,14 @@
     {
         "date": "2016-06-22",
         "value": 7.86,
-        "is_event": false,
-        "event_name": null,
-        "description": null,
-        "references": []
+        "is_event": true,
+        "event_name": "2016 NBA Finals Game 7",
+        "description": "The 2016 NBA Finals Game 7 between the Golden State Warriors and Cleveland Cavaliers was a pivotal moment in basketball history. The Warriors, who had set a record for most wins in a regular season with 73, faced a strong comeback from the Cavaliers, who were led by LeBron James. Despite being heavily favored, the Warriors lost the series 4-3, marking one of the greatest upsets in NBA history. The game was particularly notable for Steph Curry's poor performance in the final quarter and the intense emotional reactions from fans across the league.",
+        "references": [
+            "The 2016 Warriors will always be the biggest choking team that has ever or will ever exist, and they will not win another championship after beating a 1-man team last year.",
+            "Steph Curry had zero points in the final 6:55 of Game 7; only 3 points total in the 4th quarter",
+            "I will be messaging you on [**2017-06-20 07:48:10 UTC**] to remind you of [**this link**]"
+        ]
     },
     {
         "date": "2016-06-23",
@@ -7302,17 +7307,10 @@
     {
         "date": "2016-07-03",
         "value": 7.86,
-        "is_event": true,
-        "event_name": "Kevin Durant Joining the Golden State Warriors",
-        "description": "In July 2016, NBA superstar Kevin Durant announced he was leaving the Oklahoma City Thunder to sign with the Golden State Warriors, a team that had just defeated his former team in the Western Conference Finals. This decision sparked widespread debate and controversy, with many fans and analysts criticizing Durant for joining a team already considered a championship contender rather than building his own dynasty.  The move created an immediate superteam and significantly altered the balance of power in the NBA.",
-        "references": [
-            "\u201cThis is the weakest and most bullshit move I\u2019ve ever seen.\u201d",
-            "\u201cDurant is trying to cheat his way to a championship.\u201d",
-            "\u201cWe're now just a bunch of mercenaries\u201d",
-            "\u201cKD just killed the league.\u201d",
-            "\u201cKD is a coward.\u201d",
-            "\u201cKD is a bandwagoner.\u201d"
-        ]
+        "is_event": false,
+        "event_name": null,
+        "description": null,
+        "references": []
     },
     {
         "date": "2016-07-04",
@@ -9550,15 +9548,12 @@
         "date": "2017-04-09",
         "value": 6.71,
         "is_event": true,
-        "event_name": "NBA Playoffs & James Harden's MVP Candidacy",
-        "description": "The NBA playoffs are underway, with discussions heavily focused on team performance and individual awards. A major point of contention is James Harden's MVP candidacy, fueled by statistical achievements and the Rockets' emphasis on three-point shooting. The potential impact of officiating on playoff outcomes and the success of various contenders are also prominent topics.",
+        "event_name": "2017 NBA MVP Debate",
+        "description": "The 2017 NBA MVP debate centered around three main candidates: Russell Westbrook, James Harden, and Kawhi Leonard. Westbrook's historic triple-double season, Harden's offensive dominance, and Leonard's two-way excellence sparked intense discussions among fans and analysts. The debate highlighted the challenges in evaluating players with different skill sets and team contexts, leading to passionate arguments and predictions about who would ultimately win the award.",
         "references": [
-            "\u201cThe Rockets will become the poster boys for three pointers this playoff season, so their success may go a long way to determining how others follow suit.\u201d",
-            "\u201cIf Houston can knock off San Antonio, then every team and GM will have to concede that they need to embrace the change, or get out of the sport.\u201d",
-            "\u201cThe question is\u2014is that deficiency a damning liability? Or something the Celtics can work around?\u201d (regarding Isaiah Thomas' defense)",
-            "\u201cIf all goes according to plan (aka Vegas odds), Durant will be matched up with Kawhi Leonard in the Conference Finals and then LeBron in the Finals. There's a not-zero chance that Durant plays better than both of them, individually.",
-            ",\n    ",
-            "Motherfuckin' refs better remember who is selling the shirts and drawing ratings in this goddamn league during the post-season.\""
+            "If the voters chose Kawhi instead of Russ or Harden, the drama would be amazing.",
+            "I'm on the WB train and I'm never hopping off",
+            "If Westbrook averages a triple double he'll probably win it even though he plays less defense than harden who has been mocked for his poor defend pretty often"
         ]
     },
     {

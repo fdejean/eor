@@ -7452,13 +7452,11 @@
         "value": 8.86,
         "is_event": true,
         "event_name": "2016 United States Presidential Election",
-        "description": "The 2016 United States Presidential Election was a highly contentious and polarizing contest between Democratic nominee Hillary Clinton and Republican nominee Donald Trump. The election was marked by intense debates over issues such as criminal justice reform, the role of private prisons, and allegations of corruption and election rigging. The campaign saw significant involvement from third-party candidates like Jill Stein of the Green Party and Gary Johnson of the Libertarian Party. The election ultimately resulted in Donald Trump's victory, despite Hillary Clinton winning the popular vote.",
+        "description": "The 2016 United States Presidential Election was a pivotal event that sparked intense discussions about criminal justice reform, prison privatization, and the war on drugs. The election saw candidates like Hillary Clinton, Donald Trump, Gary Johnson, and Jill Stein present their plans to address the country's high incarceration rates, with a focus on issues like mandatory minimum sentencing, private prisons, and marijuana legalization. The conversation was marked by debates over the effectiveness of the current system, the role of profit in incarceration, and the need for comprehensive reform to reduce recidivism and address systemic injustices.",
         "references": [
             "The number of Americans incarcerated has increased from .5 million to 2.5 million since about 1980. That's .7% of the entire US population - *nearly one out of every hundred Americans is currently incarcerated.*",
-            "Collude to control the media narrative against him. \n\nCNN said it themselves: \"we could not have done more to help Hillary\"",
-            "Your post in the Clinton subreddit was removed?",
-            "From www.jill2016.com/platform : \n\nCriminal Justice Reforms\n\n&gt; End the failed war on drugs. Replace drug prohibition with harm reduction. Legalize marijuana/hemp. Treat substance abuse as a health problem, not a criminal offense.",
-            "Peter Schweizer confirms Clinton Foundation under investigation in his IAMA moments ago"
+            "In addition, the Innocence Project estimates that 2-5% of all prisoners are factually innocent",
+            "The failed War on Drugs is, of course, the greatest example. Well over 100 million Americans have, at one time or another, used marijuana. Yet, today, simple possession and use of marijuana remains a crime \u2014 despite the fact that a majority of Americans now favor its legalization."
         ]
     },
     {
@@ -7673,14 +7671,13 @@
         "date": "2016-08-27",
         "value": 7.0,
         "is_event": true,
-        "event_name": "2016 United States Presidential Election",
-        "description": "The 2016 United States Presidential Election was a highly contentious and polarizing contest between Democratic nominee Hillary Clinton and Republican nominee Donald Trump. The election was marked by intense political campaigning, widespread media coverage, and significant public debate over issues including foreign policy, economic policy, and political corruption. The election took place on November 8, 2016, with Donald Trump winning the electoral college despite losing the popular vote to Hillary Clinton.",
+        "event_name": "2016 US Presidential Election",
+        "description": "The 2016 US Presidential Election was a highly polarized and contentious race between major candidates Donald Trump, Hillary Clinton, and third-party candidates like Jill Stein and Gary Johnson. The election was marked by intense online debate, allegations of corruption, and concerns about foreign influence. The Democratic National Committee email leak and subsequent controversies surrounding Hillary Clinton's campaign were major talking points, as were Trump's unconventional campaign style and Stein's proposals for student debt relief and environmental policies. The election ultimately saw Donald Trump win the presidency despite losing the popular vote, leading to widespread discussion about the electoral college system and the future of American politics.",
         "references": [
-            "It takes only ~15 min to make 10 calls for Tim Canova on GrassrootsPB, and be entered in a call raffle to win a letter and photo from Tim himself! Help Tim beat DWS! Lines are open 10AM-9PM EST.",
             "From Tim's mailing list: Earlier today, Debbie Wasserman Schultz earned some well-deserved criticism from the press when she pretended she had no idea which of her many email-related scandals the media was talking about.",
-            "Red baiting and Russophobia is now being used by Hillary supporters as a \"weapon\" against Dr. Stein",
-            "Our subreddit that is dedicated to locking up Hillary Clinton has more than twice the members than those who support her \u2022 /r/HillaryForPrison",
-            "The Beltway Intern | Trump Supporters a target of establishment, Clinton and Obama. \"[...] vocal supporters backing Donald J. Trump could be detained under internal documents reclassifying hate and domestic terrorist groups.\""
+            "The propaganda of the politics of fear, that one candidate is less evil than another is being completely rejected.",
+            "Jill Stein talking with Putin? Talking!? TALKING!?!??!!?!?",
+            "Tim Kaine went to Honduras while Clinton was governor of Arkansas, right after Barry Seal (American drug smuggler) was arrested in the country."
         ]
     },
     {
@@ -7887,12 +7884,12 @@
         "date": "2016-09-22",
         "value": 12.71,
         "is_event": true,
-        "event_name": "2016 United States Presidential Election",
-        "description": "The 2016 United States Presidential Election was a highly contentious and polarizing event that saw Hillary Clinton, the Democratic nominee, face off against Donald Trump, the Republican nominee. The election was marked by numerous controversies, including allegations of email server misuse by Clinton, widespread conspiracy theories, and significant debates over the Democratic National Committee's handling of the primary process. The election concluded with Trump's victory, which had profound implications for U.S. domestic and foreign policy.",
+        "event_name": "2016 US Presidential Election Controversies",
+        "description": "The 2016 US Presidential Election was marked by several controversies, including allegations of cheating in the Nevada Democratic caucus, the use of a private email server by Hillary Clinton, and attempts to conceal evidence of these actions. The election saw intense rivalry between Hillary Clinton and Bernie Sanders, with claims of election fraud and manipulation by the Democratic National Committee (DNC).",
         "references": [
-            "Dan Rolle Public Testimony Part 3 : Harry Reid & the Hillary Victory Fund",
-            "Citizen Journalist sleuthed up key BleachBit employee's Reddit account from 2 years ago, shows him posting in r/exchangeserver asking how to purge emails without leaving evidence. Demonstrates HRC had intent to conceal.",
-            "Top Mind reveals why Bernie Sanders is endorsing Hillary."
+            "Dan Rolle is going to release more leaks about the NV caucus, including evidence of Hillary's campaign cheating and Harry Reid's involvement",
+            "Paul Combetta, the BleachBit employee, asked on Reddit how to purge emails without leaving evidence, showing intent to conceal Clinton's private server emails",
+            "Lucy Flores, a Bernie supporter, was actually a plant by Hillary's campaign and used a fake social media account to spread false narratives about Bernie supporters"
         ]
     },
     {
@@ -8116,18 +8113,12 @@
         "value": 20.71,
         "is_event": true,
         "event_name": "2016 United States Presidential Election",
-        "description": "The 2016 United States Presidential Election was a highly contentious and polarizing event featuring Hillary Clinton (Democratic Party) and Donald Trump (Republican Party). The campaign was marked by intense debate over issues like healthcare, immigration, and foreign policy, as well as significant controversy surrounding WikiLeaks email leaks, allegations of Russian interference, and disputes over voting machine integrity. The election culminated in Trump's victory, which had profound implications for U.S. domestic and international policy.",
+        "description": "The 2016 United States Presidential Election was a highly contested and divisive political event that sparked widespread online discussion, particularly on platforms like Reddit. The election saw Hillary Clinton (Democratic Party) and Donald Trump (Republican Party) as the main candidates, with significant third-party involvement from Jill Stein (Green Party) and Gary Johnson (Libertarian Party). The campaign period was marked by intense debates, controversies, and allegations of election interference, with online communities playing a crucial role in shaping public opinion and spreading information.",
         "references": [
-            "The fix was in, folks.",
-            "No, Jill Stein is not trailing Ken Bone in the polls",
-            "The MSM is burying their Wikileaks coverage. I've unburied it for you. MEGALIST covering up to Day 8.",
-            "CTR troll who's been stalking me on Reddit: 'You're autism is seriously off the charts.'",
-            "How f'ing convenient...",
-            "The Syrian Civil Defense or, the 'White Helmets' - who are they?",
-            "Holy shit guys, I think the George Soros crooked voting machines were used to screw Bernie!!!!",
-            "10/17/16 - r/wikileaks 'I don't think some of you understand just how close we are to actual WW3' +28",
-            "Citigroup chose Obama's 2008 cabinet. (Repost from /r/Wikileaks)",
-            "If you receive no contact from me in 24 hours, all unreleased drama will be released. Reddit discusses Assange losing internet and possible results of this"
+            "The shill in that image is a particularly vile type, on the level with Michaelconfoy",
+            "I feel like they're either completely incompetent or they are r/the_donald trolls trying to defame HRC",
+            "Thank you for this.",
+            "I see this is already being downrated. My message to Hillary supporters: you have nothing to fear, except the truth!"
         ]
     },
     {
@@ -8374,18 +8365,13 @@
         "date": "2016-11-20",
         "value": 13.43,
         "is_event": true,
-        "event_name": "Wikileaks Insurance Files Hash Mismatch and Julian Assange's Status",
-        "description": "Wikileaks released insurance files that do not match the previously tweeted hashes, raising concerns about potential tampering or compromise. This has led to widespread speculation about the security of the files and the well-being of Julian Assange, who has not provided proof of life in over a month. The situation involves cryptographic concerns, potential government interference, and a dead man's switch mechanism that may or may not be functional.",
+        "event_name": "The Mysterious Disappearance of Julian Assange and the WikiLeaks Dead Man's Switch",
+        "description": "Julian Assange's sudden disappearance and the discrepancy in WikiLeaks' insurance file hashes sparked widespread concern about the integrity of the dead man's switch mechanism. The situation raised questions about potential government interference and the safety of Assange, with many speculating about the implications of compromised encryption and the role of intelligence agencies in online disinformation campaigns.",
         "references": [
             "Wikileaks latest insurance files don't match hashes",
-            "The files could have gotten corrupted somehow during upload or download. Or someone was able to get hold of the keys required to decrypt the insurance files and tamper with them, then re-encrypt and upload the tampered files.",
-            "It could mean a lot of things innocent and innocuous, or sinister.",
-            "We should assume the worst",
-            "If they killed Assange and the hashs don't match does that mean the dead man switch is compromised.",
-            "No it just means the current insurance files are not to be trusted. That's how I understand it. So we just trust the old ones and ignore the new ones. Go back until the hashes match.",
-            "This is the weakness. Twitter is a compromised platform. If they are only distributing the hashes over twitter who knows what's going on.",
-            "There is no way they don't, the only question is do they have a plan if that happens *and* the WL team is stormed, and at the same time. And I would be very surprised if they don't. This is a highly intelligent group who have a lot of free time to think up all the terrible things that might happen to them.",
-            "Or it was a bluff. But then why release the passwords period?"
+            "Julian Assange suspected missing",
+            "The Dead Man's Switch, and I really have no idea how it works.. But the wording used about Assange's internet access, was such that they were 'limiting his access'... Maybe he explained to them he needs to log in, press a button, or whatever every 24 hours... else the internet explodes.",
+            "Something big is going on. I really hope it comes to light, and fast"
         ]
     },
     {
