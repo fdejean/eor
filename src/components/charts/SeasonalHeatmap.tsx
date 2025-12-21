@@ -3,23 +3,23 @@
 import { useMemo } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import rawData from "@/data/seasonal/seasonal_emotions.json"
-import cluster0 from "@/data/seasonal/cluster_0.json"
-import cluster12 from "@/data/seasonal/cluster_12.json"
-import cluster19 from "@/data/seasonal/cluster_19.json"
+import cluster4 from "@/data/seasonal/cluster_4_seasonal_emotions.json"
+import cluster5 from "@/data/seasonal/cluster_5_seasonal_emotions.json"
+import cluster6 from "@/data/seasonal/cluster_6_seasonal_emotions.json"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const datasets: Record<string, any> = {
     "global": rawData,
-    "cluster0": cluster0,
-    "cluster12": cluster12,
-    "cluster19": cluster19
+    "cluster4": cluster4,
+    "cluster5": cluster5,
+    "cluster6": cluster6
 }
 
 const clusterDescriptions: Record<string, string> = {
     "global": "All subreddits aggregated.",
-    "cluster0": "Chill subreddits (chillwave, ambientmusic, chillout).",
-    "cluster12": "Shooter games (doom, battlefield, falloutmods).",
-    "cluster19": "Modding and emulating communities (dolphinemulator, xcom2mods, obs)."
+    "cluster4": "Adult and Explicit Content (rileyreid, adorablep**n, nsfw_selfie).",
+    "cluster5": "RPG and Strategy Gaming (vermintide, saltandsanctuary, obs).",
+    "cluster6": "Social Activism and Global Affairs (activism, humanrights, sustainability)."
 }
 
 export function SeasonalHeatmap() {
@@ -37,9 +37,9 @@ export function SeasonalHeatmap() {
                 <Tabs defaultValue="global" className="w-full">
                     <TabsList className="mb-4 w-full justify-start overflow-x-auto">
                         <TabsTrigger value="global">Global</TabsTrigger>
-                        <TabsTrigger value="cluster0">Cluster 0</TabsTrigger>
-                        <TabsTrigger value="cluster12">Cluster 12</TabsTrigger>
-                        <TabsTrigger value="cluster19">Cluster 19</TabsTrigger>
+                        <TabsTrigger value="cluster4">Cluster 4</TabsTrigger>
+                        <TabsTrigger value="cluster5">Cluster 5</TabsTrigger>
+                        <TabsTrigger value="cluster6">Cluster 6</TabsTrigger>
                     </TabsList>
                     
                     {Object.keys(datasets).map(key => (
