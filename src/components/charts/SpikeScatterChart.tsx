@@ -78,6 +78,7 @@ export function SpikeScatterChart({ title, data, color }: SpikeScatterChartProps
                             name="Spike"
                             data={data}
                             fill={color}
+                            opacity={0.8}
                             shape="circle"
                         />
 

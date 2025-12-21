@@ -182,7 +182,7 @@ export function AnnualPulseSection() {
 
             <div className="space-y-4">
                 <p className="text-sm text-muted-foreground italic text-center lg:text-left">
-                    Click on the stories to reveal the patterns:
+                    <strong>Click</strong> on the stories to reveal the patterns:
                 </p>
                 {PRESETS.map(preset => (
                     <button

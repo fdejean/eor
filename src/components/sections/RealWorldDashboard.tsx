@@ -82,7 +82,7 @@ export function RealWorldDashboard() {
             }
 
             // Sort alphabetically
-            completeMetas.sort((a, b) => a.title.localeCompare(b.title))
+            completeMetas.sort((a, b) => b.title.localeCompare(a.title))
 
             setSubreddits(completeMetas)
             if (completeMetas.length > 0) {
@@ -208,7 +208,10 @@ export function RealWorldDashboard() {
                     </Card>
 
                     {/* Chart Container */}
-                    <div className="min-h-[500px] relative">
+                    <div className="min-h-[500px] relative pb-20">
+                        <div className="text-center pb-4 text-muted-foreground italic">
+                            <strong>Click</strong> on the spikes to reveal the event details
+                        </div>
                         {isLoadingData ? (
                             <div className="absolute inset-0 flex items-center justify-center bg-background/50 backdrop-blur-sm z-10 rounded-xl">
                                 <Loader2 className="h-10 w-10 animate-spin text-primary" />
